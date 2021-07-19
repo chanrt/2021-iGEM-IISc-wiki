@@ -1,0 +1,8 @@
+2021-07-19 23:47:25,244 : INFO : iGEM_login : Already logged in.
+2021-07-19 23:47:25,265 : INFO : iGEM_URL : css/igem-reset.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/igem-resetCSS?action=raw&ctype=text/css in index.html.
+2021-07-19 23:47:25,265 : INFO : iGEM_URL : css/style.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&ctype=text/css in index.html.
+2021-07-19 23:47:25,265 : INFO : iGEM_URL : js/main.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/mainJS?action=raw&ctype=text/javascript in index.html.
+2021-07-19 23:47:26,579 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:IISc-Bangalore&action=edit.
+2021-07-19 23:47:26,579 : INFO : build_and_upload : Contents of css\igem-reset.css have been uploaded previously. Skipping.
+2021-07-19 23:47:26,579 : INFO : build_and_upload : Contents of css\style.css have been uploaded previously. Skipping.
+2021-07-19 23:47:26,579 : INFO : build_and_upload : Contents of js\main.js have been uploaded previously. Skipping.

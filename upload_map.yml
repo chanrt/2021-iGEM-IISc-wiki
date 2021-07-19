@@ -1,0 +1,16 @@
+assets: {}
+css:
+  css\igem-reset.css:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/igem-resetCSS?action=raw&ctype=text/css
+    md5: b1747f1f028648114f53e89033b95e89
+  css\style.css:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&ctype=text/css
+    md5: 2c8689b7a7f669a8b600c5bc20be613c
+html:
+  index.html:
+    link_URL: https://2021.igem.org/Team:IISc-Bangalore
+    md5: 5a70de4c1b973f12a75cc5da29368685
+js:
+  js\main.js:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/js/mainJS?action=raw&ctype=text/javascript
+    md5: 24c300569c38e06594a115d7ede77789
