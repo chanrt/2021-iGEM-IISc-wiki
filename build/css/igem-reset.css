@@ -20,7 +20,6 @@
 }
 
 #globalWrapper {
-  font-size: inherit;
   padding-bottom: 0;
 }
 
@@ -52,7 +51,7 @@ ul {
   color: white;
   z-index: 9999;
   width: 100%;
-  font-size: 0.75em !important;
+  /* font-size: 0.75em !important; */
   margin: 0;
   padding: 0;
 }
