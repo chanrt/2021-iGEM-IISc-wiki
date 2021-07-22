@@ -1,24 +1,167 @@
 <html lang="en"><head>
-    <title>Testing iGEM WikiSync</title>
+    <title>iGEM Wiki | IISc Bangalore</title>
     <meta content="The iGEM Wiki of Team Cellophane. A project by Undergraduates of IISc Bangalore" name="description"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta charset="utf-8"/>
 
+    <!-- Reset iGEM look -->
     <link href="https://2021.igem.org/Template:IISc-Bangalore/css/igem-resetCSS?action=raw&amp;ctype=text/css" rel="stylesheet"/>
+
+    <!-- Style -->
+    <link href="https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&amp;ctype=text/css" rel="stylesheet"/>
+
+    <!-- Materialize -->
     <link href="https://2021.igem.org/Template:IISc-Bangalore/css/materialize-minCSS?action=raw&amp;ctype=text/css" rel="stylesheet"/>
     <script src="https://2021.igem.org/Template:IISc-Bangalore/js/materialize-minJS?action=raw&amp;ctype=text/javascript"></script>
-    <link href="https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&amp;ctype=text/css" rel="stylesheet"/>
+
+    <!-- Scripts -->
+    <script src="https://2021.igem.org/Template:IISc-Bangalore/js/mainJS?action=raw&amp;ctype=text/javascript"></script>
+
+    <!-- Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet preconnect"/>
+
+    <!-- JQuery -->
+    <script src="https://2021.igem.org/Template:IISc-Bangalore/js/jquery-minJS?action=raw&amp;ctype=text/javascript"></script>
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 
-<body style="background: #ffffff">
+<body style="background: #ffffff; background-image: url(assets/topography.png)">
+
+    <nav>
+        <div class="nav-wrapper sticky">
+            <ul class="left hide-on-med-and-down" id="nav-mobile">
+                <li><a class="nav-link" href="#"><i class="fa fa-home icon"></i>Home</a></li>
+                <li><a class="nav-link" href="#"><i class="fa fa-flask icon"></i>Project</a></li>
+                <li><a class="nav-link" href="#"><i class="fa fa-microchip icon"></i>Hardware</a></li>
+                <li><a class="nav-link" href="#"><i class="fa fa-code icon"></i>Software</a></li>
+                <li><a class="nav-link" href="#"><i class="fa fa-users icon"></i>Team</a></li>
+            </ul>
+            <ul class="right hide-on-large-only" id="nav-mobile">
+                <li><a class="nav-link" href="#"><i class="fa fa-home icon"></i>Home</a></li>
+            </ul>
+        </div>
+    </nav>
 
     <div class="container flow-text">
-        <h1>iGEM Wiki - IISc Bangalore</h1>
-        <b>Welcome to iGEM 2021!</b>
-        <p>This page is our Hello, World! example</p>
+        <div class="row">
+            <h1 class="center title" data-aos="flip-up" data-aos-duration="500">Project CellOPHane</h1>
+            <div class="col s12 l6 center" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
+                <img class="responsive-img" id="logo" src="https://2021.igem.org/wiki/images/0/00/T--IISc-Bangalore--logo.png"/>
+            </div>
+            <div class="col s12 l6" data-aos="fade-down" data-aos-anchor="#logo" data-aos-delay="1000">
+                <h3 class="center">We are Team iGEM IISc Bangalore</h3>
+                <br/>
+                <p>
+                    We are designing an eco-friendly filter using bacterial cellulose sheets, functionalised with
+                    enzymes degrading organophosphates efficiently into relatively harmless products.
+                    Project CellOPHane also offers a novel plug-and-play platform which can be used to design analogous
+                    bioremediation strategies for other classes of contaminants with minimal modifications.
+                </p>
+            </div>
+
+            <br/>
+            <hr/>
+            <br/>
+
+            <div class="col s12 l6">
+                <div class="card" data-aos="fade-right">
+                    <div class="card-image">
+                        <img class="responsive-img" src="https://2021.igem.org/wiki/images/4/45/T--IISc-Bangalore--agriculture.png"/>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Almost half of India's population relies on agriculture.
+                            To boost agronomic productivity, farmers use pesticides like DDT, malathion, and parathion.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 l6">
+                <div class="card" data-aos="fade-left">
+                    <div class="card-image">
+                        <img class="responsive-img" src="https://2021.igem.org/wiki/images/2/2d/T--IISc-Bangalore--molecules.png"/>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Malathion and parathion belong to a class of pesticides known as organophosphates.
+                            However, they leach into waterbodies through agricultural runoff. Ultimately they reach
+                            the bodies of various life forms including humans, where they act as potent neurotoxins, and
+                            also cause attention deficit hyperactivity disorder, drowsiness, lethargy, anxiety,
+                            depression, fatigue, and irritability.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 l6">
+                <div class="card" data-aos="fade-up-right">
+                    <div class="card-image">
+                        <center>
+                            <img class="responsive-img" src="https://2021.igem.org/wiki/images/9/92/T--IISc-Bangalore--banned.png"/>
+                        </center>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Hence, organophosphates have been restricted in many countries, but not yet in India.
+                            Effective solutions to this problem of contamination of waterbodies by organophosphates have
+                            not been developed yet. But, with synthetic biology on our side, we have come up with a
+                            solution.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 l6">
+                <div class="card" data-aos="fade-up-left">
+                    <div class="card-image">
+                        <center>
+                            <img class="responsive-img" src="https://2021.igem.org/wiki/images/e/eb/T--IISc-Bangalore--collaboration.png"/>
+                        </center>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            We also seek to reach out to stakeholders in the agricultural sector, industry and
+                            academia and be enriched by their perspectives. We're also focussing on disseminating
+                            information about synbio to teenagers and the general public through pamphlets, primers
+                            and symposia. Using synbio, we are triggering the next gen revolution in accessible and
+                            economic bioremediation strategies and contributing in our own way to fulfil the United
+                            Nation's Sustainable Development Goals.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <script src="https://2021.igem.org/Template:IISc-Bangalore/js/mainJS?action=raw&amp;ctype=text/javascript"></script>
+    <footer class="page-footer" style="background: darkblue;">
+        <div class="container">
+            <div class="row" style="margin: 0px; padding: 10px">
+                <div class="col l2">
+
+                </div>
+                <div class="col s12 l3">
+                    <a href="https://2021.igem.org"><img class="responsive-img" src="https://2021.igem.org/wiki/images/d/d6/T--IISc-Bangalore--IGEM_white_letters.png"/></a>
+                </div>
+                <div class="col l2"></div>
+                <div class="col s12 l3 center">
+                    <br/>
+                    <h5>Our Social Media Links</h5>
+                    <a class="fa fa-facebook sm-button" href="https://www.facebook.com/PravegaIISc/"></a>
+                    <a class="fa fa-twitter sm-button" href="https://twitter.com/PravegaIISc"></a>
+                    <a class="fa fa-instagram sm-button" href="https://www.instagram.com/pravega.iisc/"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        window.onload = function () {
+            AOS.init();
+        }
+    </script>
+
 
 
 </body></html>

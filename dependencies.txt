@@ -1,0 +1,4 @@
+Materialize CSS + JS (local)
+jQuery (local)
+Animate on Scroll (unpkg)
+Font Awesome (cdn)
