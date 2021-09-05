@@ -8,6 +8,10 @@ body {
     font-family:'Times New Roman', Times, serif;
 }
 
+h1 h2 h3 h4 h5 h6 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .icon {
     padding-right: 10px;
 }
@@ -17,7 +21,7 @@ body {
 }
 
 .nav-wrapper {
-    background:  darkblue;
+    background: darkblue;
 }
 
 .nav-link {
@@ -44,6 +48,8 @@ body {
 }
 
 .sm-button {
+    color: white;
+    background: white;
     border-radius: 100%;
     margin: 5px;
     padding: 15px;
@@ -51,6 +57,7 @@ body {
 }
   
 .sm-button:hover {
+    text-decoration: none;
     background: #ffffff;
     color: black;
 }

@@ -51,11 +51,11 @@ css:
     md5: 3c3ee463702a1f1a74a8d7ba36f16f3e
   css\style.css:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&ctype=text/css
-    md5: 212bbc46fd284374a98159e1644aa951
+    md5: 3010d9a421040301e0bbf6c3fe52d14d
 html:
   index.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore
-    md5: 94a15fa5cdf22c8d5d0ba14f7b558b42
+    md5: 3cc247a06d0783b717a6fcdf954c5b80
 js:
   js\aos.js:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/js/aosJS?action=raw&ctype=text/javascript
