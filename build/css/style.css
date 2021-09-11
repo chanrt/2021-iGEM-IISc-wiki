@@ -9,23 +9,27 @@ body {
 }
 
 h1 h2 h3 h4 h5 h6 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif !important;
 }
 
 .icon {
     padding-right: 10px;
 }
 
-.down-arrow {
-    padding-left: 10px;
-}
-
-.nav-wrapper {
-    background: darkblue;
-}
-
 .nav-link {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.active {
+    background: black;
+}
+
+.sticky {
+    margin-top: 10px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
 }
 
 .nav-link:hover {
@@ -34,22 +38,36 @@ h1 h2 h3 h4 h5 h6 {
 }
 
 .nav-link:visited {
-    color: white;
+    text-decoration: none;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
+/* #dropdown1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: darkblue;
+    color: white;
+    top: -8.5vh;
+} */
+
+#dropdown1 li:hover {
+    background: black;
+}
 
 .title {
     font-weight: bolder;
 }
 
+.content-link {
+    text-decoration: none;
+    color: blue;
+}
+
+.content-link:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
 .sm-button {
     color: white;
-    background: white;
     border-radius: 100%;
     margin: 5px;
     padding: 15px;
@@ -58,7 +76,7 @@ h1 h2 h3 h4 h5 h6 {
   
 .sm-button:hover {
     text-decoration: none;
-    background: #ffffff;
+    background: red;
     color: black;
 }
   

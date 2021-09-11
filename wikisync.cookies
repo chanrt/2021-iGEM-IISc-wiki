@@ -8,7 +8,6 @@ Set-Cookie3: 2021_igem_orgUserName=ChandanRT; path="/"; domain="2021.igem.org"; 
 Set-Cookie3: igem_orgToken=c079b59338ba4d33d0c85d669530f6a8; path="/"; domain="igem.org"; path_spec; expires="2022-01-15 18:13:38Z"; httponly=None; version=0
 Set-Cookie3: igem_orgUserID=34108; path="/"; domain="igem.org"; path_spec; expires="2022-01-15 18:13:38Z"; httponly=None; version=0
 Set-Cookie3: igem_orgUserName=ChandanRT; path="/"; domain="igem.org"; path_spec; expires="2022-01-15 18:13:38Z"; httponly=None; version=0
-Set-Cookie3: username=ChandanRT; path="/"; domain="igem.org"; path_spec; expires="2021-08-18 18:13:36Z"; version=0
 Set-Cookie3: parts_igem_orgToken=794ccf3d33aa4b6912452f74da99954d; path="/"; domain="parts.igem.org"; path_spec; expires="2022-01-15 18:13:38Z"; httponly=None; version=0
 Set-Cookie3: parts_igem_orgUserID=35297; path="/"; domain="parts.igem.org"; path_spec; expires="2022-01-15 18:13:38Z"; httponly=None; version=0
 Set-Cookie3: parts_igem_orgUserName=ChandanRT; path="/"; domain="parts.igem.org"; path_spec; expires="2022-01-15 18:13:38Z"; httponly=None; version=0

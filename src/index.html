@@ -20,8 +20,7 @@
     <script src="js/main.js"></script>
 
     <!-- Icons -->
-    <link rel="stylesheet preconnect"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/ac34795db5.js" crossorigin="anonymous"></script>
 
     <!-- JQuery -->
     <script src="js/jquery.min.js"></script>
@@ -32,16 +31,38 @@
 
 </head>
 
-<body style="background: #ffffff; background-image: url(assets/topography.png)">
-
-    <nav>
-        <div class="nav-wrapper sticky">
+<body style="background-image: url(https://i.ibb.co/sj6jTyg/topography.png)">
+    <nav style="z-index: 100;">
+        <div class="nav-wrapper sticky" style="background: darkblue">
             <ul id="nav-mobile" class="left hide-on-med-and-down">
-                <li><a href="#" class="nav-link"><i class="fa fa-home icon"></i>Home</a></li>
-                <li><a href="#" class="nav-link"><i class="fa fa-flask icon"></i>Project</a></li>
-                <li><a href="#" class="nav-link"><i class="fa fa-microchip icon"></i>Hardware</a></li>
-                <li><a href="#" class="nav-link"><i class="fa fa-code icon"></i>Software</a></li>
-                <li><a href="#" class="nav-link"><i class="fa fa-users icon"></i>Team</a></li>
+                <li><a href="index.html" class="nav-link" style="text-decoration: none; background: black;"><i
+                            class="fa fa-home icon"></i>Home</a>
+                </li>
+
+                <li><a href="#" class="nav-link" style="text-decoration: none;"><i
+                            class="fa fa-flask icon"></i>Project</a></li>
+
+                <li><a href="#" class="nav-link" style="text-decoration: none;"><i
+                            class="fa fa-microchip icon"></i>Hardware</a></li>
+
+                <li><a href="#" class="nav-link" style="text-decoration: none;"><i
+                            class="fa fa-tools icon"></i>Modelling</a></li>
+
+                <li><a href="#" class="nav-link" style="text-decoration: none;"><i class="fa fa-users icon"></i>Team</a>
+                </li>
+
+                <li><a href="#" class="nav-link dropdown-trigger" data-target="dropdown1"
+                        style="text-decoration: none;"><i class="fa fa-award icon"></i>Human Practices</a></li>
+
+                <ul id="dropdown1" class="dropdown-content"
+                    style="background: #00008b; color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                    <li><a href="#" class="nav-link" style="text-decoration: none;">Integrated Human Practices</a></li>
+                    <li><a href="#" class="nav-link" style="text-decoration: none;">Public Education and Engagement</a>
+                    </li>
+                </ul>
+
+                <li><a href="attributions.html" class="nav-link" style="text-decoration: none;"><i
+                            class="fa fa-handshake icon"></i>Attributions</a></li>
             </ul>
             <ul id="nav-mobile" class="right hide-on-large-only">
                 <li><a href="#" class="nav-link"><i class="fa fa-home icon"></i>Home</a></li>
@@ -150,10 +171,14 @@
                 <div class="col l2"></div>
                 <div class="col s12 l3 center">
                     <br>
-                    <h5 style="color: white">Our Social Media Links</h5>
-                    <a target="_blank" href="https://www.facebook.com/iiscbangaloreigem/" class="fa fa-facebook sm-button"></a>
-                    <a target="_blank" href="https://twitter.com/igem_iisc?s=08" class="fa fa-twitter sm-button"></a>
-                    <a target="_blank" href="https://instagram.com/igem_iisc?utm_medium=copy_link" class="fa fa-instagram sm-button"></a>
+                    <h5 style="color: white; font-family: 'Times New Roman', Times, serif;">Our Social Media Links</h5>
+                    <a style="color: white; text-decoration: none;" target="_blank"
+                        href="https://www.facebook.com/iiscbangaloreigem/" class="fa fa-facebook sm-button"></a>
+                    <a style="color: white; text-decoration: none;" target="_blank"
+                        href="https://twitter.com/igem_iisc?s=08" class="fa fa-twitter sm-button"></a>
+                    <a style="color: white; text-decoration: none;" target="_blank"
+                        href="https://instagram.com/igem_iisc?utm_medium=copy_link"
+                        class="fa fa-instagram sm-button"></a>
                 </div>
             </div>
         </div>
@@ -162,7 +187,27 @@
     <script>
         window.onload = function () {
             AOS.init();
+            M.AutoInit();
         }
+
+        let navbar = document.getElementsByTagName("nav")[0];
+        let sticky = navbar.offsetTop;
+
+        window.onscroll = function () {
+
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky");
+                console.log("Added");
+
+                if (window.pageYOffset == 0) {
+                    navbar.classList.remove("sticky");
+                    console.log("Removed");
+                }
+            } else {
+                navbar.classList.remove("sticky");
+                console.log("Removed");
+            }
+        };
     </script>
 
 </body>
