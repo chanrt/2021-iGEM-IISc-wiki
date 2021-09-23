@@ -46,19 +46,25 @@ css:
   css\igem-reset.css:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/igem-resetCSS?action=raw&ctype=text/css
     md5: cee3dd9efab7b663947847b6bfd2dba8
+  css\igem_reset.css:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/igem_resetCSS?action=raw&ctype=text/css
+    md5: 1e0cc8efa46a4398f44d4661cbb0f811
+  css\materialize.css:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/materializeCSS?action=raw&ctype=text/css
+    md5: 842277f7af0a1152a81d88708e7edd78
   css\materialize.min.css:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/materialize-minCSS?action=raw&ctype=text/css
     md5: 3c3ee463702a1f1a74a8d7ba36f16f3e
   css\style.css:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&ctype=text/css
-    md5: cb5500abe7813584b4cadb57e6e06e30
+    md5: 0adbdda0e2ab80ac307a55146a46dbf6
 html:
   attributions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/attributions
-    md5: 5e78d63619eef393d916aa38acd42cd5
+    md5: 6b1b271af4fa77ed275e346cc31dd865
   index.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore
-    md5: d2bce472ccbf0e20801bb6fd0ac6c8b8
+    md5: 922860f54d9c84083b0a574438f6f9d6
 js:
   js\aos.js:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/js/aosJS?action=raw&ctype=text/javascript
@@ -69,6 +75,9 @@ js:
   js\main.js:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/js/mainJS?action=raw&ctype=text/javascript
     md5: 8413c0a831ddc99321004843bd073709
+  js\materialize.js:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/js/materializeJS?action=raw&ctype=text/javascript
+    md5: c786318b9c81ccb438a48c1c37d1accc
   js\materialize.min.js:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/js/materialize-minJS?action=raw&ctype=text/javascript
     md5: cb51c8b83698b386da80839179f7dab0

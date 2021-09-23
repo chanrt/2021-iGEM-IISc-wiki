@@ -1,32 +1,8 @@
-2021-09-11 21:18:36,719 : INFO : iGEM_login : Already logged in.
-2021-09-11 21:18:36,773 : INFO : iGEM_URL : css/igem-reset.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/igem-resetCSS?action=raw&ctype=text/css in attributions.html.
-2021-09-11 21:18:36,773 : INFO : iGEM_URL : css/style.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&ctype=text/css in attributions.html.
-2021-09-11 21:18:36,773 : INFO : iGEM_URL : css/materialize.min.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/materialize-minCSS?action=raw&ctype=text/css in attributions.html.
-2021-09-11 21:18:36,774 : INFO : iGEM_URL : js/materialize.min.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/materialize-minJS?action=raw&ctype=text/javascript in attributions.html.
-2021-09-11 21:18:36,774 : INFO : iGEM_URL : js/main.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/mainJS?action=raw&ctype=text/javascript in attributions.html.
-2021-09-11 21:18:36,775 : INFO : iGEM_URL : js/jquery.min.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/jquery-minJS?action=raw&ctype=text/javascript in attributions.html.
-2021-09-11 21:18:36,775 : INFO : iGEM_URL : index.html was changed to https://2021.igem.org/Team:IISc-Bangalore in attributions.html.
-2021-09-11 21:18:36,777 : INFO : iGEM_URL : assets/IGEM_white_letters.png was changed to https://2021.igem.org/wiki/images/d/d6/T--IISc-Bangalore--IGEM_white_letters.png in attributions.html.
-2021-09-11 21:18:36,782 : INFO : build_and_upload : Contents of attributions.html have been uploaded previously. Skipping.
-2021-09-11 21:18:36,794 : INFO : iGEM_URL : css/igem-reset.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/igem-resetCSS?action=raw&ctype=text/css in index.html.
-2021-09-11 21:18:36,794 : INFO : iGEM_URL : css/style.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&ctype=text/css in index.html.
-2021-09-11 21:18:36,795 : INFO : iGEM_URL : css/materialize.min.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/materialize-minCSS?action=raw&ctype=text/css in index.html.
-2021-09-11 21:18:36,795 : INFO : iGEM_URL : js/materialize.min.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/materialize-minJS?action=raw&ctype=text/javascript in index.html.
-2021-09-11 21:18:36,796 : INFO : iGEM_URL : js/main.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/mainJS?action=raw&ctype=text/javascript in index.html.
-2021-09-11 21:18:36,797 : INFO : iGEM_URL : js/jquery.min.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/jquery-minJS?action=raw&ctype=text/javascript in index.html.
-2021-09-11 21:18:36,797 : INFO : iGEM_URL : index.html was changed to https://2021.igem.org/Team:IISc-Bangalore in index.html.
-2021-09-11 21:18:36,797 : INFO : iGEM_URL : attributions.html was changed to https://2021.igem.org/Team:IISc-Bangalore/attributions in index.html.
-2021-09-11 21:18:36,800 : INFO : iGEM_URL : assets/logo.png was changed to https://2021.igem.org/wiki/images/0/00/T--IISc-Bangalore--logo.png in index.html.
-2021-09-11 21:18:36,801 : INFO : iGEM_URL : assets/agriculture.png was changed to https://2021.igem.org/wiki/images/4/45/T--IISc-Bangalore--agriculture.png in index.html.
-2021-09-11 21:18:36,801 : INFO : iGEM_URL : assets/molecules.png was changed to https://2021.igem.org/wiki/images/2/2d/T--IISc-Bangalore--molecules.png in index.html.
-2021-09-11 21:18:36,802 : INFO : iGEM_URL : assets/banned.png was changed to https://2021.igem.org/wiki/images/9/92/T--IISc-Bangalore--banned.png in index.html.
-2021-09-11 21:18:36,802 : INFO : iGEM_URL : assets/collaboration.png was changed to https://2021.igem.org/wiki/images/e/eb/T--IISc-Bangalore--collaboration.png in index.html.
-2021-09-11 21:18:36,804 : INFO : iGEM_URL : assets/IGEM_white_letters.png was changed to https://2021.igem.org/wiki/images/d/d6/T--IISc-Bangalore--IGEM_white_letters.png in index.html.
-2021-09-11 21:18:36,808 : INFO : build_and_upload : Contents of index.html have been uploaded previously. Skipping.
-2021-09-11 21:18:36,808 : INFO : build_and_upload : Contents of css\igem-reset.css have been uploaded previously. Skipping.
-2021-09-11 21:18:36,810 : INFO : build_and_upload : Contents of css\materialize.min.css have been uploaded previously. Skipping.
-2021-09-11 21:18:36,810 : INFO : build_and_upload : Contents of css\style.css have been uploaded previously. Skipping.
-2021-09-11 21:18:36,811 : INFO : build_and_upload : Contents of js\aos.js have been uploaded previously. Skipping.
-2021-09-11 21:18:36,812 : INFO : build_and_upload : Contents of js\jquery.min.js have been uploaded previously. Skipping.
-2021-09-11 21:18:36,812 : INFO : build_and_upload : Contents of js\main.js have been uploaded previously. Skipping.
-2021-09-11 21:18:36,813 : INFO : build_and_upload : Contents of js\materialize.min.js have been uploaded previously. Skipping.
+2021-09-23 21:03:49,248 : INFO : iGEM_login : Already logged in.
+2021-09-23 21:03:49,274 : INFO : iGEM_URL : css/igem_reset.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/igem_resetCSS?action=raw&ctype=text/css in index.html.
+2021-09-23 21:03:49,274 : INFO : iGEM_URL : css/materialize.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/materializeCSS?action=raw&ctype=text/css in index.html.
+2021-09-23 21:03:49,274 : INFO : iGEM_URL : js/materialize.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/materializeJS?action=raw&ctype=text/javascript in index.html.
+2021-09-23 21:03:49,274 : INFO : build_and_upload : Contents of index.html have been uploaded previously. Skipping.
+2021-09-23 21:03:50,867 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Template:IISc-Bangalore/css/igem_resetCSS&action=edit.
+2021-09-23 21:03:50,876 : INFO : build_and_upload : Contents of css\materialize.css have been uploaded previously. Skipping.
+2021-09-23 21:03:50,890 : INFO : build_and_upload : Contents of js\materialize.js have been uploaded previously. Skipping.
