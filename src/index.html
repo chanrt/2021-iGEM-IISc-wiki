@@ -1,17 +1,196 @@
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- reset the default iGEM look -->
-        <link rel="stylesheet" href="css/igem_reset.css">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- materialize -->
-        <link rel="stylesheet" href="css/materialize.css">
-        <script src="js/materialize.js"></script>
-        
-    </head>
-    <body>
-        <h1>Hello, World!</h1>
-    </body>
+    <!-- reset the default iGEM look -->
+    <link rel="stylesheet" href="css/igem_reset.css">
+
+    <!-- materialize -->
+    <link rel="stylesheet" href="css/materialize.css">
+    <script src="js/materialize.js"></script>
+
+    <!-- font awesome -->
+    <script src="js/font_awesome.js"></script>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>iGEM Wiki | IISc Bangalore</title>
+</head>
+
+<body style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px;">
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <ul class="left hide-on-med-and-down nav-list">
+                    <li><a class="nav-link" href="index.html"><i class="fa fa-home icon"></i>Home</a></li>
+
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-project" href="#"><i
+                                class="fa fa-flask icon"></i>Project</a></li>
+
+                    <li><a class="nav-link" href="#"><i class="fa fa-microchip icon"></i>Hardware</a></li>
+
+                    <li><a class="nav-link" href="#"><i class="fa fa-tools icon"></i>Modelling</a></li>
+
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-team" href="#"><i
+                                class="fa fa-users icon"></i>Team</a></li>
+
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-hp"><i
+                                class="fa fa-award icon"></i>Human Practices</a></li>
+
+                    <li><a class="nav-link" href="attributions.html"><i
+                                class="fa fa-handshake icon"></i>Attributions</a></li>
+                </ul>
+
+                <ul id="dropdown-project" class="dropdown-content">
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Inspiration</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Description</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Design</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Experiments</a></li>
+                </ul>
+
+                <ul id="dropdown-team" class="dropdown-content">
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Philosophy</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Members</a></li>
+                </ul>
+
+                <ul id="dropdown-hp" class="dropdown-content">
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Integrated Human Practices</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="">Public Education and Engagement</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <h1 class="center">Project CellOPHane</h1>
+
+        <div class="row">
+            <div class="col s12 l6">
+                <img class="responsive-img" src="assets/images/team_iisc_logo.png">
+            </div>
+            <div class="col s12 l6">
+                <h2 class="center">We are Team iGEM IISc Bangalore</h2>
+                <p>
+                    We are designing an eco-friendly filter using bacterial cellulose sheets, functionalised with
+                    enzymes degrading organophosphates efficiently into relatively harmless products. Project CellOPHane
+                    also offers a novel plug-and-play platform which can be used to design analogous bioremediation
+                    strategies for other classes of contaminants with minimal modifications.
+                </p>
+            </div>
+        </div>
+
+        <br>
+        <div class="center">
+            <h2 class="center">Our Promotional Video</h2>
+            <video width="90%" controls>
+                <source src="assets/videos/iisc_promo_video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col s12 l6">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="responsive-img" src="assets/images/agriculture.png">
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Almost half of India's population relies on agriculture.
+                            To boost agronomic productivity, farmers use pesticides like DDT, malathion, and parathion.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 l6">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="responsive-img" src="assets/images/molecules.png">
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Malathion and parathion belong to a class of pesticides known as organophosphates.
+                            However, they leach into waterbodies through agricultural runoff. Ultimately they reach
+                            the bodies of various life forms including humans, where they act as potent neurotoxins, and
+                            also cause attention deficit hyperactivity disorder, drowsiness, lethargy, anxiety,
+                            depression, fatigue, and irritability.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 l6">
+                <div class="card">
+                    <div class=" card-image">
+                        <center>
+                            <img class="responsive-img" src="assets/images/banned.png">
+                        </center>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Hence, organophosphates have been restricted in many countries, but not yet in India.
+                            Effective solutions to this problem of contamination of waterbodies by organophosphates have
+                            not been developed yet. But, with synthetic biology on our side, we have come up with a
+                            solution.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 l6">
+                <div class="card">
+                    <div class=" card-image">
+                        <center>
+                            <img class="responsive-img" src="assets/images/collaboration.png">
+                        </center>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            We also seek to reach out to stakeholders in the agricultural sector, industry and
+                            academia and be enriched by their perspectives. We're also focussing on disseminating
+                            information about synbio to teenagers and the general public through pamphlets, primers
+                            and symposia. Using synbio, we are triggering the next gen revolution in accessible and
+                            economic bioremediation strategies and contributing in our own way to fulfil the United
+                            Nation's Sustainable Development Goals.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row footer-content">
+                <div class="col l2">
+                </div>
+                <div class="col s12 l3">
+                    <a href="https://2021.igem.org"><img class="responsive-img" src="assets/images/igem_logo.png"></a>
+                </div>
+                <div class="col l2"></div>
+                <div class="col s12 l3 center">
+                    <br>
+                    <h5 class="sm-title">Our Social Media Links</h5>
+                    <a target="_blank" href="https://www.facebook.com/iiscbangaloreigem/"
+                        class="fa fa-facebook sm-button"></a>
+                    <a target="_blank" href="https://twitter.com/igem_iisc?s=08" class="fa fa-twitter sm-button"></a>
+                    <a target="_blank" href="https://instagram.com/igem_iisc?utm_medium=copy_link"
+                        class="fa fa-instagram sm-button"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        window.onload = function () {
+            M.AutoInit();
+        }
+    </script>
+</body>
+
 </html>

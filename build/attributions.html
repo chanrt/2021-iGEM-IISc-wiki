@@ -1,67 +1,64 @@
-<html lang="en"><head>
-    <title>iGEM Wiki | IISc Bangalore</title>
-    <meta content="The iGEM Wiki of Team Cellophane. A project by Undergraduates of IISc Bangalore" name="description"/>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<html><head>
     <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 
-    <!-- Reset iGEM look -->
-    <link href="https://2021.igem.org/Template:IISc-Bangalore/css/igem-resetCSS?action=raw&amp;ctype=text/css" rel="stylesheet"/>
+    <!-- reset the default iGEM look -->
+    <link href="https://2021.igem.org/Template:IISc-Bangalore/css/igem_resetCSS?action=raw&amp;ctype=text/css" rel="stylesheet"/>
 
-    <!-- Style -->
+    <!-- materialize -->
+    <link href="https://2021.igem.org/Template:IISc-Bangalore/css/materializeCSS?action=raw&amp;ctype=text/css" rel="stylesheet"/>
+    <script src="https://2021.igem.org/Template:IISc-Bangalore/js/materializeJS?action=raw&amp;ctype=text/javascript"></script>
+
+    <!-- font awesome -->
+    <script src="https://2021.igem.org/Template:IISc-Bangalore/js/font_awesomeJS?action=raw&amp;ctype=text/javascript"></script>
+
+    <!-- stylesheet -->
     <link href="https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&amp;ctype=text/css" rel="stylesheet"/>
 
-    <!-- Materialize -->
-    <link href="https://2021.igem.org/Template:IISc-Bangalore/css/materialize-minCSS?action=raw&amp;ctype=text/css" rel="stylesheet"/>
-    <script src="https://2021.igem.org/Template:IISc-Bangalore/js/materialize-minJS?action=raw&amp;ctype=text/javascript"></script>
-
-    <!-- Scripts -->
-    <script src="https://2021.igem.org/Template:IISc-Bangalore/js/mainJS?action=raw&amp;ctype=text/javascript"></script>
-
-    <!-- Icons -->
-    <script crossorigin="anonymous" src="https://kit.fontawesome.com/ac34795db5.js"></script>
-
-    <!-- JQuery -->
-    <script src="https://2021.igem.org/Template:IISc-Bangalore/js/jquery-minJS?action=raw&amp;ctype=text/javascript"></script>
-
-    <!-- AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
+    <title>iGEM Wiki | IISc Bangalore</title>
 </head>
 
-<body>
-    <nav>
-        <div class="nav-wrapper sticky" style="background: darkblue; color: white">
-            <ul class="left hide-on-med-and-down" id="nav-mobile">
-                <li><a class="nav-link" href="https://2021.igem.org/Team:IISc-Bangalore" style="text-decoration: none;"><i class="fa fa-home icon"></i>Home</a>
-                </li>
+<body style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px;">
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <ul class="left hide-on-med-and-down nav-list">
+                    <li><a class="nav-link" href="https://2021.igem.org/Team:IISc-Bangalore"><i class="fa fa-home icon"></i>Home</a></li>
 
-                <li><a class="nav-link" href="#" style="text-decoration: none;"><i class="fa fa-flask icon"></i>Project</a></li>
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-project" href="#"><i class="fa fa-flask icon"></i>Project</a></li>
 
-                <li><a class="nav-link" href="#" style="text-decoration: none;"><i class="fa fa-microchip icon"></i>Hardware</a></li>
+                    <li><a class="nav-link" href="#"><i class="fa fa-microchip icon"></i>Hardware</a></li>
 
-                <li><a class="nav-link" href="#" style="text-decoration: none;"><i class="fa fa-tools icon"></i>Modelling</a></li>
+                    <li><a class="nav-link" href="#"><i class="fa fa-tools icon"></i>Modelling</a></li>
 
-                <li><a class="nav-link" href="#" style="text-decoration: none;"><i class="fa fa-users icon"></i>Team</a>
-                </li>
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-team" href="#"><i class="fa fa-users icon"></i>Team</a></li>
 
-                <li><a class="nav-link dropdown-trigger" data-target="dropdown1" href="#" style="text-decoration: none;"><i class="fa fa-award icon"></i>Human Practices</a></li>
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-hp"><i class="fa fa-award icon"></i>Human Practices</a></li>
 
-                <ul class="dropdown-content" id="dropdown1" style="background: #00008b; color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
-                    <li><a class="nav-link" href="#" style="text-decoration: none;">Integrated Human Practices</a></li>
-                    <li><a class="nav-link" href="#" style="text-decoration: none;">Public Education and Engagement</a>
-                    </li>
+                    <li><a class="nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/attributions"><i class="fa fa-handshake icon"></i>Attributions</a></li>
                 </ul>
 
-                <li><a class="nav-link" href="#" style="text-decoration: none; background: black;"><i class="fa fa-handshake icon"></i>Attributions</a></li>
-            </ul>
-            <ul class="right hide-on-large-only" id="nav-mobile">
-                <li><a class="nav-link" href="#"><i class="fa fa-home icon"></i>Home</a></li>
-            </ul>
-        </div>
-    </nav>
+                <ul class="dropdown-content" id="dropdown-project">
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Inspiration</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Description</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Design</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Experiments</a></li>
+                </ul>
 
-    <div class="container flow-text">
+                <ul class="dropdown-content" id="dropdown-team">
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Philosophy</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Members</a></li>
+                </ul>
+
+                <ul class="dropdown-content" id="dropdown-hp">
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Integrated Human Practices</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Public Education and Engagement</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
         <div class="row">
             <h1 class="center title">Attributions</h1>
             <div class="col s12 l6">
@@ -117,22 +114,21 @@
         </div>
     </div>
 
-    <footer class="page-footer" style="background: darkblue;">
+    <footer class="page-footer">
         <div class="container">
-            <div class="row" style="margin: 0px; padding: 10px">
+            <div class="row footer-content">
                 <div class="col l2">
-
                 </div>
                 <div class="col s12 l3">
-                    <a href="https://2021.igem.org"><img class="responsive-img" src="https://2021.igem.org/wiki/images/d/d6/T--IISc-Bangalore--IGEM_white_letters.png"/></a>
+                    <a href="https://2021.igem.org"><img class="responsive-img" src="https://2021.igem.org/wiki/images/c/c3/T--IISc-Bangalore--images--igem_logo.png"/></a>
                 </div>
                 <div class="col l2"></div>
                 <div class="col s12 l3 center">
                     <br/>
-                    <h5 style="color: white; font-family: 'Times New Roman', Times, serif;">Our Social Media Links</h5>
-                    <a class="fa fa-facebook sm-button" href="https://www.facebook.com/iiscbangaloreigem/" style="color: white; text-decoration: none;" target="_blank"></a>
-                    <a class="fa fa-twitter sm-button" href="https://twitter.com/igem_iisc?s=08" style="color: white; text-decoration: none;" target="_blank"></a>
-                    <a class="fa fa-instagram sm-button" href="https://instagram.com/igem_iisc?utm_medium=copy_link" style="color: white; text-decoration: none;" target="_blank"></a>
+                    <h5 class="sm-title">Our Social Media Links</h5>
+                    <a class="fa fa-facebook sm-button" href="https://www.facebook.com/iiscbangaloreigem/" target="_blank"></a>
+                    <a class="fa fa-twitter sm-button" href="https://twitter.com/igem_iisc?s=08" target="_blank"></a>
+                    <a class="fa fa-instagram sm-button" href="https://instagram.com/igem_iisc?utm_medium=copy_link" target="_blank"></a>
                 </div>
             </div>
         </div>
@@ -140,30 +136,9 @@
 
     <script>
         window.onload = function () {
-            AOS.init();
             M.AutoInit();
-
-            let navbar = document.getElementsByTagName("nav")[0];
-            let sticky = navbar.offsetTop;
-
-            window.onscroll = function () {
-
-                if (window.pageYOffset >= sticky) {
-                    navbar.classList.add("sticky");
-                    console.log("Added");
-
-                    if (window.pageYOffset == 0) {
-                        navbar.classList.remove("sticky");
-                        console.log("Removed");
-                    }
-                } else {
-                    navbar.classList.remove("sticky");
-                    console.log("Removed");
-                }
-            };
         }
     </script>
-
 
 
 </body></html>

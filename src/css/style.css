@@ -1,0 +1,91 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    font-size: 20px !important;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    font-size: 20px !important;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+
+.nav-wrapper {
+    background: darkblue;
+}
+
+.nav-list {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+}
+
+.nav-link {
+    color: white !important;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background: black;
+    text-decoration: none;
+}
+
+.nav-link:visited {
+    text-decoration: none;
+}
+
+.icon {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.dropdown-link {
+    margin: 0px;
+}
+
+.dropdown-link {
+    background: darkblue;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-link:hover {
+    background: black;
+    text-decoration: none;
+}
+
+.page-footer {
+    background: darkblue;
+}
+
+.footer-content {
+    margin-bottom: 0px !important;
+}
+
+.sm-title {
+    color: white;
+}
+
+.sm-button {
+    color: white !important;
+    border-radius: 100%;
+    margin: 5px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.sm-button:hover {
+    text-decoration: none;
+}
+
+.sm-button:hover {
+    text-decoration: none;
+}

@@ -3,101 +3,89 @@ html {
 }
 
 body {
-    background-color: #f7feff;
-    font-size: 20px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    font-size: 20px !important;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    font-size: 20px !important;
 }
 
 h1 h2 h3 h4 h5 h6 {
-    font-family: 'Times New Roman', Times, serif !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
 }
 
-.icon {
-    padding-right: 10px;
+.nav-wrapper {
+    background: darkblue;
+}
+
+.nav-list {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
 }
 
 .nav-link {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.active {
-    background: black;
-}
-
-.sticky {
-    margin-top: 0px;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    z-index: 100;
+    color: white !important;
+    text-decoration: none;
 }
 
 .nav-link:hover {
-    text-decoration: none;
     background: black;
+    text-decoration: none;
 }
 
 .nav-link:visited {
     text-decoration: none;
 }
 
-/* #dropdown1 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.icon {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.dropdown-link {
+    margin: 0px;
+}
+
+.dropdown-link {
     background: darkblue;
     color: white;
-    top: -8.5vh;
-} */
-
-#dropdown1 li:hover {
-    background: black;
-}
-
-.title {
-    font-weight: bolder;
-}
-
-.content-link {
     text-decoration: none;
-    color: blue;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
 }
 
-.content-link:hover {
-    color: darkblue;
-    text-decoration: underline;
+.dropdown-link:hover {
+    background: black;
+    text-decoration: none;
+}
+
+.page-footer {
+    background: darkblue;
+}
+
+.footer-content {
+    margin-bottom: 0px !important;
+}
+
+.sm-title {
+    color: white;
 }
 
 .sm-button {
-    color: white;
+    color: white !important;
     border-radius: 100%;
     margin: 5px;
     padding: 15px;
-    transition: 0.5s;
+    text-decoration: none;
 }
-  
+
 .sm-button:hover {
     text-decoration: none;
-    background: red;
-    color: black;
-}
-  
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-  
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-  
-.fa-instagram {
-    background: rgb(18, 86, 136);
-    color: white;
 }
 
-footer {
-    background: darkblue;
+.sm-button:hover {
+    text-decoration: none;
 }
-
-
-

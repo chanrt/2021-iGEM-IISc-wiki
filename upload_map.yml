@@ -15,6 +15,18 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/e/eb/T--IISc-Bangalore--collaboration.png
     md5: 1b22b3166eea387b35125055f0b759a7
     upload_filename: T--IISc-Bangalore--collaboration.png
+  assets\fonts\Futura.ttf:
+    link_URL: https://2021.igem.org/wiki/images/1/1f/T--IISc-Bangalore--fonts--Futura.ttf
+    md5: eed3e25fcebee219b159478c4e167fd0
+    upload_filename: T--IISc-Bangalore--fonts--Futura.ttf
+  assets\fonts\Helvetica.ttf:
+    link_URL: https://2021.igem.org/wiki/images/8/87/T--IISc-Bangalore--fonts--Helvetica.ttf
+    md5: 1b580d980532792578c54897ca387e2c
+    upload_filename: T--IISc-Bangalore--fonts--Helvetica.ttf
+  assets\fonts\Raleway.ttf:
+    link_URL: https://2021.igem.org/wiki/images/7/7b/T--IISc-Bangalore--fonts--Raleway.ttf
+    md5: 75b4247fdd3b97d0e3b8e07b115673c2
+    upload_filename: T--IISc-Bangalore--fonts--Raleway.ttf
   assets\igem_iisc_logo.png:
     link_URL: https://2021.igem.org/wiki/images/a/ab/T--IISc-Bangalore--igem_iisc_logo.png
     md5: b7fbe29217d19fe0f5628ee2e9b11d9b
@@ -23,6 +35,30 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/e/e8/T--IISc-Bangalore--igem_logo.png
     md5: b77447e9a50812af8eab9e87c091241d
     upload_filename: T--IISc-Bangalore--igem_logo.png
+  assets\images\agriculture.png:
+    link_URL: https://2021.igem.org/wiki/images/7/77/T--IISc-Bangalore--images--agriculture.png
+    md5: ba0afd7f329b0eaea3e977ff12cb6d5f
+    upload_filename: T--IISc-Bangalore--images--agriculture.png
+  assets\images\banned.png:
+    link_URL: https://2021.igem.org/wiki/images/b/b7/T--IISc-Bangalore--images--banned.png
+    md5: 8b35acd2f36153c27da5b90b85b9751f
+    upload_filename: T--IISc-Bangalore--images--banned.png
+  assets\images\collaboration.png:
+    link_URL: https://2021.igem.org/wiki/images/6/65/T--IISc-Bangalore--images--collaboration.png
+    md5: 1b22b3166eea387b35125055f0b759a7
+    upload_filename: T--IISc-Bangalore--images--collaboration.png
+  assets\images\igem_logo.png:
+    link_URL: https://2021.igem.org/wiki/images/c/c3/T--IISc-Bangalore--images--igem_logo.png
+    md5: 8868bbecfd0fb303ea7f8274e81348e5
+    upload_filename: T--IISc-Bangalore--images--igem_logo.png
+  assets\images\molecules.png:
+    link_URL: https://2021.igem.org/wiki/images/c/ce/T--IISc-Bangalore--images--molecules.png
+    md5: 5452277c58ce9464467400c9aebb7d90
+    upload_filename: T--IISc-Bangalore--images--molecules.png
+  assets\images\team_iisc_logo.png:
+    link_URL: https://2021.igem.org/wiki/images/9/99/T--IISc-Bangalore--images--team_iisc_logo.png
+    md5: 815e973ddf382ef17a38c778ddc82850
+    upload_filename: T--IISc-Bangalore--images--team_iisc_logo.png
   assets\logo.png:
     link_URL: https://2021.igem.org/wiki/images/0/00/T--IISc-Bangalore--logo.png
     md5: 815e973ddf382ef17a38c778ddc82850
@@ -35,6 +71,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/a/a2/T--IISc-Bangalore--topography.png
     md5: 977e3fd0f430205e51e65488c11fdddc
     upload_filename: T--IISc-Bangalore--topography.png
+  assets\videos\iisc_promo_video.mp4:
+    link_URL: https://2021.igem.org/wiki/images/a/a3/T--IISc-Bangalore--videos--iisc_promo_video.mp4
+    md5: a51338e0f59d8b82b533ebcfcddfca7b
+    upload_filename: T--IISc-Bangalore--videos--iisc_promo_video.mp4
   assets\wood_background.png:
     link_URL: https://2021.igem.org/wiki/images/2/2a/T--IISc-Bangalore--wood_background.png
     md5: 6bb5a8775e803191e629c649ee6521ce
@@ -43,12 +83,15 @@ css:
   css\font-awesome.min.css:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/font-awesome-minCSS?action=raw&ctype=text/css
     md5: 269550530cc127b6aa5a35925a7de6ce
+  css\fonts.css:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/fontsCSS?action=raw&ctype=text/css
+    md5: 4221c5f092c76b3f29f1ab4385440e73
   css\igem-reset.css:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/igem-resetCSS?action=raw&ctype=text/css
     md5: cee3dd9efab7b663947847b6bfd2dba8
   css\igem_reset.css:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/igem_resetCSS?action=raw&ctype=text/css
-    md5: 1e0cc8efa46a4398f44d4661cbb0f811
+    md5: 49b81655f3003a7d637fc74937867c9a
   css\materialize.css:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/materializeCSS?action=raw&ctype=text/css
     md5: 842277f7af0a1152a81d88708e7edd78
@@ -57,18 +100,21 @@ css:
     md5: 3c3ee463702a1f1a74a8d7ba36f16f3e
   css\style.css:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&ctype=text/css
-    md5: 0adbdda0e2ab80ac307a55146a46dbf6
+    md5: fdd5ddb25ea5cd56efa23ae8b100bbce
 html:
   attributions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/attributions
-    md5: 6b1b271af4fa77ed275e346cc31dd865
+    md5: e1fc093db90fcbb2d336b5d053d597be
   index.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore
-    md5: 922860f54d9c84083b0a574438f6f9d6
+    md5: ad00abd2cdf9bff382e70ac618c6b527
 js:
   js\aos.js:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/js/aosJS?action=raw&ctype=text/javascript
     md5: 70b4897108480dbe11c443c2ab7679c9
+  js\font_awesome.js:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/js/font_awesomeJS?action=raw&ctype=text/javascript
+    md5: 971ac5ace2d4fdd0ca080f41df63bc22
   js\jquery.min.js:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/js/jquery-minJS?action=raw&ctype=text/javascript
     md5: 73594e08c83b85ccc1786a2b2939d83b
