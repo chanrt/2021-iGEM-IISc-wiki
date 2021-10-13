@@ -14,6 +14,10 @@
     <!-- font awesome -->
     <script src="js/font_awesome.js"></script>
 
+    <!-- Animate on scroll -->
+    <link rel="stylesheet" href="css/aos.css">
+    <script src="js/aos.js"></script>
+
     <!-- stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -21,10 +25,11 @@
 </head>
 
 <body style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px;">
+    <!-- navbar start -->
     <div class="navbar-fixed">
         <nav>
             <div class="nav-wrapper">
-                <ul class="left hide-on-med-and-down nav-list">
+                <ul class="left nav-list">
                     <li><a class="nav-link" href="index.html"><i class="fa fa-home icon"></i>Home</a></li>
 
                     <li><a class="nav-link dropdown-trigger" data-target="dropdown-project" href="#"><i
@@ -63,15 +68,16 @@
             </div>
         </nav>
     </div>
+    <!-- navbar end -->
 
     <div class="container">
-        <h1 class="center">Project CellOPHane</h1>
+        <h1 class="center" data-aos="zoom-in">Project CellOPHane</h1>
 
         <div class="row">
-            <div class="col s12 l6">
+            <div class="col s12 l6" data-aos="fade-up" data-aos-delay="500">
                 <img class="responsive-img" src="assets/images/team_iisc_logo.png">
             </div>
-            <div class="col s12 l6">
+            <div class="col s12 l6" data-aos="fade-up" data-aos-delay="1000">
                 <h2 class="center">We are Team iGEM IISc Bangalore</h2>
                 <p>
                     We are designing an eco-friendly filter using bacterial cellulose sheets, functionalised with
@@ -83,7 +89,7 @@
         </div>
 
         <br>
-        <div class="center">
+        <div class="center" data-aos="zoom-in-up">
             <h2 class="center">Our Promotional Video</h2>
             <video width="90%" controls>
                 <source src="assets/videos/iisc_promo_video.mp4" type="video/mp4">
@@ -93,7 +99,7 @@
         <br>
 
         <div class="row">
-            <div class="col s12 l6">
+            <div class="col s12 l6" data-aos="fade-right">
                 <div class="card">
                     <div class="card-image">
                         <img class="responsive-img" src="assets/images/agriculture.png">
@@ -106,7 +112,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col s12 l6">
+            <div class="col s12 l6" data-aos="fade-left">
                 <div class="card">
                     <div class="card-image">
                         <img class="responsive-img" src="assets/images/molecules.png">
@@ -125,7 +131,7 @@
         </div>
 
         <div class="row">
-            <div class="col s12 l6">
+            <div class="col s12 l6" data-aos="fade-right">
                 <div class="card">
                     <div class=" card-image">
                         <center>
@@ -142,7 +148,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col s12 l6">
+            <div class="col s12 l6" data-aos="fade-left">
                 <div class="card">
                     <div class=" card-image">
                         <center>
@@ -166,21 +172,79 @@
 
     <footer class="page-footer">
         <div class="container">
-            <div class="row footer-content">
-                <div class="col l2">
+            <h5 class="sm-title center">Our Sponsors</h5>
+            <br>
+            <div class="row footer-content valign-wrapper">
+                <div class="col s2 l2">
+                    <a href="https://iisc.ac.in"><img class="responsive-img" src="assets/sponsors/iisc.png"></a>
                 </div>
-                <div class="col s12 l3">
-                    <a href="https://2021.igem.org"><img class="responsive-img" src="assets/images/igem_logo.png"></a>
+                <div class="col s3 l3">
+                    <a href="https://benchling.com"><img class="responsive-img" src="assets/sponsors/benchling.png"></a>
                 </div>
-                <div class="col l2"></div>
-                <div class="col s12 l3 center">
-                    <br>
-                    <h5 class="sm-title">Our Social Media Links</h5>
-                    <a target="_blank" href="https://www.facebook.com/iiscbangaloreigem/"
-                        class="fa fa-facebook sm-button"></a>
-                    <a target="_blank" href="https://twitter.com/igem_iisc?s=08" class="fa fa-twitter sm-button"></a>
-                    <a target="_blank" href="https://instagram.com/igem_iisc?utm_medium=copy_link"
-                        class="fa fa-instagram sm-button"></a>
+                <div class="col s3 l3">
+                    <a href="https://snapgene.com"><img class="responsive-img" src="assets/sponsors/snapgene.png"></a>
+                </div>
+                <div class="col s2 l2">
+                    <a href="https://labfolder.com"><img class="responsive-img" src="assets/sponsors/labfolder.png"></a>
+                </div>
+                <div class="col s2 l2">
+                    <a href="https://odaa.iisc.ac.in"><img class="responsive-img" src="assets/sponsors/odaa.png"></a>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <div class="hide-on-med-and-down">
+                <div class="row footer-content valign-wrapper">
+                    <div class="col s12 l3 center">
+                        <h5 class="sm-title">Our Social Media Links</h5>
+                        <a target="_blank" href="https://www.facebook.com/iiscbangaloreigem/"
+                            class="fa fa-facebook sm-button"></a>
+                        <a target="_blank" href="https://twitter.com/igem_iisc?s=08" class="fa fa-twitter sm-button"></a>
+                        <a target="_blank" href="https://instagram.com/igem_iisc?utm_medium=copy_link"
+                            class="fa fa-instagram sm-button"></a>
+                    </div>
+                    <div class="col s12 l3 center">
+                        <a href="https://2021.igem.org/Team:IISc-Bangalore"><img class="responsive-img"
+                                src="assets/images/team_iisc_logo.png" style="max-height: 250px"></a>
+                    </div>
+                    <div class="col s12 l6 center">
+                        <h5 class="sm-title">Contact Us</h5>
+                        <p style="text-align: center;">
+                            <a href="mailto:igem.ug@iisc.ac.in">igem.ug@iisc.ac.in</a> or <a
+                                href="mailto:sukriyoc@iisc.ac.in">sukriyoc@iisc.ac.in</a>
+                            <br>
+                            <br>
+                            Office of UG Programme, Indian Institute of Science, <br>
+                            C.V. Raman Avenue, Bengaluru - 560 012.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="hide-on-large-only">
+                <div class="row footer-content">
+                    <div class="col s12 l3 center">
+                        <h5 class="sm-title">Our Social Media Links</h5>
+                        <a target="_blank" href="https://www.facebook.com/iiscbangaloreigem/"
+                            class="fa fa-facebook sm-button"></a>
+                        <a target="_blank" href="https://twitter.com/igem_iisc?s=08" class="fa fa-twitter sm-button"></a>
+                        <a target="_blank" href="https://instagram.com/igem_iisc?utm_medium=copy_link"
+                            class="fa fa-instagram sm-button"></a>
+                    </div>
+                    <div class="col s12 l3 center">
+                        <a href="https://2021.igem.org/Team:IISc-Bangalore"><img class="responsive-img"
+                                src="assets/images/team_iisc_logo.png" style="max-height: 250px"></a>
+                    </div>
+                    <div class="col s12 l6 center">
+                        <h5 class="sm-title">Contact Us</h5>
+                        <p style="text-align: center;">
+                            <a href="mailto:igem.ug@iisc.ac.in">igem.ug@iisc.ac.in</a> or <a
+                                href="mailto:sukriyoc@iisc.ac.in">sukriyoc@iisc.ac.in</a>
+                            <br>
+                            <br>
+                            Office of UG Programme, Indian Institute of Science, <br>
+                            C.V. Raman Avenue, Bengaluru - 560 012.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -189,7 +253,18 @@
     <script>
         window.onload = function () {
             M.AutoInit();
+            AOS.init();
+
+            let p_list = document.getElementsByTagName("p")
+            // removing top whitespace
+            let first_p = p_list[0];
+            first_p.style.margin = "0";
+
+            // removing bottom whitespace
+            let last_p = p_list[p_list.length - 1];
+            last_p.style.margin = "0";
         }
+
     </script>
 </body>
 

@@ -32,6 +32,7 @@ h1 h2 h3 h4 h5 h6 {
 
 .nav-link:hover {
     background: black;
+    background-color: black;
     text-decoration: none;
 }
 
@@ -44,7 +45,7 @@ h1 h2 h3 h4 h5 h6 {
     padding-left: 10px;
 }
 
-.dropdown-link {
+.dropdown-item {
     margin: 0px;
 }
 

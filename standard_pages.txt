@@ -1,0 +1,17 @@
+Bronze:
+Attributions
+Description
+Contribution
+
+Silver:
+Engineering
+Collaborations
+Human_Practices
+Implementation
+
+Gold:
+Human_Practices
+Model
+Proof_Of_Concept
+Partnership
+Communication

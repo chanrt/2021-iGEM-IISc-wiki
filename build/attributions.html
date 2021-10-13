@@ -12,6 +12,10 @@
     <!-- font awesome -->
     <script src="https://2021.igem.org/Template:IISc-Bangalore/js/font_awesomeJS?action=raw&amp;ctype=text/javascript"></script>
 
+    <!-- Animate on scroll -->
+    <link href="https://2021.igem.org/Template:IISc-Bangalore/css/aosCSS?action=raw&amp;ctype=text/css" rel="stylesheet"/>
+    <script src="https://2021.igem.org/Template:IISc-Bangalore/js/aosJS?action=raw&amp;ctype=text/javascript"></script>
+
     <!-- stylesheet -->
     <link href="https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&amp;ctype=text/css" rel="stylesheet"/>
 
@@ -56,12 +60,28 @@
                 </ul>
             </div>
         </nav>
+
+        <ul class="sidenav" id="slide-out">
+            <li>
+                <div class="user-view">
+                    <h1 class="center">Menu</h1>
+                </div>
+            </li>
+            <li><a href="https://2021.igem.org/Team:IISc-Bangalore">Home</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Hardware</a></li>
+            <li><a href="#">Modelling</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Human Practices</a></li>
+            <li><a href="https://2021.igem.org/Team:IISc-Bangalore/attributions">Attributions</a></li>
+        </ul>
+        <a class="sidenav-trigger" data-target="slide-out" href="#"><i class="material-icons">menu</i></a>
     </div>
 
     <div class="container">
         <div class="row">
-            <h1 class="center title">Attributions</h1>
-            <div class="col s12 l6">
+            <h1 class="center title" data-aos="zoom-in">Attributions</h1>
+            <div class="col s12 l6" data-aos="fade-right" data-aos-delay="500">
                 <div class="card" style="background: rgb(248, 249, 250); border-radius: 2px;">
                     <div class="card-content">
                         <span class="card-title" style="font-weight: bold; font-size: xx-large;">Contents:</span>
@@ -73,7 +93,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col s12">
+            <div class="col s12" data-aos="fade-right" data-aos-delay="1000">
                 <h2 id="sponsors">Sponsors</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor imperdiet nunc, et vulputate
@@ -89,7 +109,7 @@
                     blandit.
                 </p>
             </div>
-            <div class="col s12">
+            <div class="col s12" data-aos="fade-right">
                 <h2 id="professors">Professors</h2>
                 <p>
                     Pellentesque ut cursus quam, nec consectetur nisi. Aenean ac orci id massa cursus ultrices. Nam
@@ -100,7 +120,7 @@
                     tincidunt, nisi orci elementum tortor, vel efficitur tortor augue vestibulum ante.
                 </p>
             </div>
-            <div class="col s12">
+            <div class="col s12" data-aos="fade-right">
                 <h2 id="misc">Misc</h2>
                 <p>
                     Aenean sodales lectus scelerisque risus viverra, id tempus ex efficitur. In suscipit lorem et
@@ -137,6 +157,16 @@
     <script>
         window.onload = function () {
             M.AutoInit();
+            AOS.init();
+
+            let p_list = document.getElementsByTagName("p")
+            // removing top whitespace
+            let first_p = p_list[0];
+            first_p.style.margin = "0";
+
+            // removing bottom whitespace
+            let last_p = p_list[p_list.length - 1];
+            last_p.style.margin = "0";
         }
     </script>
 
