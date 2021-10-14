@@ -73,6 +73,8 @@
         </nav>
     </div>
 
+    <div id="loader"></div>
+
     <div class="header">
         <div class="progress-container">
             <div class="progress-bar" id="myBar"></div>
@@ -251,6 +253,11 @@
             // removing bottom whitespace
             let last_p = p_list[p_list.length - 1];
             last_p.style.margin = "0";
+
+            // removing preloader
+            document.getElementById("loader").style.display = "none";
+            document.getElementsByTagName("nav")[0].style.display = "block";
+            document.getElementsByClassName("header")[0].style.display = "block";
         }
 
         window.onscroll = function myFunction() {

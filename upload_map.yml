@@ -301,17 +301,17 @@ css:
     md5: 3c3ee463702a1f1a74a8d7ba36f16f3e
   css\style.css:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&ctype=text/css
-    md5: 8ef81b6d2eb860abbc87b551907711ac
+    md5: e988614cd4ab1b9f576648437c474030
 html:
   Attributions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Attributions
-    md5: c0da511e7b3c6c0fec79af075e78930b
+    md5: 32ed75225d5312cfe3a22fce87754466
   attributions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/attributions
     md5: 4f4e8db9d168ffeaa60e820ca874ea16
   index.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore
-    md5: 8da493bf605f1b0346cd5bd029eda3ac
+    md5: 5fd8442baf78646fdb60c15537b51217
 js:
   assets\fontawesome\attribution.js:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/attributionJS?action=raw&ctype=text/javascript
