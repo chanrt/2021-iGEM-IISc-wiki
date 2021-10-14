@@ -15,6 +15,110 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/e/eb/T--IISc-Bangalore--collaboration.png
     md5: 1b22b3166eea387b35125055f0b759a7
     upload_filename: T--IISc-Bangalore--collaboration.png
+  assets\fontawesome\LICENSE.txt:
+    link_URL: https://2021.igem.org/wiki/images/c/c6/T--IISc-Bangalore--fontawesome--LICENSE.txt
+    md5: 2e3494502db283e8891d4886fe445912
+    upload_filename: T--IISc-Bangalore--fontawesome--LICENSE.txt
+  assets\fontawesome\sprites\brands.svg:
+    link_URL: https://2021.igem.org/wiki/images/0/0b/T--IISc-Bangalore--fontawesome--sprites--brands.svg
+    md5: c573bd98a7769c0e52fd97f22307dceb
+    upload_filename: T--IISc-Bangalore--fontawesome--sprites--brands.svg
+  assets\fontawesome\sprites\regular.svg:
+    link_URL: https://2021.igem.org/wiki/images/b/b0/T--IISc-Bangalore--fontawesome--sprites--regular.svg
+    md5: 2d030d45ec4cd95245430513363e0c4f
+    upload_filename: T--IISc-Bangalore--fontawesome--sprites--regular.svg
+  assets\fontawesome\sprites\solid.svg:
+    link_URL: https://2021.igem.org/wiki/images/7/7e/T--IISc-Bangalore--fontawesome--sprites--solid.svg
+    md5: 784b8dfe4f89dc84ed42b2eb62b13a15
+    upload_filename: T--IISc-Bangalore--fontawesome--sprites--solid.svg
+  assets\fontawesome\svgs\brands\facebook.svg:
+    link_URL: https://2021.igem.org/wiki/images/0/0b/T--IISc-Bangalore--fontawesome--svgs--brands--facebook.svg
+    md5: b3c16b52d8f0d58bd9daa48ff2573e1d
+    upload_filename: T--IISc-Bangalore--fontawesome--svgs--brands--facebook.svg
+  assets\fontawesome\svgs\brands\instagram.svg:
+    link_URL: https://2021.igem.org/wiki/images/c/c2/T--IISc-Bangalore--fontawesome--svgs--brands--instagram.svg
+    md5: de3d1e076906b4c0998be801bf5883af
+    upload_filename: T--IISc-Bangalore--fontawesome--svgs--brands--instagram.svg
+  assets\fontawesome\svgs\brands\twitter.svg:
+    link_URL: https://2021.igem.org/wiki/images/7/7c/T--IISc-Bangalore--fontawesome--svgs--brands--twitter.svg
+    md5: 6edfc8ac0d41bb5154b1d9d8a54c0296
+    upload_filename: T--IISc-Bangalore--fontawesome--svgs--brands--twitter.svg
+  assets\fontawesome\svgs\solid\award.svg:
+    link_URL: https://2021.igem.org/wiki/images/e/e0/T--IISc-Bangalore--fontawesome--svgs--solid--award.svg
+    md5: 42c4a99fbebd8c84fbab33afc5d411f1
+    upload_filename: T--IISc-Bangalore--fontawesome--svgs--solid--award.svg
+  assets\fontawesome\svgs\solid\drafting-compass.svg:
+    link_URL: https://2021.igem.org/wiki/images/7/76/T--IISc-Bangalore--fontawesome--svgs--solid--drafting-compass.svg
+    md5: 9df6a9f3e4fa1ea7d6cc3f6aeec30880
+    upload_filename: T--IISc-Bangalore--fontawesome--svgs--solid--drafting-compass.svg
+  assets\fontawesome\svgs\solid\flask.svg:
+    link_URL: https://2021.igem.org/wiki/images/e/e1/T--IISc-Bangalore--fontawesome--svgs--solid--flask.svg
+    md5: 837d19b01d4ec7c86114c63fcf52b9c0
+    upload_filename: T--IISc-Bangalore--fontawesome--svgs--solid--flask.svg
+  assets\fontawesome\svgs\solid\gavel.svg:
+    link_URL: https://2021.igem.org/wiki/images/b/bd/T--IISc-Bangalore--fontawesome--svgs--solid--gavel.svg
+    md5: 237edfef1c1ba4690781ac2772ffc9a6
+    upload_filename: T--IISc-Bangalore--fontawesome--svgs--solid--gavel.svg
+  assets\fontawesome\svgs\solid\microchip.svg:
+    link_URL: https://2021.igem.org/wiki/images/d/d0/T--IISc-Bangalore--fontawesome--svgs--solid--microchip.svg
+    md5: 0bc2dd597370a11cd8807725586e069d
+    upload_filename: T--IISc-Bangalore--fontawesome--svgs--solid--microchip.svg
+  assets\fontawesome\svgs\solid\project-diagram.svg:
+    link_URL: https://2021.igem.org/wiki/images/8/8c/T--IISc-Bangalore--fontawesome--svgs--solid--project-diagram.svg
+    md5: 8a78e5b3d891ab3e7d1946c2dbd126a8
+    upload_filename: T--IISc-Bangalore--fontawesome--svgs--solid--project-diagram.svg
+  assets\fontawesome\svgs\solid\users.svg:
+    link_URL: https://2021.igem.org/wiki/images/0/0c/T--IISc-Bangalore--fontawesome--svgs--solid--users.svg
+    md5: d7c07eab186ff3879babfc70ee9e88f6
+    upload_filename: T--IISc-Bangalore--fontawesome--svgs--solid--users.svg
+  assets\fontawesome\webfonts\fa-brands-400.eot:
+    link_URL: https://2021.igem.org/wiki/images/3/33/T--IISc-Bangalore--fontawesome--webfonts--fa-brands-400.eot
+    md5: 592643a83b8541edc52063d84c468700
+    upload_filename: T--IISc-Bangalore--fontawesome--webfonts--fa-brands-400.eot
+  assets\fontawesome\webfonts\fa-brands-400.svg:
+    link_URL: https://2021.igem.org/wiki/images/b/be/T--IISc-Bangalore--fontawesome--webfonts--fa-brands-400.svg
+    md5: 1d5619cd804367cefe6da2d79289218a
+    upload_filename: T--IISc-Bangalore--fontawesome--webfonts--fa-brands-400.svg
+  assets\fontawesome\webfonts\fa-brands-400.ttf:
+    link_URL: https://2021.igem.org/wiki/images/7/7e/T--IISc-Bangalore--fontawesome--webfonts--fa-brands-400.ttf
+    md5: 513aa607d398efaccc559916c3431403
+    upload_filename: T--IISc-Bangalore--fontawesome--webfonts--fa-brands-400.ttf
+  assets\fontawesome\webfonts\fa-brands-400.woff:
+    link_URL: https://2021.igem.org/wiki/images/8/86/T--IISc-Bangalore--fontawesome--webfonts--fa-brands-400.woff
+    md5: 1a575a4138e5f366474f0e7c5bd614a5
+    upload_filename: T--IISc-Bangalore--fontawesome--webfonts--fa-brands-400.woff
+  assets\fontawesome\webfonts\fa-regular-400.eot:
+    link_URL: https://2021.igem.org/wiki/images/1/14/T--IISc-Bangalore--fontawesome--webfonts--fa-regular-400.eot
+    md5: b0e2db3b634d1bc3928e127458d993d8
+    upload_filename: T--IISc-Bangalore--fontawesome--webfonts--fa-regular-400.eot
+  assets\fontawesome\webfonts\fa-regular-400.svg:
+    link_URL: https://2021.igem.org/wiki/images/9/93/T--IISc-Bangalore--fontawesome--webfonts--fa-regular-400.svg
+    md5: c5d109be8edd3de0f60eb472bd9ef691
+    upload_filename: T--IISc-Bangalore--fontawesome--webfonts--fa-regular-400.svg
+  assets\fontawesome\webfonts\fa-regular-400.ttf:
+    link_URL: https://2021.igem.org/wiki/images/4/4c/T--IISc-Bangalore--fontawesome--webfonts--fa-regular-400.ttf
+    md5: 766913e6c0088ab8c9f73e18b4127bc4
+    upload_filename: T--IISc-Bangalore--fontawesome--webfonts--fa-regular-400.ttf
+  assets\fontawesome\webfonts\fa-regular-400.woff:
+    link_URL: https://2021.igem.org/wiki/images/9/97/T--IISc-Bangalore--fontawesome--webfonts--fa-regular-400.woff
+    md5: d1d7e3b4c219fde0f7376c6facfd7149
+    upload_filename: T--IISc-Bangalore--fontawesome--webfonts--fa-regular-400.woff
+  assets\fontawesome\webfonts\fa-solid-900.eot:
+    link_URL: https://2021.igem.org/wiki/images/6/68/T--IISc-Bangalore--fontawesome--webfonts--fa-solid-900.eot
+    md5: 0c6bfc668a72935760178f91327aed3a
+    upload_filename: T--IISc-Bangalore--fontawesome--webfonts--fa-solid-900.eot
+  assets\fontawesome\webfonts\fa-solid-900.svg:
+    link_URL: https://2021.igem.org/wiki/images/7/75/T--IISc-Bangalore--fontawesome--webfonts--fa-solid-900.svg
+    md5: 37bc7099f6f1ba80236164f22e905837
+    upload_filename: T--IISc-Bangalore--fontawesome--webfonts--fa-solid-900.svg
+  assets\fontawesome\webfonts\fa-solid-900.ttf:
+    link_URL: https://2021.igem.org/wiki/images/f/fd/T--IISc-Bangalore--fontawesome--webfonts--fa-solid-900.ttf
+    md5: b9625119ce4300f0ef890a8f3234c773
+    upload_filename: T--IISc-Bangalore--fontawesome--webfonts--fa-solid-900.ttf
+  assets\fontawesome\webfonts\fa-solid-900.woff:
+    link_URL: https://2021.igem.org/wiki/images/a/ab/T--IISc-Bangalore--fontawesome--webfonts--fa-solid-900.woff
+    md5: d745348d289b149026921f197929a893
+    upload_filename: T--IISc-Bangalore--fontawesome--webfonts--fa-solid-900.woff
   assets\fonts\Futura.ttf:
     link_URL: https://2021.igem.org/wiki/images/1/1f/T--IISc-Bangalore--fonts--Futura.ttf
     md5: eed3e25fcebee219b159478c4e167fd0
@@ -108,6 +212,48 @@ assets:
     md5: 6bb5a8775e803191e629c649ee6521ce
     upload_filename: T--IISc-Bangalore--wood_background.png
 css:
+  assets\fontawesome\css\all.css:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/css/allCSS?action=raw&ctype=text/css
+    md5: 3a8c51d7aca9fe7cb3d9c3d4c3b8cd93
+  assets\fontawesome\css\all.min.css:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/css/all-minCSS?action=raw&ctype=text/css
+    md5: eeb3eafd8fad6e8f69e986cb009502bc
+  assets\fontawesome\css\brands.css:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/css/brandsCSS?action=raw&ctype=text/css
+    md5: 4aa8c7f55c61d928f977635909ac0ad9
+  assets\fontawesome\css\brands.min.css:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/css/brands-minCSS?action=raw&ctype=text/css
+    md5: 99df1f8ef433ba029e03bb8517426003
+  assets\fontawesome\css\fontawesome.css:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/css/fontawesomeCSS?action=raw&ctype=text/css
+    md5: 24a6fa7bd20a9b9d95334c5747c3fc06
+  assets\fontawesome\css\fontawesome.min.css:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/css/fontawesome-minCSS?action=raw&ctype=text/css
+    md5: a227f005fa7ae066c1068ac4b963514c
+  assets\fontawesome\css\regular.css:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/css/regularCSS?action=raw&ctype=text/css
+    md5: dda868f00634610d7eeaa24fcb409056
+  assets\fontawesome\css\regular.min.css:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/css/regular-minCSS?action=raw&ctype=text/css
+    md5: 589993d29a63ecbe15388a9b62c37e91
+  assets\fontawesome\css\solid.css:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/css/solidCSS?action=raw&ctype=text/css
+    md5: cd784adde83b08e29ec7110979175b02
+  assets\fontawesome\css\solid.min.css:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/css/solid-minCSS?action=raw&ctype=text/css
+    md5: f36d12cb6eb7060981de4df0ac3b1cae
+  assets\fontawesome\css\svg-with-js.css:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/css/svg-with-jsCSS?action=raw&ctype=text/css
+    md5: 39d0217c6a09db9151f1d042ea3a00b5
+  assets\fontawesome\css\svg-with-js.min.css:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/css/svg-with-js-minCSS?action=raw&ctype=text/css
+    md5: 19cf47f65b95a2cbd2b4dd6a4988d373
+  assets\fontawesome\css\v4-shims.css:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/css/v4-shimsCSS?action=raw&ctype=text/css
+    md5: 6ba89750869a4b522e655726a15ed165
+  assets\fontawesome\css\v4-shims.min.css:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/css/v4-shims-minCSS?action=raw&ctype=text/css
+    md5: a034d3c71bee546f625877d7932917f8
   css\aos.css:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/aosCSS?action=raw&ctype=text/css
     md5: 847da8fca8060ca1a70f976aab1210b9
@@ -131,18 +277,63 @@ css:
     md5: 3c3ee463702a1f1a74a8d7ba36f16f3e
   css\style.css:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&ctype=text/css
-    md5: 6817eb8e05b5e971592bec73a7e27ce1
+    md5: 5f7c831353cdaa83c8b89113ace321f1
 html:
   Attributions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Attributions
-    md5: 19843f7bcec60500fd76600c0486213b
+    md5: db316f4ce6758bd0f3861aa66854be69
   attributions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/attributions
     md5: 4f4e8db9d168ffeaa60e820ca874ea16
   index.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore
-    md5: 90d495fd72eb26c055114b7c1cef1860
+    md5: b04da75241bee177124fa8b7e4ed2dce
 js:
+  assets\fontawesome\attribution.js:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/attributionJS?action=raw&ctype=text/javascript
+    md5: d79bb88d77c2c925c107cc14e1874a04
+  assets\fontawesome\js\all.js:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/js/allJS?action=raw&ctype=text/javascript
+    md5: 2351a1da48928196179b2576e2b60fbe
+  assets\fontawesome\js\all.min.js:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/js/all-minJS?action=raw&ctype=text/javascript
+    md5: 5e29440867fdb02a48dffded02338c31
+  assets\fontawesome\js\brands.js:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/js/brandsJS?action=raw&ctype=text/javascript
+    md5: 995f2e9c304d6259c4c1c7ae4210ff66
+  assets\fontawesome\js\brands.min.js:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/js/brands-minJS?action=raw&ctype=text/javascript
+    md5: 63d4e8331781a6fc37ad29c427ca379d
+  assets\fontawesome\js\conflict-detection.js:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/js/conflict-detectionJS?action=raw&ctype=text/javascript
+    md5: 1f88f026bb89dfaa162643f4f06eddc0
+  assets\fontawesome\js\conflict-detection.min.js:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/js/conflict-detection-minJS?action=raw&ctype=text/javascript
+    md5: a55e8e9afb6d9bf8644ae3df7047d9bd
+  assets\fontawesome\js\fontawesome.js:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/js/fontawesomeJS?action=raw&ctype=text/javascript
+    md5: 1d12fe9fc5d2acb28055b8dc8aff56ff
+  assets\fontawesome\js\fontawesome.min.js:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/js/fontawesome-minJS?action=raw&ctype=text/javascript
+    md5: 884e73502238edc93424438a65ed571d
+  assets\fontawesome\js\regular.js:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/js/regularJS?action=raw&ctype=text/javascript
+    md5: 6c7fff999be71196609359601a9510cb
+  assets\fontawesome\js\regular.min.js:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/js/regular-minJS?action=raw&ctype=text/javascript
+    md5: 0e0b0dabe08e5c5a4bd825da463ba17f
+  assets\fontawesome\js\solid.js:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/js/solidJS?action=raw&ctype=text/javascript
+    md5: 6c8e4a51a4866cc250add1df3dc468b0
+  assets\fontawesome\js\solid.min.js:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/js/solid-minJS?action=raw&ctype=text/javascript
+    md5: 2a2315a20c8972ea419ac49b4daf2488
+  assets\fontawesome\js\v4-shims.js:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/js/v4-shimsJS?action=raw&ctype=text/javascript
+    md5: c0ea274430b4a0969ac4b9d25d12e7ee
+  assets\fontawesome\js\v4-shims.min.js:
+    link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/js/v4-shims-minJS?action=raw&ctype=text/javascript
+    md5: 215c84e99a9cc315e94dfd9fb9de59e1
   js\aos.js:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/js/aosJS?action=raw&ctype=text/javascript
     md5: a01f9089e8301e9eacfb9d029dc0ca5c

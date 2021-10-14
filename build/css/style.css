@@ -76,24 +76,34 @@ h1 h2 h3 h4 h5 h6 {
     margin-bottom: 0px !important;
 }
 
+.sponsor-img {
+    opacity: 85%;
+}
+
+.sponsor-img:hover {
+    opacity: 100%;
+}
+
 .sm-title {
     color: white;
 }
 
 .sm-button {
+    background: blue !important;
     color: white !important;
-    border-radius: 100%;
-    margin: 5px;
-    padding: 15px;
+    border-radius: 100% !important;
+    margin: 5px !important;
+    padding: 15px !important;
     text-decoration: none;
 }
 
 .sm-button:hover {
+    background: grey !important;
     text-decoration: none;
 }
 
-.sm-button:hover {
-    text-decoration: none;
+.footer-logo:hover {
+    animation: shake 1s;
 }
 
  /* Style the header: fixed position (always stay at the top) */
@@ -118,3 +128,17 @@ h1 h2 h3 h4 h5 h6 {
     background: rgb(11, 153, 107);
     width: 0%;
   } 
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
