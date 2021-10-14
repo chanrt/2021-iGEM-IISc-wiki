@@ -42,7 +42,7 @@ nav {
 
 .nav-link {
     color: white !important;
-    font-size: larger;
+    font-size: 26px;
     text-decoration: none;
     padding-left: 30px;
     padding-right: 30px;
@@ -60,6 +60,7 @@ nav {
 .dropdown-content li a {
     color: white;
     padding-left: 10px;
+    font-size: 14px;
 }
 
 .dropdown-item {
@@ -148,7 +149,7 @@ nav {
 
 .progress-bar {
     height: 15px;
-    background: rgb(11, 153, 107);
+    background: rgb(0, 100, 0);
     width: 0%;
 }
 
