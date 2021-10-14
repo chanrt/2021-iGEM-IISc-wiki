@@ -1,48 +1,50 @@
-2021-10-13 15:12:13,412 : INFO : iGEM_login : Already logged in.
-2021-10-13 15:12:13,658 : INFO : iGEM_URL : css/igem_reset.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/igem_resetCSS?action=raw&ctype=text/css in Attributions.html.
-2021-10-13 15:12:13,660 : INFO : iGEM_URL : css/materialize.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/materializeCSS?action=raw&ctype=text/css in Attributions.html.
-2021-10-13 15:12:13,661 : INFO : iGEM_URL : css/aos.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/aosCSS?action=raw&ctype=text/css in Attributions.html.
-2021-10-13 15:12:13,661 : INFO : iGEM_URL : css/style.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&ctype=text/css in Attributions.html.
-2021-10-13 15:12:13,665 : INFO : iGEM_URL : js/materialize.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/materializeJS?action=raw&ctype=text/javascript in Attributions.html.
-2021-10-13 15:12:13,665 : INFO : iGEM_URL : js/font_awesome.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/font_awesomeJS?action=raw&ctype=text/javascript in Attributions.html.
-2021-10-13 15:12:13,666 : INFO : iGEM_URL : js/aos.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/aosJS?action=raw&ctype=text/javascript in Attributions.html.
-2021-10-13 15:12:13,668 : INFO : iGEM_URL : index.html was changed to https://2021.igem.org/Team:IISc-Bangalore in Attributions.html.
-2021-10-13 15:12:13,670 : INFO : iGEM_URL : Attributions.html was changed to https://2021.igem.org/Team:IISc-Bangalore/Attributions in Attributions.html.
-2021-10-13 15:12:13,683 : INFO : iGEM_URL : assets/sponsors/iisc.png was changed to https://2021.igem.org/wiki/images/2/28/T--IISc-Bangalore--sponsors--iisc.png in Attributions.html.
-2021-10-13 15:12:13,684 : INFO : iGEM_URL : assets/sponsors/benchling.png was changed to https://2021.igem.org/wiki/images/e/e1/T--IISc-Bangalore--sponsors--benchling.png in Attributions.html.
-2021-10-13 15:12:13,685 : INFO : iGEM_URL : assets/sponsors/snapgene.png was changed to https://2021.igem.org/wiki/images/6/69/T--IISc-Bangalore--sponsors--snapgene.png in Attributions.html.
-2021-10-13 15:12:13,686 : INFO : iGEM_URL : assets/sponsors/labfolder.png was changed to https://2021.igem.org/wiki/images/5/53/T--IISc-Bangalore--sponsors--labfolder.png in Attributions.html.
-2021-10-13 15:12:13,687 : INFO : iGEM_URL : assets/sponsors/odaa.png was changed to https://2021.igem.org/wiki/images/7/79/T--IISc-Bangalore--sponsors--odaa.png in Attributions.html.
-2021-10-13 15:12:13,689 : INFO : iGEM_URL : assets/images/team_iisc_logo.png was changed to https://2021.igem.org/wiki/images/9/99/T--IISc-Bangalore--images--team_iisc_logo.png in Attributions.html.
-2021-10-13 15:12:13,689 : INFO : iGEM_URL : assets/images/team_iisc_logo.png was changed to https://2021.igem.org/wiki/images/9/99/T--IISc-Bangalore--images--team_iisc_logo.png in Attributions.html.
-2021-10-13 15:12:15,498 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:IISc-Bangalore/Attributions&action=edit.
-2021-10-13 15:12:15,536 : INFO : iGEM_URL : css/igem_reset.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/igem_resetCSS?action=raw&ctype=text/css in index.html.
-2021-10-13 15:12:15,536 : INFO : iGEM_URL : css/materialize.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/materializeCSS?action=raw&ctype=text/css in index.html.
-2021-10-13 15:12:15,536 : INFO : iGEM_URL : css/aos.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/aosCSS?action=raw&ctype=text/css in index.html.
-2021-10-13 15:12:15,540 : INFO : iGEM_URL : css/style.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&ctype=text/css in index.html.
-2021-10-13 15:12:15,542 : INFO : iGEM_URL : js/materialize.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/materializeJS?action=raw&ctype=text/javascript in index.html.
-2021-10-13 15:12:15,543 : INFO : iGEM_URL : js/font_awesome.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/font_awesomeJS?action=raw&ctype=text/javascript in index.html.
-2021-10-13 15:12:15,544 : INFO : iGEM_URL : js/aos.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/aosJS?action=raw&ctype=text/javascript in index.html.
-2021-10-13 15:12:15,545 : INFO : iGEM_URL : index.html was changed to https://2021.igem.org/Team:IISc-Bangalore in index.html.
-2021-10-13 15:12:15,545 : INFO : iGEM_URL : Attributions.html was changed to https://2021.igem.org/Team:IISc-Bangalore/Attributions in index.html.
-2021-10-13 15:12:15,556 : INFO : iGEM_URL : assets/images/team_iisc_logo.png was changed to https://2021.igem.org/wiki/images/9/99/T--IISc-Bangalore--images--team_iisc_logo.png in index.html.
-2021-10-13 15:12:15,556 : INFO : iGEM_URL : assets/images/agriculture.png was changed to https://2021.igem.org/wiki/images/7/77/T--IISc-Bangalore--images--agriculture.png in index.html.
-2021-10-13 15:12:15,556 : INFO : iGEM_URL : assets/images/molecules.png was changed to https://2021.igem.org/wiki/images/c/ce/T--IISc-Bangalore--images--molecules.png in index.html.
-2021-10-13 15:12:15,560 : INFO : iGEM_URL : assets/images/banned.png was changed to https://2021.igem.org/wiki/images/b/b7/T--IISc-Bangalore--images--banned.png in index.html.
-2021-10-13 15:12:15,560 : INFO : iGEM_URL : assets/images/collaboration.png was changed to https://2021.igem.org/wiki/images/6/65/T--IISc-Bangalore--images--collaboration.png in index.html.
-2021-10-13 15:12:15,560 : INFO : iGEM_URL : assets/sponsors/iisc.png was changed to https://2021.igem.org/wiki/images/2/28/T--IISc-Bangalore--sponsors--iisc.png in index.html.
-2021-10-13 15:12:15,560 : INFO : iGEM_URL : assets/sponsors/benchling.png was changed to https://2021.igem.org/wiki/images/e/e1/T--IISc-Bangalore--sponsors--benchling.png in index.html.
-2021-10-13 15:12:15,564 : INFO : iGEM_URL : assets/sponsors/snapgene.png was changed to https://2021.igem.org/wiki/images/6/69/T--IISc-Bangalore--sponsors--snapgene.png in index.html.
-2021-10-13 15:12:15,565 : INFO : iGEM_URL : assets/sponsors/labfolder.png was changed to https://2021.igem.org/wiki/images/5/53/T--IISc-Bangalore--sponsors--labfolder.png in index.html.
-2021-10-13 15:12:15,566 : INFO : iGEM_URL : assets/sponsors/odaa.png was changed to https://2021.igem.org/wiki/images/7/79/T--IISc-Bangalore--sponsors--odaa.png in index.html.
-2021-10-13 15:12:15,566 : INFO : iGEM_URL : assets/images/team_iisc_logo.png was changed to https://2021.igem.org/wiki/images/9/99/T--IISc-Bangalore--images--team_iisc_logo.png in index.html.
-2021-10-13 15:12:15,566 : INFO : iGEM_URL : assets/images/team_iisc_logo.png was changed to https://2021.igem.org/wiki/images/9/99/T--IISc-Bangalore--images--team_iisc_logo.png in index.html.
-2021-10-13 15:12:15,577 : INFO : iGEM_URL : assets/videos/iisc_promo_video.mp4 was changed to https://2021.igem.org/wiki/images/a/a3/T--IISc-Bangalore--videos--iisc_promo_video.mp4 in index.html.
-2021-10-13 15:12:15,587 : INFO : build_and_upload : Contents of index.html have been uploaded previously. Skipping.
-2021-10-13 15:12:15,587 : INFO : build_and_upload : Contents of css\aos.css have been uploaded previously. Skipping.
-2021-10-13 15:12:15,587 : INFO : build_and_upload : Contents of css\igem_reset.css have been uploaded previously. Skipping.
-2021-10-13 15:12:15,591 : INFO : build_and_upload : Contents of css\materialize.css have been uploaded previously. Skipping.
-2021-10-13 15:12:15,594 : INFO : build_and_upload : Contents of css\style.css have been uploaded previously. Skipping.
-2021-10-13 15:12:15,594 : INFO : build_and_upload : Contents of js\aos.js have been uploaded previously. Skipping.
-2021-10-13 15:12:15,594 : INFO : build_and_upload : Contents of js\font_awesome.js have been uploaded previously. Skipping.
-2021-10-13 15:12:15,603 : INFO : build_and_upload : Contents of js\materialize.js have been uploaded previously. Skipping.
+2021-10-14 16:47:30,085 : INFO : iGEM_login : Already logged in.
+2021-10-14 16:47:30,307 : INFO : iGEM_URL : css/igem_reset.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/igem_resetCSS?action=raw&ctype=text/css in Attributions.html.
+2021-10-14 16:47:30,308 : INFO : iGEM_URL : css/materialize.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/materializeCSS?action=raw&ctype=text/css in Attributions.html.
+2021-10-14 16:47:30,308 : INFO : iGEM_URL : css/aos.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/aosCSS?action=raw&ctype=text/css in Attributions.html.
+2021-10-14 16:47:30,308 : INFO : iGEM_URL : css/style.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&ctype=text/css in Attributions.html.
+2021-10-14 16:47:30,308 : INFO : iGEM_URL : js/materialize.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/materializeJS?action=raw&ctype=text/javascript in Attributions.html.
+2021-10-14 16:47:30,312 : INFO : iGEM_URL : js/font_awesome.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/font_awesomeJS?action=raw&ctype=text/javascript in Attributions.html.
+2021-10-14 16:47:30,313 : INFO : iGEM_URL : js/aos.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/aosJS?action=raw&ctype=text/javascript in Attributions.html.
+2021-10-14 16:47:30,315 : INFO : iGEM_URL : index.html was changed to https://2021.igem.org/Team:IISc-Bangalore in Attributions.html.
+2021-10-14 16:47:30,316 : INFO : iGEM_URL : Attributions.html was changed to https://2021.igem.org/Team:IISc-Bangalore/Attributions in Attributions.html.
+2021-10-14 16:47:30,327 : INFO : iGEM_URL : assets/images/team_iisc_logo_min.png was changed to https://2021.igem.org/wiki/images/c/cd/T--IISc-Bangalore--images--team_iisc_logo_min.png in Attributions.html.
+2021-10-14 16:47:30,327 : INFO : iGEM_URL : assets/sponsors/iisc.png was changed to https://2021.igem.org/wiki/images/2/28/T--IISc-Bangalore--sponsors--iisc.png in Attributions.html.
+2021-10-14 16:47:30,328 : INFO : iGEM_URL : assets/sponsors/benchling.png was changed to https://2021.igem.org/wiki/images/e/e1/T--IISc-Bangalore--sponsors--benchling.png in Attributions.html.
+2021-10-14 16:47:30,329 : INFO : iGEM_URL : assets/sponsors/snapgene.png was changed to https://2021.igem.org/wiki/images/6/69/T--IISc-Bangalore--sponsors--snapgene.png in Attributions.html.
+2021-10-14 16:47:30,329 : INFO : iGEM_URL : assets/sponsors/labfolder.png was changed to https://2021.igem.org/wiki/images/5/53/T--IISc-Bangalore--sponsors--labfolder.png in Attributions.html.
+2021-10-14 16:47:30,330 : INFO : iGEM_URL : assets/sponsors/odaa.png was changed to https://2021.igem.org/wiki/images/7/79/T--IISc-Bangalore--sponsors--odaa.png in Attributions.html.
+2021-10-14 16:47:30,330 : INFO : iGEM_URL : assets/images/team_iisc_logo.png was changed to https://2021.igem.org/wiki/images/9/99/T--IISc-Bangalore--images--team_iisc_logo.png in Attributions.html.
+2021-10-14 16:47:30,330 : INFO : iGEM_URL : assets/images/team_iisc_logo.png was changed to https://2021.igem.org/wiki/images/9/99/T--IISc-Bangalore--images--team_iisc_logo.png in Attributions.html.
+2021-10-14 16:47:32,697 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:IISc-Bangalore/Attributions&action=edit.
+2021-10-14 16:47:32,884 : INFO : iGEM_URL : css/igem_reset.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/igem_resetCSS?action=raw&ctype=text/css in index.html.
+2021-10-14 16:47:32,886 : INFO : iGEM_URL : css/materialize.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/materializeCSS?action=raw&ctype=text/css in index.html.
+2021-10-14 16:47:32,888 : INFO : iGEM_URL : css/aos.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/aosCSS?action=raw&ctype=text/css in index.html.
+2021-10-14 16:47:32,889 : INFO : iGEM_URL : css/style.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&ctype=text/css in index.html.
+2021-10-14 16:47:32,891 : INFO : iGEM_URL : js/materialize.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/materializeJS?action=raw&ctype=text/javascript in index.html.
+2021-10-14 16:47:32,892 : INFO : iGEM_URL : js/font_awesome.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/font_awesomeJS?action=raw&ctype=text/javascript in index.html.
+2021-10-14 16:47:32,892 : INFO : iGEM_URL : js/aos.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/aosJS?action=raw&ctype=text/javascript in index.html.
+2021-10-14 16:47:32,895 : INFO : iGEM_URL : index.html was changed to https://2021.igem.org/Team:IISc-Bangalore in index.html.
+2021-10-14 16:47:32,895 : INFO : iGEM_URL : Attributions.html was changed to https://2021.igem.org/Team:IISc-Bangalore/Attributions in index.html.
+2021-10-14 16:47:32,908 : INFO : iGEM_URL : assets/images/team_iisc_logo_min.png was changed to https://2021.igem.org/wiki/images/c/cd/T--IISc-Bangalore--images--team_iisc_logo_min.png in index.html.
+2021-10-14 16:47:32,908 : INFO : iGEM_URL : assets/images/team_iisc_logo.png was changed to https://2021.igem.org/wiki/images/9/99/T--IISc-Bangalore--images--team_iisc_logo.png in index.html.
+2021-10-14 16:47:32,908 : INFO : iGEM_URL : assets/images/agriculture.png was changed to https://2021.igem.org/wiki/images/7/77/T--IISc-Bangalore--images--agriculture.png in index.html.
+2021-10-14 16:47:32,908 : INFO : iGEM_URL : assets/images/molecules.png was changed to https://2021.igem.org/wiki/images/c/ce/T--IISc-Bangalore--images--molecules.png in index.html.
+2021-10-14 16:47:32,908 : INFO : iGEM_URL : assets/images/banned.png was changed to https://2021.igem.org/wiki/images/b/b7/T--IISc-Bangalore--images--banned.png in index.html.
+2021-10-14 16:47:32,908 : INFO : iGEM_URL : assets/images/collaboration.png was changed to https://2021.igem.org/wiki/images/6/65/T--IISc-Bangalore--images--collaboration.png in index.html.
+2021-10-14 16:47:32,908 : INFO : iGEM_URL : assets/sponsors/iisc.png was changed to https://2021.igem.org/wiki/images/2/28/T--IISc-Bangalore--sponsors--iisc.png in index.html.
+2021-10-14 16:47:32,908 : INFO : iGEM_URL : assets/sponsors/benchling.png was changed to https://2021.igem.org/wiki/images/e/e1/T--IISc-Bangalore--sponsors--benchling.png in index.html.
+2021-10-14 16:47:32,916 : INFO : iGEM_URL : assets/sponsors/snapgene.png was changed to https://2021.igem.org/wiki/images/6/69/T--IISc-Bangalore--sponsors--snapgene.png in index.html.
+2021-10-14 16:47:32,917 : INFO : iGEM_URL : assets/sponsors/labfolder.png was changed to https://2021.igem.org/wiki/images/5/53/T--IISc-Bangalore--sponsors--labfolder.png in index.html.
+2021-10-14 16:47:32,918 : INFO : iGEM_URL : assets/sponsors/odaa.png was changed to https://2021.igem.org/wiki/images/7/79/T--IISc-Bangalore--sponsors--odaa.png in index.html.
+2021-10-14 16:47:32,919 : INFO : iGEM_URL : assets/images/team_iisc_logo.png was changed to https://2021.igem.org/wiki/images/9/99/T--IISc-Bangalore--images--team_iisc_logo.png in index.html.
+2021-10-14 16:47:32,920 : INFO : iGEM_URL : assets/images/team_iisc_logo.png was changed to https://2021.igem.org/wiki/images/9/99/T--IISc-Bangalore--images--team_iisc_logo.png in index.html.
+2021-10-14 16:47:32,930 : INFO : iGEM_URL : assets/videos/iisc_promo_video.mp4 was changed to https://2021.igem.org/wiki/images/a/a3/T--IISc-Bangalore--videos--iisc_promo_video.mp4 in index.html.
+2021-10-14 16:47:34,508 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:IISc-Bangalore&action=edit.
+2021-10-14 16:47:34,510 : INFO : build_and_upload : Contents of css\aos.css have been uploaded previously. Skipping.
+2021-10-14 16:47:34,510 : INFO : build_and_upload : Contents of css\igem_reset.css have been uploaded previously. Skipping.
+2021-10-14 16:47:34,513 : INFO : build_and_upload : Contents of css\materialize.css have been uploaded previously. Skipping.
+2021-10-14 16:47:34,515 : INFO : build_and_upload : Contents of css\style.css have been uploaded previously. Skipping.
+2021-10-14 16:47:34,516 : INFO : build_and_upload : Contents of js\aos.js have been uploaded previously. Skipping.
+2021-10-14 16:47:34,516 : INFO : build_and_upload : Contents of js\font_awesome.js have been uploaded previously. Skipping.
+2021-10-14 16:47:34,529 : INFO : build_and_upload : Contents of js\materialize.js have been uploaded previously. Skipping.

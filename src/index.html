@@ -30,43 +30,61 @@
         <nav>
             <div class="nav-wrapper">
                 <ul class="left nav-list">
-                    <li><a class="nav-link" href="index.html"><i class="fa fa-home icon"></i>Home</a></li>
+
+                    <li><a class="nav-link" href="index.html"><img class="responsive-img icon"
+                                src="assets/images/team_iisc_logo_min.png" style="max-height: 60px;"></a></li>
 
                     <li><a class="nav-link dropdown-trigger" data-target="dropdown-project" href="#"><i
-                                class="fa fa-flask icon"></i>Project</a></li>
+                                class="fa fa-project-diagram icon"></i>Project</a></li>
 
-                    <li><a class="nav-link" href="#"><i class="fa fa-microchip icon"></i>Hardware</a></li>
+                    <li><a class="nav-link" href="#"><i class="fa fa-microchip icon"></i>Parts</a></li>
 
-                    <li><a class="nav-link" href="#"><i class="fa fa-tools icon"></i>Modelling</a></li>
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-labwork" href="#"><i
+                                class="fa fa-flask icon"></i>Labwork</a></li>
 
-                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-team" href="#"><i
-                                class="fa fa-users icon"></i>Team</a></li>
+                    <li><a class="nav-link" href="#"><i class="fa fa-drafting-compass icon"></i>Modelling</a></li>
 
                     <li><a class="nav-link dropdown-trigger" data-target="dropdown-hp"><i
                                 class="fa fa-award icon"></i>Human Practices</a></li>
 
-                    <li><a class="nav-link" href="Attributions.html"><i
-                                class="fa fa-handshake icon"></i>Attributions</a></li>
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-team" href="#"><i
+                                class="fa fa-users icon"></i>Team</a></li>
+
+                    <li><a class="nav-link" href="#"><i class="fa fa-gavel icon"></i>Judging</a></li>
                 </ul>
 
                 <ul id="dropdown-project" class="dropdown-content">
-                    <li class="dropdown-item"><a class="dropdown-link" href="#">Inspiration</a></li>
-                    <li class="dropdown-item"><a class="dropdown-link" href="#">Description</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Overview</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="#">Design</a></li>
-                    <li class="dropdown-item"><a class="dropdown-link" href="#">Experiments</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Engineering</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Implementation</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Safety</a></li>
                 </ul>
 
-                <ul id="dropdown-team" class="dropdown-content">
-                    <li class="dropdown-item"><a class="dropdown-link" href="#">Philosophy</a></li>
-                    <li class="dropdown-item"><a class="dropdown-link" href="#">Members</a></li>
+                <ul id="dropdown-labwork" class="dropdown-content">
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Results</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Protocols</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Lab Notebook</a></li>
                 </ul>
 
                 <ul id="dropdown-hp" class="dropdown-content">
-                    <li class="dropdown-item"><a class="dropdown-link" href="#">Integrated Human Practices</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="">Public Education and Engagement</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Integrated Human Practices</a></li>
+                </ul>
+
+                <ul id="dropdown-team" class="dropdown-content">
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Members</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Attributions.html">Attributions</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Collaborations</a></li>
                 </ul>
             </div>
         </nav>
+    </div>
+
+    <div class="header">
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
     </div>
     <!-- navbar end -->
 
@@ -75,7 +93,7 @@
 
         <div class="row">
             <div class="col s12 l6" data-aos="fade-up" data-aos-delay="500">
-                <img class="responsive-img" src="assets/images/team_iisc_logo.png">
+                <img class="responsive-img" src="assets/images/team_iisc_logo.png" style="max-height: 450px;">
             </div>
             <div class="col s12 l6" data-aos="fade-up" data-aos-delay="1000">
                 <h2 class="center">We are Team iGEM IISc Bangalore</h2>
@@ -172,22 +190,22 @@
 
     <footer class="page-footer">
         <div class="container">
-            <h5 class="sm-title center">Our Sponsors</h5>
+            <h5 class="sm-title center" data-aos="fade-up">Our Sponsors</h5>
             <br>
             <div class="row footer-content valign-wrapper">
-                <div class="col s2 l2">
+                <div class="col s2 l2" data-aos="zoom-in">
                     <a href="https://iisc.ac.in"><img class="responsive-img" src="assets/sponsors/iisc.png"></a>
                 </div>
-                <div class="col s3 l3">
+                <div class="col s3 l3" data-aos="zoom-in">
                     <a href="https://benchling.com"><img class="responsive-img" src="assets/sponsors/benchling.png"></a>
                 </div>
-                <div class="col s3 l3">
+                <div class="col s3 l3" data-aos="zoom-in">
                     <a href="https://snapgene.com"><img class="responsive-img" src="assets/sponsors/snapgene.png"></a>
                 </div>
-                <div class="col s2 l2">
+                <div class="col s2 l2" data-aos="zoom-in">
                     <a href="https://labfolder.com"><img class="responsive-img" src="assets/sponsors/labfolder.png"></a>
                 </div>
-                <div class="col s2 l2">
+                <div class="col s2 l2" data-aos="zoom-in">
                     <a href="https://odaa.iisc.ac.in"><img class="responsive-img" src="assets/sponsors/odaa.png"></a>
                 </div>
             </div>
@@ -195,19 +213,20 @@
             <hr>
             <div class="hide-on-med-and-down">
                 <div class="row footer-content valign-wrapper">
-                    <div class="col s12 l3 center">
+                    <div class="col s12 l3 center" data-aos="fade-right">
                         <h5 class="sm-title">Our Social Media Links</h5>
                         <a target="_blank" href="https://www.facebook.com/iiscbangaloreigem/"
                             class="fa fa-facebook sm-button"></a>
-                        <a target="_blank" href="https://twitter.com/igem_iisc?s=08" class="fa fa-twitter sm-button"></a>
+                        <a target="_blank" href="https://twitter.com/igem_iisc?s=08"
+                            class="fa fa-twitter sm-button"></a>
                         <a target="_blank" href="https://instagram.com/igem_iisc?utm_medium=copy_link"
                             class="fa fa-instagram sm-button"></a>
                     </div>
-                    <div class="col s12 l3 center">
+                    <div class="col s12 l3 center" data-aos="zoom-in">
                         <a href="https://2021.igem.org/Team:IISc-Bangalore"><img class="responsive-img"
                                 src="assets/images/team_iisc_logo.png" style="max-height: 250px"></a>
                     </div>
-                    <div class="col s12 l6 center">
+                    <div class="col s12 l6 center" data-aos="fade-left">
                         <h5 class="sm-title">Contact Us</h5>
                         <p style="text-align: center;">
                             <a href="mailto:igem.ug@iisc.ac.in">igem.ug@iisc.ac.in</a> or <a
@@ -226,7 +245,8 @@
                         <h5 class="sm-title">Our Social Media Links</h5>
                         <a target="_blank" href="https://www.facebook.com/iiscbangaloreigem/"
                             class="fa fa-facebook sm-button"></a>
-                        <a target="_blank" href="https://twitter.com/igem_iisc?s=08" class="fa fa-twitter sm-button"></a>
+                        <a target="_blank" href="https://twitter.com/igem_iisc?s=08"
+                            class="fa fa-twitter sm-button"></a>
                         <a target="_blank" href="https://instagram.com/igem_iisc?utm_medium=copy_link"
                             class="fa fa-instagram sm-button"></a>
                     </div>
@@ -265,6 +285,12 @@
             last_p.style.margin = "0";
         }
 
+        window.onscroll = function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
     </script>
 </body>
 

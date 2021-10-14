@@ -27,22 +27,22 @@ h1 h2 h3 h4 h5 h6 {
 
 .nav-link {
     color: white !important;
+    font-size: large;
     text-decoration: none;
 }
 
 .nav-link:hover {
-    background: black;
-    background-color: black;
+    background: black !important;
     text-decoration: none;
 }
 
 .nav-link:visited {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .icon {
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .dropdown-item {
@@ -50,7 +50,7 @@ h1 h2 h3 h4 h5 h6 {
 }
 
 .dropdown-link {
-    background: darkblue;
+    background: darkblue !important;
     color: white;
     text-decoration: none;
     font-weight: bolder;
@@ -59,12 +59,17 @@ h1 h2 h3 h4 h5 h6 {
 }
 
 .dropdown-link:hover {
-    background: black;
+    background: black !important;
     text-decoration: none;
+}
+
+.dropdown-link:visited {
+    text-decoration: none !important;
 }
 
 .page-footer {
     background: darkblue;
+    color: white;
 }
 
 .footer-content {
@@ -90,3 +95,26 @@ h1 h2 h3 h4 h5 h6 {
 .sm-button:hover {
     text-decoration: none;
 }
+
+ /* Style the header: fixed position (always stay at the top) */
+ .header {
+    position: fixed;
+    top: 70px;
+    z-index: 1;
+    width: 100%;
+    background-color: #f1f1f1;
+  }
+  
+  /* The progress container (grey background) */
+  .progress-container {
+    width: 100%;
+    height: 15px;
+    background: #ccc;
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+    height: 15px;
+    background: rgb(11, 153, 107);
+    width: 0%;
+  } 

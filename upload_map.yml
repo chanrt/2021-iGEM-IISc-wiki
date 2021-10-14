@@ -57,8 +57,12 @@ assets:
     upload_filename: T--IISc-Bangalore--images--molecules.png
   assets\images\team_iisc_logo.png:
     link_URL: https://2021.igem.org/wiki/images/9/99/T--IISc-Bangalore--images--team_iisc_logo.png
-    md5: 815e973ddf382ef17a38c778ddc82850
+    md5: d3b8fe55251fe7f91718ccac91fd48e6
     upload_filename: T--IISc-Bangalore--images--team_iisc_logo.png
+  assets\images\team_iisc_logo_min.png:
+    link_URL: https://2021.igem.org/wiki/images/c/cd/T--IISc-Bangalore--images--team_iisc_logo_min.png
+    md5: 9ecd31895d288ca39c0d8deb72d3a6a9
+    upload_filename: T--IISc-Bangalore--images--team_iisc_logo_min.png
   assets\logo.png:
     link_URL: https://2021.igem.org/wiki/images/0/00/T--IISc-Bangalore--logo.png
     md5: 815e973ddf382ef17a38c778ddc82850
@@ -127,17 +131,17 @@ css:
     md5: 3c3ee463702a1f1a74a8d7ba36f16f3e
   css\style.css:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&ctype=text/css
-    md5: 39af3d3fe1db9ad013ea4cf72926c228
+    md5: 6817eb8e05b5e971592bec73a7e27ce1
 html:
   Attributions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Attributions
-    md5: 58655e29c5349ff6b4e4b4f4c4dc7a65
+    md5: 19843f7bcec60500fd76600c0486213b
   attributions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/attributions
     md5: 4f4e8db9d168ffeaa60e820ca874ea16
   index.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore
-    md5: 9e58266fa9c7cfca97249e92a757b0f0
+    md5: 90d495fd72eb26c055114b7c1cef1860
 js:
   js\aos.js:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/js/aosJS?action=raw&ctype=text/javascript
