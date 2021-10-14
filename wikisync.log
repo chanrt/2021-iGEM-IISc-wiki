@@ -1,184 +1,62 @@
-2021-10-14 18:12:28,473 : INFO : iGEM_login : Already logged in.
-2021-10-14 18:12:28,481 : ERROR : cache_files : assets\fontawesome\less\brands.less has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,482 : ERROR : cache_files : assets\fontawesome\less\fontawesome.less has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,482 : ERROR : cache_files : assets\fontawesome\less\regular.less has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,482 : ERROR : cache_files : assets\fontawesome\less\solid.less has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,482 : ERROR : cache_files : assets\fontawesome\less\v4-shims.less has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,483 : ERROR : cache_files : assets\fontawesome\less\_animated.less has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,483 : ERROR : cache_files : assets\fontawesome\less\_bordered-pulled.less has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,484 : ERROR : cache_files : assets\fontawesome\less\_core.less has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,484 : ERROR : cache_files : assets\fontawesome\less\_fixed-width.less has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,485 : ERROR : cache_files : assets\fontawesome\less\_icons.less has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,485 : ERROR : cache_files : assets\fontawesome\less\_larger.less has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,485 : ERROR : cache_files : assets\fontawesome\less\_list.less has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,486 : ERROR : cache_files : assets\fontawesome\less\_mixins.less has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,486 : ERROR : cache_files : assets\fontawesome\less\_rotated-flipped.less has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,487 : ERROR : cache_files : assets\fontawesome\less\_screen-reader.less has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,487 : ERROR : cache_files : assets\fontawesome\less\_shims.less has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,487 : ERROR : cache_files : assets\fontawesome\less\_stacked.less has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,488 : ERROR : cache_files : assets\fontawesome\less\_variables.less has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,488 : ERROR : cache_files : assets\fontawesome\metadata\categories.yml has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,490 : ERROR : cache_files : assets\fontawesome\metadata\icons.json has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,490 : ERROR : cache_files : assets\fontawesome\metadata\icons.yml has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,491 : ERROR : cache_files : assets\fontawesome\metadata\shims.json has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,491 : ERROR : cache_files : assets\fontawesome\metadata\shims.yml has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,492 : ERROR : cache_files : assets\fontawesome\metadata\sponsors.yml has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,492 : ERROR : cache_files : assets\fontawesome\scss\brands.scss has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,493 : ERROR : cache_files : assets\fontawesome\scss\fontawesome.scss has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,494 : ERROR : cache_files : assets\fontawesome\scss\regular.scss has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,494 : ERROR : cache_files : assets\fontawesome\scss\solid.scss has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,495 : ERROR : cache_files : assets\fontawesome\scss\v4-shims.scss has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,495 : ERROR : cache_files : assets\fontawesome\scss\_animated.scss has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,496 : ERROR : cache_files : assets\fontawesome\scss\_bordered-pulled.scss has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,496 : ERROR : cache_files : assets\fontawesome\scss\_core.scss has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,497 : ERROR : cache_files : assets\fontawesome\scss\_fixed-width.scss has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,497 : ERROR : cache_files : assets\fontawesome\scss\_icons.scss has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,498 : ERROR : cache_files : assets\fontawesome\scss\_larger.scss has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,498 : ERROR : cache_files : assets\fontawesome\scss\_list.scss has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,499 : ERROR : cache_files : assets\fontawesome\scss\_mixins.scss has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,499 : ERROR : cache_files : assets\fontawesome\scss\_rotated-flipped.scss has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,500 : ERROR : cache_files : assets\fontawesome\scss\_screen-reader.scss has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,500 : ERROR : cache_files : assets\fontawesome\scss\_shims.scss has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,501 : ERROR : cache_files : assets\fontawesome\scss\_stacked.scss has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,501 : ERROR : cache_files : assets\fontawesome\scss\_variables.scss has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,516 : ERROR : cache_files : assets\fontawesome\webfonts\fa-brands-400.woff2 has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,518 : ERROR : cache_files : assets\fontawesome\webfonts\fa-regular-400.woff2 has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,523 : ERROR : cache_files : assets\fontawesome\webfonts\fa-solid-900.woff2 has an unsupported file extension. Skipping.
-2021-10-14 18:12:28,743 : INFO : iGEM_URL : css/igem_reset.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/igem_resetCSS?action=raw&ctype=text/css in Attributions.html.
-2021-10-14 18:12:28,747 : INFO : iGEM_URL : css/materialize.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/materializeCSS?action=raw&ctype=text/css in Attributions.html.
-2021-10-14 18:12:28,750 : INFO : iGEM_URL : css/aos.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/aosCSS?action=raw&ctype=text/css in Attributions.html.
-2021-10-14 18:12:28,755 : INFO : iGEM_URL : css/style.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&ctype=text/css in Attributions.html.
-2021-10-14 18:12:28,760 : INFO : iGEM_URL : js/materialize.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/materializeJS?action=raw&ctype=text/javascript in Attributions.html.
-2021-10-14 18:12:28,766 : INFO : iGEM_URL : js/font_awesome.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/font_awesomeJS?action=raw&ctype=text/javascript in Attributions.html.
-2021-10-14 18:12:28,769 : INFO : iGEM_URL : js/aos.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/aosJS?action=raw&ctype=text/javascript in Attributions.html.
-2021-10-14 18:12:28,774 : INFO : iGEM_URL : index.html was changed to https://2021.igem.org/Team:IISc-Bangalore in Attributions.html.
-2021-10-14 18:12:28,776 : INFO : iGEM_URL : Attributions.html was changed to https://2021.igem.org/Team:IISc-Bangalore/Attributions in Attributions.html.
-2021-10-14 18:12:28,803 : INFO : iGEM_URL : assets/images/team_iisc_logo_min.png was changed to https://2021.igem.org/wiki/images/c/cd/T--IISc-Bangalore--images--team_iisc_logo_min.png in Attributions.html.
-2021-10-14 18:12:28,806 : INFO : iGEM_URL : assets/sponsors/iisc.png was changed to https://2021.igem.org/wiki/images/2/28/T--IISc-Bangalore--sponsors--iisc.png in Attributions.html.
-2021-10-14 18:12:28,807 : INFO : iGEM_URL : assets/sponsors/benchling.png was changed to https://2021.igem.org/wiki/images/e/e1/T--IISc-Bangalore--sponsors--benchling.png in Attributions.html.
-2021-10-14 18:12:28,808 : INFO : iGEM_URL : assets/sponsors/snapgene.png was changed to https://2021.igem.org/wiki/images/6/69/T--IISc-Bangalore--sponsors--snapgene.png in Attributions.html.
-2021-10-14 18:12:28,809 : INFO : iGEM_URL : assets/sponsors/labfolder.png was changed to https://2021.igem.org/wiki/images/5/53/T--IISc-Bangalore--sponsors--labfolder.png in Attributions.html.
-2021-10-14 18:12:28,810 : INFO : iGEM_URL : assets/sponsors/odaa.png was changed to https://2021.igem.org/wiki/images/7/79/T--IISc-Bangalore--sponsors--odaa.png in Attributions.html.
-2021-10-14 18:12:28,811 : INFO : iGEM_URL : assets/images/team_iisc_logo.png was changed to https://2021.igem.org/wiki/images/9/99/T--IISc-Bangalore--images--team_iisc_logo.png in Attributions.html.
-2021-10-14 18:12:28,813 : INFO : iGEM_URL : assets/images/team_iisc_logo.png was changed to https://2021.igem.org/wiki/images/9/99/T--IISc-Bangalore--images--team_iisc_logo.png in Attributions.html.
-2021-10-14 18:12:28,844 : INFO : build_and_upload : Contents of Attributions.html have been uploaded previously. Skipping.
-2021-10-14 18:12:28,909 : INFO : iGEM_URL : css/igem_reset.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/igem_resetCSS?action=raw&ctype=text/css in index.html.
-2021-10-14 18:12:28,910 : INFO : iGEM_URL : css/materialize.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/materializeCSS?action=raw&ctype=text/css in index.html.
-2021-10-14 18:12:28,911 : INFO : iGEM_URL : css/aos.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/aosCSS?action=raw&ctype=text/css in index.html.
-2021-10-14 18:12:28,915 : INFO : iGEM_URL : css/style.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&ctype=text/css in index.html.
-2021-10-14 18:12:28,921 : INFO : iGEM_URL : js/materialize.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/materializeJS?action=raw&ctype=text/javascript in index.html.
-2021-10-14 18:12:28,927 : INFO : iGEM_URL : js/font_awesome.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/font_awesomeJS?action=raw&ctype=text/javascript in index.html.
-2021-10-14 18:12:28,936 : INFO : iGEM_URL : js/aos.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/aosJS?action=raw&ctype=text/javascript in index.html.
-2021-10-14 18:12:28,942 : INFO : iGEM_URL : index.html was changed to https://2021.igem.org/Team:IISc-Bangalore in index.html.
-2021-10-14 18:12:28,943 : INFO : iGEM_URL : Attributions.html was changed to https://2021.igem.org/Team:IISc-Bangalore/Attributions in index.html.
-2021-10-14 18:12:28,966 : INFO : iGEM_URL : assets/images/team_iisc_logo_min.png was changed to https://2021.igem.org/wiki/images/c/cd/T--IISc-Bangalore--images--team_iisc_logo_min.png in index.html.
-2021-10-14 18:12:28,969 : INFO : iGEM_URL : assets/images/team_iisc_logo.png was changed to https://2021.igem.org/wiki/images/9/99/T--IISc-Bangalore--images--team_iisc_logo.png in index.html.
-2021-10-14 18:12:28,970 : INFO : iGEM_URL : assets/images/agriculture.png was changed to https://2021.igem.org/wiki/images/7/77/T--IISc-Bangalore--images--agriculture.png in index.html.
-2021-10-14 18:12:28,994 : INFO : iGEM_URL : assets/images/molecules.png was changed to https://2021.igem.org/wiki/images/c/ce/T--IISc-Bangalore--images--molecules.png in index.html.
-2021-10-14 18:12:28,996 : INFO : iGEM_URL : assets/images/banned.png was changed to https://2021.igem.org/wiki/images/b/b7/T--IISc-Bangalore--images--banned.png in index.html.
-2021-10-14 18:12:29,004 : INFO : iGEM_URL : assets/images/collaboration.png was changed to https://2021.igem.org/wiki/images/6/65/T--IISc-Bangalore--images--collaboration.png in index.html.
-2021-10-14 18:12:29,004 : INFO : iGEM_URL : assets/sponsors/iisc.png was changed to https://2021.igem.org/wiki/images/2/28/T--IISc-Bangalore--sponsors--iisc.png in index.html.
-2021-10-14 18:12:29,004 : INFO : iGEM_URL : assets/sponsors/benchling.png was changed to https://2021.igem.org/wiki/images/e/e1/T--IISc-Bangalore--sponsors--benchling.png in index.html.
-2021-10-14 18:12:29,008 : INFO : iGEM_URL : assets/sponsors/snapgene.png was changed to https://2021.igem.org/wiki/images/6/69/T--IISc-Bangalore--sponsors--snapgene.png in index.html.
-2021-10-14 18:12:29,008 : INFO : iGEM_URL : assets/sponsors/labfolder.png was changed to https://2021.igem.org/wiki/images/5/53/T--IISc-Bangalore--sponsors--labfolder.png in index.html.
-2021-10-14 18:12:29,008 : INFO : iGEM_URL : assets/sponsors/odaa.png was changed to https://2021.igem.org/wiki/images/7/79/T--IISc-Bangalore--sponsors--odaa.png in index.html.
-2021-10-14 18:12:29,008 : INFO : iGEM_URL : assets/images/team_iisc_logo.png was changed to https://2021.igem.org/wiki/images/9/99/T--IISc-Bangalore--images--team_iisc_logo.png in index.html.
-2021-10-14 18:12:29,008 : INFO : iGEM_URL : assets/images/team_iisc_logo.png was changed to https://2021.igem.org/wiki/images/9/99/T--IISc-Bangalore--images--team_iisc_logo.png in index.html.
-2021-10-14 18:12:29,021 : INFO : iGEM_URL : assets/videos/iisc_promo_video.mp4 was changed to https://2021.igem.org/wiki/images/a/a3/T--IISc-Bangalore--videos--iisc_promo_video.mp4 in index.html.
-2021-10-14 18:12:31,211 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:IISc-Bangalore&action=edit.
-2021-10-14 18:12:31,213 : INFO : iGEM_URL : ../webfonts/fa-brands-400.eot was changed to https://2021.igem.org/wiki/images/3/33/T--IISc-Bangalore--fontawesome--webfonts--fa-brands-400.eot in assets\fontawesome\css\all.css.
-2021-10-14 18:12:31,214 : WARNING : iGEM_URL : ../webfonts/fa-brands-400.woff2 is referenced in assets\fontawesome\css\all.css but was not found.
-2021-10-14 18:12:31,215 : INFO : iGEM_URL : ../webfonts/fa-brands-400.woff was changed to https://2021.igem.org/wiki/images/8/86/T--IISc-Bangalore--fontawesome--webfonts--fa-brands-400.woff in assets\fontawesome\css\all.css.
-2021-10-14 18:12:31,216 : INFO : iGEM_URL : ../webfonts/fa-brands-400.ttf was changed to https://2021.igem.org/wiki/images/7/7e/T--IISc-Bangalore--fontawesome--webfonts--fa-brands-400.ttf in assets\fontawesome\css\all.css.
-2021-10-14 18:12:31,217 : INFO : iGEM_URL : ../webfonts/fa-brands-400.svg was changed to https://2021.igem.org/wiki/images/b/be/T--IISc-Bangalore--fontawesome--webfonts--fa-brands-400.svg in assets\fontawesome\css\all.css.
-2021-10-14 18:12:31,217 : INFO : iGEM_URL : ../webfonts/fa-regular-400.eot was changed to https://2021.igem.org/wiki/images/1/14/T--IISc-Bangalore--fontawesome--webfonts--fa-regular-400.eot in assets\fontawesome\css\all.css.
-2021-10-14 18:12:31,218 : WARNING : iGEM_URL : ../webfonts/fa-regular-400.woff2 is referenced in assets\fontawesome\css\all.css but was not found.
-2021-10-14 18:12:31,219 : INFO : iGEM_URL : ../webfonts/fa-regular-400.woff was changed to https://2021.igem.org/wiki/images/9/97/T--IISc-Bangalore--fontawesome--webfonts--fa-regular-400.woff in assets\fontawesome\css\all.css.
-2021-10-14 18:12:31,220 : INFO : iGEM_URL : ../webfonts/fa-regular-400.ttf was changed to https://2021.igem.org/wiki/images/4/4c/T--IISc-Bangalore--fontawesome--webfonts--fa-regular-400.ttf in assets\fontawesome\css\all.css.
-2021-10-14 18:12:31,221 : INFO : iGEM_URL : ../webfonts/fa-regular-400.svg was changed to https://2021.igem.org/wiki/images/9/93/T--IISc-Bangalore--fontawesome--webfonts--fa-regular-400.svg in assets\fontawesome\css\all.css.
-2021-10-14 18:12:31,221 : INFO : iGEM_URL : ../webfonts/fa-solid-900.eot was changed to https://2021.igem.org/wiki/images/6/68/T--IISc-Bangalore--fontawesome--webfonts--fa-solid-900.eot in assets\fontawesome\css\all.css.
-2021-10-14 18:12:31,222 : WARNING : iGEM_URL : ../webfonts/fa-solid-900.woff2 is referenced in assets\fontawesome\css\all.css but was not found.
-2021-10-14 18:12:31,223 : INFO : iGEM_URL : ../webfonts/fa-solid-900.woff was changed to https://2021.igem.org/wiki/images/a/ab/T--IISc-Bangalore--fontawesome--webfonts--fa-solid-900.woff in assets\fontawesome\css\all.css.
-2021-10-14 18:12:31,224 : INFO : iGEM_URL : ../webfonts/fa-solid-900.ttf was changed to https://2021.igem.org/wiki/images/f/fd/T--IISc-Bangalore--fontawesome--webfonts--fa-solid-900.ttf in assets\fontawesome\css\all.css.
-2021-10-14 18:12:31,224 : INFO : iGEM_URL : ../webfonts/fa-solid-900.svg was changed to https://2021.igem.org/wiki/images/7/75/T--IISc-Bangalore--fontawesome--webfonts--fa-solid-900.svg in assets\fontawesome\css\all.css.
-2021-10-14 18:12:31,225 : INFO : build_and_upload : Contents of assets\fontawesome\css\all.css have been uploaded previously. Skipping.
-2021-10-14 18:12:31,226 : INFO : iGEM_URL : ../webfonts/fa-brands-400.eot was changed to https://2021.igem.org/wiki/images/3/33/T--IISc-Bangalore--fontawesome--webfonts--fa-brands-400.eot in assets\fontawesome\css\all.min.css.
-2021-10-14 18:12:31,226 : WARNING : iGEM_URL : ../webfonts/fa-brands-400.woff2 is referenced in assets\fontawesome\css\all.min.css but was not found.
-2021-10-14 18:12:31,227 : INFO : iGEM_URL : ../webfonts/fa-brands-400.woff was changed to https://2021.igem.org/wiki/images/8/86/T--IISc-Bangalore--fontawesome--webfonts--fa-brands-400.woff in assets\fontawesome\css\all.min.css.
-2021-10-14 18:12:31,228 : INFO : iGEM_URL : ../webfonts/fa-brands-400.ttf was changed to https://2021.igem.org/wiki/images/7/7e/T--IISc-Bangalore--fontawesome--webfonts--fa-brands-400.ttf in assets\fontawesome\css\all.min.css.
-2021-10-14 18:12:31,229 : INFO : iGEM_URL : ../webfonts/fa-brands-400.svg was changed to https://2021.igem.org/wiki/images/b/be/T--IISc-Bangalore--fontawesome--webfonts--fa-brands-400.svg in assets\fontawesome\css\all.min.css.
-2021-10-14 18:12:31,230 : INFO : iGEM_URL : ../webfonts/fa-regular-400.eot was changed to https://2021.igem.org/wiki/images/1/14/T--IISc-Bangalore--fontawesome--webfonts--fa-regular-400.eot in assets\fontawesome\css\all.min.css.
-2021-10-14 18:12:31,230 : WARNING : iGEM_URL : ../webfonts/fa-regular-400.woff2 is referenced in assets\fontawesome\css\all.min.css but was not found.
-2021-10-14 18:12:31,231 : INFO : iGEM_URL : ../webfonts/fa-regular-400.woff was changed to https://2021.igem.org/wiki/images/9/97/T--IISc-Bangalore--fontawesome--webfonts--fa-regular-400.woff in assets\fontawesome\css\all.min.css.
-2021-10-14 18:12:31,232 : INFO : iGEM_URL : ../webfonts/fa-regular-400.ttf was changed to https://2021.igem.org/wiki/images/4/4c/T--IISc-Bangalore--fontawesome--webfonts--fa-regular-400.ttf in assets\fontawesome\css\all.min.css.
-2021-10-14 18:12:31,232 : INFO : iGEM_URL : ../webfonts/fa-regular-400.svg was changed to https://2021.igem.org/wiki/images/9/93/T--IISc-Bangalore--fontawesome--webfonts--fa-regular-400.svg in assets\fontawesome\css\all.min.css.
-2021-10-14 18:12:31,233 : INFO : iGEM_URL : ../webfonts/fa-solid-900.eot was changed to https://2021.igem.org/wiki/images/6/68/T--IISc-Bangalore--fontawesome--webfonts--fa-solid-900.eot in assets\fontawesome\css\all.min.css.
-2021-10-14 18:12:31,233 : WARNING : iGEM_URL : ../webfonts/fa-solid-900.woff2 is referenced in assets\fontawesome\css\all.min.css but was not found.
-2021-10-14 18:12:31,234 : INFO : iGEM_URL : ../webfonts/fa-solid-900.woff was changed to https://2021.igem.org/wiki/images/a/ab/T--IISc-Bangalore--fontawesome--webfonts--fa-solid-900.woff in assets\fontawesome\css\all.min.css.
-2021-10-14 18:12:31,235 : INFO : iGEM_URL : ../webfonts/fa-solid-900.ttf was changed to https://2021.igem.org/wiki/images/f/fd/T--IISc-Bangalore--fontawesome--webfonts--fa-solid-900.ttf in assets\fontawesome\css\all.min.css.
-2021-10-14 18:12:31,235 : INFO : iGEM_URL : ../webfonts/fa-solid-900.svg was changed to https://2021.igem.org/wiki/images/7/75/T--IISc-Bangalore--fontawesome--webfonts--fa-solid-900.svg in assets\fontawesome\css\all.min.css.
-2021-10-14 18:12:31,236 : INFO : build_and_upload : Contents of assets\fontawesome\css\all.min.css have been uploaded previously. Skipping.
-2021-10-14 18:12:31,236 : INFO : iGEM_URL : ../webfonts/fa-brands-400.eot was changed to https://2021.igem.org/wiki/images/3/33/T--IISc-Bangalore--fontawesome--webfonts--fa-brands-400.eot in assets\fontawesome\css\brands.css.
-2021-10-14 18:12:31,237 : WARNING : iGEM_URL : ../webfonts/fa-brands-400.woff2 is referenced in assets\fontawesome\css\brands.css but was not found.
-2021-10-14 18:12:31,238 : INFO : iGEM_URL : ../webfonts/fa-brands-400.woff was changed to https://2021.igem.org/wiki/images/8/86/T--IISc-Bangalore--fontawesome--webfonts--fa-brands-400.woff in assets\fontawesome\css\brands.css.
-2021-10-14 18:12:31,239 : INFO : iGEM_URL : ../webfonts/fa-brands-400.ttf was changed to https://2021.igem.org/wiki/images/7/7e/T--IISc-Bangalore--fontawesome--webfonts--fa-brands-400.ttf in assets\fontawesome\css\brands.css.
-2021-10-14 18:12:31,239 : INFO : iGEM_URL : ../webfonts/fa-brands-400.svg was changed to https://2021.igem.org/wiki/images/b/be/T--IISc-Bangalore--fontawesome--webfonts--fa-brands-400.svg in assets\fontawesome\css\brands.css.
-2021-10-14 18:12:31,240 : INFO : build_and_upload : Contents of assets\fontawesome\css\brands.css have been uploaded previously. Skipping.
-2021-10-14 18:12:31,241 : INFO : iGEM_URL : ../webfonts/fa-brands-400.eot was changed to https://2021.igem.org/wiki/images/3/33/T--IISc-Bangalore--fontawesome--webfonts--fa-brands-400.eot in assets\fontawesome\css\brands.min.css.
-2021-10-14 18:12:31,241 : WARNING : iGEM_URL : ../webfonts/fa-brands-400.woff2 is referenced in assets\fontawesome\css\brands.min.css but was not found.
-2021-10-14 18:12:31,242 : INFO : iGEM_URL : ../webfonts/fa-brands-400.woff was changed to https://2021.igem.org/wiki/images/8/86/T--IISc-Bangalore--fontawesome--webfonts--fa-brands-400.woff in assets\fontawesome\css\brands.min.css.
-2021-10-14 18:12:31,243 : INFO : iGEM_URL : ../webfonts/fa-brands-400.ttf was changed to https://2021.igem.org/wiki/images/7/7e/T--IISc-Bangalore--fontawesome--webfonts--fa-brands-400.ttf in assets\fontawesome\css\brands.min.css.
-2021-10-14 18:12:31,243 : INFO : iGEM_URL : ../webfonts/fa-brands-400.svg was changed to https://2021.igem.org/wiki/images/b/be/T--IISc-Bangalore--fontawesome--webfonts--fa-brands-400.svg in assets\fontawesome\css\brands.min.css.
-2021-10-14 18:12:31,244 : INFO : build_and_upload : Contents of assets\fontawesome\css\brands.min.css have been uploaded previously. Skipping.
-2021-10-14 18:12:31,244 : INFO : build_and_upload : Contents of assets\fontawesome\css\fontawesome.css have been uploaded previously. Skipping.
-2021-10-14 18:12:31,245 : INFO : build_and_upload : Contents of assets\fontawesome\css\fontawesome.min.css have been uploaded previously. Skipping.
-2021-10-14 18:12:31,246 : INFO : iGEM_URL : ../webfonts/fa-regular-400.eot was changed to https://2021.igem.org/wiki/images/1/14/T--IISc-Bangalore--fontawesome--webfonts--fa-regular-400.eot in assets\fontawesome\css\regular.css.
-2021-10-14 18:12:31,247 : WARNING : iGEM_URL : ../webfonts/fa-regular-400.woff2 is referenced in assets\fontawesome\css\regular.css but was not found.
-2021-10-14 18:12:31,249 : INFO : iGEM_URL : ../webfonts/fa-regular-400.woff was changed to https://2021.igem.org/wiki/images/9/97/T--IISc-Bangalore--fontawesome--webfonts--fa-regular-400.woff in assets\fontawesome\css\regular.css.
-2021-10-14 18:12:31,250 : INFO : iGEM_URL : ../webfonts/fa-regular-400.ttf was changed to https://2021.igem.org/wiki/images/4/4c/T--IISc-Bangalore--fontawesome--webfonts--fa-regular-400.ttf in assets\fontawesome\css\regular.css.
-2021-10-14 18:12:31,252 : INFO : iGEM_URL : ../webfonts/fa-regular-400.svg was changed to https://2021.igem.org/wiki/images/9/93/T--IISc-Bangalore--fontawesome--webfonts--fa-regular-400.svg in assets\fontawesome\css\regular.css.
-2021-10-14 18:12:31,252 : INFO : build_and_upload : Contents of assets\fontawesome\css\regular.css have been uploaded previously. Skipping.
-2021-10-14 18:12:31,257 : INFO : iGEM_URL : ../webfonts/fa-regular-400.eot was changed to https://2021.igem.org/wiki/images/1/14/T--IISc-Bangalore--fontawesome--webfonts--fa-regular-400.eot in assets\fontawesome\css\regular.min.css.
-2021-10-14 18:12:31,258 : WARNING : iGEM_URL : ../webfonts/fa-regular-400.woff2 is referenced in assets\fontawesome\css\regular.min.css but was not found.
-2021-10-14 18:12:31,259 : INFO : iGEM_URL : ../webfonts/fa-regular-400.woff was changed to https://2021.igem.org/wiki/images/9/97/T--IISc-Bangalore--fontawesome--webfonts--fa-regular-400.woff in assets\fontawesome\css\regular.min.css.
-2021-10-14 18:12:31,260 : INFO : iGEM_URL : ../webfonts/fa-regular-400.ttf was changed to https://2021.igem.org/wiki/images/4/4c/T--IISc-Bangalore--fontawesome--webfonts--fa-regular-400.ttf in assets\fontawesome\css\regular.min.css.
-2021-10-14 18:12:31,260 : INFO : iGEM_URL : ../webfonts/fa-regular-400.svg was changed to https://2021.igem.org/wiki/images/9/93/T--IISc-Bangalore--fontawesome--webfonts--fa-regular-400.svg in assets\fontawesome\css\regular.min.css.
-2021-10-14 18:12:31,260 : INFO : build_and_upload : Contents of assets\fontawesome\css\regular.min.css have been uploaded previously. Skipping.
-2021-10-14 18:12:31,261 : INFO : iGEM_URL : ../webfonts/fa-solid-900.eot was changed to https://2021.igem.org/wiki/images/6/68/T--IISc-Bangalore--fontawesome--webfonts--fa-solid-900.eot in assets\fontawesome\css\solid.css.
-2021-10-14 18:12:31,262 : WARNING : iGEM_URL : ../webfonts/fa-solid-900.woff2 is referenced in assets\fontawesome\css\solid.css but was not found.
-2021-10-14 18:12:31,266 : INFO : iGEM_URL : ../webfonts/fa-solid-900.woff was changed to https://2021.igem.org/wiki/images/a/ab/T--IISc-Bangalore--fontawesome--webfonts--fa-solid-900.woff in assets\fontawesome\css\solid.css.
-2021-10-14 18:12:31,267 : INFO : iGEM_URL : ../webfonts/fa-solid-900.ttf was changed to https://2021.igem.org/wiki/images/f/fd/T--IISc-Bangalore--fontawesome--webfonts--fa-solid-900.ttf in assets\fontawesome\css\solid.css.
-2021-10-14 18:12:31,274 : INFO : iGEM_URL : ../webfonts/fa-solid-900.svg was changed to https://2021.igem.org/wiki/images/7/75/T--IISc-Bangalore--fontawesome--webfonts--fa-solid-900.svg in assets\fontawesome\css\solid.css.
-2021-10-14 18:12:31,274 : INFO : build_and_upload : Contents of assets\fontawesome\css\solid.css have been uploaded previously. Skipping.
-2021-10-14 18:12:31,275 : INFO : iGEM_URL : ../webfonts/fa-solid-900.eot was changed to https://2021.igem.org/wiki/images/6/68/T--IISc-Bangalore--fontawesome--webfonts--fa-solid-900.eot in assets\fontawesome\css\solid.min.css.
-2021-10-14 18:12:31,275 : WARNING : iGEM_URL : ../webfonts/fa-solid-900.woff2 is referenced in assets\fontawesome\css\solid.min.css but was not found.
-2021-10-14 18:12:31,284 : INFO : iGEM_URL : ../webfonts/fa-solid-900.woff was changed to https://2021.igem.org/wiki/images/a/ab/T--IISc-Bangalore--fontawesome--webfonts--fa-solid-900.woff in assets\fontawesome\css\solid.min.css.
-2021-10-14 18:12:31,287 : INFO : iGEM_URL : ../webfonts/fa-solid-900.ttf was changed to https://2021.igem.org/wiki/images/f/fd/T--IISc-Bangalore--fontawesome--webfonts--fa-solid-900.ttf in assets\fontawesome\css\solid.min.css.
-2021-10-14 18:12:31,290 : INFO : iGEM_URL : ../webfonts/fa-solid-900.svg was changed to https://2021.igem.org/wiki/images/7/75/T--IISc-Bangalore--fontawesome--webfonts--fa-solid-900.svg in assets\fontawesome\css\solid.min.css.
-2021-10-14 18:12:31,291 : INFO : build_and_upload : Contents of assets\fontawesome\css\solid.min.css have been uploaded previously. Skipping.
-2021-10-14 18:12:31,291 : INFO : build_and_upload : Contents of assets\fontawesome\css\svg-with-js.css have been uploaded previously. Skipping.
-2021-10-14 18:12:31,292 : INFO : build_and_upload : Contents of assets\fontawesome\css\svg-with-js.min.css have been uploaded previously. Skipping.
-2021-10-14 18:12:31,292 : INFO : build_and_upload : Contents of assets\fontawesome\css\v4-shims.css have been uploaded previously. Skipping.
-2021-10-14 18:12:31,293 : INFO : build_and_upload : Contents of assets\fontawesome\css\v4-shims.min.css have been uploaded previously. Skipping.
-2021-10-14 18:12:31,294 : INFO : build_and_upload : Contents of css\aos.css have been uploaded previously. Skipping.
-2021-10-14 18:12:31,294 : INFO : build_and_upload : Contents of css\igem_reset.css have been uploaded previously. Skipping.
-2021-10-14 18:12:31,300 : INFO : build_and_upload : Contents of css\materialize.css have been uploaded previously. Skipping.
-2021-10-14 18:12:31,302 : INFO : build_and_upload : Contents of css\style.css have been uploaded previously. Skipping.
-2021-10-14 18:12:31,303 : INFO : build_and_upload : Contents of assets\fontawesome\attribution.js have been uploaded previously. Skipping.
-2021-10-14 18:12:31,313 : INFO : build_and_upload : Contents of assets\fontawesome\js\all.js have been uploaded previously. Skipping.
-2021-10-14 18:12:31,327 : INFO : build_and_upload : Contents of assets\fontawesome\js\all.min.js have been uploaded previously. Skipping.
-2021-10-14 18:12:31,334 : INFO : build_and_upload : Contents of assets\fontawesome\js\brands.js have been uploaded previously. Skipping.
-2021-10-14 18:12:31,339 : INFO : build_and_upload : Contents of assets\fontawesome\js\brands.min.js have been uploaded previously. Skipping.
-2021-10-14 18:12:31,339 : INFO : build_and_upload : Contents of assets\fontawesome\js\conflict-detection.js have been uploaded previously. Skipping.
-2021-10-14 18:12:31,340 : INFO : build_and_upload : Contents of assets\fontawesome\js\conflict-detection.min.js have been uploaded previously. Skipping.
-2021-10-14 18:12:31,341 : INFO : build_and_upload : Contents of assets\fontawesome\js\fontawesome.js have been uploaded previously. Skipping.
-2021-10-14 18:12:31,342 : INFO : build_and_upload : Contents of assets\fontawesome\js\fontawesome.min.js have been uploaded previously. Skipping.
-2021-10-14 18:12:31,343 : INFO : build_and_upload : Contents of assets\fontawesome\js\regular.js have been uploaded previously. Skipping.
-2021-10-14 18:12:31,344 : INFO : build_and_upload : Contents of assets\fontawesome\js\regular.min.js have been uploaded previously. Skipping.
-2021-10-14 18:12:31,353 : INFO : build_and_upload : Contents of assets\fontawesome\js\solid.js have been uploaded previously. Skipping.
-2021-10-14 18:12:31,358 : INFO : build_and_upload : Contents of assets\fontawesome\js\solid.min.js have been uploaded previously. Skipping.
-2021-10-14 18:12:31,359 : INFO : build_and_upload : Contents of assets\fontawesome\js\v4-shims.js have been uploaded previously. Skipping.
-2021-10-14 18:12:31,359 : INFO : build_and_upload : Contents of assets\fontawesome\js\v4-shims.min.js have been uploaded previously. Skipping.
-2021-10-14 18:12:31,360 : INFO : build_and_upload : Contents of js\aos.js have been uploaded previously. Skipping.
-2021-10-14 18:12:31,360 : INFO : build_and_upload : Contents of js\font_awesome.js have been uploaded previously. Skipping.
-2021-10-14 18:12:31,366 : INFO : build_and_upload : Contents of js\materialize.js have been uploaded previously. Skipping.
+2021-10-14 23:44:38,325 : INFO : iGEM_login : Already logged in.
+2021-10-14 23:44:38,628 : INFO : iGEM_URL : css/igem_reset.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/igem_resetCSS?action=raw&ctype=text/css in Attributions.html.
+2021-10-14 23:44:38,628 : INFO : iGEM_URL : css/materialize.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/materializeCSS?action=raw&ctype=text/css in Attributions.html.
+2021-10-14 23:44:38,628 : INFO : iGEM_URL : css/aos.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/aosCSS?action=raw&ctype=text/css in Attributions.html.
+2021-10-14 23:44:38,628 : INFO : iGEM_URL : css/style.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&ctype=text/css in Attributions.html.
+2021-10-14 23:44:38,633 : INFO : iGEM_URL : js/materialize.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/materializeJS?action=raw&ctype=text/javascript in Attributions.html.
+2021-10-14 23:44:38,634 : INFO : iGEM_URL : js/aos.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/aosJS?action=raw&ctype=text/javascript in Attributions.html.
+2021-10-14 23:44:38,635 : INFO : iGEM_URL : index.html was changed to https://2021.igem.org/Team:IISc-Bangalore in Attributions.html.
+2021-10-14 23:44:38,636 : INFO : iGEM_URL : Attributions.html was changed to https://2021.igem.org/Team:IISc-Bangalore/Attributions in Attributions.html.
+2021-10-14 23:44:38,649 : INFO : iGEM_URL : assets/images/team_iisc_logo_min.png was changed to https://2021.igem.org/wiki/images/c/cd/T--IISc-Bangalore--images--team_iisc_logo_min.png in Attributions.html.
+2021-10-14 23:44:38,651 : INFO : iGEM_URL : assets/sponsors/iisc.png was changed to https://2021.igem.org/wiki/images/2/28/T--IISc-Bangalore--sponsors--iisc.png in Attributions.html.
+2021-10-14 23:44:38,653 : INFO : iGEM_URL : assets/sponsors/benchling.png was changed to https://2021.igem.org/wiki/images/e/e1/T--IISc-Bangalore--sponsors--benchling.png in Attributions.html.
+2021-10-14 23:44:38,654 : INFO : iGEM_URL : assets/sponsors/snapgene.png was changed to https://2021.igem.org/wiki/images/6/69/T--IISc-Bangalore--sponsors--snapgene.png in Attributions.html.
+2021-10-14 23:44:38,656 : INFO : iGEM_URL : assets/sponsors/labfolder.png was changed to https://2021.igem.org/wiki/images/5/53/T--IISc-Bangalore--sponsors--labfolder.png in Attributions.html.
+2021-10-14 23:44:38,657 : INFO : iGEM_URL : assets/sponsors/odaa.png was changed to https://2021.igem.org/wiki/images/7/79/T--IISc-Bangalore--sponsors--odaa.png in Attributions.html.
+2021-10-14 23:44:38,658 : INFO : iGEM_URL : assets/icons/facebook.png was changed to https://2021.igem.org/wiki/images/9/9e/T--IISc-Bangalore--icons--facebook.png in Attributions.html.
+2021-10-14 23:44:38,659 : INFO : iGEM_URL : assets/icons/twitter.png was changed to https://2021.igem.org/wiki/images/7/75/T--IISc-Bangalore--icons--twitter.png in Attributions.html.
+2021-10-14 23:44:38,660 : INFO : iGEM_URL : assets/icons/instagram.png was changed to https://2021.igem.org/wiki/images/5/5e/T--IISc-Bangalore--icons--instagram.png in Attributions.html.
+2021-10-14 23:44:38,661 : INFO : iGEM_URL : assets/images/team_iisc_logo_footer.png was changed to https://2021.igem.org/wiki/images/7/7c/T--IISc-Bangalore--images--team_iisc_logo_footer.png in Attributions.html.
+2021-10-14 23:44:38,662 : INFO : iGEM_URL : assets/icons/facebook.png was changed to https://2021.igem.org/wiki/images/9/9e/T--IISc-Bangalore--icons--facebook.png in Attributions.html.
+2021-10-14 23:44:38,664 : INFO : iGEM_URL : assets/icons/twitter.png was changed to https://2021.igem.org/wiki/images/7/75/T--IISc-Bangalore--icons--twitter.png in Attributions.html.
+2021-10-14 23:44:38,665 : INFO : iGEM_URL : assets/icons/instagram.png was changed to https://2021.igem.org/wiki/images/5/5e/T--IISc-Bangalore--icons--instagram.png in Attributions.html.
+2021-10-14 23:44:38,666 : INFO : iGEM_URL : assets/images/team_iisc_logo_footer.png was changed to https://2021.igem.org/wiki/images/7/7c/T--IISc-Bangalore--images--team_iisc_logo_footer.png in Attributions.html.
+2021-10-14 23:44:40,468 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:IISc-Bangalore/Attributions&action=edit.
+2021-10-14 23:44:40,536 : INFO : iGEM_URL : css/igem_reset.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/igem_resetCSS?action=raw&ctype=text/css in index.html.
+2021-10-14 23:44:40,536 : INFO : iGEM_URL : css/materialize.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/materializeCSS?action=raw&ctype=text/css in index.html.
+2021-10-14 23:44:40,536 : INFO : iGEM_URL : css/aos.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/aosCSS?action=raw&ctype=text/css in index.html.
+2021-10-14 23:44:40,543 : INFO : iGEM_URL : css/style.css was changed to https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&ctype=text/css in index.html.
+2021-10-14 23:44:40,547 : INFO : iGEM_URL : js/materialize.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/materializeJS?action=raw&ctype=text/javascript in index.html.
+2021-10-14 23:44:40,549 : INFO : iGEM_URL : js/aos.js was changed to https://2021.igem.org/Template:IISc-Bangalore/js/aosJS?action=raw&ctype=text/javascript in index.html.
+2021-10-14 23:44:40,550 : INFO : iGEM_URL : index.html was changed to https://2021.igem.org/Team:IISc-Bangalore in index.html.
+2021-10-14 23:44:40,551 : INFO : iGEM_URL : Attributions.html was changed to https://2021.igem.org/Team:IISc-Bangalore/Attributions in index.html.
+2021-10-14 23:44:40,566 : INFO : iGEM_URL : assets/images/team_iisc_logo_min.png was changed to https://2021.igem.org/wiki/images/c/cd/T--IISc-Bangalore--images--team_iisc_logo_min.png in index.html.
+2021-10-14 23:44:40,566 : INFO : iGEM_URL : assets/images/team_iisc_logo.png was changed to https://2021.igem.org/wiki/images/9/99/T--IISc-Bangalore--images--team_iisc_logo.png in index.html.
+2021-10-14 23:44:40,567 : INFO : iGEM_URL : assets/images/agriculture.png was changed to https://2021.igem.org/wiki/images/7/77/T--IISc-Bangalore--images--agriculture.png in index.html.
+2021-10-14 23:44:40,568 : INFO : iGEM_URL : assets/images/molecules.png was changed to https://2021.igem.org/wiki/images/c/ce/T--IISc-Bangalore--images--molecules.png in index.html.
+2021-10-14 23:44:40,568 : INFO : iGEM_URL : assets/images/banned.png was changed to https://2021.igem.org/wiki/images/b/b7/T--IISc-Bangalore--images--banned.png in index.html.
+2021-10-14 23:44:40,568 : INFO : iGEM_URL : assets/images/collaboration.png was changed to https://2021.igem.org/wiki/images/6/65/T--IISc-Bangalore--images--collaboration.png in index.html.
+2021-10-14 23:44:40,568 : INFO : iGEM_URL : assets/sponsors/iisc.png was changed to https://2021.igem.org/wiki/images/2/28/T--IISc-Bangalore--sponsors--iisc.png in index.html.
+2021-10-14 23:44:40,568 : INFO : iGEM_URL : assets/sponsors/benchling.png was changed to https://2021.igem.org/wiki/images/e/e1/T--IISc-Bangalore--sponsors--benchling.png in index.html.
+2021-10-14 23:44:40,568 : INFO : iGEM_URL : assets/sponsors/snapgene.png was changed to https://2021.igem.org/wiki/images/6/69/T--IISc-Bangalore--sponsors--snapgene.png in index.html.
+2021-10-14 23:44:40,574 : INFO : iGEM_URL : assets/sponsors/labfolder.png was changed to https://2021.igem.org/wiki/images/5/53/T--IISc-Bangalore--sponsors--labfolder.png in index.html.
+2021-10-14 23:44:40,574 : INFO : iGEM_URL : assets/sponsors/odaa.png was changed to https://2021.igem.org/wiki/images/7/79/T--IISc-Bangalore--sponsors--odaa.png in index.html.
+2021-10-14 23:44:40,575 : INFO : iGEM_URL : assets/icons/facebook.png was changed to https://2021.igem.org/wiki/images/9/9e/T--IISc-Bangalore--icons--facebook.png in index.html.
+2021-10-14 23:44:40,576 : INFO : iGEM_URL : assets/icons/twitter.png was changed to https://2021.igem.org/wiki/images/7/75/T--IISc-Bangalore--icons--twitter.png in index.html.
+2021-10-14 23:44:40,577 : INFO : iGEM_URL : assets/icons/instagram.png was changed to https://2021.igem.org/wiki/images/5/5e/T--IISc-Bangalore--icons--instagram.png in index.html.
+2021-10-14 23:44:40,579 : INFO : iGEM_URL : assets/images/team_iisc_logo_footer.png was changed to https://2021.igem.org/wiki/images/7/7c/T--IISc-Bangalore--images--team_iisc_logo_footer.png in index.html.
+2021-10-14 23:44:40,580 : INFO : iGEM_URL : assets/icons/facebook.png was changed to https://2021.igem.org/wiki/images/9/9e/T--IISc-Bangalore--icons--facebook.png in index.html.
+2021-10-14 23:44:40,582 : INFO : iGEM_URL : assets/icons/twitter.png was changed to https://2021.igem.org/wiki/images/7/75/T--IISc-Bangalore--icons--twitter.png in index.html.
+2021-10-14 23:44:40,583 : INFO : iGEM_URL : assets/icons/instagram.png was changed to https://2021.igem.org/wiki/images/5/5e/T--IISc-Bangalore--icons--instagram.png in index.html.
+2021-10-14 23:44:40,583 : INFO : iGEM_URL : assets/images/team_iisc_logo_footer.png was changed to https://2021.igem.org/wiki/images/7/7c/T--IISc-Bangalore--images--team_iisc_logo_footer.png in index.html.
+2021-10-14 23:44:40,597 : INFO : iGEM_URL : assets/videos/iisc_promo_video.mp4 was changed to https://2021.igem.org/wiki/images/a/a3/T--IISc-Bangalore--videos--iisc_promo_video.mp4 in index.html.
+2021-10-14 23:44:42,075 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:IISc-Bangalore&action=edit.
+2021-10-14 23:44:42,079 : INFO : build_and_upload : Contents of css\aos.css have been uploaded previously. Skipping.
+2021-10-14 23:44:42,081 : INFO : build_and_upload : Contents of css\igem_reset.css have been uploaded previously. Skipping.
+2021-10-14 23:44:42,088 : INFO : build_and_upload : Contents of css\materialize.css have been uploaded previously. Skipping.
+2021-10-14 23:44:42,092 : INFO : iGEM_URL : ../assets/fonts/comfortaa.ttf was changed to https://2021.igem.org/wiki/images/7/76/T--IISc-Bangalore--fonts--comfortaa.ttf in css\style.css.
+2021-10-14 23:44:42,095 : INFO : iGEM_URL : ../assets/fonts/poppins.ttf was changed to https://2021.igem.org/wiki/images/d/dc/T--IISc-Bangalore--fonts--poppins.ttf in css\style.css.
+2021-10-14 23:44:42,096 : INFO : build_and_upload : Contents of css\style.css have been uploaded previously. Skipping.
+2021-10-14 23:44:42,098 : INFO : build_and_upload : Contents of js\aos.js have been uploaded previously. Skipping.
+2021-10-14 23:44:42,101 : INFO : build_and_upload : Contents of js\font_awesome.js have been uploaded previously. Skipping.
+2021-10-14 23:44:42,118 : INFO : build_and_upload : Contents of js\materialize.js have been uploaded previously. Skipping.

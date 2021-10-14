@@ -131,6 +131,26 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/7/7b/T--IISc-Bangalore--fonts--Raleway.ttf
     md5: 75b4247fdd3b97d0e3b8e07b115673c2
     upload_filename: T--IISc-Bangalore--fonts--Raleway.ttf
+  assets\fonts\comfortaa.ttf:
+    link_URL: https://2021.igem.org/wiki/images/7/76/T--IISc-Bangalore--fonts--comfortaa.ttf
+    md5: f40889caa25956ef4d27c2aadc4fbe13
+    upload_filename: T--IISc-Bangalore--fonts--comfortaa.ttf
+  assets\fonts\poppins.ttf:
+    link_URL: https://2021.igem.org/wiki/images/d/dc/T--IISc-Bangalore--fonts--poppins.ttf
+    md5: f6ea751e936ade6edcd03a26b8153b4a
+    upload_filename: T--IISc-Bangalore--fonts--poppins.ttf
+  assets\icons\facebook.png:
+    link_URL: https://2021.igem.org/wiki/images/9/9e/T--IISc-Bangalore--icons--facebook.png
+    md5: f63a0ae9fcf6cd73c344c343043355da
+    upload_filename: T--IISc-Bangalore--icons--facebook.png
+  assets\icons\instagram.png:
+    link_URL: https://2021.igem.org/wiki/images/5/5e/T--IISc-Bangalore--icons--instagram.png
+    md5: b17d99ac2b6dfe78563b73a1b12a057b
+    upload_filename: T--IISc-Bangalore--icons--instagram.png
+  assets\icons\twitter.png:
+    link_URL: https://2021.igem.org/wiki/images/7/75/T--IISc-Bangalore--icons--twitter.png
+    md5: 9cfeee7054b3f11667985e56a6e5e7db
+    upload_filename: T--IISc-Bangalore--icons--twitter.png
   assets\igem_iisc_logo.png:
     link_URL: https://2021.igem.org/wiki/images/a/ab/T--IISc-Bangalore--igem_iisc_logo.png
     md5: b7fbe29217d19fe0f5628ee2e9b11d9b
@@ -163,6 +183,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/9/99/T--IISc-Bangalore--images--team_iisc_logo.png
     md5: d3b8fe55251fe7f91718ccac91fd48e6
     upload_filename: T--IISc-Bangalore--images--team_iisc_logo.png
+  assets\images\team_iisc_logo_footer.png:
+    link_URL: https://2021.igem.org/wiki/images/7/7c/T--IISc-Bangalore--images--team_iisc_logo_footer.png
+    md5: d32f224f799be3e98d76705c55f3340f
+    upload_filename: T--IISc-Bangalore--images--team_iisc_logo_footer.png
   assets\images\team_iisc_logo_min.png:
     link_URL: https://2021.igem.org/wiki/images/c/cd/T--IISc-Bangalore--images--team_iisc_logo_min.png
     md5: 9ecd31895d288ca39c0d8deb72d3a6a9
@@ -268,7 +292,7 @@ css:
     md5: cee3dd9efab7b663947847b6bfd2dba8
   css\igem_reset.css:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/igem_resetCSS?action=raw&ctype=text/css
-    md5: 49b81655f3003a7d637fc74937867c9a
+    md5: 398f783e15149c893fa7336cb75a0dec
   css\materialize.css:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/materializeCSS?action=raw&ctype=text/css
     md5: 842277f7af0a1152a81d88708e7edd78
@@ -277,17 +301,17 @@ css:
     md5: 3c3ee463702a1f1a74a8d7ba36f16f3e
   css\style.css:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&ctype=text/css
-    md5: 5f7c831353cdaa83c8b89113ace321f1
+    md5: 8ef81b6d2eb860abbc87b551907711ac
 html:
   Attributions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Attributions
-    md5: db316f4ce6758bd0f3861aa66854be69
+    md5: c0da511e7b3c6c0fec79af075e78930b
   attributions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/attributions
     md5: 4f4e8db9d168ffeaa60e820ca874ea16
   index.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore
-    md5: b04da75241bee177124fa8b7e4ed2dce
+    md5: 8da493bf605f1b0346cd5bd029eda3ac
 js:
   assets\fontawesome\attribution.js:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/attributionJS?action=raw&ctype=text/javascript
