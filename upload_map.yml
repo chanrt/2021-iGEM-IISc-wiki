@@ -7,6 +7,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/4/45/T--IISc-Bangalore--agriculture.png
     md5: ba0afd7f329b0eaea3e977ff12cb6d5f
     upload_filename: T--IISc-Bangalore--agriculture.png
+  assets\backgrounds\attributions.jpg:
+    link_URL: https://2021.igem.org/wiki/images/f/f5/T--IISc-Bangalore--backgrounds--attributions.jpg
+    md5: 8a734a33bf6f9917f6f76373b77cab25
+    upload_filename: T--IISc-Bangalore--backgrounds--attributions.jpg
   assets\banned.png:
     link_URL: https://2021.igem.org/wiki/images/9/92/T--IISc-Bangalore--banned.png
     md5: 8b35acd2f36153c27da5b90b85b9751f
@@ -301,11 +305,11 @@ css:
     md5: 3c3ee463702a1f1a74a8d7ba36f16f3e
   css\style.css:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&ctype=text/css
-    md5: e988614cd4ab1b9f576648437c474030
+    md5: afc37a7c100e804df70b963e0f56cab1
 html:
   Attributions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Attributions
-    md5: 32ed75225d5312cfe3a22fce87754466
+    md5: c55d99afb2849bd5ba65d923292d6ca7
   attributions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/attributions
     md5: 4f4e8db9d168ffeaa60e820ca874ea16
