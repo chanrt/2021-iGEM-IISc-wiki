@@ -18,7 +18,7 @@
     <!-- stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Attributions | IISc Bangalore</title>
+    <title>Results | IISc Bangalore</title>
 </head>
 
 <body>
@@ -131,7 +131,7 @@
 
     <style>
         .hero-image {
-            background-image: url("assets/backgrounds/attributions.jpg");
+            background-image: url("assets/backgrounds/results.jpg");
             height: 750px !important;
             background-position: center;
             background-repeat: no-repeat;
@@ -151,76 +151,267 @@
 
     <div class="hero-image" data-aos="zoom-in">
         <div class="hero-text">
-            <h1 style="color: white">Attributions</h1>
+            <h1 style="color: black">Results</h1>
         </div>
     </div>
     <br>
 
     <div class="container">
-
         <div class="row">
             <div class="col s12 l6">
                 <div class="card" style="background: rgb(248, 249, 250); border-radius: 2px;" data-aos="fade-right">
                     <div class="card-content">
                         <span class="card-title" style="font-weight: bold; font-size: xx-large;">Contents:</span>
                         <ul>
-                            <li><a href="#sponsors" class="content-link">Sponsors</a></li>
-                            <li><a href="#professors" class="content-link">Professors</a></li>
-                            <li><a href="#institutes" class="content-link">Institutes</a></li>
-                            <li><a href="#misc" class="content-link">Misc</a></li>
+                            <li><a href="#cloning" class="content-link">Cloning of C1 and C2</a></li>
+                            <li><a href="#expression" class="content-link">Expression tests</a></li>
+                            <li><a href="#solubility" class="content-link">Solubility Tests</a></li>
+                            <li><a href="#c2" class="content-link">C2(2.0)</a></li>
+                            <li><a href="#c3" class="content-link">C2(3.0)</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div id="sponsors" class="col s12" data-aos="fade-right">
-                <h2>Sponsors</h2>
+
+            <div id="cloning" class="col s12" data-aos="fade-right">
+                <h2>Cloning of C1 and C2</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum
+                    Constructs C1 (SpyCatcher002-dCBD) and C2 (OpdA-SpyTag002) were synthesized by GenScript and shipped
+                    to
+                    us after being cloned into pUC57-Kan vectors. We amplified the constructs using suitable primers in
+                    order to carry out Gibson assembly, by performing PCR with KOD polymerase. Gel electrophoresis
+                    results
+                    are given below:
+                </p>
+                <div class="col s12 l6">
+                    <figure>
+                        <img class="responsive-img" src="assets/images/results/06.21_EtBr_C1-PCR.png">
+                        <figcaption>Fig 1: C1 PCR (M = marker)</figcaption>
+                    </figure>
+                </div>
+                <div class="col s12 l6">
+                    <figure>
+                        <img class="responsive-img" src="assets/images/results/06.22_EtBr_C2-PCR.png">
+                        <figcaption>Fig 2: C2 PCR (M = marker)</figcaption>
+                    </figure>
+                </div>
+                <p>
+                    In order to express our constructs in <em></em>E. coli</em>, we chose a pETMCN-T7 (KanR) vector, because it has a
+                    high
+                    copy number and transcription using the T7 RNA polymerase can be strongly induced upon addition of
+                    IPTG.
+                </p>
+                <p>
+                    pETMCN-T7 was linearized by digestion with NdeI. PCR primers for amplification of C1 and C2 were
+                    designed to have overlaps with pETMCN-T7 on either side of the NdeI site. Both the PCR amplified
+                    constructs and the linearized vector were gel extracted. Gibson Assembly was performed on these
+                    samples
+                    to yield C1_pETMCN-T7 and C2_pETMCN-T7.
+                </p>
+                <p>
+                    The above samples were transformed into <em>E. coli</em> DH5&alpha;, inoculated into liquid culture, and
+                    miniprepped.
+                    Double digestion was performed using NheI and BglII to verify positive clones by insert release. Gel
+                    electrophoresis results are given below:
+                </p>
+                <figure>
+                    <img class="responsive-img" src="assets/images/results/06.28_EtBr_C1-Gibson-Verify.png">
+                    <figcaption>Fig 3: Verification of C1 clones using double digestion (sample 3 culture was
+                        unsuccessful;
+                        M = marker, EVC = double digested pETMCN-T7)</figcaption>
+                </figure>
+                <p>
+                    All C1 samples contained an insert of appropriate size (~1 kb) and were thus positive clones. Samples
+                    7
+                    and 8 were chosen for further experiments (based on concentrations).
+                </p>
+                <figure>
+                    <img class="responsive-img" src="assets/images/results/06.28_EtBr_C2-Gibson-Verify.png">
+                    <figcaption>Fig 4: Verification of C2 clones using double digestion (M = marker, EVC = double
+                        digested
+                        pETMCN-T7)</figcaption>
+                </figure>
+                <p>
+                    C2 samples 3 and 5 showed anomalous bands, while the rest were positive clones (insert band around
+                    ~2kb). Samples 6 and 7 were chosen for further experiments.
                 </p>
             </div>
-            <div id="professors" class="col s12" data-aos="fade-right">
-                <h2>Professors</h2>
+
+            <div id="expression" class="col s12" data-aos="fade-right">
+                <h2>Expression Tests</h2>
                 <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-                    sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-                    est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius
-                    modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-                    veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
-                    commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
-                    molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+                    The chosen positive clones were transformed into <em>E. coli</em> BL21(DE3) for protein production. Secondary
+                    liquid cultures were induced with 0.25 mM or 0.5 mM IPTG and incubated at 23°C for 6 hrs or 30°C for
+                    4
+                    hrs. Cell pellets were lysed by boiling in SDS Laemmli buffer. SDS-PAGE was performed on all the
+                    samples.
+                </p>
+                <figure>
+                    <img class="responsive-img" src="assets/images/results/07.02_Coomassie_C1-Expression.png">
+                    <figcaption>Fig 5: Expression tests for C1 (M = marker, U = uninduced)</figcaption>
+                </figure>
+                <p>
+                    No prominent band at ~25kDa (C1 molecular weight) could be observed for induced samples as compared
+                    to
+                    uninduced samples for any of the tested induction conditions.
+                </p>
+                <figure>
+                    <img class="responsive-img" src="assets/images/results/07.02_Coomassie_C2-Expression.png">
+                    <figcaption>Fig 6: Expression tests for C2 (M = marker, U = uninduced)</figcaption>
+                </figure>
+                <p>
+                    Brighter bands at ~75kDa (C2 molecular weight) could be observed for induced samples compared to
+                    uninduced for 0.25 mM IPTG at both temperatures.
+                </p>
+                <p>
+                    A Western blot was performed using anti-His primary antibody to detect C1, and C2 samples were taken
+                    as
+                    well.
+                </p>
+                <figure>
+                    <img class="responsive-img" src="assets/images/results/07.09_Western_C1,C2-anti-His.png">
+                    <figcaption>Fig 7: Western blot for C1 and C2 expression tests (M = marker, U = uninduced)
+                    </figcaption>
+                </figure>
+                <p>
+                    For C1, prominent bands were observed at ~25kDa, with induction being strongest for 0.5 mM IPTG
+                    incubated at 30°C. This was taken to be the induction condition for a large-scale culture. The same
+                    conditions were finalized for C2 also since there was a prominent band at ~75kDa.
                 </p>
             </div>
-            <div id="institutes" class="col s12" data-aos="fade-right">
-                <h2>Institutes</h2>
+
+            <div id="solubility" class="col s12" data-aos="fade-right">
+                <h2>Solubility Tests</h2>
                 <p>
-                    Lectus mauris ultrices eros in cursus turpis massa. Habitant morbi tristique senectus et. Tellus id
-                    interdum velit laoreet id donec ultrices tincidunt. Velit scelerisque in dictum non consectetur.
-                    Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis. Elementum nisi quis eleifend quam
-                    adipiscing vitae proin sagittis. Varius duis at consectetur lorem donec massa sapien. Id donec
-                    ultrices tincidunt arcu non sodales neque sodales ut. Ut lectus arcu bibendum at varius vel pharetra
-                    vel. Quam vulputate dignissim suspendisse in. Egestas egestas fringilla phasellus faucibus
-                    scelerisque.
+                    Large scale <em>E. coli</em> BL21(DE3) cultures (50 mL each) were set up for both C1 and C2, with induction
+                    by
+                    0.5 mM IPTG at 30°C. After cells were harvested, they were lysed and subjected to Ni-NTA pulldown to
+                    check solubility. SDS-PAGE was performed on the boiled samples taken from different fractions
+                    (lysate,
+                    pellet, supernatant, washed and bead-bound).
+                </p>
+                <figure>
+                    <img class="responsive-img" src="assets/images/results/07.10_Coomassie_C1,C2-Solubility.png">
+                    <figcaption>Fig 8: Solubility test for C1 & C2 using Ni-NTA pulldown [M = marker, L = cell lysate, P
+                        =
+                        pellet, S = supernatant, BB = bead-bound (boiled), BE = bead-bound (eluted)]</figcaption>
+                </figure>
+                <p>
+                    Amounts of protein loaded were not normalized, and hence large blobs were observed in the pellet
+                    fractions. The bead-bound fraction for C1 showed a large band at ~25kDa, which implied that C1 was
+                    appreciably soluble. No such observation could be made for C2.
+                </p>
+                <p>
+                    By this point, we had standardized the expression conditions for C1 and C2, and also verified that
+                    C1
+                    was indeed soluble. To verify the same for C2, two Western blots were performed on the C2 pulldown
+                    samples, using anti-His and anti-GFP primary antibody respectively.
+                </p>
+                <div class="col s12 l6">
+                    <figure>
+                        <img class="responsive-img" src="assets/images/results/07.16_Western_C2-anti-GFP.png">
+                        <figcaption>Fig 9: anti-GFP blot for C2 [M = marker, L = cell lysate, P = pellet, S =
+                            supernatant,
+                            BB =
+                            bead-bound (boiled), NC = negative control (C1 BB fraction, 5 &micro;L)]</figcaption>
+                    </figure>
+                </div>
+                <div class="col s12 l6">
+                    <figure>
+                        <img class="responsive-img" src="assets/images/results/07.16_Western_C2-anti-His.png">
+                        <figcaption>Fig 10: anti-His blot for C2 [M = marker, L = cell lysate, P = pellet, S =
+                            supernatant,
+                            BB = bead-bound (boiled), PC = positive control (C1 BB fraction, 5 &micro;L)]</figcaption>
+                    </figure>
+                </div>
+                <p>
+                    In the anti-GFP blot, a prominent band at ~75kDa could be observed, but there were a lot of other
+                    bands
+                    too, and similar lower molecular weight bands were observed for the anti-His blot too. This
+                    suggested
+                    that there was a lot of non-specific antibody binding, contamination, or protein degradation in case
+                    of
+                    C2. This was repeated for more dilute antibody treatments, but results looked similar, which led us
+                    to
+                    believe that C2 was indeed getting degraded.
+                </p>
+                <p>
+                    The pulldown of C2 was performed again with an anti-GFP nanobody coupled to GST tagged
+                    glutathione-sepharose beads. SDS-PAGE was performed on the samples.
+                </p>
+                <figure>
+                    <img class="responsive-img" src="assets/images/results/07.30_Coomasie_C2-GFP-Nb.png">
+                    <figcaption>Fig 11: Solubility test for C2 using anti-GFP pulldown [M = marker, U = uninduced, L =
+                        cell
+                        lysate, P = pellet, S = supernatant, BB = bead-bound (boiled)]</figcaption>
+                </figure>
+                <p>
+                    Prominent bands at ~37kDa were observed corresponding to the nanobody, but none at ~75kDa, which
+                    implied
+                    that pulldown was unsuccessful. We suspected that C2 might not be properly soluble and hence might
+                    not
+                    have been interacting with the anti-GFP nanobody tagged beads. We thus decided to modify the C2
+                    construct.
                 </p>
             </div>
-            <div id="misc" class="col s12" data-aos="fade-right">
-                <h2>Misc</h2>
+
+            <div id="c2" class="col s12" data-aos="fade-right">
+                <h2>C2(2.0)</h2>
                 <p>
-                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-                    deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
-                    provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum
-                    fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis
-                    est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis
-                    voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis
-                    aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non
-                    recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus
-                    maiores alias consequatur aut perferendis doloribus asperiores repellat.
+                    In order to make C2 less bulky, we decided to take out the sfGFP module. This was taken into account
+                    in
+                    the design phase of the project, and KpnI restriction sites had been included on either end of the
+                    sfGFP
+                    CDS. C2_pETMCN-T7 was digested with KpnI followed by ligation to yield C2(2.0)_pETMCN-T7.
                 </p>
+                <figure>
+                    <img class="responsive-img" src="assets/images/results/Map_C2(2.0).png">
+                    <figcaption>Fig 12: Schematic map of C2(2.0)</figcaption>
+                </figure>
+                <p>
+                    Positive clones were identified using insert release by digestion with BamHI and BglII.
+                    Transformation
+                    was done into <em>E. coli</em> BL21(DE3) followed by Ni-NTA pulldown as before.
+                </p>
+                <figure>
+                    <img class="responsive-img" src="assets/images/results/08.03_Coomassie_C2(2.0)-Ni-NTA.png">
+                    <figcaption>Fig 13: Solubility test for C2(2.0) using Ni-NTA pulldown [M = marker, U = uninduced, L
+                        =
+                        cell lysate, P = pellet, S = supernatant, BB = bead-bound (boiled)]</figcaption>
+                </figure>
+                <p>
+                    No prominent band at ~50kDa (C2(2.0) molecular weight) could be observed.
+                </p>
+                <p>
+                    Pulldown was performed again using SpyDock linked Ni-NTA beads.
+                </p>
+                <figure>
+                    <img class="responsive-img" src="assets/images/results/08.11_Coomassie_C2(2.0)-SpyDock.png">
+                    <figcaption>Fig 14: Solubility test for C2(2.0) using SpyDock pulldown [M = marker, U = uninduced, L
+                        =
+                        cell lysate, P = pellet, S = supernatant, BB = bead-bound (boiled)]</figcaption>
+                </figure>
+                <p>
+                    Although a prominent band could be observed above ~15kDa (SpyDock molecular weight), none could be
+                    observed at ~50kDa. Till this point, we had not been able to verify solubility of either C2 or
+                    C2(2.0).
+                    We suspected that the hydrophobic signal peptide attached to OpdA might be leading to aggregation,
+                    so we
+                    decided to modify C2 yet again.
+                </p>
+            </div>
+
+            <div id="c3" class="col s12" data-aos="fade-right">
+                <h2>C2(3.0)</h2>
+                <p>
+                    In order to take out the OpdA signal peptide, a PCR was performed on C2(2.0)_pETMCN-T7 to amplify
+                    C2(2.0) minus the N-terminal signal. This PCR fragment was cloned into an empty pETMCN-T7 vector to
+                    yield C2(3.0)_pETMCN-T7.
+                </p>
+                <figure>
+                    <img class="responsive-img" src="assets/images/results/Map_C2(3.0).png">
+                    <figcaption>Fig 15: Schematic map of C2(3.0)</figcaption>
+                </figure>
             </div>
         </div>
     </div>

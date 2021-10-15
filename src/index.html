@@ -23,7 +23,7 @@
 
 <body>
     <!-- navbar start -->
-    <div class="navbar-fixed">
+    <div class="navbar-fixed hide-on-med-and-down">
         <nav>
             <div class="nav-wrapper">
                 <ul class="left nav-list valign-wrapper">
@@ -54,7 +54,7 @@
                 </ul>
 
                 <ul id="dropdown-labwork" class="dropdown-content">
-                    <li class="dropdown-item"><a class="dropdown-link" href="#">Results</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Results.html">Results</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="#">Protocols</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="#">Lab Notebook</a></li>
                 </ul>
@@ -75,9 +75,56 @@
 
     <div id="loader"></div>
 
-    <div class="header">
+    <div class="header hide-on-med-and-down">
         <div class="progress-container">
             <div class="progress-bar" id="myBar"></div>
+        </div>
+    </div>
+
+    <div class="nav-fixed hide-on-large-only">
+        <div class="accordian">
+            <button class="accordion">Navigation dropdown</button>
+            <div class="panel">
+                <ol>
+                    <li><a class="mobile-nav-link" href="index.html">Home</a></li>
+                    <li>
+                        <a class="mobile-nav-link">Project:</a>
+                        <ol style="list-style-type: lower-latin;">
+                            <li><a class="mobile-nav-link" href="#">Overview</a></li>
+                            <li><a class="mobile-nav-link" href="#">Design</a></li>
+                            <li><a class="mobile-nav-link" href="#">Engineering</a></li>
+                            <li><a class="mobile-nav-link" href="#">Implementation</a></li>
+                            <li><a class="mobile-nav-link" href="#">Safety</a></li>
+                        </ol>
+                    </li>
+                    <li><a class="mobile-nav-link" href="#">Parts</a></li>
+                    <li>
+                        <a class="mobile-nav-link">Lab work:</a>
+                        <ol style="list-style-type: lower-latin;">
+                            <li><a class="mobile-nav-link" href="Results.html">Results</a></li>
+                            <li><a class="mobile-nav-link" href="#">Protocol</a></li>
+                            <li><a class="mobile-nav-link" href="#">Lab notebook</a></li>
+                        </ol>
+                    </li>
+                    <li><a class="mobile-nav-link" href="#">Model</a></li>
+                    <li>
+                        <a class="mobile-nav-link">Human Practices:</a>
+                        <ol style="list-style-type: lower-latin;">
+                            <li><a class="mobile-nav-link" class="nav-link" href="#">Public Education and Engagement</a></li>
+                            <li><a class="mobile-nav-link" class="nav-link" href="#">Integrated Human Practices</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a class="mobile-nav-link">Team:</a>
+                        <ol style="list-style-type: lower-latin;">
+                            <li><a class="mobile-nav-link" href="#">Members</a></li>
+                            <li><a class="mobile-nav-link" href="Attributions.html">Attributions</a></li>
+                            <li><a class="mobile-nav-link" href="#">Collaborations</a></li>
+                        </ol>
+                    </li>
+                    <li><a class="mobile-nav-link" href="#">Judging</a></li>
+                </ol>
+            </div>
         </div>
     </div>
     <!-- navbar end -->
@@ -293,6 +340,26 @@
             document.getElementById("loader").style.display = "none";
             document.getElementsByTagName("nav")[0].style.display = "block";
             document.getElementsByClassName("header")[0].style.display = "block";
+
+            // preparing accordion
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function () {
+                    /* Toggle between adding and removing the "active" class,
+                    to highlight the button that controls the panel */
+                    this.classList.toggle("active");
+
+                    /* Toggle between hiding and showing the active panel */
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                    } else {
+                        panel.style.display = "block";
+                    }
+                });
+            }
         }
 
         window.onscroll = function myFunction() {
