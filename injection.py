@@ -1,6 +1,6 @@
 relative_path = "src/"
 source = "index.html"
-targets = ["Attributions.html", "Template_page.html", "Results.html", "Predictions.html"]
+targets = ["Attributions.html", "Template_page.html", "Results.html", "Predictions.html", "Communication.html"]
 
 navbar_start = "<!-- navbar start -->"
 navbar_end = "<!-- navbar end -->"

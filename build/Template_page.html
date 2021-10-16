@@ -273,6 +273,12 @@
             document.getElementById("loader").style.display = "none";
             document.getElementsByTagName("nav")[0].style.display = "block";
             document.getElementsByClassName("header")[0].style.display = "block";
+            document.getElementsByClassName("page-footer")[0].style.display = "block";
+
+            let containers = document.getElementsByClassName("container")
+            for(let container of containers) {
+                container.style.display = "block";
+            }
 
             // preparing accordion
             var acc = document.getElementsByClassName("accordion");

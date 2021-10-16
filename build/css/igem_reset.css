@@ -11,21 +11,21 @@ body, html {background-color:white; width: 100%; height: 100%;}
 #bodyContent a[href ^="https://"], .link-https { padding-right:0px;} 
 
 /* Making those bullet points disappear */
-ul {
+#bodyContent ul {
     list-style-image: none;
     font-size: 20px !important;
     padding: 0;
     margin: 0;
 }
 
-ul li {
+#bodyContent ul li {
     font-size: 20px Im !important;
 }
 
-ol {
+#bodyContent ol {
     font-size: 20px !important;
 }
 
-ol li {
+#bodyContent ol li {
     font-size: 20px !important;
 }
