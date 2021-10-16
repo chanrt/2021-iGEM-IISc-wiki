@@ -96,6 +96,15 @@ figcaption {
     text-decoration: none !important;
 }
 
+.abstract-box {
+    background: var(--nav_background);
+    color: white;
+}
+
+.content-list {
+    list-style-type: lower-latin;
+}
+
 .content-link {
     color: blue;
 }

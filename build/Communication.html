@@ -1,0 +1,391 @@
+<html><head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+
+    <!-- reset the default iGEM look -->
+    <link href="https://2021.igem.org/Template:IISc-Bangalore/css/igem_resetCSS?action=raw&amp;ctype=text/css" rel="stylesheet"/>
+
+    <!-- materialize -->
+    <link href="https://2021.igem.org/Template:IISc-Bangalore/css/materializeCSS?action=raw&amp;ctype=text/css" rel="stylesheet"/>
+    <script src="https://2021.igem.org/Template:IISc-Bangalore/js/materializeJS?action=raw&amp;ctype=text/javascript"></script>
+
+    <!-- Animate on scroll -->
+    <link href="https://2021.igem.org/Template:IISc-Bangalore/css/aosCSS?action=raw&amp;ctype=text/css" rel="stylesheet"/>
+    <script src="https://2021.igem.org/Template:IISc-Bangalore/js/aosJS?action=raw&amp;ctype=text/javascript"></script>
+
+    <!-- stylesheet -->
+    <link href="https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&amp;ctype=text/css" rel="stylesheet"/>
+
+    <title>Communication | IISc Bangalore</title>
+</head>
+
+<body>
+    <!-- navbar start -->
+    <div class="navbar-fixed hide-on-med-and-down">
+        <nav>
+            <div class="nav-wrapper">
+                <ul class="left nav-list valign-wrapper">
+                    <li><a class="nav-link" href="https://2021.igem.org/Team:IISc-Bangalore"><img class="responsive-img icon" src="https://2021.igem.org/wiki/images/c/cd/T--IISc-Bangalore--images--team_iisc_logo_min.png" style="max-height: 60px;"/></a></li>
+
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-project" href="#">Project</a></li>
+
+                    <li><a class="nav-link" href="#">Parts</a></li>
+
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-labwork" href="#">Wetlab</a></li>
+
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-drylab">Drylab</a></li>
+
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-hp">Human Practices</a></li>
+
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-team" href="#">Team</a></li>
+
+                    <li><a class="nav-link" href="#">Judging</a></li>
+                </ul>
+
+                <ul class="dropdown-content" id="dropdown-project">
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Overview</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Design</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Engineering</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Implementation</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Safety</a></li>
+                </ul>
+
+                <ul class="dropdown-content" id="dropdown-labwork">
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Results">Results</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Protocols</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Lab Notebook</a></li>
+                </ul>
+
+                <ul class="dropdown-content" id="dropdown-drylab">
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Model</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Predictions">Protein Structure
+                            Predictions</a></li>
+                </ul>
+
+                <ul class="dropdown-content" id="dropdown-hp">
+                    <li class="dropdown-item"><a class="dropdown-link" href="">Public Education and Engagement</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Integrated Human Practices</a></li>
+                </ul>
+
+                <ul class="dropdown-content" id="dropdown-team">
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Members</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Attributions">Attributions</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Collaborations</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div id="loader"></div>
+
+    <div class="header hide-on-med-and-down">
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </div>
+
+    <div class="nav-fixed hide-on-large-only">
+        <div class="accordian">
+            <button class="accordion">Navigation dropdown</button>
+            <div class="panel">
+                <ol>
+                    <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore">Home</a></li>
+                    <li>
+                        <a class="mobile-nav-link">Project:</a>
+                        <ol style="list-style-type: lower-latin;">
+                            <li><a class="mobile-nav-link" href="#">Overview</a></li>
+                            <li><a class="mobile-nav-link" href="#">Design</a></li>
+                            <li><a class="mobile-nav-link" href="#">Engineering</a></li>
+                            <li><a class="mobile-nav-link" href="#">Implementation</a></li>
+                            <li><a class="mobile-nav-link" href="#">Safety</a></li>
+                        </ol>
+                    </li>
+                    <li><a class="mobile-nav-link" href="#">Parts</a></li>
+                    <li>
+                        <a class="mobile-nav-link">Lab work:</a>
+                        <ol style="list-style-type: lower-latin;">
+                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Results">Results</a></li>
+                            <li><a class="mobile-nav-link" href="#">Protocol</a></li>
+                            <li><a class="mobile-nav-link" href="#">Lab notebook</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a class="mobile-nav-link" href="#">Drylab</a>
+                        <ol style="list-style-type: lower-latin;">
+                            <li><a class="mobile-nav-link" href="#">Model</a></li>
+                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Predictions">Protein Structure Predictions</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a class="mobile-nav-link">Human Practices:</a>
+                        <ol style="list-style-type: lower-latin;">
+                            <li><a class="mobile-nav-link" href="#">Public Education and Engagement</a>
+                            </li>
+                            <li><a class="mobile-nav-link" href="#">Integrated Human Practices</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a class="mobile-nav-link">Team:</a>
+                        <ol style="list-style-type: lower-latin;">
+                            <li><a class="mobile-nav-link" href="#">Members</a></li>
+                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Attributions">Attributions</a></li>
+                            <li><a class="mobile-nav-link" href="#">Collaborations</a></li>
+                        </ol>
+                    </li>
+                    <li><a class="mobile-nav-link" href="#">Judging</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!-- navbar end -->
+
+    <style>
+        .hero-image {
+            background-image: url("https://2021.igem.org/wiki/images/2/22/T--IISc-Bangalore--backgrounds--communication.jpg");
+            height: 750px !important;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white !important;
+        }
+    </style>
+
+    <div class="hero-image" data-aos="zoom-in">
+        <div class="hero-text">
+            <h1 style="color: white">Education and Communication</h1>
+        </div>
+    </div>
+    <br/>
+
+    <div class="container">
+        <div class="row">
+
+
+            <div class="col s12 l6 valign-wrapper" style="background: rgb(64,86, 165); height: 80px">
+                <a href="#" style="color: white !important">Rewiring Life: A Beginner's Guide
+                </a>
+            </div>
+            <div class="col s12 l6 valign-wrapper" style="background: rgb(110, 145, 36); height: 80px">
+                <a href="#" style="color: white !important">A Talk To A Scientist Session </a>
+            </div>
+            <div class="col s12 l6 valign-wrapper" style="background: rgb(190, 82, 0); height: 80px">
+                <a href="#" style="color: white !important">An Organophosphate pollution awareness survey
+                </a>
+            </div>
+            <div class="col s12 l6 valign-wrapper" style="background: rgb(39, 122, 163); height: 80px">
+                <a href="#" style="color: white !important">Synthetic Biology Symposium </a>
+            </div>
+            <div class="col s12 l6 valign-wrapper" style="background: rgb(64,86, 165); height: 80px">
+                <a href="#" style="color: white !important">Audiobook
+                </a>
+            </div>
+            <div class="col s12 l6 valign-wrapper" style="background: rgb(110, 145, 36); height: 80px">
+                <a href="#" style="color: white !important">An Interview with GenScript </a>
+            </div>
+            <div class="col s12 l6 valign-wrapper" style="background: rgb(190, 82, 0); height: 80px">
+                <a href="#" style="color: white !important">An Interview with IISc Connect
+                </a>
+            </div>
+            <div class="col s12 l6 valign-wrapper" style="background: rgb(39, 122, 163); height: 80px">
+                <a style="color: white !important">An Interview with Next Gen Scientist's Foundation</a>
+            </div>
+            <div class="col s12 l6 valign-wrapper" style="background: rgb(64,86, 165); height: 80px">
+                <a href="#" style="color: white !important">Project Promotion Video in Multiple Languages
+                </a>
+            </div>
+            <div class="col s12 l6 valign-wrapper" style="background: rgb(110, 145, 36); height: 80px">
+                <a href="#" style="color: white !important">Synthetic Biology Stall at Open Day </a>
+            </div>
+
+            <div class="col s12">
+                <h2>Rewiring Life: A Beginner's Guide (SynBio Primer) </h2>
+                <p>
+                    The members of the team wrote an illustrated book titled <b>Rewiring Life: A Beginners Guide</b>
+                    introducing the field of synthetic biology so that it can be used to deliver various concepts in an
+                    understandable and fun manner. Right from the introduction of synthetic biology to its different
+                    applications, this book covers it all! The book is about 220 pages long and is current under review
+                    by IISc Press. The book was intended for middle school and high school students right from 6th grade
+                    to 12th grade.
+                </p>
+                <br/>
+                <b>Our Objective Behind Writing the Book:</b>
+                <p>
+                    Synthetic biology is a fast-growing, interdisciplinary field of biology that is concerned with the
+                    design and creation of new biological parts, systems and pathways and the re-design of existing
+                    natural biological systems for purposes useful to humankind. Rapid strides in this nascent field of
+                    research over the past decade have broadened tremendously our perspectives of biology and are
+                    heralding the next scientific revolution – be it the creation of living forms from simple
+                    biomolecules or rewiring a cell’s metabolic factory. Despite these rapid advances in synthetic
+                    biology all over the globe, the field has been somewhat lacking pace in India. The number of
+                    research labs actively working on this in our country is miniscule compared to that in other
+                    countries like the US and China.
+                </p>
+                <p>
+                    To further the nation's scientific progress and to ensure that we keep pace with the developments
+                    around the world, India needs to train the next generation of scientists with the basic knowledge of
+                    synthetic biology and inspire them to explore deeper into the subject.
+                </p>
+                <p>
+                    Through this book, we intend to explain the basic principles of synthetic biology, starting right
+                    from the fundamentals of genetic engineering and molecular biology and building up to the most
+                    recent advances in the field. The book is dedicated to middle-school students, who are not
+                    previously exposed to the fundamental conceptual basis of these areas. We have built all the basic
+                    principles from scratch, and special focus has been given to keep the book as interactive as
+                    possible. Illustrations, comic strips, snippets on various discoverers in these areas and lucid
+                    explanations based on innumerable hand-picked examples are hallmarks of the book. We are unaware of
+                    the publication of any such simple-yet-exhaustive book on SynBio dedicated to middle and high school
+                    students till date, not just in India but all over the globe. We hope that this book will inspire at
+                    least a few, if not many readers to explore the topics in greater detail and consider pursuing a
+                    career in synthetic biology.
+                </p>
+                <p>
+                    There is no proper primer of synthetic biology or genetic engineering available in the market. The
+                    only general books on the subject (i.e., not including research monographs) are dedicated to
+                    advanced undergraduates or post-graduates. This book differs from all of them in lucidly yet
+                    exhaustively conveying the fundamental concepts needed for the subject, finally attaining a climax
+                    in the discussion on the recent advances of synthetic biology. This book is unique in the fact that
+                    it is a standalone book and assumes no prerequisite knowledge on the part of the reader, except
+                    basic biological theories like the cell doctrine.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer start -->
+    <footer class="page-footer">
+        <div class="container">
+            <h5 class="sm-title center" data-aos="fade-up">Our Sponsors</h5>
+            <br/>
+            <div class="row footer-content valign-wrapper">
+                <div class="col s2 l2" data-aos="zoom-in">
+                    <a href="https://iisc.ac.in"><img class="responsive-img sponsor-img" src="https://2021.igem.org/wiki/images/2/28/T--IISc-Bangalore--sponsors--iisc.png"/></a>
+                </div>
+                <div class="col s3 l3" data-aos="zoom-in">
+                    <a href="https://benchling.com"><img class="responsive-img sponsor-img" src="https://2021.igem.org/wiki/images/e/e1/T--IISc-Bangalore--sponsors--benchling.png"/></a>
+                </div>
+                <div class="col s3 l3" data-aos="zoom-in">
+                    <a href="https://snapgene.com"><img class="responsive-img sponsor-img" src="https://2021.igem.org/wiki/images/6/69/T--IISc-Bangalore--sponsors--snapgene.png"/></a>
+                </div>
+                <div class="col s2 l2" data-aos="zoom-in">
+                    <a href="https://labfolder.com"><img class="responsive-img sponsor-img" src="https://2021.igem.org/wiki/images/5/53/T--IISc-Bangalore--sponsors--labfolder.png"/></a>
+                </div>
+                <div class="col s2 l2" data-aos="zoom-in">
+                    <a href="https://odaa.iisc.ac.in"><img class="responsive-img sponsor-img" src="https://2021.igem.org/wiki/images/7/79/T--IISc-Bangalore--sponsors--odaa.png"/></a>
+                </div>
+            </div>
+            <br/>
+            <hr/>
+            <div class="hide-on-med-and-down">
+                <div class="row footer-content valign-wrapper">
+                    <div class="col s12 l3 center" data-aos="fade-right">
+                        <h5 class="sm-title">Our Social Media Links</h5>
+                        <a href="https://www.facebook.com/iiscbangaloreigem/" target="_blank"><img class="sm-button" src="https://2021.igem.org/wiki/images/9/9e/T--IISc-Bangalore--icons--facebook.png"/></a>
+                        <a href="https://twitter.com/igem_iisc?s=08" target="_blank"><img class="sm-button" src="https://2021.igem.org/wiki/images/7/75/T--IISc-Bangalore--icons--twitter.png"/></a>
+                        <a href="https://instagram.com/igem_iisc?utm_medium=copy_link" target="_blank"><img class="sm-button" src="https://2021.igem.org/wiki/images/5/5e/T--IISc-Bangalore--icons--instagram.png"/></a>
+                    </div>
+                    <div class="col s12 l3 center" data-aos="zoom-in">
+                        <a href="https://2021.igem.org/Team:IISc-Bangalore"><img class="responsive-img footer-logo" src="https://2021.igem.org/wiki/images/7/7c/T--IISc-Bangalore--images--team_iisc_logo_footer.png" style="max-height: 250px"/></a>
+                    </div>
+                    <div class="col s12 l6 center" data-aos="fade-left">
+                        <h5 class="sm-title">Contact Us</h5>
+                        <p style="text-align: center;">
+                            <a class="footer-link" href="mailto:igem.ug@iisc.ac.in">igem.ug@iisc.ac.in</a> or <a class="footer-link" href="mailto:sukriyoc@iisc.ac.in">sukriyoc@iisc.ac.in</a>
+                            <br/>
+                            <br/>
+                            Office of UG Programme, Indian Institute of Science, <br/>
+                            C.V. Raman Avenue, Bengaluru - 560 012.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="hide-on-large-only">
+                <div class="row footer-content">
+                    <div class="col s12 l3 center" data-aos="fade-right">
+                        <h5 class="sm-title">Our Social Media Links</h5>
+                        <a href="https://www.facebook.com/iiscbangaloreigem/" target="_blank"><img src="https://2021.igem.org/wiki/images/9/9e/T--IISc-Bangalore--icons--facebook.png"/></a>
+                        <a href="https://twitter.com/igem_iisc?s=08" target="_blank"><img src="https://2021.igem.org/wiki/images/7/75/T--IISc-Bangalore--icons--twitter.png"/></a>
+                        <a href="https://instagram.com/igem_iisc?utm_medium=copy_link" target="_blank"><img src="https://2021.igem.org/wiki/images/5/5e/T--IISc-Bangalore--icons--instagram.png"/></a>
+                    </div>
+                    <div class="col s12 l3 center" data-aos="zoom-in">
+                        <a href="https://2021.igem.org/Team:IISc-Bangalore"><img class="responsive-img" src="https://2021.igem.org/wiki/images/7/7c/T--IISc-Bangalore--images--team_iisc_logo_footer.png" style="max-height: 250px"/></a>
+                    </div>
+                    <div class="col s12 l6 center" data-aos="fade-left">
+                        <h5 class="sm-title">Contact Us</h5>
+                        <p style="text-align: center;">
+                            <a class="footer-link" href="mailto:igem.ug@iisc.ac.in">igem.ug@iisc.ac.in</a> or <a class="footer-link" href="mailto:sukriyoc@iisc.ac.in">sukriyoc@iisc.ac.in</a>
+                            <br/>
+                            <br/>
+                            Office of UG Programme, Indian Institute of Science, <br/>
+                            C.V. Raman Avenue, Bengaluru - 560 012.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <h5 class="sm-title" style="text-align: center;">Best viewed on Desktop</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        window.onload = function () {
+            M.AutoInit();
+            AOS.init();
+
+            let p_list = document.getElementsByTagName("p")
+            // removing top whitespace
+            let first_p = p_list[0];
+            first_p.style.margin = "0";
+
+            // removing bottom whitespace
+            let last_p = p_list[p_list.length - 1];
+            last_p.style.margin = "0";
+
+            // removing preloader
+            document.getElementById("loader").style.display = "none";
+            document.getElementsByTagName("nav")[0].style.display = "block";
+            document.getElementsByClassName("header")[0].style.display = "block";
+
+            // preparing accordion
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function () {
+                    /* Toggle between adding and removing the "active" class,
+                    to highlight the button that controls the panel */
+                    this.classList.toggle("active");
+
+                    /* Toggle between hiding and showing the active panel */
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                    } else {
+                        panel.style.display = "block";
+                    }
+                });
+            }
+        }
+
+        window.onscroll = function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>
+    <!-- footer end -->
+
+
+</body></html>

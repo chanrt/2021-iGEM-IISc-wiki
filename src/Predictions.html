@@ -1,0 +1,470 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- reset the default iGEM look -->
+    <link rel="stylesheet" href="css/igem_reset.css">
+
+    <!-- materialize -->
+    <link rel="stylesheet" href="css/materialize.css">
+    <script src="js/materialize.js"></script>
+
+    <!-- Animate on scroll -->
+    <link rel="stylesheet" href="css/aos.css">
+    <script src="js/aos.js"></script>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Predictions | IISc Bangalore</title>
+</head>
+
+<body>
+    <!-- navbar start -->
+    <div class="navbar-fixed hide-on-med-and-down">
+        <nav>
+            <div class="nav-wrapper">
+                <ul class="left nav-list valign-wrapper">
+                    <li><a class="nav-link" href="index.html"><img class="responsive-img icon"
+                                src="assets/images/team_iisc_logo_min.png" style="max-height: 60px;"></a></li>
+
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-project" href="#">Project</a></li>
+
+                    <li><a class="nav-link" href="#">Parts</a></li>
+
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-labwork" href="#">Wetlab</a></li>
+
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-drylab">Drylab</a></li>
+
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-hp">Human Practices</a></li>
+
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-team" href="#">Team</a></li>
+
+                    <li><a class="nav-link" href="#">Judging</a></li>
+                </ul>
+
+                <ul id="dropdown-project" class="dropdown-content">
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Overview</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Design</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Engineering</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Implementation</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Safety</a></li>
+                </ul>
+
+                <ul id="dropdown-labwork" class="dropdown-content">
+                    <li class="dropdown-item"><a class="dropdown-link" href="Results.html">Results</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Protocols</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Lab Notebook</a></li>
+                </ul>
+
+                <ul id="dropdown-drylab" class="dropdown-content">
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Model</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Predictions.html">Protein Structure Predictions</a></li>
+                </ul>
+
+                <ul id="dropdown-hp" class="dropdown-content">
+                    <li class="dropdown-item"><a class="dropdown-link" href="Communication.html">Public Education and Engagement</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Integrated Human Practices</a></li>
+                </ul>
+
+                <ul id="dropdown-team" class="dropdown-content">
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Members</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Attributions.html">Attributions</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Collaborations</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div id="loader"></div>
+
+    <div class="header hide-on-med-and-down">
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </div>
+
+    <div class="nav-fixed hide-on-large-only">
+        <div class="accordian">
+            <button class="accordion">Navigation dropdown</button>
+            <div class="panel">
+                <ol>
+                    <li><a class="mobile-nav-link" href="index.html">Home</a></li>
+                    <li>
+                        <a class="mobile-nav-link">Project:</a>
+                        <ol style="list-style-type: lower-latin;">
+                            <li><a class="mobile-nav-link" href="#">Overview</a></li>
+                            <li><a class="mobile-nav-link" href="#">Design</a></li>
+                            <li><a class="mobile-nav-link" href="#">Engineering</a></li>
+                            <li><a class="mobile-nav-link" href="#">Implementation</a></li>
+                            <li><a class="mobile-nav-link" href="#">Safety</a></li>
+                        </ol>
+                    </li>
+                    <li><a class="mobile-nav-link" href="#">Parts</a></li>
+                    <li>
+                        <a class="mobile-nav-link">Lab work:</a>
+                        <ol style="list-style-type: lower-latin;">
+                            <li><a class="mobile-nav-link" href="Results.html">Results</a></li>
+                            <li><a class="mobile-nav-link" href="#">Protocol</a></li>
+                            <li><a class="mobile-nav-link" href="#">Lab notebook</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a class="mobile-nav-link" href="#">Drylab</a>
+                        <ol style="list-style-type: lower-latin;">
+                            <li><a class="mobile-nav-link" href="#">Model</a></li>
+                            <li><a class="mobile-nav-link" href="Predictions.html">Protein Structure Predictions</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a class="mobile-nav-link">Human Practices:</a>
+                        <ol style="list-style-type: lower-latin;">
+                            <li><a class="mobile-nav-link" class="nav-link" href="Communication.html">Public Education and Engagement</a></li>
+                            <li><a class="mobile-nav-link" class="nav-link" href="#">Integrated Human Practices</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a class="mobile-nav-link">Team:</a>
+                        <ol style="list-style-type: lower-latin;">
+                            <li><a class="mobile-nav-link" href="#">Members</a></li>
+                            <li><a class="mobile-nav-link" href="Attributions.html">Attributions</a></li>
+                            <li><a class="mobile-nav-link" href="#">Collaborations</a></li>
+                        </ol>
+                    </li>
+                    <li><a class="mobile-nav-link" href="#">Judging</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!-- navbar end -->
+
+    <div class="container">
+        <div class="row">
+
+            <h1>Structural Prediction of C2(2.0) using AlphaFold</h1>
+            <p>
+                Since we are working with fusion proteins, it is necessary to ensure that the synthetically designed
+                proteins fold properly, and that each modular part does not interfere with the tertiary structure of the
+                other parts. Moreover, we are working with an enzyme – OpdA. Naturally, an enzyme must fold in the exact
+                same way as its native state in order to be soluble, stable and to preserve activity.
+            </p>
+            <p>
+                As detailed in the <a class="content-link" href="Results.html">Experiments & Results section</a>, we
+                successfully verified
+                that C1 was
+                appreciably soluble, which seemed to imply that misfolding had been avoided. We ran into problems with
+                C2, which did not seem to be soluble. This is why we decided to remove the sfGFP module in order to make
+                C2 less bulky, and we came up with C2(2.0).
+            </p>
+            <p>
+                As C2 and C2(2.0) are fusion proteins, we had no idea how they might fold in physiological conditions,
+                even though the crystal structures of the individual modules had already been solved before. Thus, in
+                order to gain structural insight, we decided to utilize AlphaFold to predict a tertiary structure for
+                C2(2.0). We hoped this would help us explain why C2 and C2(2.0) seemed to be insoluble. This would also
+                help us make informed decisions about any future design steps.
+            </p>
+            <p>
+                The amino acid sequence of C2(2.0) was fed into the <a class="content-link"
+                    href="https://colab.research.google.com/github/deepmind/alphafold/blob/main/notebooks/AlphaFold.ipynb">AlphaFold
+                    Google Colab notebook</a>. AlphaFold found 7131 partial matches having sequence similarity in a
+                genetic database, which it used for a multiple sequence alignment (MSA).
+            </p>
+            <center>
+                <figure>
+                    <img class="responsive-img" src="assets/images/predictions/MSA_Results.png">
+                    <figcaption>Fig 1: Multiple Sequence Alignment Results</figcaption>
+                </figure>
+            </center>
+            <p>
+                It then utilized machine learning based on multiple models to come up with a predicted structure for
+                C2(2.0), alongwith some predicted metrics.
+            </p>
+            <figure>
+                <img class="responsive-img" src="assets/images/predictions/Prediction_Metrics.png">
+                <figcaption>Fig 2: Prediction metrics - pLDDT (predicted Local Distance Difference Test) and Predicted
+                    Aligned Error</figcaption>
+            </figure>
+            <p>
+                The predicted structure of C2(2.0) is given below:
+            </p>
+            <center>
+                <figure>
+                    <img class="responsive-img" src="assets/images/predictions/C2(2.0)_CartoonModel.png"
+                        style="width: 66%">
+                    <figcaption>Fig 3: Predicted cartoon model of C2(2.0) [N- to C- direction is blue to red]
+                    </figcaption>
+                </figure>
+            </center>
+            <p>
+                We interpreted the pLDDT score (which is a measure of model confidence) and the 3D structure according
+                to the findings in the original AlphaFold paper. Regions with pLDDT > 70 were reliably
+                considered to
+                have the same tertiary structure as predicted by the model - this was true only for amino acids ~30-350,
+                which correspond to the majority of the OpdA enzyme module, minus around 35 amino acids at its C
+                terminus. Other regions had lower pLDDT scores and were less likely to have definite tertiary
+                structures. The AlphaFold authors have previously shown that pLDDT < 50 is a reasonably strong
+                predictor
+                of disorder.
+            </p>
+            <p>
+                In order to gain more information, we used <a class="content-link"
+                    href="https://web.expasy.org/protparam">Expasy's ProtParam tool</a> to
+                look at different parameters of C2(2.0) and its constituent modules which would relate to its stability
+                and solubility, like isoelectric point (pI), estimated half-life (t<sub>1/2</sub>), instability index
+                (II) and
+                grand average of hydropathicity (GRAVY).
+            </p>
+            <table>
+                <tr>
+                    <th>Protein/Module</th>
+                    <th>Amino Acid Positions</th>
+                    <th>pI</th>
+                    <th>t<sub>1/2</sub></th>
+                    <th>II</th>
+                    <th>GRAVY</th>
+                </tr>
+                <tr>
+                    <td>C2(2.0)</td>
+                    <td>1 to 441</td>
+                    <td>9.15</td>
+                    <td>> 10 hrs</td>
+                    <td>34.03</td>
+                    <td>-0.118</td>
+                </tr>
+                <tr>
+                    <td>OpdA signal peptide</td>
+                    <td>1 to 27</td>
+                    <td>9.50</td>
+                    <td>> 10 hrs</td>
+                    <td>34.05</td>
+                    <td>0.537</td>
+                </tr>
+                <tr>
+                    <td>OpdA enzyme</td>
+                    <td>28 to 384</td>
+                    <td>8.58</td>
+                    <td>> 10 hrs</td>
+                    <td>36.23</td>
+                    <td>-0.014</td>
+                </tr>
+                <tr>
+                    <td>C2(2.0) C terminal region</td>
+                    <td>385 to 441</td>
+                    <td>8.34</td>
+                    <td>> 10 hrs</td>
+                    <td>17.93</td>
+                    <td>-0.991</td>
+                </tr>
+            </table>
+            <p>
+                Our interpretations of the above results were as follows:
+            </p>
+            <ol>
+                <li>
+                    <p>
+                        pI values of C2(2.0) and all its subparts are much larger than 7, II values are less than 40,
+                        and
+                        t<sub>1/2</sub> is more than 10 hours, all of which suggest that these components are expected
+                        to be
+                        satisfactorily stable in vivo.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        GRAVY values are mostly negative which indicates hydrophilicity. Except for the C terminal
+                        region, the values are quite close to 0 which implies that they are barely hydrophilic. The
+                        GRAVY
+                        value for the signal peptide is positive and quite high, which suggests that it might be quite
+                        hydrophobic.
+                    </p>
+                </li>
+            </ol>
+            <p>
+                From the above results and the AlphaFold predicted structure, our conclusions are listed below:
+            </p>
+            <ol>
+                <li>
+                    <p>
+                        The OpdA enzyme has high pLDDT scores throughout and might fold in a similar fashion as that in
+                        its native state. It is not very hydrophilic though.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The OpdA signal peptide at the N terminus had a very low pLDDT score and is most likely an
+                        intrinsically disordered region (IDR). It is also quite hydrophobic, and we realized that this
+                        could
+                        lead to aggregation of C2 and C2(2.0) since the enzyme itself is not very hydrophilic.The OpdA
+                        enzyme has high pLDDT scores throughout and might fold in a similar fashion as that in
+                        its native state. It is not very hydrophilic though.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The C terminal region containing the linkers, SpyTag and the 10xHis-tag is also predicted to be
+                        an IDR, but it is quite hydrophilic and as a result, is not expected to interfere with the
+                        overall
+                        folding or stability.
+                    </p>
+                </li>
+            </ol>
+            <p>
+                Based on our interpretations of the information we collected in regard to the structure and properties
+                of C2(2.0), we decided to remove the OpdA signal peptide from the N terminus of C2(2.0) to yield C2(3.0)
+                in hopes of improved stability and solubility.
+            </p>
+
+            <h2>References</h2>
+            <p>
+                Jumper J et al. Highly accurate protein structure prediction with AlphaFold. Nature. 2021
+                Aug;596(7873):583-589. doi: <a href="https://doi.org/10.1038/s41586-021-03819-2"
+                    class="content-link">https://doi.org/10.1038/s41586-021-03819-2</a>
+            </p>
+            <br>
+        </div>
+    </div>
+
+    <!-- footer start -->
+    <footer class="page-footer">
+        <div class="container">
+            <h5 class="sm-title center" data-aos="fade-up">Our Sponsors</h5>
+            <br>
+            <div class="row footer-content valign-wrapper">
+                <div class="col s2 l2" data-aos="zoom-in">
+                    <a href="https://iisc.ac.in"><img class="responsive-img sponsor-img"
+                            src="assets/sponsors/iisc.png"></a>
+                </div>
+                <div class="col s3 l3" data-aos="zoom-in">
+                    <a href="https://benchling.com"><img class="responsive-img sponsor-img"
+                            src="assets/sponsors/benchling.png"></a>
+                </div>
+                <div class="col s3 l3" data-aos="zoom-in">
+                    <a href="https://snapgene.com"><img class="responsive-img sponsor-img"
+                            src="assets/sponsors/snapgene.png"></a>
+                </div>
+                <div class="col s2 l2" data-aos="zoom-in">
+                    <a href="https://labfolder.com"><img class="responsive-img sponsor-img"
+                            src="assets/sponsors/labfolder.png"></a>
+                </div>
+                <div class="col s2 l2" data-aos="zoom-in">
+                    <a href="https://odaa.iisc.ac.in"><img class="responsive-img sponsor-img"
+                            src="assets/sponsors/odaa.png"></a>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <div class="hide-on-med-and-down">
+                <div class="row footer-content valign-wrapper">
+                    <div class="col s12 l3 center" data-aos="fade-right">
+                        <h5 class="sm-title">Our Social Media Links</h5>
+                        <a target="_blank" href="https://www.facebook.com/iiscbangaloreigem/"><img
+                                src="assets/icons/facebook.png" class="sm-button"></a>
+                        <a target="_blank" href="https://twitter.com/igem_iisc?s=08"><img src="assets/icons/twitter.png"
+                                class="sm-button"></a>
+                        <a target="_blank" href="https://instagram.com/igem_iisc?utm_medium=copy_link"><img
+                                src="assets/icons/instagram.png" class="sm-button"></a>
+                    </div>
+                    <div class="col s12 l3 center" data-aos="zoom-in">
+                        <a href="https://2021.igem.org/Team:IISc-Bangalore"><img class="responsive-img footer-logo"
+                                src="assets/images/team_iisc_logo_footer.png" style="max-height: 250px"></a>
+                    </div>
+                    <div class="col s12 l6 center" data-aos="fade-left">
+                        <h5 class="sm-title">Contact Us</h5>
+                        <p style="text-align: center;">
+                            <a href="mailto:igem.ug@iisc.ac.in" class="footer-link">igem.ug@iisc.ac.in</a> or <a
+                                href="mailto:sukriyoc@iisc.ac.in" class="footer-link">sukriyoc@iisc.ac.in</a>
+                            <br>
+                            <br>
+                            Office of UG Programme, Indian Institute of Science, <br>
+                            C.V. Raman Avenue, Bengaluru - 560 012.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="hide-on-large-only">
+                <div class="row footer-content">
+                    <div class="col s12 l3 center" data-aos="fade-right">
+                        <h5 class="sm-title">Our Social Media Links</h5>
+                        <a target="_blank" href="https://www.facebook.com/iiscbangaloreigem/"><img
+                                src="assets/icons/facebook.png"></a>
+                        <a target="_blank" href="https://twitter.com/igem_iisc?s=08"><img
+                                src="assets/icons/twitter.png"></a>
+                        <a target="_blank" href="https://instagram.com/igem_iisc?utm_medium=copy_link"><img
+                                src="assets/icons/instagram.png"></a>
+                    </div>
+                    <div class="col s12 l3 center" data-aos="zoom-in">
+                        <a href="https://2021.igem.org/Team:IISc-Bangalore"><img class="responsive-img"
+                                src="assets/images/team_iisc_logo_footer.png" style="max-height: 250px"></a>
+                    </div>
+                    <div class="col s12 l6 center" data-aos="fade-left">
+                        <h5 class="sm-title">Contact Us</h5>
+                        <p style="text-align: center;">
+                            <a href="mailto:igem.ug@iisc.ac.in" class="footer-link">igem.ug@iisc.ac.in</a> or <a
+                                href="mailto:sukriyoc@iisc.ac.in" class="footer-link">sukriyoc@iisc.ac.in</a>
+                            <br>
+                            <br>
+                            Office of UG Programme, Indian Institute of Science, <br>
+                            C.V. Raman Avenue, Bengaluru - 560 012.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <h5 style="text-align: center;" class="sm-title">Best viewed on Desktop</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        window.onload = function () {
+            M.AutoInit();
+            AOS.init();
+
+            let p_list = document.getElementsByTagName("p")
+            // removing top whitespace
+            let first_p = p_list[0];
+            first_p.style.margin = "0";
+
+            // removing bottom whitespace
+            let last_p = p_list[p_list.length - 1];
+            last_p.style.margin = "0";
+
+            // removing preloader
+            document.getElementById("loader").style.display = "none";
+            document.getElementsByTagName("nav")[0].style.display = "block";
+            document.getElementsByClassName("header")[0].style.display = "block";
+
+            // preparing accordion
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function () {
+                    /* Toggle between adding and removing the "active" class,
+                    to highlight the button that controls the panel */
+                    this.classList.toggle("active");
+
+                    /* Toggle between hiding and showing the active panel */
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                    } else {
+                        panel.style.display = "block";
+                    }
+                });
+            }
+        }
+
+        window.onscroll = function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>
+    <!-- footer end -->
+</body>
+
+</html>

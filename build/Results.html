@@ -13,6 +13,9 @@
     <link href="https://2021.igem.org/Template:IISc-Bangalore/css/aosCSS?action=raw&amp;ctype=text/css" rel="stylesheet"/>
     <script src="https://2021.igem.org/Template:IISc-Bangalore/js/aosJS?action=raw&amp;ctype=text/javascript"></script>
 
+    <!-- MathJax -->
+    <script src="https://2021.igem.org/common/MathJax-2.5-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
     <!-- stylesheet -->
     <link href="https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&amp;ctype=text/css" rel="stylesheet"/>
 
@@ -31,9 +34,9 @@
 
                     <li><a class="nav-link" href="#">Parts</a></li>
 
-                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-labwork" href="#">Labwork</a></li>
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-labwork" href="#">Wetlab</a></li>
 
-                    <li><a class="nav-link" href="#">Model</a></li>
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-drylab">Drylab</a></li>
 
                     <li><a class="nav-link dropdown-trigger" data-target="dropdown-hp">Human Practices</a></li>
 
@@ -56,8 +59,13 @@
                     <li class="dropdown-item"><a class="dropdown-link" href="#">Lab Notebook</a></li>
                 </ul>
 
+                <ul class="dropdown-content" id="dropdown-drylab">
+                    <li class="dropdown-item"><a class="dropdown-link" href="#">Model</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Predictions">Protein Structure Predictions</a></li>
+                </ul>
+
                 <ul class="dropdown-content" id="dropdown-hp">
-                    <li class="dropdown-item"><a class="dropdown-link" href="">Public Education and Engagement</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Communication">Public Education and Engagement</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="#">Integrated Human Practices</a></li>
                 </ul>
 
@@ -103,11 +111,17 @@
                             <li><a class="mobile-nav-link" href="#">Lab notebook</a></li>
                         </ol>
                     </li>
-                    <li><a class="mobile-nav-link" href="#">Model</a></li>
+                    <li>
+                        <a class="mobile-nav-link" href="#">Drylab</a>
+                        <ol style="list-style-type: lower-latin;">
+                            <li><a class="mobile-nav-link" href="#">Model</a></li>
+                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Predictions">Protein Structure Predictions</a></li>
+                        </ol>
+                    </li>
                     <li>
                         <a class="mobile-nav-link">Human Practices:</a>
                         <ol style="list-style-type: lower-latin;">
-                            <li><a class="mobile-nav-link" href="#">Public Education and Engagement</a></li>
+                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Communication">Public Education and Engagement</a></li>
                             <li><a class="mobile-nav-link" href="#">Integrated Human Practices</a></li>
                         </ol>
                     </li>
@@ -162,19 +176,45 @@
                 <div class="card" data-aos="fade-right" style="background: rgb(248, 249, 250); border-radius: 2px;">
                     <div class="card-content">
                         <span class="card-title" style="font-weight: bold; font-size: xx-large;">Contents:</span>
-                        <ul>
-                            <li><a class="content-link" href="#cloning">Cloning of C1 and C2</a></li>
-                            <li><a class="content-link" href="#expression">Expression tests</a></li>
-                            <li><a class="content-link" href="#solubility">Solubility Tests</a></li>
-                            <li><a class="content-link" href="#c2">C2(2.0)</a></li>
-                            <li><a class="content-link" href="#c3">C2(3.0)</a></li>
-                        </ul>
+                        <ol>
+                            <li>
+                                <a href="#lab1">Cloning and protein production</a>
+                                <ol class="content-list">
+                                    <li><a class="content-link" href="#cloning">Cloning of C1 and C2</a></li>
+                                    <li><a class="content-link" href="#expression">Expression tests</a></li>
+                                    <li><a class="content-link" href="#solubility">Solubility Tests</a></li>
+                                    <li><a class="content-link" href="#c2">C2(2.0)</a></li>
+                                    <li><a class="content-link" href="#c3">C2(3.0)</a></li>
+                                </ol>
+                            </li>
+                            <li>
+                                <a href="#lab2">Making microcrystalline cellulose sheet from powder</a>
+                            </li>
+                            <li>
+                                <a href="#lab3">Overproduction of bacterial cellulose</a>
+                            </li>
+                        </ol>
                     </div>
                 </div>
             </div>
-
+            
+            <div class="col s12" id="lab1">
+                <h2>Cloning and protein production</h2>
+            </div>
+            <div class="col s12 abstract-box" data-aos="fade-right">
+                
+                <p>
+                    For the functionalization aspect of our project, we have two constructs – C1 (SpyCatcher002-dCBD)
+                    and C2 (OpdA-SpyTag002). This section mentions our efforts in order to produce, purify and
+                    characterize these fusion proteins. We first cloned these modules in a suitable vector, carried out
+                    some expression tests where we standardized the induction conditions, and then performed some
+                    solubility tests as well, in order to check if these novel fusion proteins could be purified. We
+                    were successful in figuring out suitable conditions for expression and purification of one of our
+                    constructs, while it currently is a work-in-progress for the other construct.
+                </p>
+            </div>
             <div class="col s12" data-aos="fade-right" id="cloning">
-                <h2>Cloning of C1 and C2</h2>
+                <h3>Cloning of C1 and C2</h3>
                 <p>
                     Constructs C1 (SpyCatcher002-dCBD) and C2 (OpdA-SpyTag002) were synthesized by GenScript and shipped
                     to
@@ -196,7 +236,8 @@
                     </figure>
                 </div>
                 <p>
-                    In order to express our constructs in <em></em>E. coli, we chose a pETMCN-T7 (KanR) vector, because it has a
+                    In order to express our constructs in <em></em>E. coli, we chose a pETMCN-T7 (KanR) vector,
+                    because it has a
                     high
                     copy number and transcription using the T7 RNA polymerase can be strongly induced upon addition of
                     IPTG.
@@ -209,7 +250,8 @@
                     to yield C1_pETMCN-T7 and C2_pETMCN-T7.
                 </p>
                 <p>
-                    The above samples were transformed into <em>E. coli</em> DH5 alpha;, inoculated into liquid culture, and
+                    The above samples were transformed into <em>E. coli</em> DH5 \(\alpha\), inoculated into liquid culture,
+                    and
                     miniprepped.
                     Double digestion was performed using NheI and BglII to verify positive clones by insert release. Gel
                     electrophoresis results are given below:
@@ -221,7 +263,8 @@
                         M = marker, EVC = double digested pETMCN-T7)</figcaption>
                 </figure>
                 <p>
-                    All C1 samples contained an insert of appropriate size (~1 kb) and were thus positive clones. Samples
+                    All C1 samples contained an insert of appropriate size (~1 kb) and were thus positive clones.
+                    Samples
                     7
                     and 8 were chosen for further experiments (based on concentrations).
                 </p>
@@ -238,9 +281,10 @@
             </div>
 
             <div class="col s12" data-aos="fade-right" id="expression">
-                <h2>Expression Tests</h2>
+                <h3>Expression Tests</h3>
                 <p>
-                    The chosen positive clones were transformed into <em>E. coli</em> BL21(DE3) for protein production. Secondary
+                    The chosen positive clones were transformed into <em>E. coli</em> BL21(DE3) for protein production.
+                    Secondary
                     liquid cultures were induced with 0.25 mM or 0.5 mM IPTG and incubated at 23°C for 6 hrs or 30°C for
                     4
                     hrs. Cell pellets were lysed by boiling in SDS Laemmli buffer. SDS-PAGE was performed on all the
@@ -281,9 +325,10 @@
             </div>
 
             <div class="col s12" data-aos="fade-right" id="solubility">
-                <h2>Solubility Tests</h2>
+                <h3>Solubility Tests</h3>
                 <p>
-                    Large scale <em>E. coli</em> BL21(DE3) cultures (50 mL each) were set up for both C1 and C2, with induction
+                    Large scale <em>E. coli</em> BL21(DE3) cultures (50 mL each) were set up for both C1 and C2, with
+                    induction
                     by
                     0.5 mM IPTG at 30°C. After cells were harvested, they were lysed and subjected to Ni-NTA pulldown to
                     check solubility. SDS-PAGE was performed on the boiled samples taken from different fractions
@@ -313,7 +358,7 @@
                         <figcaption>Fig 9: anti-GFP blot for C2 [M = marker, L = cell lysate, P = pellet, S =
                             supernatant,
                             BB =
-                            bead-bound (boiled), NC = negative control (C1 BB fraction, 5 microL)]</figcaption>
+                            bead-bound (boiled), NC = negative control (C1 BB fraction, 5 \( \mu \)L)]</figcaption>
                     </figure>
                 </div>
                 <div class="col s12 l6">
@@ -321,7 +366,7 @@
                         <img class="responsive-img" src="https://2021.igem.org/wiki/images/c/c5/T--IISc-Bangalore--images--results--07.16_Western_C2-anti-His.png"/>
                         <figcaption>Fig 10: anti-His blot for C2 [M = marker, L = cell lysate, P = pellet, S =
                             supernatant,
-                            BB = bead-bound (boiled), PC = positive control (C1 BB fraction, 5 microL)]</figcaption>
+                            BB = bead-bound (boiled), PC = positive control (C1 BB fraction, 5 \( \mu \)L)]</figcaption>
                     </figure>
                 </div>
                 <p>
@@ -356,7 +401,7 @@
             </div>
 
             <div class="col s12" data-aos="fade-right" id="c2">
-                <h2>C2(2.0)</h2>
+                <h3>C2(2.0)</h3>
                 <p>
                     In order to make C2 less bulky, we decided to take out the sfGFP module. This was taken into account
                     in
@@ -402,7 +447,7 @@
             </div>
 
             <div class="col s12" data-aos="fade-right" id="c3">
-                <h2>C2(3.0)</h2>
+                <h3>C2(3.0)</h3>
                 <p>
                     In order to take out the OpdA signal peptide, a PCR was performed on C2(2.0)_pETMCN-T7 to amplify
                     C2(2.0) minus the N-terminal signal. This PCR fragment was cloned into an empty pETMCN-T7 vector to
