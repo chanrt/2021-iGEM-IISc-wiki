@@ -61,11 +61,13 @@
 
                 <ul id="dropdown-drylab" class="dropdown-content">
                     <li class="dropdown-item"><a class="dropdown-link" href="#">Model</a></li>
-                    <li class="dropdown-item"><a class="dropdown-link" href="Predictions.html">Protein Structure Predictions</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Predictions.html">Protein Structure
+                            Predictions</a></li>
                 </ul>
 
                 <ul id="dropdown-hp" class="dropdown-content">
-                    <li class="dropdown-item"><a class="dropdown-link" href="Communication.html">Public Education and Engagement</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Communication.html">Public Education and
+                            Engagement</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="#">Integrated Human Practices</a></li>
                 </ul>
 
@@ -115,13 +117,15 @@
                         <a class="mobile-nav-link" href="#">Drylab</a>
                         <ol style="list-style-type: lower-latin;">
                             <li><a class="mobile-nav-link" href="#">Model</a></li>
-                            <li><a class="mobile-nav-link" href="Predictions.html">Protein Structure Predictions</a></li>
+                            <li><a class="mobile-nav-link" href="Predictions.html">Protein Structure Predictions</a>
+                            </li>
                         </ol>
                     </li>
                     <li>
                         <a class="mobile-nav-link">Human Practices:</a>
                         <ol style="list-style-type: lower-latin;">
-                            <li><a class="mobile-nav-link" class="nav-link" href="Communication.html">Public Education and Engagement</a></li>
+                            <li><a class="mobile-nav-link" class="nav-link" href="Communication.html">Public Education
+                                    and Engagement</a></li>
                             <li><a class="mobile-nav-link" class="nav-link" href="#">Integrated Human Practices</a></li>
                         </ol>
                     </li>
@@ -143,47 +147,212 @@
     <div class="container">
         <div class="row">
 
-            <h1>Structural Prediction of C2(2.0) using AlphaFold</h1>
+            <div class="col s12" data-aos="fade-right">
+                <h1>Structural Prediction of Fusion Proteins using AlphaFold</h1>
+                <p>
+                    Since we are working with fusion proteins, it is necessary to ensure that the synthetically designed
+                    proteins fold properly, and that each modular part does not interfere with the tertiary structure of
+                    the
+                    other parts. Moreover, we are working with an enzyme - OpdA. Naturally, an enzyme must fold in the
+                    exact
+                    same way as its native state in order to be soluble, stable and to preserve activity.
+                </p>
+                <p>
+                    As C1 and C2 are fusion proteins, we had no idea how they might fold in physiological conditions,
+                    even
+                    though the crystal structures of the individual modules had already been solved before. Thus, in
+                    order
+                    to gain structural insight, we decided to utilize AlphaFold to predict a tertiary structure for
+                    these
+                    proteins. We hoped this would help us understand how they might fold in solution, and also help us
+                    make
+                    informed decisions about any future design steps.
+                </p>
+            </div>
+
+            <div class="col s12 l6" data-aos="fade-right">
+                <div class="card" style="background: rgb(248, 249, 250); border-radius: 2px;" data-aos="fade-right">
+                    <div class="card-content">
+                        <span class="card-title" style="font-weight: bold; font-size: xx-large;">Contents:</span>
+                        <ul>
+                            <li><a href="#1" class="content-link">C1</a></li>
+                            <li><a href="#c2" class="content-link">C2</a></li>
+                            <li><a href="#c2-2" class="content-link">C2(2.0)</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="c1" class="col s12" data-aos="fade-right">
+                <h2>C1</h2>
+                <p>
+                    The amino acid sequence of C1 was fed into the <a class="content-link"
+                        href="https://colab.research.google.com/github/deepmind/alphafold/blob/main/notebooks/AlphaFold.ipynb">AlphaFold
+                        Google Colab notebook.</a>
+                    AlphaFold found 15537 partial matches having sequence similarity in a genetic database, which it
+                    used for a multiple sequence alignment (MSA).
+                </p>
+                <center>
+                    <figure>
+                        <img class="responsive-img" src="assets/images/predictions/C1_MSA_Results.png">
+                        <figcaption>Fig 1: C1 Multiple Sequence Alignment Results</figcaption>
+                    </figure>
+                </center>
+                <p>
+                    It then utilized machine learning based on multiple models to come up with a predicted structure for
+                    C1, alongwith some predicted metrics.
+                </p>
+                <figure>
+                    <img class="responsive-img" src="assets/images/predictions/C1_Prediction_Metrics.png">
+                    <figcaption>Fig 2: C1 Prediction metrics - pLDDT (predicted Local Distance Difference Test) and
+                        Predicted Aligned Error</figcaption>
+                </figure>
+                <p>
+                    The predicted structure of C1 is given below:
+                </p>
+                <center>
+                    <figure>
+                        <img style="width:50%;" class="responsive-img"
+                            src="assets/images/predictions/C1_CartoonModel.png">
+                        <figcaption>Fig 3: Predicted cartoon model of C1 [N- to C- direction is blue to red]
+                        </figcaption>
+                    </figure>
+                </center>
+                <p>
+                    We interpreted the pLDDT score (which is a measure of model confidence) and the 3D structure
+                    according to the findings in the original AlphaFold paper. Regions with pLDDT > 70 were reliably
+                    considered to have the same tertiary structure as predicted by the model – this was true for roughly
+                    4 stretches of amino acids: ~5-20 corresponding to the PelB signal peptide, ~70-150 covering much of
+                    SpyCatcher002, and ~190-230 and ~250-290 corresponding to the two cellulose-binding domains of dCBD.
+                    Other regions had lower pLDDT scores and were less likely to have definite tertiary structures. The
+                    AlphaFold authors have previously shown that pLDDT < 50 is a reasonably strong predictor of
+                        disorder. </p>
+                        <p>
+                            In order to gain more information, we used <a class="content-link"
+                                href="https://web.expasy.org/protparam">Expasy's ProtParam tool</a>
+                            to look at different parameters of C1 and its constituent
+                            modules which would relate to its stability and solubility, like isoelectric point (pI),
+                            estimated half-life (t<sub>1/2</sub>), instability index (II) and grand average of
+                            hydropathicity
+                            (GRAVY).
+                        </p>
+                        <table>
+                            <tr>
+                                <th>Protein/Module</th>
+                                <th>Amino Acid Positions</th>
+                                <th>pI</th>
+                                <th>t<sub>1/2</sub></th>
+                                <th>II</th>
+                                <th>GRAVY</th>
+                            </tr>
+                            <tr>
+                                <td>C1</td>
+                                <td>1 to 286</td>
+                                <td>5.91</td>
+                                <td>> 10 hrs</td>
+                                <td>37.14</td>
+                                <td>-0.491</td>
+                            </tr>
+                            <tr>
+                                <td>PelB signal peptide</td>
+                                <td>1 to 22</td>
+                                <td>8.34</td>
+                                <td>> 10 hrs</td>
+                                <td>41.42</td>
+                                <td>1.191</td>
+                            </tr>
+                            <tr>
+                                <td>SpyCatcher002</td>
+                                <td>43 to 157</td>
+                                <td>4.51</td>
+                                <td>> 10 hrs</td>
+                                <td>28.79</td>
+                                <td>-0.554</td>
+                            </tr>
+                            <tr>
+                                <td>dCBD</td>
+                                <td>165 to 286</td>
+                                <td>7.88</td>
+                                <td>> 10 hrs</td>
+                                <td>43.88</td>
+                                <td>-0.500</td>
+                            </tr>
+                        </table>
+                        <p>
+                            Our interpretations of the above results were as follows:
+                        </p>
+                        <ol>
+                            <li>Overall, C1 seemed to be pretty stable (II < 40) and hydrophilic (GRAVY < 0). pI and
+                                    t1/2 values were satisfactory too.</li>
+                            <li>The PelB signal peptide seemed unstable and
+                                also highly hydrophobic.</li>
+                            <li>SpyCatcher002 had no issues at all in terms of stability or hydrophilicity.</li>
+                            <li>dCBD was hydrophilic but seemed to be quite unstable.</li>
+
+                        </ol>
+                        <p>
+                            From the above results and the AlphaFold predicted structure, our conclusions are listed
+                            below:
+                        </p>
+                        <ol>
+                            <li>The functional parts viz. PelB signal peptide, SpyCatcher002 and dCBD have high pLDDT
+                                scores throughout and might fold in a similar fashion as those in their native states.
+                            </li>
+                            <li>The other modules, which are mostly just linkers, have very low pLDDT scores and are
+                                most
+                                likely intrinsically disordered regions (IDRs). This is favorable since they are
+                                flexible
+                                and are not expected to cause the functional modules to interfere with each other’s
+                                folding.</li>
+                            <li>The Lysine residue (Lys72) of SpyCatcher002, which forms an isopeptide bond with
+                                SpyTag002, lies on the surface, and since the linkers are IDRs, this bond formation is
+                                not
+                                expected to be hampered by the dCBD module. Thus, we expect the activity of
+                                SpyCatcher002
+                                and dCBD to be unaffected by each other.</li>
+
+                        </ol>
+                        <p>
+                            Based on the above interpretations, we were confident that C1 would be stable and soluble,
+                            which we indeed verified as detailed in the <a class="content-link"
+                                href="Results.html">Experiments and Results section</a>.
+                        </p>
+            </div>
+        </div>
+
+        <div id="c2" class="col s12" data-aos="fade-right">
+            <h2>C2</h2>
             <p>
-                Since we are working with fusion proteins, it is necessary to ensure that the synthetically designed
-                proteins fold properly, and that each modular part does not interfere with the tertiary structure of the
-                other parts. Moreover, we are working with an enzyme – OpdA. Naturally, an enzyme must fold in the exact
-                same way as its native state in order to be soluble, stable and to preserve activity.
+                We were not able to obtain a predicted structure for C2 from AlphaFold, because it is quite large
+                (686
+                amino acids), and our computational resources were not enough. However, in the design phase we had
+                initially made provisions in order to remove the sfGFP module from C2 since it was just a reporter
+                and
+                had no actual functional significance for our project. We thus decided to obtain a predicted
+                structure
+                for C2(2.0), which is just C2 minus the sfGFP module.
             </p>
+        </div>
+
+        <div id="c2-2" class="col s12" data-aos="fade-right">
+            <h2>C2(2.0)</h2>
             <p>
-                As detailed in the <a class="content-link" href="Results.html">Experiments & Results section</a>, we
-                successfully verified
-                that C1 was
-                appreciably soluble, which seemed to imply that misfolding had been avoided. We ran into problems with
-                C2, which did not seem to be soluble. This is why we decided to remove the sfGFP module in order to make
-                C2 less bulky, and we came up with C2(2.0).
-            </p>
-            <p>
-                As C2 and C2(2.0) are fusion proteins, we had no idea how they might fold in physiological conditions,
-                even though the crystal structures of the individual modules had already been solved before. Thus, in
-                order to gain structural insight, we decided to utilize AlphaFold to predict a tertiary structure for
-                C2(2.0). We hoped this would help us explain why C2 and C2(2.0) seemed to be insoluble. This would also
-                help us make informed decisions about any future design steps.
-            </p>
-            <p>
-                The amino acid sequence of C2(2.0) was fed into the <a class="content-link"
-                    href="https://colab.research.google.com/github/deepmind/alphafold/blob/main/notebooks/AlphaFold.ipynb">AlphaFold
-                    Google Colab notebook</a>. AlphaFold found 7131 partial matches having sequence similarity in a
-                genetic database, which it used for a multiple sequence alignment (MSA).
+                The amino acid sequence of C2(2.0) was fed into the AlphaFold Google Colab notebook. This time AlphaFold
+                found 7131 partial matches, which it used for a multiple sequence alignment (MSA).
             </p>
             <center>
                 <figure>
-                    <img class="responsive-img" src="assets/images/predictions/MSA_Results.png">
-                    <figcaption>Fig 1: Multiple Sequence Alignment Results</figcaption>
+                    <img class="responsive-img" src="assets/images/predictions/C2(2.0)_MSA_Results.png">
+                    <figcaption>Fig 4: Multiple Sequence Alignment Results</figcaption>
                 </figure>
             </center>
             <p>
-                It then utilized machine learning based on multiple models to come up with a predicted structure for
-                C2(2.0), alongwith some predicted metrics.
+                The predicted metrics were as follows:
             </p>
             <figure>
-                <img class="responsive-img" src="assets/images/predictions/Prediction_Metrics.png">
-                <figcaption>Fig 2: Prediction metrics - pLDDT (predicted Local Distance Difference Test) and Predicted
+                <img class="responsive-img" src="assets/images/predictions/C2(2.0)_Prediction_Metrics.png">
+                <figcaption>Fig 5: Prediction metrics - pLDDT (predicted Local Distance Difference Test) and
+                    Predicted
                     Aligned Error</figcaption>
             </figure>
             <p>
@@ -198,23 +367,11 @@
                 </figure>
             </center>
             <p>
-                We interpreted the pLDDT score (which is a measure of model confidence) and the 3D structure according
-                to the findings in the original AlphaFold paper. Regions with pLDDT > 70 were reliably
-                considered to
-                have the same tertiary structure as predicted by the model - this was true only for amino acids ~30-350,
-                which correspond to the majority of the OpdA enzyme module, minus around 35 amino acids at its C
-                terminus. Other regions had lower pLDDT scores and were less likely to have definite tertiary
-                structures. The AlphaFold authors have previously shown that pLDDT < 50 is a reasonably strong
-                predictor
-                of disorder.
-            </p>
+                The only region with pLDDT > 70 was the stretch of amino acids ~30-350, which corresponds to the
+                majority of the OpdA enzyme module, minus around 35 amino acids at its C terminus. </p>
             <p>
-                In order to gain more information, we used <a class="content-link"
-                    href="https://web.expasy.org/protparam">Expasy's ProtParam tool</a> to
-                look at different parameters of C2(2.0) and its constituent modules which would relate to its stability
-                and solubility, like isoelectric point (pI), estimated half-life (t<sub>1/2</sub>), instability index
-                (II) and
-                grand average of hydropathicity (GRAVY).
+                Again, we used Expasy's ProtParam tool to look at the same parameters for C2(2.0) and its constituent
+                modules.
             </p>
             <table>
                 <tr>
@@ -265,9 +422,8 @@
                 <li>
                     <p>
                         pI values of C2(2.0) and all its subparts are much larger than 7, II values are less than 40,
-                        and
-                        t<sub>1/2</sub> is more than 10 hours, all of which suggest that these components are expected
-                        to be
+                        and t<sub>1/2</sub> is more than 10 hours, all of which suggest that these components are
+                        expected to be
                         satisfactorily stable in vivo.
                     </p>
                 </li>
@@ -275,38 +431,34 @@
                     <p>
                         GRAVY values are mostly negative which indicates hydrophilicity. Except for the C terminal
                         region, the values are quite close to 0 which implies that they are barely hydrophilic. The
-                        GRAVY
-                        value for the signal peptide is positive and quite high, which suggests that it might be quite
-                        hydrophobic.
+                        GRAVY value for the signal peptide is positive and quite high, which suggests that it might be
+                        quite hydrophobic.
                     </p>
                 </li>
             </ol>
             <p>
-                From the above results and the AlphaFold predicted structure, our conclusions are listed below:
+                From the above results and the AlphaFold predicted structure, our conclusions are listed
+                below:
             </p>
             <ol>
                 <li>
                     <p>
-                        The OpdA enzyme has high pLDDT scores throughout and might fold in a similar fashion as that in
-                        its native state. It is not very hydrophilic though.
+                        The OpdA enzyme has high pLDDT scores throughout and might fold in a similar fashion as that
+                        in its native state. It is not very hydrophilic though.
                     </p>
                 </li>
                 <li>
                     <p>
                         The OpdA signal peptide at the N terminus had a very low pLDDT score and is most likely an
-                        intrinsically disordered region (IDR). It is also quite hydrophobic, and we realized that this
-                        could
-                        lead to aggregation of C2 and C2(2.0) since the enzyme itself is not very hydrophilic.The OpdA
-                        enzyme has high pLDDT scores throughout and might fold in a similar fashion as that in
-                        its native state. It is not very hydrophilic though.
+                        IDR. It is also quite hydrophobic, and we realized that this could lead to aggregation of C2 and
+                        C2(2.0) since the enzyme itself is not very hydrophilic.
                     </p>
                 </li>
                 <li>
                     <p>
-                        The C terminal region containing the linkers, SpyTag and the 10xHis-tag is also predicted to be
-                        an IDR, but it is quite hydrophilic and as a result, is not expected to interfere with the
-                        overall
-                        folding or stability.
+                        The C terminal region containing the linkers, SpyTag and the 10xHis-tag is also predicted to
+                        be an IDR, but it is quite hydrophilic and as a result, is not expected to interfere with the
+                        overall folding or stability.
                     </p>
                 </li>
             </ol>
@@ -324,6 +476,7 @@
             </p>
             <br>
         </div>
+    </div>
     </div>
 
     <!-- footer start -->
@@ -435,12 +588,6 @@
             document.getElementById("loader").style.display = "none";
             document.getElementsByTagName("nav")[0].style.display = "block";
             document.getElementsByClassName("header")[0].style.display = "block";
-            document.getElementsByClassName("page-footer")[0].style.display = "block";
-
-            let containers = document.getElementsByClassName("container")
-            for(let container of containers) {
-                container.style.display = "block";
-            }
 
             // preparing accordion
             var acc = document.getElementsByClassName("accordion");

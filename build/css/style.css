@@ -12,10 +12,6 @@ body {
     font-size: 20px !important;
 }
 
-.container {
-    display: none;
-}
-
 p {
     font-family: var(--font_var) !important;
     font-size: 20px !important;
@@ -120,7 +116,6 @@ figcaption {
 .page-footer {
     background: var(--nav_background) !important;
     color: white;
-    display: none;
 }
 
 .footer-content {

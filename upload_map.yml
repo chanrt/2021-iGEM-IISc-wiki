@@ -207,10 +207,30 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/c/ce/T--IISc-Bangalore--images--molecules.png
     md5: 5452277c58ce9464467400c9aebb7d90
     upload_filename: T--IISc-Bangalore--images--molecules.png
+  assets\images\predictions\C1_CartoonModel.png:
+    link_URL: https://2021.igem.org/wiki/images/e/e9/T--IISc-Bangalore--images--predictions--C1_CartoonModel.png
+    md5: 34b1de11514e2a0e9ac6ee76b331e4e5
+    upload_filename: T--IISc-Bangalore--images--predictions--C1_CartoonModel.png
+  assets\images\predictions\C1_MSA_Results.png:
+    link_URL: https://2021.igem.org/wiki/images/2/26/T--IISc-Bangalore--images--predictions--C1_MSA_Results.png
+    md5: 7c42505f51d12e25f07fe7f373ac8299
+    upload_filename: T--IISc-Bangalore--images--predictions--C1_MSA_Results.png
+  assets\images\predictions\C1_Prediction_Metrics.png:
+    link_URL: https://2021.igem.org/wiki/images/b/b2/T--IISc-Bangalore--images--predictions--C1_Prediction_Metrics.png
+    md5: 1eda95c43a5a28938841beabfb4cb66b
+    upload_filename: T--IISc-Bangalore--images--predictions--C1_Prediction_Metrics.png
   assets\images\predictions\C2(2.0)_CartoonModel.png:
     link_URL: https://2021.igem.org/wiki/images/7/73/T--IISc-Bangalore--images--predictions--C2%282.0%29_CartoonModel.png
     md5: be187e0fa3bbb31b3c2145fb528ce7d9
     upload_filename: T--IISc-Bangalore--images--predictions--C2(2.0)_CartoonModel.png
+  assets\images\predictions\C2(2.0)_MSA_Results.png:
+    link_URL: https://2021.igem.org/wiki/images/1/18/T--IISc-Bangalore--images--predictions--C2%282.0%29_MSA_Results.png
+    md5: 5024955819eec670a126754b8178225a
+    upload_filename: T--IISc-Bangalore--images--predictions--C2(2.0)_MSA_Results.png
+  assets\images\predictions\C2(2.0)_Prediction_Metrics.png:
+    link_URL: https://2021.igem.org/wiki/images/e/e7/T--IISc-Bangalore--images--predictions--C2%282.0%29_Prediction_Metrics.png
+    md5: fb6fdd8398596c8f9d183a9c175e3931
+    upload_filename: T--IISc-Bangalore--images--predictions--C2(2.0)_Prediction_Metrics.png
   assets\images\predictions\MSA_Results.png:
     link_URL: https://2021.igem.org/wiki/images/9/9a/T--IISc-Bangalore--images--predictions--MSA_Results.png
     md5: 5024955819eec670a126754b8178225a
@@ -401,29 +421,29 @@ css:
     md5: 3c3ee463702a1f1a74a8d7ba36f16f3e
   css\style.css:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&ctype=text/css
-    md5: 14c3564c599007c2f8f8fc989be9928b
+    md5: ff80c2d62a61c9f3a7680e902b6753fa
 html:
   Attributions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Attributions
-    md5: 5e0f438ed9ff9954347c1ece91b0d30d
+    md5: e95b56590ca6eebb015a566910c229d9
   Communication.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Communication
-    md5: 475dec4dc2597b87460d7090f5bb7394
+    md5: 80ee4f1f9822111969a7ec9a5f291be4
   Predictions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Predictions
-    md5: 29165849b0fa2681fb288efc416e9306
+    md5: f11e84a446f984e61448f2b8f7873fd6
   Results.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Results
-    md5: fd19991555480352dedc4ab9f0abbc79
+    md5: 6ba5a9fc690643c031d647046f381f89
   Template_page.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Template_page
-    md5: 6c0506385e1f667a8c64e5de8f43a7b4
+    md5: 9a5e5f5c10344649a5130e98442b0daa
   attributions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/attributions
     md5: 4f4e8db9d168ffeaa60e820ca874ea16
   index.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore
-    md5: f5105ff9ea124f0e2b9c10f8caac96c4
+    md5: eaf537703f012157832a84d10e2cb5fa
   results.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/results
     md5: 31fbd37e0e8018bf95fef855d0b62e38
