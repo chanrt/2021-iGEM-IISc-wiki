@@ -15,6 +15,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/2/22/T--IISc-Bangalore--backgrounds--communication.jpg
     md5: 29d9d874ec58a4b1389f954cd520dafa
     upload_filename: T--IISc-Bangalore--backgrounds--communication.jpg
+  assets\backgrounds\description.jpg:
+    link_URL: https://2021.igem.org/wiki/images/0/05/T--IISc-Bangalore--backgrounds--description.jpg
+    md5: d77fab210caa2d9a44de3b3fec686ef0
+    upload_filename: T--IISc-Bangalore--backgrounds--description.jpg
   assets\backgrounds\results.jpg:
     link_URL: https://2021.igem.org/wiki/images/3/3a/T--IISc-Bangalore--backgrounds--results.jpg
     md5: f1fce7ff9698e5e8ee18c6cfe33ad472
@@ -199,6 +203,14 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/b/b5/T--IISc-Bangalore--images--communication--Synthetic_Biology_Poster.png
     md5: 9993a405a1a1ab785b52b7f04976a6c7
     upload_filename: T--IISc-Bangalore--images--communication--Synthetic_Biology_Poster.png
+  assets\images\description\pesticide_usage_india.png:
+    link_URL: https://2021.igem.org/wiki/images/a/a9/T--IISc-Bangalore--images--description--pesticide_usage_india.png
+    md5: dd8604fc6ad6bf6185c4912638966730
+    upload_filename: T--IISc-Bangalore--images--description--pesticide_usage_india.png
+  assets\images\description\pesticide_usage_world.png:
+    link_URL: https://2021.igem.org/wiki/images/8/88/T--IISc-Bangalore--images--description--pesticide_usage_world.png
+    md5: 6f257d4440489f664dd120ef23b97a9d
+    upload_filename: T--IISc-Bangalore--images--description--pesticide_usage_world.png
   assets\images\igem_logo.png:
     link_URL: https://2021.igem.org/wiki/images/c/c3/T--IISc-Bangalore--images--igem_logo.png
     md5: 8868bbecfd0fb303ea7f8274e81348e5
@@ -425,25 +437,28 @@ css:
 html:
   Attributions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Attributions
-    md5: e95b56590ca6eebb015a566910c229d9
+    md5: 2c61b13077a971e717d7a246eb177782
   Communication.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Communication
-    md5: 80ee4f1f9822111969a7ec9a5f291be4
+    md5: e7611308307dc76fa29d17d8560bf53b
+  Description.html:
+    link_URL: https://2021.igem.org/Team:IISc-Bangalore/Description
+    md5: 85d224c11b9d0e4048943ac65fdbd549
   Predictions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Predictions
-    md5: f11e84a446f984e61448f2b8f7873fd6
+    md5: f6882fd29dbff8cbb05ac06861aabab3
   Results.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Results
-    md5: 6ba5a9fc690643c031d647046f381f89
+    md5: dcb5ca3389cf5e6ac37d891325cd4c14
   Template_page.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Template_page
-    md5: 9a5e5f5c10344649a5130e98442b0daa
+    md5: 763fa1f1f3f9a37cedc45a0e89608261
   attributions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/attributions
     md5: 4f4e8db9d168ffeaa60e820ca874ea16
   index.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore
-    md5: eaf537703f012157832a84d10e2cb5fa
+    md5: adf4c9548afb1dc6359c7e7062fb18d0
   results.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/results
     md5: 31fbd37e0e8018bf95fef855d0b62e38

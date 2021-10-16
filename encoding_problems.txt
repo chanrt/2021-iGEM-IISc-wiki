@@ -2,6 +2,10 @@ Replace – with -
 
 Replace ’ with '
 
+Replace “ with "
+
+Repalce ” with " 
+
 Replace > with >
 
 Replace < with <
