@@ -369,14 +369,14 @@ css:
     md5: 3c3ee463702a1f1a74a8d7ba36f16f3e
   css\style.css:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&ctype=text/css
-    md5: 2d45ec4d786bb32e5f4c9882e10b45a5
+    md5: 5b90653dbfdf7af4363ba7389a668ec0
 html:
   Attributions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Attributions
     md5: 07406bbeebf050568135211c11309d32
   Results.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Results
-    md5: b211c0a128c9c7c437dee7b86145792b
+    md5: c466dbaa9edaa92af4520821c1f5223a
   Template_page.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Template_page
     md5: bdd5910e319fd184ed70df871f627aad
