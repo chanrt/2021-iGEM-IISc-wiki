@@ -376,7 +376,7 @@ html:
     md5: 07406bbeebf050568135211c11309d32
   Results.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Results
-    md5: e7d2cefa56d67768cb9f241b6f7dc9c1
+    md5: ccf5107500b434a15d2d3457337cf464
   Template_page.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Template_page
     md5: bdd5910e319fd184ed70df871f627aad
@@ -386,6 +386,12 @@ html:
   index.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore
     md5: f5b354bdad3e6616047ec1cdda5b46b1
+  results.html:
+    link_URL: https://2021.igem.org/Team:IISc-Bangalore/results
+    md5: 31fbd37e0e8018bf95fef855d0b62e38
+  temp.html:
+    link_URL: https://2021.igem.org/Team:IISc-Bangalore/temp
+    md5: 31fbd37e0e8018bf95fef855d0b62e38
 js:
   assets\fontawesome\attribution.js:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/assets/fontawesome/attributionJS?action=raw&ctype=text/javascript
