@@ -315,6 +315,30 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/6/6f/T--IISc-Bangalore--images--results--Map_C2%283.0%29.png
     md5: 4367c3033e0be3f91d256d2e2d271bf1
     upload_filename: T--IISc-Bangalore--images--results--Map_C2(3.0).png
+  assets\images\results\PCRLab_Fig1-1.jpg:
+    link_URL: https://2021.igem.org/wiki/images/e/e7/T--IISc-Bangalore--images--results--PCRLab_Fig1-1.jpg
+    md5: f5a800cca3f2895415b841e28eaa1fea
+    upload_filename: T--IISc-Bangalore--images--results--PCRLab_Fig1-1.jpg
+  assets\images\results\PCRLab_Fig1-2.jpg:
+    link_URL: https://2021.igem.org/wiki/images/c/c5/T--IISc-Bangalore--images--results--PCRLab_Fig1-2.jpg
+    md5: 1e9eb2006e99fae18aed6bd1ab384bc6
+    upload_filename: T--IISc-Bangalore--images--results--PCRLab_Fig1-2.jpg
+  assets\images\results\PCRLab_Fig1-3.jpg:
+    link_URL: https://2021.igem.org/wiki/images/2/21/T--IISc-Bangalore--images--results--PCRLab_Fig1-3.jpg
+    md5: 69ccfc295d0e88cf68ccb496391a69f9
+    upload_filename: T--IISc-Bangalore--images--results--PCRLab_Fig1-3.jpg
+  assets\images\results\PCRLab_Fig2.jpg:
+    link_URL: https://2021.igem.org/wiki/images/2/22/T--IISc-Bangalore--images--results--PCRLab_Fig2.jpg
+    md5: c3772466e5531b1f220a15a7bdf314c5
+    upload_filename: T--IISc-Bangalore--images--results--PCRLab_Fig2.jpg
+  assets\images\results\PCRLab_Fig3.jpg:
+    link_URL: https://2021.igem.org/wiki/images/3/3f/T--IISc-Bangalore--images--results--PCRLab_Fig3.jpg
+    md5: 8beab333c55ce34cb712f02f75a4f7b3
+    upload_filename: T--IISc-Bangalore--images--results--PCRLab_Fig3.jpg
+  assets\images\results\PCRLab_Fig4.jpg:
+    link_URL: https://2021.igem.org/wiki/images/6/6d/T--IISc-Bangalore--images--results--PCRLab_Fig4.jpg
+    md5: 1d8ce26a9a9b1213c0cf8ee79ea50100
+    upload_filename: T--IISc-Bangalore--images--results--PCRLab_Fig4.jpg
   assets\images\team_iisc_logo.png:
     link_URL: https://2021.igem.org/wiki/images/9/99/T--IISc-Bangalore--images--team_iisc_logo.png
     md5: d3b8fe55251fe7f91718ccac91fd48e6
@@ -437,32 +461,32 @@ css:
     md5: 3c3ee463702a1f1a74a8d7ba36f16f3e
   css\style.css:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&ctype=text/css
-    md5: 7c1c5bcb74b7d37ac9cf615b23d4e4bb
+    md5: 6bdd0321cf378843139c6ac7d9e2b355
 html:
   Attributions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Attributions
-    md5: e5063cd77a4a7d5400ee59587dd45e56
+    md5: 0f26221a3f6562d92d9e9ea2dde9fe6f
   Communication.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Communication
-    md5: 3628b2bf300a1c661e8102224a775750
+    md5: b716a05e00b107e825520c0e16915165
   Description.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Description
-    md5: c26172343de5d6e5c4e7acca3c6234ef
+    md5: 3d5109bc2da457d0c32c22577b509344
   Predictions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Predictions
-    md5: 4e607892ab482b6acf48a447e52105b2
+    md5: 002156e8b552ca2cf1c43c0e486cc6ae
   Results.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Results
-    md5: ef205e0d704f1506782c882645d801e1
+    md5: 0eca0aa764df2c7afd67f4a3b6aaa9f0
   Template_page.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Template_page
-    md5: 763fa1f1f3f9a37cedc45a0e89608261
+    md5: 7a06ed5d481ddd3ff47cc9c56a9a579d
   attributions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/attributions
     md5: 4f4e8db9d168ffeaa60e820ca874ea16
   index.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore
-    md5: adf4c9548afb1dc6359c7e7062fb18d0
+    md5: 1c9890e7e065b2958b566bc8710ae08e
   results.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/results
     md5: 31fbd37e0e8018bf95fef855d0b62e38

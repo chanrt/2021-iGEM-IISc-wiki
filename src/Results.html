@@ -145,6 +145,8 @@
             </div>
         </div>
     </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
     <!-- navbar end -->
 
     <style>
@@ -185,7 +187,7 @@
                         <span class="card-title" style="font-weight: bold; font-size: xx-large;">Contents:</span>
                         <ol>
                             <li>
-                                <a href="#lab1">Cloning and protein production</a>
+                                <a class="content-link" href="#lab1">Cloning and protein production</a>
                                 <ol class="content-list">
                                     <li><a href="#cloning" class="content-link">Cloning of C1 and C2</a></li>
                                     <li><a href="#expression" class="content-link">Expression tests</a></li>
@@ -195,10 +197,11 @@
                                 </ol>
                             </li>
                             <li>
-                                <a href="#lab2">Making microcrystalline cellulose sheet from powder</a>
+                                <a class="content-link" href="#lab2">Making microcrystalline cellulose sheet from
+                                    powder</a>
                             </li>
                             <li>
-                                <a href="#lab3">Overproduction of bacterial cellulose</a>
+                                <a class="content-link" href="#lab3">Overproduction of bacterial cellulose</a>
                             </li>
                         </ol>
                     </div>
@@ -209,7 +212,6 @@
                 <h2>Cloning and protein production</h2>
             </div>
             <div class="col s12 abstract-box" data-aos="fade-right">
-
                 <p>
                     For the functionalization aspect of our project, we have two constructs - C1 (SpyCatcher002-dCBD)
                     and C2 (OpdA-SpyTag002). This section mentions our efforts in order to produce, purify and
@@ -293,8 +295,8 @@
                 <p>
                     The chosen positive clones were transformed into <em>E. coli</em> BL21(DE3) for protein production.
                     Secondary
-                    liquid cultures were induced with 0.25 mM or 0.5 mM IPTG and incubated at 23<sup>o</sup>C for 6 hrs
-                    or 30<sup>o</sup>C for
+                    liquid cultures were induced with 0.25 mM or 0.5 mM IPTG and incubated at 23&deg;C for 6 hrs
+                    or 30&deg;C for
                     4
                     hrs. Cell pellets were lysed by boiling in SDS Laemmli buffer. SDS-PAGE was performed on all the
                     samples.
@@ -328,7 +330,8 @@
                 </figure>
                 <p>
                     For C1, prominent bands were observed at ~25kDa, with induction being strongest for 0.5 mM IPTG
-                    incubated at 30<sup>o</sup>C. This was taken to be the induction condition for a large-scale culture. The same
+                    incubated at 30&deg;C. This was taken to be the induction condition for a large-scale
+                    culture. The same
                     conditions were finalized for C2 also since there was a prominent band at ~75kDa.
                 </p>
             </div>
@@ -339,7 +342,8 @@
                     Large scale <em>E. coli</em> BL21(DE3) cultures (50 mL each) were set up for both C1 and C2, with
                     induction
                     by
-                    0.5 mM IPTG at 30<sup>o</sup>C. After cells were harvested, they were lysed and subjected to Ni-NTA pulldown to
+                    0.5 mM IPTG at 30&deg;C. After cells were harvested, they were lysed and subjected to Ni-NTA
+                    pulldown to
                     check solubility. SDS-PAGE was performed on the boiled samples taken from different fractions
                     (lysate,
                     pellet, supernatant, washed and bead-bound).
@@ -467,6 +471,225 @@
                     <figcaption>Fig 15: Schematic map of C2(3.0)</figcaption>
                 </figure>
             </div>
+
+            <div id="lab2" class="col s12" data-aos="fade-right">
+                <h2>Making microcrystalline cellulose sheet from MCC powder</h2>
+                <p>
+                    We also tried to make a sheet of microcrystalline cellulose (MCC) from the commercially
+                    available
+                    powdered form. Powder of MCC was purchased from Sigma Aldrich & Co. Initially, we started out on
+                    finding a suitable solvent for dissolving MCC powder. Although data is available in literature
+                    in
+                    this regard, they are not exhaustive and are often ambiguous. Based on literature review, we
+                    decided
+                    to focus on DMSO (dimethyl sulfoxide), NMP (N-methyl pyrrolidinone and a solution of 7% LiCl in
+                    DMAc
+                    (dimethyl acetamide) as probable solvents for further investigation.
+                </p>
+                <p>
+                    MCC was mixed with these solvents and stirred on a magnetic stirrer overnight. The results were
+                    as
+                    follows:
+                </p>
+                <table>
+                    <tr>
+                        <th>Solution</th>
+                        <th>Solute</th>
+                        <th>Solvent</th>
+                        <th>Stirring Speed</th>
+                        <th>Results</th>
+                        <th>Inference</th>
+                    </tr>
+                    <tr>
+                        <td>Cellulose + DMSO</td>
+                        <td>1 g MCC powder</td>
+                        <td>10 mL DMSO</td>
+                        <td>450 rpm</td>
+                        <td>Maximum cloudiness</td>
+                        <td>Maximum solubility of MCC</td>
+                    </tr>
+                    <tr>
+                        <td>Cellulose + 7% LiCl in DMAc</td>
+                        <td>1 g MCC powder</td>
+                        <td>7% LiCl in DMAc</td>
+                        <td>450 rpm</td>
+                        <td>Intermediate cloudiness</td>
+                        <td>Intermediate solubility of MCC</td>
+                    </tr>
+                    <tr>
+                        <td>Cellulose + NMP</td>
+                        <td>1 g MCC powder</td>
+                        <td>10 mL NMP</td>
+                        <td>460 rpm</td>
+                        <td>Minimum cloudiness</td>
+                        <td>Minimum solubility of MCC</td>
+                    </tr>
+                </table>
+                <div class="row valign-wrapper">
+                    <div class="col s12 l4">
+                        <img style="height: 300px" class="responsive-img" src="assets/images/results/PCRLab_Fig1-1.jpg">
+                    </div>
+                    <div class="col s12 l4">
+                        <img style="height: 300px" class="responsive-img" src="assets/images/results/PCRLab_Fig1-2.jpg">
+                    </div>
+                    <div class="col s12 l4">
+                        <img style="height: 300px" class="responsive-img" src="assets/images/results/PCRLab_Fig1-3.jpg">
+                    </div>
+                </div>
+                <p>
+                    To test whether it was possible to form a mechanically strong film of bacterial cellulose from
+                    the
+                    solutions in these solvents, we decided to perform a standard test used by materials engineers
+                    for
+                    understanding this - drop casting. This small scale test saves wastage of resources by doing a
+                    random hit-and-trial with huge volumes of samples. A drop of the sample is spread out over a
+                    glass
+                    slide and heated at a temperature about 20 oC below its boiling point, and then subjected to a
+                    variety of treatment conditions. The film formed on the glass slide is observed.
+                </p>
+                <center>
+                    <img style="height: 66%;" class="responsive-img" src="assets/images/results/PCRLab_Fig2.jpg">
+                </center>
+                <p>
+                    Drop-castings were performed with different sample volumes. Since MCC was most soluble in DMSO
+                    among
+                    the three solvents, we decided to investigate the influence of different heating durations on
+                    the
+                    integrity of the film formed from this solution. The results of our drop-castings using the
+                    above
+                    mentioned solvents are enlisted below:
+                </p>
+                <table>
+                    <tr>
+                        <td>Label</td>
+                        <td>Solvent </td>
+                        <td>Temp. used</td>
+                        <td>Volume used</td>
+                        <td>Time of heating</td>
+                        <td>Observations</td>
+                    </tr>
+                    <tr>
+                        <td>DMSO 1</td>
+                        <td>DMSO</td>
+                        <td>170&deg;C</td>
+                        <td>1 mL</td>
+                        <td>30 s</td>
+                        <td>Cracked when quenched</td>
+                    </tr>
+                    <tr>
+                        <td>DMSO 2</td>
+                        <td>DMSO</td>
+                        <td>170&deg;C</td>
+                        <td>0.5 mL</td>
+                        <td>20 s</td>
+                        <td>Large cracks; Highly non-uniform thickness</td>
+                    </tr>
+                    <tr>
+                        <td>DMSO 3</td>
+                        <td>DMSO</td>
+                        <td>170&deg;C</td>
+                        <td>1 mL</td>
+                        <td>35 s</td>
+                        <td>Large cracks</td>
+                    </tr>
+                    <tr>
+                        <td>NMP 1</td>
+                        <td>NMP</td>
+                        <td>175&deg;C</td>
+                        <td>0.6 mL</td>
+                        <td>20 s</td>
+                        <td>Microcracks on visual examination after annealing. Excessively flaky.</td>
+                    </tr>
+                    <tr>
+                        <td>LiCl/DMAc 1</td>
+                        <td>7% LiCl in DMAc</td>
+                        <td>140&deg;C</td>
+                        <td>1 mL</td>
+                        <td>45 s</td>
+                        <td>Negligible presence of cracks. A few small bubbles; absorbed moisture after annealing;
+                            after
+                            heating for more than 850 s, turned yellow</td>
+                    </tr>
+                    <tr>
+                        <td>LiCl/DMAc 2</td>
+                        <td>7% LiCl in DMAc</td>
+                        <td>140&deg;C</td>
+                        <td>0.5 mL</td>
+                        <td>420 s</td>
+                        <td>Almost no cracks; bubbles; absorbed moisture</td>
+                    </tr>
+                </table>
+                <br>
+                <div class="col s12">
+                    <img class="responsive-img" src="assets/images/results/PCRLab_Fig3.jpg">
+                    <br>
+                </div>
+                <p>
+                    Next, we sought to see if the addition of a binder like PVA (polyvinyl alcohol) could influence
+                    the
+                    mechanical integrity of the film and strengthen it. We tried to carry out drop-castings using
+                    the
+                    same solutions, but with 10 % w/v PVA added to it. Since quenching gave better results
+                    previously,
+                    all the samples were quenched on a pool of acetone after heating to evaporate the solvent.
+                    Temperatures for heating were same as before. However, we found that all the drop-casted films
+                    were
+                    patchy and flaky and had turned brownish, except for the solution containing DMSO as solvent,
+                    which
+                    formed a homogenous sheet, albeit with a brownish hue.
+                </p>
+                <div class="col s12">
+                    <figure>
+                        <img class="responsive-img" src="assets/images/results/PCRLab_Fig4.jpg">
+                        <figcaption>Fig: Q denotes Quenching, A denotes annealing. N indicates normal drying (by leaving
+                            it
+                            out in
+                            air)
+                            while O denotes drying in hot air oven.</figcaption>
+                    </figure>
+                </div>
+                <p>
+
+                </p>
+                <p>
+                    Having been slightly surprised at these results, we were intrigued to find out the possible
+                    cause(s)
+                    behind this. PVA is known to be strongly preferring the formation of mechanically strong films.
+                    The
+                    results therefore seem counter-intuitive at the first glance. However, a survey of existing
+                    literature and the materials data sheets provided by companies led us to conclude that the
+                    heating
+                    regime used for most of the samples had exceeded the degradation temperature of PVA, while the
+                    heating temperature for DMSO was slightly lower than the average degradation temperature. The
+                    brownish colour was most likely imparted due to the influence of the degradation products of
+                    PVA.
+                </p>
+                <p>
+                    We therefore decided to redo our experiment for PVA by using a lower temperature. Although this
+                    would prolong the heating duration, we expected to see a stable film being formed, devoid of the
+                    brownish hue of the previous case. Our hypothesis was indeed validated in the next experiment
+                </p>
+                <table>
+                    <tr>
+                        <td>Solution</td>
+                        <td>Heating</td>
+                        <td>Observations</td>
+                    </tr>
+                    <tr>
+                        <td>DMSO + 10% PVA + MCC</td>
+                        <td>Heated on Hot Plate gradually till 90&deg;C for 8.5 min and then rapidly quenched</td>
+                        <td>Homogenous sheet</td>
+                    </tr>
+                </table>
+                <p>
+                    We have thus tried to optimise the conditions for making MCC sheet from commercially available
+                    powder. Further studies need to be done by drop-casting on a block of PDMS or inside a PDMS tube
+                    instead of a glass slide. Detailed studies need to also be performed on the interesting solvent
+                    system of 7% LiCl in DMAc, because the film formed in this case absorbs moisture due to the
+                    presence
+                    of hygroscopic LiCl and spontaneously gets healed of any cracks present.
+                </p>
+            </div>
         </div>
     </div>
 
@@ -580,6 +803,9 @@
             document.getElementsByTagName("nav")[0].style.display = "block";
             document.getElementsByClassName("header")[0].style.display = "block";
 
+            // back to top button
+            mybutton = document.getElementById("myBtn");
+
             // preparing accordion
             var acc = document.getElementsByClassName("accordion");
             var i;
@@ -602,10 +828,24 @@
         }
 
         window.onscroll = function myFunction() {
+            // scroll bar
             var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
             var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
             var scrolled = (winScroll / height) * 100;
             document.getElementById("myBar").style.width = scrolled + "%";
+
+            // back to top button
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // back to top button function
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
     </script>
     <!-- footer end -->

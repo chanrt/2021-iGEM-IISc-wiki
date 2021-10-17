@@ -142,6 +142,8 @@
             </div>
         </div>
     </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
     <!-- navbar end -->
 
     <style>
@@ -400,7 +402,8 @@
                 <h2>Synthetic Biology Book Support</h2>
                 <p>
                     Besides the team-members, we would like to thank <b>Abheepsa Nanda, Ankush Moger, Darshana Mandal,
-                        Lakshya Chauhan, Pabitra Sharma and Rashi Jindal</b> for helping us with the content and
+                        Lakshya Chauhan, Pabitra Sharma, Rashi Jindal and Yukta Thyagaraj</b> for helping us with the
+                    content and
                     illustrations
                     in the synthetic biology primer designed by us.
                 </p>
@@ -416,7 +419,8 @@
                 <p>
                     For translating the project promotion video into other languages and voiceovers in languages other
                     than English, we would like to thank, besides our team-members, <b>Abheepsa Nanda, Ashfakh Ali K M,
-                        Jeevan Subodh, Sanket Patil, Senin Ahammed AP, Soham Mahesh Karandikar and Tanmai Dhani
+                        Jeevan Subodh, Megha Kattimani, Sanket Patil, Senin Ahammed AP, Soham Mahesh Karandikar and
+                        Tanmai Dhani
                         Reddy</b>.
                 </p>
             </div>
@@ -431,6 +435,13 @@
                         href="https://igem-wikisync.readthedocs.io/en/latest/">extensive documentation</a> on its usage.
                     We thank <b>Pranav Ballaney</b> in particular, for
                     responding to all our queries regarding Wiki Development.
+                </p>
+                <p>
+                    The background images to the key pages were obtained from <a class="content-link"
+                        href="https://www.freepik.com/free-photos-vectors/website-background">FreePik.com</a>. We
+                    utlized <a class="content-link" href="https://materializecss.com">MaterializeCSS</a> and <a
+                        class="content-link" href="https://michalsnik.github.io/aos/">Animate On Scroll</a> in our
+                    website, both of which come under open source.
                 </p>
             </div>
 
@@ -467,9 +478,15 @@
                         <p>
                             <b>Prof. Mark Howarth</b> (University of Oxford) for putting us in contact with his
                             post-doctoral
-                            associate <b>Dr. Anthony Keeble</b> and <b>Dr. Keeble</b> for his invaluable inputs
-                            regarding the Spy&Go
-                            purification system.
+                            associate <b>Dr. Anthony Keeble</b>.
+                        </p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p>
+                            <b>Dr. Anthony Keeble</b>, for his invaluable inputs regarding the Spy&Go purification
+                            system.
                         </p>
                     </li>
                 </ul>
@@ -682,6 +699,9 @@
             document.getElementsByTagName("nav")[0].style.display = "block";
             document.getElementsByClassName("header")[0].style.display = "block";
 
+            // back to top button
+            mybutton = document.getElementById("myBtn");
+
             // preparing accordion
             var acc = document.getElementsByClassName("accordion");
             var i;
@@ -704,10 +724,24 @@
         }
 
         window.onscroll = function myFunction() {
+            // scroll bar
             var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
             var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
             var scrolled = (winScroll / height) * 100;
             document.getElementById("myBar").style.width = scrolled + "%";
+
+            // back to top button
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // back to top button function
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
     </script>
     <!-- footer end -->

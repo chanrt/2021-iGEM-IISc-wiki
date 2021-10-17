@@ -58,11 +58,13 @@
 
                 <ul class="dropdown-content" id="dropdown-drylab">
                     <li class="dropdown-item"><a class="dropdown-link" href="#">Model</a></li>
-                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Predictions">Protein Structure Predictions</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Predictions">Protein Structure
+                            Predictions</a></li>
                 </ul>
 
                 <ul class="dropdown-content" id="dropdown-hp">
-                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Communication">Public Education and Engagement</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Communication">Public Education and
+                            Engagement</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="#">Integrated Human Practices</a></li>
                 </ul>
 
@@ -112,13 +114,15 @@
                         <a class="mobile-nav-link" href="#">Drylab</a>
                         <ol style="list-style-type: lower-latin;">
                             <li><a class="mobile-nav-link" href="#">Model</a></li>
-                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Predictions">Protein Structure Predictions</a></li>
+                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Predictions">Protein Structure Predictions</a>
+                            </li>
                         </ol>
                     </li>
                     <li>
                         <a class="mobile-nav-link">Human Practices:</a>
                         <ol style="list-style-type: lower-latin;">
-                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Communication">Public Education and Engagement</a></li>
+                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Communication">Public Education
+                                    and Engagement</a></li>
                             <li><a class="mobile-nav-link" href="#">Integrated Human Practices</a></li>
                         </ol>
                     </li>
@@ -135,6 +139,8 @@
             </div>
         </div>
     </div>
+
+    <button id="myBtn" onclick="topFunction()" title="Go to top">Back to Top</button>
     <!-- navbar end -->
 
     <div class="container">
@@ -559,6 +565,9 @@
             document.getElementsByTagName("nav")[0].style.display = "block";
             document.getElementsByClassName("header")[0].style.display = "block";
 
+            // back to top button
+            mybutton = document.getElementById("myBtn");
+
             // preparing accordion
             var acc = document.getElementsByClassName("accordion");
             var i;
@@ -581,10 +590,24 @@
         }
 
         window.onscroll = function myFunction() {
+            // scroll bar
             var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
             var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
             var scrolled = (winScroll / height) * 100;
             document.getElementById("myBar").style.width = scrolled + "%";
+
+            // back to top button
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // back to top button function
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
     </script>
     <!-- footer end -->

@@ -142,6 +142,8 @@
             </div>
         </div>
     </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
     <!-- navbar end -->
 
     <style>
@@ -763,6 +765,9 @@
             document.getElementsByTagName("nav")[0].style.display = "block";
             document.getElementsByClassName("header")[0].style.display = "block";
 
+            // back to top button
+            mybutton = document.getElementById("myBtn");
+
             // preparing accordion
             var acc = document.getElementsByClassName("accordion");
             var i;
@@ -785,10 +790,24 @@
         }
 
         window.onscroll = function myFunction() {
+            // scroll bar
             var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
             var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
             var scrolled = (winScroll / height) * 100;
             document.getElementById("myBar").style.width = scrolled + "%";
+
+            // back to top button
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // back to top button function
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
     </script>
     <!-- footer end -->

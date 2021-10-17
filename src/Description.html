@@ -142,6 +142,8 @@
             </div>
         </div>
     </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
     <!-- navbar end -->
 
     <style>
@@ -360,7 +362,7 @@
                     salivation, blurred vision , giddiness, headache, lethargy, anxiety, depression, fatigue, and
                     irritability. Even <b>chronic effects</b> cannot be neglected: Some (like monocrotophos and ethion)
                     are
-                    suspected to be carcinogen, some cause attention deficit hyperactivity disorder (ADHD), and some
+                    suspected to be carcinogenic, some cause attention deficit hyperactivity disorder (ADHD), and some
                     (like
                     parathion) are even lethal. The associated neurobehavioral changes are described by the umbrella
                     term:
@@ -440,9 +442,9 @@
             <div id="inspiration" class="col s12" data-aos="fade-right">
                 <h2>Inspiration</h2>
                 <p>
-                    When we newly formed this iGEM Team of Indian Institute of Science, we had no idea what kind of
+                    When we newly formed this iGEM Team of Indian Institute of Science, we had no idea of what kind of
                     project we wanted to work on. We were not really familiar with the type of real-life problems that
-                    iGEM teams generally work to address. So we went through the wikis created by the teams that had
+                    iGEM teams generally work to address. So. we went through the wikis created by the teams that had
                     participated in previous editions of iGEM, where we were inspired by so many ingenious ideas. Our
                     mentors further encouraged us to let our ideas flow freely.
                 </p>
@@ -499,12 +501,12 @@
                     <li>Aktar MW, Sengupta D, Chowdhury A. Impact of pesticides use in agriculture: their benefits and
                     hazards. Interdiscip. Toxicol. 2009; 2(1): 1-12. DOI:10.2478/v10102-009-0001-7.</li>
                     <li>Kumar S, Kaushik G, Villarreal-Chiu JF. Scenario of organophosphate pollution and toxicity in
-                    India: A review. Environ. Sci. Pollut. Res. 2016; 23: 9480–9491. DOI:10.1007/s11356-016-6294-0.</li>
+                    India: A review. Environ. Sci. Pollut. Res. 2016; 23: 9480-9491. DOI:10.1007/s11356-016-6294-0.</li>
                     <li>Roberts JR, Reigart JR (2013). Recognition and Management of Pesticide Poisonings (6th ed.).
                     Environmental Protection Agency. p. 43. Archived (PDF) from the original on 13 May 2017. Retrieved
                     10 March 2018.</li>
                     <li>Krause K, Thriel CV, De Sousa PA, Leist M, Hengstler JG. Monocrotophos in Gandaman village: India
-                    school lunch deaths and need for improved toxicity testing. Arch. Toxicol. 2013; 87: 1877–1881. DOI:
+                    school lunch deaths and need for improved toxicity testing. Arch. Toxicol. 2013; 87: 1877-1881. DOI:
                     10.1007/s00204-013-1113-6.</li>
                     <li>Sahin C, Karpuzcu ME. Mitigation of organophosphate pesticide pollution in agricultural
                     watersheds. Sci. Total. Environ. 2020; 25(710): 136261. DOI: 10.1016/j.scitotenv.2019.136261.</li>
@@ -628,6 +630,9 @@
             document.getElementsByTagName("nav")[0].style.display = "block";
             document.getElementsByClassName("header")[0].style.display = "block";
 
+            // back to top button
+            mybutton = document.getElementById("myBtn");
+
             // preparing accordion
             var acc = document.getElementsByClassName("accordion");
             var i;
@@ -650,10 +655,24 @@
         }
 
         window.onscroll = function myFunction() {
+            // scroll bar
             var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
             var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
             var scrolled = (winScroll / height) * 100;
             document.getElementById("myBar").style.width = scrolled + "%";
+
+            // back to top button
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // back to top button function
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
     </script>
     <!-- footer end -->
