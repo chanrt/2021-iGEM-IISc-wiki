@@ -9,9 +9,11 @@ Collaborations
 Human_Practices
 Implementation
 
-Gold:
+Gold: Any three of these:
 Human_Practices
 Model
 Proof_Of_Concept
 Partnership
 Communication
+Improvement on an existing part (not wiki related)
+Excellence in another area (not wiki related)
