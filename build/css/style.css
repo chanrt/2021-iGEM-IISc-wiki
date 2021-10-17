@@ -128,6 +128,7 @@ figcaption {
 
 .sponsor-img:hover {
     opacity: 100%;
+    animation: rise 1s;
 }
 
 .sm-title {
@@ -160,7 +161,7 @@ figcaption {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: var(--nav_background) !important;
+    background-color: darkblue !important;
     color: white !important;
     cursor: pointer;
     padding: 15px;
@@ -172,6 +173,7 @@ figcaption {
 
 #myBtn:hover {
     background-color: #555;
+    animation: agitate 2s;
 }
 
 /* Scroll progress bar */
@@ -301,6 +303,75 @@ figcaption {
         transform: scaleX(-1)
     }
     ;
+}
+
+@keyframes rise {
+    50% {
+        transform: translate(0, -20px);
+    }
+}
+
+@keyframes agitate {
+    5% {
+        transform: translate(0, -3px);
+    }
+    10% {
+        transform: translate(0, -6px);
+    }
+    15% {
+        transform: translate(0, -9px);
+    }
+    20% {
+        transform: translate(0, -12px);
+    }
+    25% {
+        transform: translate(0, -15px);
+    }
+    30% {
+        transform: translate(0, -12px);
+    }
+    35% {
+        transform: translate(0, -9px);
+    }
+    40% {
+        transform: translate(0, -6px);
+    }
+    45% {
+        transform: translate(0, -3px);
+    }
+    50% {
+        transform: translate(0, 0px);
+    }
+    55% {
+        transform: translate(0, -5px);
+    }
+    60% {
+        transform: translate(0, -10px);
+    }
+    65% {
+        transform: translate(0, -15px);
+    }
+    70% {
+        transform: translate(0, -20px);
+    }
+    75% {
+        transform: translate(0, -25px);
+    }
+    80% {
+        transform: translate(0, -20px);
+    }
+    85% {
+        transform: translate(0, -15px);
+    }
+    90% {
+        transform: translate(0, -10px);
+    }
+    95% {
+        transform: translate(0, -5px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
 }
 
 @keyframes shake {

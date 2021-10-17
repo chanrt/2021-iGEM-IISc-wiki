@@ -48,7 +48,7 @@
 
                 <ul id="dropdown-project" class="dropdown-content">
                     <li class="dropdown-item"><a class="dropdown-link" href="Description.html">Description</a></li>
-                    <li class="dropdown-item"><a class="dropdown-link" href="#">Design</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Design.html">Design</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="#">Engineering</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="#">Implementation</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="#">Safety</a></li>
@@ -56,7 +56,6 @@
 
                 <ul id="dropdown-labwork" class="dropdown-content">
                     <li class="dropdown-item"><a class="dropdown-link" href="Results.html">Results</a></li>
-                    <li class="dropdown-item"><a class="dropdown-link" href="#">Protocols</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="#">Lab Notebook</a></li>
                 </ul>
 
@@ -99,7 +98,7 @@
                         <a class="mobile-nav-link">Project:</a>
                         <ol style="list-style-type: lower-latin;">
                             <li><a class="mobile-nav-link" href="Description.html">Description</a></li>
-                            <li><a class="mobile-nav-link" href="#">Design</a></li>
+                            <li><a class="mobile-nav-link" href="Design.html">Design</a></li>
                             <li><a class="mobile-nav-link" href="#">Engineering</a></li>
                             <li><a class="mobile-nav-link" href="#">Implementation</a></li>
                             <li><a class="mobile-nav-link" href="#">Safety</a></li>
@@ -110,7 +109,6 @@
                         <a class="mobile-nav-link">Lab work:</a>
                         <ol style="list-style-type: lower-latin;">
                             <li><a class="mobile-nav-link" href="Results.html">Results</a></li>
-                            <li><a class="mobile-nav-link" href="#">Protocol</a></li>
                             <li><a class="mobile-nav-link" href="#">Lab notebook</a></li>
                         </ol>
                     </li>
@@ -144,7 +142,9 @@
         </div>
     </div>
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+    <div class="hide-on-med-and-down">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+    </div>
     <!-- navbar end -->
 
     <div class="container">
@@ -341,6 +341,9 @@
     </footer>
 
     <script>
+        // back to top button
+        mybutton = document.getElementById("myBtn");
+
         window.onload = function () {
             M.AutoInit();
             AOS.init();
@@ -358,9 +361,6 @@
             document.getElementById("loader").style.display = "none";
             document.getElementsByTagName("nav")[0].style.display = "block";
             document.getElementsByClassName("header")[0].style.display = "block";
-
-            // back to top button
-            mybutton = document.getElementById("myBtn");
 
             // preparing accordion
             var acc = document.getElementsByClassName("accordion");

@@ -47,7 +47,7 @@
 
                 <ul id="dropdown-project" class="dropdown-content">
                     <li class="dropdown-item"><a class="dropdown-link" href="Description.html">Description</a></li>
-                    <li class="dropdown-item"><a class="dropdown-link" href="#">Design</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Design.html">Design</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="#">Engineering</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="#">Implementation</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="#">Safety</a></li>
@@ -55,7 +55,6 @@
 
                 <ul id="dropdown-labwork" class="dropdown-content">
                     <li class="dropdown-item"><a class="dropdown-link" href="Results.html">Results</a></li>
-                    <li class="dropdown-item"><a class="dropdown-link" href="#">Protocols</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="#">Lab Notebook</a></li>
                 </ul>
 
@@ -98,7 +97,7 @@
                         <a class="mobile-nav-link">Project:</a>
                         <ol style="list-style-type: lower-latin;">
                             <li><a class="mobile-nav-link" href="Description.html">Description</a></li>
-                            <li><a class="mobile-nav-link" href="#">Design</a></li>
+                            <li><a class="mobile-nav-link" href="Design.html">Design</a></li>
                             <li><a class="mobile-nav-link" href="#">Engineering</a></li>
                             <li><a class="mobile-nav-link" href="#">Implementation</a></li>
                             <li><a class="mobile-nav-link" href="#">Safety</a></li>
@@ -109,7 +108,6 @@
                         <a class="mobile-nav-link">Lab work:</a>
                         <ol style="list-style-type: lower-latin;">
                             <li><a class="mobile-nav-link" href="Results.html">Results</a></li>
-                            <li><a class="mobile-nav-link" href="#">Protocol</a></li>
                             <li><a class="mobile-nav-link" href="#">Lab notebook</a></li>
                         </ol>
                     </li>
@@ -143,7 +141,9 @@
         </div>
     </div>
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+    <div class="hide-on-med-and-down">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+    </div>
     <!-- navbar end -->
 
     <style>
@@ -210,10 +210,10 @@
                 <p>
                     The history of <b>agriculture in India</b> dates back to the Indus Valley Civilization. India ranks
                     second
-                    worldwide in farm outputs. As per 2018, agriculture employed more than 50% of the Indian work force
-                    and contributed 17-18% to country's GDP. <b>Indian farmers use a range of pesticides</b> in order to
+                    worldwide in farm outputs. As per 2018 reports, agriculture employed more than 50% of the Indian work force
+                    and contributed 17-18% to the country's GDP. <b>Indian farmers use a range of pesticides</b> in order to
                     improve agronomic productivity, and to prevent crop losses. The use of pesticides was introduced in
-                    India during the 1960s which are now being used on a large scale and represents the common feature
+                    India during the 1960s and they are now being used on a large scale, representing a common feature
                     of Indian agriculture. India is now the second largest manufacturer of pesticides in Asia after
                     China and ranks twelfth globally. The pattern of pesticide usage in India is different from that for
                     the world in general. In India 76% of the pesticide used is <b>insecticide</b>, as against 44%
@@ -274,12 +274,12 @@
                             Pirimiphos-methyl,
                             Profenofos,
                             Quinalphos,
-                            Trichlorfon,
+                            Trichlorfon
                         </td>
                         <td>
                             Chlorpyriphos-methyl,
                             Malathion,
-                            Temophos,
+                            Temophos
                         </td>
                     </tr>
                 </table>
@@ -612,6 +612,9 @@
     </footer>
 
     <script>
+        // back to top button
+        mybutton = document.getElementById("myBtn");
+
         window.onload = function () {
             M.AutoInit();
             AOS.init();
@@ -629,9 +632,6 @@
             document.getElementById("loader").style.display = "none";
             document.getElementsByTagName("nav")[0].style.display = "block";
             document.getElementsByClassName("header")[0].style.display = "block";
-
-            // back to top button
-            mybutton = document.getElementById("myBtn");
 
             // preparing accordion
             var acc = document.getElementsByClassName("accordion");
