@@ -1,3 +1,2 @@
 Materialize CSS + JS
 Animate on Scroll
-Font Awesome 5

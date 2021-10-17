@@ -1,34 +1,33 @@
+# The relative path to the folder containing all your html files
 relative_path = "src/"
+
+# The file from which navbar and footer content should be obtained
 source = "index.html"
+
+# The files to which navbar and footer content must be injected from the source 
 targets = ["Attributions.html", "Template_page.html", "Results.html", "Predictions.html", "Communication.html", "Description.html"]
 
+# navbar delimiters. Must be present in ALL the files listed in source and targets
 navbar_start = "<!-- navbar start -->"
 navbar_end = "<!-- navbar end -->"
 
+# footer delimiters. Must be present in ALL the files listed in source and targets
 footer_start = "<!-- footer start -->"
 footer_end = "<!-- footer end -->"
 
-# fetch navbar and footer content
+# fetch navbar and footer content from source
 source_file = open(relative_path + source, "r")
 source_content = source_file.read()
-
 navbar_content = source_content.split(navbar_start)[1]
 navbar_content = navbar_content.split(navbar_end)[0]
-
+navbar_content = navbar_start + navbar_content + navbar_end
 footer_content = source_content.split(footer_start)[1]
 footer_content = footer_content.split(footer_end)[0]
+footer_content = footer_start + footer_content + footer_end
 source_file.close()
 
-navbar_content = navbar_start + navbar_content + navbar_end
-footer_content = footer_start + footer_content + footer_end
-
-# print("NAVBAR CONTENT:")
-# print(navbar_content)
-# print("FOOTER CONTENT:")
-# print(footer_content)
-
 for target in targets:
-    # save pre-existing content
+    # save pre-existing content from target page
     target_file = open(relative_path + target, "r")
     target_content = target_file.read()
     prenav_content = target_content.split(navbar_start)[0]
@@ -36,14 +35,7 @@ for target in targets:
     postfoot_content = target_content.split(footer_end)[1]
     target_file.close()
 
-    # print("PRENAV CONTENT:")
-    # print(prenav_content)
-    # print("MIDDLE CONTENT:")
-    # print(middle_content)
-    # print("POSTFOOT CONTENT:")
-    # print(postfoot_content)
-
-    # insert navbar and footer content
+    # insert navbar and footer content into target page
     target_file = open(relative_path + target, "w")
     target_file.write(prenav_content + navbar_content + middle_content + footer_content + postfoot_content)
     target_file.close()
