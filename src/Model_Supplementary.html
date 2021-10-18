@@ -21,7 +21,7 @@
     <!-- stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Model | IISc Bangalore</title>
+    <title>Model: Supplementary Info | IISc Bangalore</title>
 </head>
 
 <body>
@@ -150,268 +150,89 @@
     </div>
     <!-- navbar end -->
 
-    <style>
-        .hero-image {
-            background-image: url("assets/backgrounds/model.jpg");
-            height: 750px !important;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;
-        }
-
-        .hero-text {
-            text-align: center;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: black !important;
-        }
-    </style>
-
-    <div class="hero-image" data-aos="zoom-in">
-        <div class="hero-text">
-            <h1 style="color: black">Model</h1>
-        </div>
-    </div>
-    <br>
-
     <div class="container">
         <div class="row">
+            <div class="col s12" data-aos="fade-right">
+                <h1>Model: Supplementary information</h1>
+            </div>
+
             <div class="col s12 l6">
                 <div class="card" style="background: rgb(248, 249, 250); border-radius: 2px;" data-aos="fade-right">
                     <div class="card-content">
                         <span class="card-title" style="font-weight: bold; font-size: xx-large;">Contents:</span>
                         <ul>
-                            <li><a href="#spytag" class="content-link">SpyTag - SpyDock</a></li>
-                            <li><a href="#op" class="content-link">OP detection and minimum concentration</a></li>
-                            <li><a href="#ref" class="content-link">References</a></li>
+                            <li><a href="#equations" class="content-link">Equations and Definitions</a></li>
+                            <li><a href="#values" class="content-link">Sample Values</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <div id="spytag" class="col s12" data-aos="fade-right">
-                <h2>SpyTag - SpyDock</h2>
+            <div id="equations" class="col s12" data-aos="fade-right">
+                <h2>Model for OP Degradation:<br>Equations and Definitions</h2>
                 <p>
-                    The SpyTag/SpyCatcher system is a peptide-protein system that provides a simple and reliable method
-                    of binding our organophosphate hydrolases of interest to the bacterial cellulose sheets, due to its
-                    near infinite affinity and rapid irreversible isopeptide bond formation. The most recent iteration
-                    of the system, SpyTag003:SpyCatcher003, surpasses its predecessors by a significant margin, with a
-                    bimolecular rate constant of \( 10^{5} - 10^{6} \ M^{-1} s^{-1} \)
+                    The enzymatic hydrolysis of organophosphates is described by Michaelis-Menten kinetics, which states
+                    that the rate of loss of the substrate is given by:
                 </p>
+                \[ k = \frac{d[S]}{dt} = -k_{cat} [E_0] \left(\frac{[S]}{K_M + [S]}\right) \]
                 <p>
-                    One of our aims for this project was to achieve a plug-and-play system within our filter. The idea
-                    was to design the functionalized BC sheet in such a manner to enable switching out of the enzymes.
-                    However, the formation of the isopeptide bond for SpyTag/SpyCatcher is irreversible, making enzyme
-                    switching not feasible.
-                </p>
-                <p>
-                    The SpyTag/SpyDock system is a similar protein-peptide system with a modified SpyCatcher protein
-                    which prevents the isopeptide bond formation, keeping the interaction noncovalent. This looked like
-                    a promising option since the noncovalent interaction showed minimal leak-through during washes, but
-                    modelling the SpyTag/SpyDock system showed that for even a moderate rate of flow, the
-                    protein-peptide complex is dissociated in a matter of minutes.
-                </p>
-                <p>
-                    We design a first-order model to observe this. A more detailed analysis involving shearing rate
-                    would be more accurate, but the prediction made by the first order model is enough to rule out
-                    SpyDock as a viable option.
+                    Here:
                 </p>
                 <ol>
                     <li>
-                        <p>
-                            SpyDock binds with SpyTag002 reversibly with a bimolecular rate constant of \( k = (2.0 \pm
-                            0.2) \times 10^{-4} M^{-1} s^{-1} \)
-                        </p>
+                        \( [S] \): concentration of substrate
                     </li>
                     <li>
-                        <p>
-                            The dissociation constant is \( K_d = (0.073 \pm 0.013) \times 10^{-6} M \), as determined
-                            by isothermal titration calorimetry for SpyTag-MBP/SpyDock.
-                        </p>
+                        \( k_{cat} \): catayltic rate constant
                     </li>
                     <li>
-                        <p>
-                            The BC sheet will be present in the form of a film on a microchannel with radius \(r\) and
-                            the fluid to be purified will be passing through with volumetric flow rate \(Q\).
-                        </p>
+                        \( [E_0] \): initial concentration of enzyme
+                    </li>
+                    <li>
+                        \( K_M \): Michaelis constant; half-saturation constant
                     </li>
                 </ol>
                 <p>
-                    Assuming that the reversible reaction is of the form, where \([A]\) is the SpyDock substrate and
-                    \([B]\) is the SpyTag002-protein complex
+                    The prototypical enzyme-substrate reaction scheme that the model assumes is:
                 </p>
-                \[ [AB] \rightleftharpoons [A] + [B] \]
+                \[ E + S \rightleftharpoons ES \rightarrow E + P \]
                 <p>
-                    The differential equations are:
-                </p>
-                \[ \frac{d[AB]}{dt} = k[A][B] - K_d k [AB] \]
-                \[ \frac{d[A]}{dt} = K_d k [AB] - k[A][B] \]
-                \[ \frac{d[B]}{dt} = K_d k [AB] - k[A][B] - \alpha Q [B] \]
-                <p>
-                    The proportionality constant \( \alpha \) determines the rate at which \(B\) gets washed out in the
-                    fluid.
-                    We expect it to be directly proportional to the flow rate and the concentration of SpyTag.
-                </p>
-                <p>
-                    We model these differential equations in Python with estimates of \(\alpha\) and \(Q\). The results
-                    are plotted below:
-                </p>
-                <div class="col s12 l6">
-                    <img class="responsive-img" src="assets/images/model/Model-Fig-1.png">
-                </div>
-                <div class="col s12 l6">
-                    <img class="responsive-img" src="assets/images/model/Model-Fig-2.png">
-                </div>
-                <div class="col s12 l6">
-                    <img class="responsive-img" src="assets/images/model/Model-Fig-3.png">
-                </div>
-                <div class="col s12 l6">
-                    <img class="responsive-img" src="assets/images/model/Model-Fig-4.png">
-                </div>
-                <p>
-                    We see that the SpyTag/SpyDock interaction gets abolished and the non-covalently associated protein
-                    complex gets washed away for all cases. Our model has thus safely ruled out the use of
-                    SpyDock/SpyCatcher as a reliable method for implementation of the functionalized BC sheet.
+                    Where \( E \) is the enzyme, \( S \) is the substrate, \( ES \) is the intermediate enzyme-substrate
+                    complex and \( P \) is the product.
                 </p>
             </div>
 
-            <div id="op" class="col s12" data-aos="fade-right">
-                <h2>OP detection and minimum concentration</h2>
+            <div id="values" class="col s12" data-aos="fade-right">
+                <h2>Model for OP Degradation: Sample Values</h2>
                 <p>
-                    The enzyme kinetics of organophosphate hydrolase OpdA has been well quantified by multiple studies,
-                    with the reactions following Michaelis-Menten kinetics.
-                </p>
-                <p>
-                    The design for our filter involves a polydimethylsiloxane (PDMS) microchannel coated with the
-                    functionalized BC film, with the organophosphate-laden fluid passing through the channel. For
-                    implementation of the filter, a rough estimate of the fluid flow rate as well as the required length
-                    of the microchannel is needed. This lets us optimize filtration by adjusting the flow rate
-                    appropriately.
-                </p>
-                <p>
-                    We design a basic model from first principles to determine the rate of degradation of
-                    organophosphates by the filter. We design our model based on the following assumptions:
+                    To estimate the profile of the substrate gradient, sample values were plugged into the model.
                 </p>
                 <ol>
                     <li>
-                        <p>
-                            The fluid in the microchannel moves with a velocity of \(v_f\) through the tube.
-                        </p>
+                        Organophosphates such as methyl chlorpyrifos thion, methyl parathion and methyl paraoxon all
+                        have \( k_{cat} \) values ranging from \( 1200-2500 \ s^{-1} \). We therefore used \( k_{cat} =
+                        2000 \ s^{-1} \).
                     </li>
                     <li>
-                        <p>
-                            The substrate concentration is in steady state, i.e., it remains unchanged in time.
-                        </p>
+                        The Michaelis constant ranges from \( 100 - 230 \ \mu M \), and we use a value of \( K_M = 150 \
+                        \mu M \).
                     </li>
                     <li>
-                        <p>
-                            Due to the small radius of the microchannel \( \sim 10 \mu m \), there is no appreciable
-                            change in OP concentration with radius.
-                        </p>
+                        For \( \eta \), an order of magnitude estimate is made. Since the PDMS tube is quite small
+                        (\(\sim 10 \ \mu M\)), we estimate \( \eta \approx 0.1 \).
                     </li>
                     <li>
-                        <p>
-                            Not all the fluid in the microchannel can react with the enzymes on the surface. Therefore,
-                            we characterize the size of reacting region with a dimensionless parameter \( \eta \) (see
-                            figure below). This parameter is considered to be small ( \(\eta \lt 1 \)).
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            From this, we conclude that the OP concentration \([S]\) only changes along the length
-                            of the tube.
-                        </p>
+                        For the initial concentrations of OP and OPH, we take them to the same order as the value of
+                        \( K_M \) to clearly see how the shape of the profile changes when constants are tweaked. \(
+                        [S_0] = [E_0] = 100 \ \mu M \).
                     </li>
                 </ol>
-                \[ [S] \equiv [S](x) \]
                 <p>
-                    We consider a segment of our microchannel tube at a distance \(x\) from the inlet, of length \(dx\).
+                    Please do keep in mind that these values are motivated from literature and on the underlying
+                    assumptions of the model and are meant for the purpose of observing how the model changes with
+                    change in parameters. The values will be refined in subsequent stages of our project, once a
+                    functioning filter is implemented.
                 </p>
-                <img class="responsive-img" src="assets/images/model/Model-Fig-5.png">
-                <p>
-                    We assume that the region between the cylinders is where the reaction occurs. For small \(\eta\),
-                </p>
-                \[ \Delta V \approx 2 \pi r (\eta r) dx = 2 \eta \pi r^2 dx \]
-                <p>
-                    The ratio of the reacting volume to the total volume is
-                </p>
-                \[ \frac{\Delta V}{V} = 2 \eta \]
-                <p>
-                    Since the hydrolysis is assumed to follow Michaelis-Menten kinetics, the rate of degradation of the
-                    organophosphate is given by:
-                </p>
-                \[ k = \frac{d[S]}{dt} = -k_{cat} [E_0] \frac{[S]}{K_M + [S]} \]
-                <p>
-                    You can find the definitions of all the variables <a class="content-link" href="Model_Supplementary.html">here</a>.
-                </p>
-                <p>
-                    This is the state of the fluid in the element at time \(t\). In time t+dt, fluid from this region
-                    rushes
-                    into the region \(x+dx\). The relation between \(dt\) and \(dx\) is given by:
-                </p>
-                \[ dx = v_f dt \]
-                <p>
-                    In this time, the substrate concentration in the fluid element has reduced since the fluid in the
-                    outer region has been degraded by enzyme activity. The new concentration is given by:
-                </p>
-                \[ [S]_{new} = \frac{(V-\Delta V)[S](x) + \Delta V \left(\frac{d[S]}{dt}\right) dt}{V} \]
-                \[ = (1 - 2\eta)[S](x) - 2 \eta k_{cat} [E_0] \frac{[S]}{K_M + [S]} \]
-                <p>
-                    But since the fluid must be in steady state, the new concentration must equal the concentration of
-                    the fluid previously present at that location, i.e.,
-                </p>
-                \[ [S](x + dx) = [S]_{new} \]
-                <p>
-                    Substituting our expression and replacing \( dt = \frac{dx}{v_f} \), we get the differential
-                    equation describing the
-                    concentration gradient in the microchannel.
-                </p>
-                \[ \frac{d[S]}{dx} = - \frac{2 \eta k_{cat}}{v_f} [E_0] \frac{[S]}{K_M + [S]} \]
-                <p>
-                    This equation agrees with intuition - the faster the flow, the smaller the gradient
-                    \(\frac{d[S]}{dx}\), which means that the organophosphate hardly gets degraded as it passes through
-                    the tube. Similarly, larger the effective volume of cross section \((\eta\)), larger the gradient
-                    (see figure below).
-                </p>
-                <p>
-                    To find the gradient for a typical filtration process, we estimate the values of the constants above
-                    from literature (<a class="content-link" href="Model_Supplementary.html">here</a>).
-                </p>
-                <center>
-                    <img class="responsive-img" src="assets/images/model/Model-Fig-6.png">
-                </center>
-                <p>
-                    Once our filter is implemented, these models will be fit on the data obtained to estimate \(\eta\)
-                    and the initial enzyme concentration \([E_0]\). Implementing these fits will enable us to
-                    optimise the flow rate and the microchannel length for efficient filtration of organophosphates.
-                </p>
-            </div>
-
-            <div id="ref" class="col s12" data-aos="fade-right">
-                <h2>References</h2>
-                <ol>
-                    <li>
-                        <p>
-                            Jackson et al. (2005). The effects of substrate orientation on the mechanism of a
-                            phosphotriesterase. Organic & Biomolecular Chemistry, 3(24), 4343
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Anuar et al. (2019). Spy&Go purification of SpyTag-proteins using pseudo-SpyCatcher to
-                            access an oligomerization toolbox. Nature Communications, 10(1), 1734
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Keeble et al. (2019). Approaching infinite affinity through engineering of peptide -
-                            protein interaction. Proceedings of the National Academy of Sciences, 116(52), 26523-26533
-                        </p>
-                    </li>
-                </ol>
             </div>
         </div>
     </div>

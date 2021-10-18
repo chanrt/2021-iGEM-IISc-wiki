@@ -548,13 +548,16 @@ html:
     md5: 945703b233f8b73f8f877261f4469a14
   Model.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Model
-    md5: 3feb92f7f93574df80f99658dff1eae0
+    md5: 111a52296f3ad3d1e339c783d751690a
+  Model_Supplementary.html:
+    link_URL: https://2021.igem.org/Team:IISc-Bangalore/Model_Supplementary
+    md5: 9124ba1a1f8dad0059c26e80aae82fc6
   Predictions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Predictions
     md5: ac026fe3f98803137aabe9da86b133c6
   Results.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Results
-    md5: f50d43b4381107c7a73c60d1cb0a3e0d
+    md5: b7a5d8628b333e1d1d12c98a213dc92f
   Template_page.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Template_page
     md5: 96e575d92a7ceac3d57b636edbb3a697
