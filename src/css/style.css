@@ -96,6 +96,14 @@ figcaption {
     text-decoration: none !important;
 }
 
+table tr th {
+    font-size: 20px !important;
+}
+
+table tr td {
+    font-size: 20px !important;
+}
+
 .abstract-box {
     background: var(--nav_background);
     color: white;
