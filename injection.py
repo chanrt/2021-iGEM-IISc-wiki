@@ -5,9 +5,26 @@ relative_path = "src/"
 source = "index.html"
 
 # The files to which navbar and footer content must be injected from the source 
-targets = ["Attributions.html", "Template_page.html", "Results.html", "Predictions.html", "Communication.html", "Description.html"]
-targets.append("Model.html")
+targets = []
+targets.append("Attributions.html")
 targets.append("Collaborations.html")
+targets.append("Communication.html")
+targets.append("Contribution.html")
+targets.append("Description.html")
+targets.append("Design.html")
+targets.append("Engineering.html")
+targets.append("Human_Practices.html")
+targets.append("Implementation.html")
+targets.append("Judging.html")
+targets.append("Members.html")
+targets.append("Model.html")
+targets.append("Model_Supplementary.html")
+targets.append("Notebook.html")
+targets.append("Parts.html")
+targets.append("Predictions.html")
+targets.append("Results.html")
+targets.append("Safety.html")
+targets.append("Template_page.html")
 
 # navbar delimiters. Must be present in ALL the files listed in source and targets
 navbar_start = "<!-- navbar start -->"
