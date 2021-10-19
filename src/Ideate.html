@@ -1,0 +1,351 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- reset the default iGEM look -->
+    <link rel="stylesheet" href="css/igem_reset.css">
+
+    <!-- materialize -->
+    <link rel="stylesheet" href="css/materialize.css">
+    <script src="js/materialize.js"></script>
+
+    <!-- Animate on scroll -->
+    <link rel="stylesheet" href="css/aos.css">
+    <script src="js/aos.js"></script>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Ideate | IISc Bangalore</title>
+</head>
+
+<body>
+    <!-- navbar start -->
+    <div class="navbar-fixed hide-on-med-and-down">
+        <nav>
+            <div class="nav-wrapper">
+                <ul class="left nav-list valign-wrapper">
+                    <li><a id="nav-logo" class="nav-link" href="index.html"><img class="responsive-img icon"
+                                src="assets/images/team_iisc_logo_min.png" style="max-height: 60px;"></a></li>
+
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-project" href="#">Project</a></li>
+
+                    <li><a class="nav-link nav-tab" href="Parts.html">Parts</a></li>
+
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-labwork" href="#">Wetlab</a></li>
+
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-drylab">Drylab</a></li>
+
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-hp">Human Practices</a></li>
+
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-team" href="#">Team</a></li>
+
+                    <li><a class="nav-link nav-tab" href="Judging.html">Judging</a></li>
+                </ul>
+
+                <ul id="dropdown-project" class="dropdown-content">
+                    <li class="dropdown-item"><a class="dropdown-link" href="Description.html">Description</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Design.html">Design</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Engineering.html">Engineering</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Implementation.html">Implementation</a>
+                    </li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Proof_Of_Concept.html">Proof of Concept</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="UN_SDG.html">UN SDG</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Safety.html">Safety</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Contribution.html">Contribution</a></li>
+                </ul>
+
+                <ul id="dropdown-labwork" class="dropdown-content">
+                    <li class="dropdown-item"><a class="dropdown-link" href="Results.html">Results</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Notebook.html">Lab Notebook</a></li>
+                </ul>
+
+                <ul id="dropdown-drylab" class="dropdown-content">
+                    <li class="dropdown-item"><a class="dropdown-link" href="Model.html">Model</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Predictions.html">Protein Structure
+                            Predictions</a></li>
+                </ul>
+
+                <ul id="dropdown-hp" class="dropdown-content">
+                    <li class="dropdown-item"><a class="dropdown-link" href="Communication.html">Public Education and
+                            Engagement</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Human_Practices.html">Integrated Human
+                            Practices</a></li>
+                </ul>
+
+                <ul id="dropdown-team" class="dropdown-content">
+                    <li class="dropdown-item"><a class="dropdown-link" href="Members.html">Members</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Attributions.html">Attributions</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Collaborations.html">Collaborations</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div id="loader"></div>
+
+    <div class="header hide-on-med-and-down">
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </div>
+
+    <div class="nav-fixed hide-on-large-only">
+        <div class="accordian">
+            <button class="accordion">Navigation dropdown</button>
+            <div class="panel">
+                <ol>
+                    <li><a class="mobile-nav-link" href="index.html">Home</a></li>
+                    <li>
+                        <a class="mobile-nav-link">Project:</a>
+                        <ol style="list-style-type: lower-latin;">
+                            <li><a class="mobile-nav-link" href="Description.html">Description</a></li>
+                            <li><a class="mobile-nav-link" href="Design.html">Design</a></li>
+                            <li><a class="mobile-nav-link" href="Engineering.html">Engineering</a></li>
+                            <li><a class="mobile-nav-link" href="Implementation.html">Implementation</a></li>
+                            <li><a class="mobile-nav-link" href="Proof_Of_Concept.html">Proof of Concept</a></li>
+                            <li><a class="mobile-nav-link" href="UN_SDG.html">UN SDG</a></li>
+                            <li><a class="mobile-nav-link" href="Safety.html">Safety</a></li>
+                            <li><a class="mobile-nav-link" href="Contribution.html">Contribution</a></li>
+                        </ol>
+                    </li>
+                    <li><a class="mobile-nav-link" href="Parts.html">Parts</a></li>
+                    <li>
+                        <a class="mobile-nav-link">Lab work:</a>
+                        <ol style="list-style-type: lower-latin;">
+                            <li><a class="mobile-nav-link" href="Results.html">Results</a></li>
+                            <li><a class="mobile-nav-link" href="Notebook.html">Lab notebook</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a class="mobile-nav-link" href="#">Drylab</a>
+                        <ol style="list-style-type: lower-latin;">
+                            <li><a class="mobile-nav-link" href="Model.html">Model</a></li>
+                            <li><a class="mobile-nav-link" href="Predictions.html">Protein Structure Predictions</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a class="mobile-nav-link">Human Practices:</a>
+                        <ol style="list-style-type: lower-latin;">
+                            <li><a class="mobile-nav-link" class="nav-link" href="Communication.html">Public Education
+                                    and Engagement</a></li>
+                            <li><a class="mobile-nav-link" class="nav-link" href="Human_Practices.html">Integrated Human
+                                    Practices</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a class="mobile-nav-link">Team:</a>
+                        <ol style="list-style-type: lower-latin;">
+                            <li><a class="mobile-nav-link" href="Members.html">Members</a></li>
+                            <li><a class="mobile-nav-link" href="Attributions.html">Attributions</a></li>
+                            <li><a class="mobile-nav-link" href="Collaborations.html">Collaborations</a></li>
+                        </ol>
+                    </li>
+                    <li><a class="mobile-nav-link" href="Judging.html">Judging</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <div class="hide-on-med-and-down">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+    </div>
+    <!-- navbar end -->
+
+    <div class="container">
+        <div class="row">
+            <div id="2" class="col s12" data-aos="fade-right">
+                <h3>Step 2: Ideate</h3>
+                <p>
+                    Next, we asked ourselves what we regard as one of the most fundamental questions for any team during
+                    the iGEM cycle - <b>Is synthetic biology a good solution to our problem?</b>
+                </p>
+                <p>
+                    Literature reviews led us to other methods to combat organophosphate toxicity. We noted that they
+                    either involved highly toxic reagents themselves or were impractical. It is impossible, for example,
+                    to spray an insoluble powdery chemical over vast expanses of water bodies to precipitate the
+                    dissolved organophosphates out of water!
+                </p>
+                <p>
+                    We started to brood over the possibility of using the concept used for Aqualose - a bacterial
+                    cellulose based filter to combat organophosphate pollution.
+                </p>
+                <p>
+                    Before designing our project, based on inputs from various stakeholders, we enlisted the
+                    characteristics which our proposed solution should have:
+                </p>
+                <ol>
+                    <li>Cheap and affordable</li>
+                    <li>Efficient</li>
+                    <li>Not generate more pollutants</li>
+                    <li>Biodegradable to the extent possible</li>
+                    <li>Easy to use</li>
+                    <li>Scalable</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer start -->
+    <footer class="page-footer">
+        <div class="container">
+            <h5 class="sm-title center" data-aos="fade-up">Our Sponsors</h5>
+            <br>
+            <div class="row footer-content valign-wrapper">
+                <div class="col s2 l2" data-aos="zoom-in">
+                    <a href="https://iisc.ac.in"><img class="responsive-img sponsor-img"
+                            src="assets/sponsors/iisc.png"></a>
+                </div>
+                <div class="col s3 l3" data-aos="zoom-in">
+                    <a href="https://benchling.com"><img class="responsive-img sponsor-img"
+                            src="assets/sponsors/benchling.png"></a>
+                </div>
+                <div class="col s3 l3" data-aos="zoom-in">
+                    <a href="https://snapgene.com"><img class="responsive-img sponsor-img"
+                            src="assets/sponsors/snapgene.png"></a>
+                </div>
+                <div class="col s2 l2" data-aos="zoom-in">
+                    <a href="https://labfolder.com"><img class="responsive-img sponsor-img"
+                            src="assets/sponsors/labfolder.png"></a>
+                </div>
+                <div class="col s2 l2" data-aos="zoom-in">
+                    <a href="https://odaa.iisc.ac.in"><img class="responsive-img sponsor-img"
+                            src="assets/sponsors/odaa.png"></a>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <div class="hide-on-med-and-down">
+                <div class="row footer-content valign-wrapper">
+                    <div class="col s12 l3 center" data-aos="fade-right">
+                        <h5 class="sm-title">Our Social Media Links</h5>
+                        <a target="_blank" href="https://www.facebook.com/iiscbangaloreigem/"><img
+                                src="assets/icons/facebook.png" class="sm-button"></a>
+                        <a target="_blank" href="https://twitter.com/igem_iisc?s=08"><img src="assets/icons/twitter.png"
+                                class="sm-button"></a>
+                        <a target="_blank" href="https://instagram.com/igem_iisc?utm_medium=copy_link"><img
+                                src="assets/icons/instagram.png" class="sm-button"></a>
+                    </div>
+                    <div class="col s12 l3 center" data-aos="zoom-in">
+                        <a href="https://2021.igem.org/Team:IISc-Bangalore"><img class="responsive-img footer-logo"
+                                src="assets/images/team_iisc_logo_footer.png" style="max-height: 250px"></a>
+                    </div>
+                    <div class="col s12 l6 center" data-aos="fade-left">
+                        <h5 class="sm-title">Contact Us</h5>
+                        <p style="text-align: center;">
+                            <a href="mailto:igem.ug@iisc.ac.in" class="footer-link">igem.ug@iisc.ac.in</a> or <a
+                                href="mailto:sukriyoc@iisc.ac.in" class="footer-link">sukriyoc@iisc.ac.in</a>
+                            <br>
+                            <br>
+                            Office of UG Programme, Indian Institute of Science, <br>
+                            C.V. Raman Avenue, Bengaluru - 560 012.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="hide-on-large-only">
+                <div class="row footer-content">
+                    <div class="col s12 l3 center" data-aos="fade-right">
+                        <h5 class="sm-title">Our Social Media Links</h5>
+                        <a target="_blank" href="https://www.facebook.com/iiscbangaloreigem/"><img
+                                src="assets/icons/facebook.png"></a>
+                        <a target="_blank" href="https://twitter.com/igem_iisc?s=08"><img
+                                src="assets/icons/twitter.png"></a>
+                        <a target="_blank" href="https://instagram.com/igem_iisc?utm_medium=copy_link"><img
+                                src="assets/icons/instagram.png"></a>
+                    </div>
+                    <div class="col s12 l3 center" data-aos="zoom-in">
+                        <a href="https://2021.igem.org/Team:IISc-Bangalore"><img class="responsive-img"
+                                src="assets/images/team_iisc_logo_footer.png" style="max-height: 250px"></a>
+                    </div>
+                    <div class="col s12 l6 center" data-aos="fade-left">
+                        <h5 class="sm-title">Contact Us</h5>
+                        <p style="text-align: center;">
+                            <a href="mailto:igem.ug@iisc.ac.in" class="footer-link">igem.ug@iisc.ac.in</a> or <a
+                                href="mailto:sukriyoc@iisc.ac.in" class="footer-link">sukriyoc@iisc.ac.in</a>
+                            <br>
+                            <br>
+                            Office of UG Programme, Indian Institute of Science, <br>
+                            C.V. Raman Avenue, Bengaluru - 560 012.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <h5 style="text-align: center;" class="sm-title">Best viewed on Desktop</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // back to top button
+        mybutton = document.getElementById("myBtn");
+
+        window.onload = function () {
+            M.AutoInit();
+            AOS.init();
+
+            let p_list = document.getElementsByTagName("p")
+            // removing top whitespace
+            let first_p = p_list[0];
+            first_p.style.margin = "0";
+
+            // removing bottom whitespace
+            let last_p = p_list[p_list.length - 1];
+            last_p.style.margin = "0";
+
+            // removing preloader
+            document.getElementById("loader").style.display = "none";
+            document.getElementsByTagName("nav")[0].style.display = "block";
+            document.getElementsByClassName("header")[0].style.display = "block";
+
+            // preparing accordion
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function () {
+                    /* Toggle between adding and removing the "active" class,
+                    to highlight the button that controls the panel */
+                    this.classList.toggle("active");
+
+                    /* Toggle between hiding and showing the active panel */
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                    } else {
+                        panel.style.display = "block";
+                    }
+                });
+            }
+        }
+
+        window.onscroll = function myFunction() {
+            // scroll bar
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+
+            // back to top button
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // back to top button function
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+    <!-- footer end -->
+</body>
+
+</html>
