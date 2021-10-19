@@ -267,6 +267,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/1/12/T--IISc-Bangalore--images--IHP--stake_four.png
     md5: 05434a71bd56cfcf55eeb0f2d849ccac
     upload_filename: T--IISc-Bangalore--images--IHP--stake_four.png
+  assets\images\IHP\stakeholders_map.png:
+    link_URL: https://2021.igem.org/wiki/images/1/1e/T--IISc-Bangalore--images--IHP--stakeholders_map.png
+    md5: 762472af19c2bb60303639c97fe7095d
+    upload_filename: T--IISc-Bangalore--images--IHP--stakeholders_map.png
   assets\images\IHP\table.png:
     link_URL: https://2021.igem.org/wiki/images/e/e3/T--IISc-Bangalore--images--IHP--table.png
     md5: 04802dcf34f9c523aa8f7f0c2e25f418
@@ -735,16 +739,16 @@ html:
     md5: ecfe70e2630470b635de4e1362852455
   Design_Solution.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Design_Solution
-    md5: 9fbb814b15986b0278f0f2ca38f3a3ce
+    md5: eede53ebec610ffa5f01792ac6bb561e
   Engineering.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Engineering
     md5: 22b18a5d5ebe1aa408e7f3ae8ecc795e
   Evaluate.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Evaluate
-    md5: 906965845a0947a2769903e0c8957a47
+    md5: 4c0b2b202f871879b7e631dcdf210af3
   Human_Practices.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Human_Practices
-    md5: be8c078b7a5686c68a61382117e4e34b
+    md5: a1d05303e13dec7d6578651a538bb1c5
   Ideate.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Ideate
     md5: 5107d34790e22c61fbadb460245c1b57
