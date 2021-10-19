@@ -49,7 +49,8 @@
                     <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Engineering">Engineering</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Implementation">Implementation</a>
                     </li>
-                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Proof_Of_Concept">Proof of Concept</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Proof_Of_Concept">Proof of Concept</a>
+                    </li>
                     <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/UN_SDG">UN SDG</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Safety">Safety</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Contribution">Contribution</a></li>
@@ -154,28 +155,83 @@
     </div>
     <!-- navbar end -->
 
-    <div class="container">
-        <h1 class="center" data-aos="zoom-in">Project CellOPHane</h1>
+    <style>
+        :root {
+            --gradient: linear-gradient(to right, #373b44, #4286f4);
+        }
 
-        <div class="row">
-            <div class="col s12 l6" data-aos="fade-up" data-aos-delay="500">
-                <img class="responsive-img footer-logo" src="https://2021.igem.org/wiki/images/9/99/T--IISc-Bangalore--images--team_iisc_logo.png" style="max-height: 450px;"/>
-            </div>
-            <div class="col s12 l6" data-aos="fade-up" data-aos-delay="1000">
-                <h2 class="center">We are Team iGEM IISc Bangalore</h2>
-                <hr style="color: rgb(11, 153, 107); background: rgb(11, 153, 107);"/>
-                <p>
-                    We are designing an eco-friendly filter using bacterial cellulose sheets, functionalised with
-                    enzymes degrading organophosphates efficiently into relatively harmless products. Project CellOPHane
-                    also offers a novel plug-and-play platform which can be used to design analogous bioremediation
-                    strategies for other classes of contaminants with minimal modifications.
-                </p>
+        .hero-image {
+            height: 700px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            line-height: 1.6;
+            background-size: 300%;
+            background-image: var(--gradient);
+            animation: bg-animation 5s infinite;
+            display: none;
+        }
+
+        @keyframes bg-animation {
+            0% {
+                background-position: left;
+            }
+
+            25% {
+                background-position: center;
+            }
+
+            50% {
+                background-position: right;
+            }
+
+            75% {
+                background-position: center;
+            }
+
+            100% {
+                background-position: left;
+            }
+        }
+
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 400px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white !important;
+            display: none;
+        }
+
+        @keyframes water {
+            0% {
+                background-position: left;
+            }
+
+            50% {
+                background-position: right;
+            }
+
+            100% {
+                background-position: left;
+            }
+        }
+    </style>
+
+    <div class="hero-image">
+        <div class="hero-text">
+            <div>
+                <img class="responsive-img footer-logo" src="https://2021.igem.org/wiki/images/7/7c/T--IISc-Bangalore--images--team_iisc_logo_footer.png" style="height: 450px"/>
             </div>
         </div>
+    </div>
+    
+    <br/>
 
+    <div class="container">
         <br/>
         <div class="center" data-aos="zoom-in-up">
-            <h2 class="center">Our Promotional Video</h2>
             <video controls="" width="90%">
                 <source src="https://2021.igem.org/wiki/images/a/a3/T--IISc-Bangalore--videos--iisc_promo_video.mp4" type="video/mp4"/>
             </video>
@@ -183,72 +239,266 @@
         <br/>
         <br/>
 
-        <div class="row">
-            <div class="col s12 l6" data-aos="fade-right">
-                <div class="card">
-                    <div class="card-image">
-                        <img class="responsive-img" src="https://2021.igem.org/wiki/images/7/77/T--IISc-Bangalore--images--agriculture.png"/>
-                    </div>
-                    <div class="card-content">
+        <div class="hide-on-med-and-down">
+            <div class="row valign-wrapper" data-aos="fade-right">
+                <div class="col s12 l6">
+                    <center>
+                        <img class="responsive-img" src="https://2021.igem.org/wiki/images/b/b5/T--IISc-Bangalore--images--home--l1.png"/>
+                    </center>
+                </div>
+                <div class="col s12 l6">
+                    <center>
                         <p>
-                            Almost half of India's population relies on agriculture.
-                            To boost agronomic productivity, farmers use pesticides like DDT, malathion, and parathion.
+                            More than half of India's population relies on agriculture as the primary source of income
                         </p>
-                    </div>
+                    </center>
                 </div>
             </div>
-            <div class="col s12 l6" data-aos="fade-left">
-                <div class="card">
-                    <div class="card-image">
-                        <img class="responsive-img" src="https://2021.igem.org/wiki/images/c/ce/T--IISc-Bangalore--images--molecules.png"/>
-                    </div>
-                    <div class="card-content">
+
+            <div class="row valign-wrapper" data-aos="fade-left">
+                <div class="col s12 l6">
+                    <center>
                         <p>
-                            Malathion and parathion belong to a class of pesticides known as organophosphates.
-                            However, they leach into waterbodies through agricultural runoff. Ultimately they reach
-                            the bodies of various life forms including humans, where they act as potent neurotoxins, and
-                            also cause attention deficit hyperactivity disorder, drowsiness, lethargy, anxiety,
-                            depression, fatigue, and irritability.
+                            Farmers spray pesticides to prevent their crops from being ravaged by pests, and thus
+                            improve agronomic productivity
                         </p>
-                    </div>
+                    </center>
+                </div>
+                <div class="col s12 l6">
+                    <center>
+                        <img class="responsive-img" src="https://2021.igem.org/wiki/images/5/55/T--IISc-Bangalore--images--home--l2.png"/>
+                    </center>
+                </div>
+            </div>
+
+            <div class="row valign-wrapper" data-aos="fade-right">
+                <div class="col s12 l6">
+                    <center>
+                        <img class="responsive-img" src="https://2021.igem.org/wiki/images/c/c3/T--IISc-Bangalore--images--home--l4.png"/>
+                    </center>
+                </div>
+                <div class="col s12 l6">
+                    <center>
+                        <p>
+                            Organophosphates are not removed by conventional filtration processes. Traces of
+                            organophosphates thus enter the bodies of various living beings, including humans through
+                            the oral route.
+                        </p>
+                    </center>
+                </div>
+            </div>
+
+            <div class="row valign-wrapper" data-aos="fade-left">
+                <div class="col s12 l6">
+                    <center>
+                        <p>
+                            The neurotoxic activity of organophosphates is not limited to pests. Once consumed by humans
+                            or other animals unintentionally through food and water, they exert similar effects on human
+                            nervous system. This poisoning by organophosphates leads to chronic and acute disorders like
+                            hyperactivity, lethargy and even cancer.
+                        </p>
+                    </center>
+                </div>
+                <div class="col s12 l4">
+                    <center>
+                        <img class="responsive-img" src="https://2021.igem.org/wiki/images/8/8c/T--IISc-Bangalore--images--home--l5.png"/>
+                    </center>
+                </div>
+            </div>
+
+            <div data-aos="zoom-in">
+                <center>
+                    <h2>Our Solution: <em>CellOPHane</em></h2>
+                    <b>a plug-n-play filter to combat organophosphate pollution</b>
+                </center>
+                <br/> <br/>
+            </div>
+            <div class="row valign-wrapper" data-aos="zoom-in">
+                <div class="col s12 l7">
+                    <center>
+                        <img class="responsive-img" src="https://2021.igem.org/wiki/images/9/9c/T--IISc-Bangalore--images--home--l6.png"/>
+                    </center>
+                </div>
+                <div class="col s12 l5">
+                    <center>
+                        <p>
+                            We have developed a bacterial cellulose based filter to combat organophosphate pollution.
+                        </p>
+                        <p>
+                            CellOPHane employs a bacterial cellulose sheet coated with enzymes to degrade
+                            organophosphates into harmless products.
+                        </p>
+                        <p>
+                            Besides this, CellOPHane is all about a modular plug-n-play filter, which can be used as a
+                            platform to design other enzyme-based bioremediation strategies without any changes in the
+                            implementation!
+                        </p>
+                    </center>
                 </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col s12 l6" data-aos="fade-right">
-                <div class="card">
-                    <div class="card-image">
-                        <center>
-                            <img class="responsive-img" src="https://2021.igem.org/wiki/images/b/b7/T--IISc-Bangalore--images--banned.png"/>
-                        </center>
-                    </div>
-                    <div class="card-content">
+        <div class="hide-on-large-only">
+            <div class="row" data-aos="fade-right">
+                <div class="col s12">
+                    <center>
+                        <img class="responsive-img" src="https://2021.igem.org/wiki/images/b/b5/T--IISc-Bangalore--images--home--l1.png"/>
+                    </center>
+                </div>
+                <div class="col s12">
+                    <center>
                         <p>
-                            Hence, organophosphates have been restricted in many countries, but not yet in India.
-                            Effective solutions to this problem of contamination of waterbodies by organophosphates have
-                            not been developed yet. But, with synthetic biology on our side, we have come up with a
-                            solution.
+                            More than half of India's population relies on agriculture as the primary source of income
                         </p>
+                    </center>
+                </div>
+            </div>
+
+            <div class="row" data-aos="fade-left">
+                <div class="col s12">
+                    <center>
+                        <img class="responsive-img" src="https://2021.igem.org/wiki/images/5/55/T--IISc-Bangalore--images--home--l2.png"/>
+                    </center>
+                </div>
+                <div class="col s12">
+                    <center>
+                        <p>
+                            Farmers spray pesticides to prevent their crops from being ravaged by pests, and thus
+                            improve agronomic productivity
+                        </p>
+                    </center>
+                </div>
+            </div>
+
+            <div class="row" data-aos="fade-right">
+                <div class="col s12">
+                    <center>
+                        <img class="responsive-img" src="https://2021.igem.org/wiki/images/c/c3/T--IISc-Bangalore--images--home--l4.png"/>
+                    </center>
+                </div>
+                <div class="col s12">
+                    <center>
+                        <p>
+                            Organophosphates are not removed by conventional filtration processes. Traces of
+                            organophosphates thus enter the bodies of various living beings, including humans through
+                            the oral route.
+                        </p>
+                    </center>
+                </div>
+            </div>
+
+            <div class="row" data-aos="fade-left">
+                <div class="col s12">
+                    <center>
+                        <img class="responsive-img" src="https://2021.igem.org/wiki/images/8/8c/T--IISc-Bangalore--images--home--l5.png"/>
+                    </center>
+                </div>
+                <div class="col s12">
+                    <center>
+                        <p>
+                            The neurotoxic activity of organophosphates is not limited to pests. Once consumed by humans
+                            or other animals unintentionally through food and water, they exert similar effects on human
+                            nervous system. This poisoning by organophosphates leads to chronic and acute disorders like
+                            hyperactivity, lethargy and even cancer.
+                        </p>
+                    </center>
+                </div>
+            </div>
+
+            <div data-aos="zoom-in">
+                <center>
+                    <h2>Our Solution: <em>CellOPHane</em></h2>
+                    <b>a plug-n-play filter to combat organophosphate pollution</b>
+                </center>
+                <br/> <br/>
+            </div>
+            <div class="row" data-aos="zoom-in">
+                <div class="col s12">
+                    <center>
+                        <img class="responsive-img" src="https://2021.igem.org/wiki/images/9/9c/T--IISc-Bangalore--images--home--l6.png"/>
+                    </center>
+                </div>
+                <div class="col s12">
+                    <center>
+                        <p>
+                            We have developed a bacterial cellulose based filter to combat organophosphate pollution.
+                        </p>
+                        <p>
+                            CellOPHane employs a bacterial cellulose sheet coated with enzymes to degrade
+                            organophosphates into harmless products.
+                        </p>
+                        <p>
+                            Besides this, CellOPHane is all about a modular plug-n-play filter, which can be used as a
+                            platform to design other enzyme-based bioremediation strategies without any changes in the
+                            implementation!
+                        </p>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div data-aos="zoom-in">
+            <center>
+                <h2>Useful links</h2>
+            </center>
+        </div>
+        <div class="row">
+            <div class="col s12 l3" data-aos="fade-up">
+                <div class="card" style="background: rgb(64,86, 165);">
+                    <div class="card-image" style="height: 250px">
+                        <img class="responsive-img" src="https://2021.igem.org/wiki/images/0/02/T--IISc-Bangalore--images--IHP--brain.png"/>
+                    </div>
+                    <br/>
+                    <div class="card-content" style="height: 70px">
+                        <b style="color: white !important">Description</b>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://2021.igem.org/Team:IISc-Bangalore/Description">Visit</a>
                     </div>
                 </div>
             </div>
-            <div class="col s12 l6" data-aos="fade-left">
-                <div class="card">
-                    <div class="card-image">
-                        <center>
-                            <img class="responsive-img" src="https://2021.igem.org/wiki/images/6/65/T--IISc-Bangalore--images--collaboration.png"/>
-                        </center>
+
+            <div class="col s12 l3" data-aos="fade-up">
+                <div class="card" style="background: rgb(110, 145, 36);">
+                    <div class="card-image" style="height: 250px">
+                        <img class="responsive-img" src="https://2021.igem.org/wiki/images/b/b9/T--IISc-Bangalore--images--IHP--bulb.png"/>
                     </div>
-                    <div class="card-content">
-                        <p>
-                            We also seek to reach out to stakeholders in the agricultural sector, industry and
-                            academia and be enriched by their perspectives. We're also focussing on disseminating
-                            information about synbio to teenagers and the general public through pamphlets, primers
-                            and symposia. Using synbio, we are triggering the next gen revolution in accessible and
-                            economic bioremediation strategies and contributing in our own way to fulfil the United
-                            Nation's Sustainable Development Goals.
-                        </p>
+                    <br/>
+                    <div class="card-content" style="height: 70px">
+                        <b style="color: white !important">Human Practices</b>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://2021.igem.org/Team:IISc-Bangalore/Human_Practices">Visit</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 l3" data-aos="fade-up">
+                <div class="card" style="background: rgb(190, 82, 0);">
+                    <div class="card-image" style="height: 250px">
+                        <img class="responsive-img" src="https://2021.igem.org/wiki/images/c/ce/T--IISc-Bangalore--images--IHP--puzzle.png"/>
+                    </div>
+                    <br/>
+                    <div class="card-content" style="height: 70px">
+                        <b style="color: white !important">Implementation</b>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://2021.igem.org/Team:IISc-Bangalore/Implementation">Visit</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 l3" data-aos="fade-up">
+                <div class="card" style="background: rgb(39, 122, 163);">
+                    <div class="card-image" style="height: 250px">
+                        <img class="responsive-img" src="https://2021.igem.org/wiki/images/5/55/T--IISc-Bangalore--images--IHP--list.png"/>
+                    </div>
+                    <br/>
+                    <div class="card-content" style="height: 70px">
+                        <b style="color: white !important">Results</b>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://2021.igem.org/Team:IISc-Bangalore/Results">Visit</a>
                     </div>
                 </div>
             </div>
@@ -352,6 +602,8 @@
             document.getElementById("loader").style.display = "none";
             document.getElementsByTagName("nav")[0].style.display = "block";
             document.getElementsByClassName("header")[0].style.display = "block";
+            document.getElementsByClassName("hero-image")[0].style.display = "block";
+            document.getElementsByClassName("hero-text")[0].style.display = "block";
 
             // preparing accordion
             var acc = document.getElementsByClassName("accordion");
