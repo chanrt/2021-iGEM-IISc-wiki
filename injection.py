@@ -22,9 +22,11 @@ targets.append("Model_Supplementary.html")
 targets.append("Notebook.html")
 targets.append("Parts.html")
 targets.append("Predictions.html")
+targets.append("Proof_of_Concept.html")
 targets.append("Results.html")
 targets.append("Safety.html")
 targets.append("Template_page.html")
+targets.append("UN_SDG.html")
 
 # navbar delimiters. Must be present in ALL the files listed in source and targets
 navbar_start = "<!-- navbar start -->"

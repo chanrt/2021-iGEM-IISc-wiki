@@ -30,12 +30,12 @@
         <nav>
             <div class="nav-wrapper">
                 <ul class="left nav-list valign-wrapper">
-                    <li><a class="nav-link" href="index.html"><img class="responsive-img icon"
+                    <li><a id="nav-logo" class="nav-link" href="index.html"><img class="responsive-img icon"
                                 src="assets/images/team_iisc_logo_min.png" style="max-height: 60px;"></a></li>
 
                     <li><a class="nav-link dropdown-trigger" data-target="dropdown-project" href="#">Project</a></li>
 
-                    <li><a class="nav-link" href="Parts.html">Parts</a></li>
+                    <li><a class="nav-link nav-tab" href="Parts.html">Parts</a></li>
 
                     <li><a class="nav-link dropdown-trigger" data-target="dropdown-labwork" href="#">Wetlab</a></li>
 
@@ -45,14 +45,17 @@
 
                     <li><a class="nav-link dropdown-trigger" data-target="dropdown-team" href="#">Team</a></li>
 
-                    <li><a class="nav-link" href="Judging.html">Judging</a></li>
+                    <li><a class="nav-link nav-tab" href="Judging.html">Judging</a></li>
                 </ul>
 
                 <ul id="dropdown-project" class="dropdown-content">
                     <li class="dropdown-item"><a class="dropdown-link" href="Description.html">Description</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="Design.html">Design</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="Engineering.html">Engineering</a></li>
-                    <li class="dropdown-item"><a class="dropdown-link" href="Implementation.html">Implementation</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Implementation.html">Implementation</a>
+                    </li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Proof_Of_Concept.html">Proof of Concept</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="UN_SDG.html">UN SDG</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="Safety.html">Safety</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="Contribution.html">Contribution</a></li>
                 </ul>
@@ -71,13 +74,15 @@
                 <ul id="dropdown-hp" class="dropdown-content">
                     <li class="dropdown-item"><a class="dropdown-link" href="Communication.html">Public Education and
                             Engagement</a></li>
-                    <li class="dropdown-item"><a class="dropdown-link" href="Human_Practices.html">Integrated Human Practices</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Human_Practices.html">Integrated Human
+                            Practices</a></li>
                 </ul>
 
                 <ul id="dropdown-team" class="dropdown-content">
                     <li class="dropdown-item"><a class="dropdown-link" href="Members.html">Members</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="Attributions.html">Attributions</a></li>
-                    <li class="dropdown-item"><a class="dropdown-link" href="Collaborations.html">Collaborations</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Collaborations.html">Collaborations</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -104,6 +109,8 @@
                             <li><a class="mobile-nav-link" href="Design.html">Design</a></li>
                             <li><a class="mobile-nav-link" href="Engineering.html">Engineering</a></li>
                             <li><a class="mobile-nav-link" href="Implementation.html">Implementation</a></li>
+                            <li><a class="mobile-nav-link" href="Proof_Of_Concept.html">Proof of Concept</a></li>
+                            <li><a class="mobile-nav-link" href="UN_SDG.html">UN SDG</a></li>
                             <li><a class="mobile-nav-link" href="Safety.html">Safety</a></li>
                             <li><a class="mobile-nav-link" href="Contribution.html">Contribution</a></li>
                         </ol>
@@ -129,7 +136,8 @@
                         <ol style="list-style-type: lower-latin;">
                             <li><a class="mobile-nav-link" class="nav-link" href="Communication.html">Public Education
                                     and Engagement</a></li>
-                            <li><a class="mobile-nav-link" class="nav-link" href="Human_Practices.html">Integrated Human Practices</a></li>
+                            <li><a class="mobile-nav-link" class="nav-link" href="Human_Practices.html">Integrated Human
+                                    Practices</a></li>
                         </ol>
                     </li>
                     <li>
@@ -362,7 +370,7 @@
                 <p>
                     We have used pETMCN-T7 (KanR) vector, because it has a high copy number and transcription using the
                     T7 RNA polymerase can be strongly induced upon addition of IPTG (i.e. isopropyl
-                    β-D-1-thiogalactopyranoside). Also, the pET vector system is a powerful and widely used system for
+                    \(\beta\)-D-1-thiogalactopyranoside). Also, the pET vector system is a powerful and widely used system for
                     expressing recombinant proteins in <em><em>E. coli</em></em>, a well-characterized and reliable chassis. A
                     powerful
                     feature of the pET system is the ability to clone target gene under conditions of extremely low
@@ -386,13 +394,13 @@
                 </p>
                 <p>
                     We have chosen <em><em>E. coli</em></em> BL21(DE3) as the host for expression. This strain is a lysogen of
-                    bacteriophage DE3, a lambda derivative that has the immunity region of phage <em>lon</em>> and
+                    bacteriophage DE3, a lambda derivative that has the immunity region of phage <em>21</em> and
                     carries a DNA
                     fragment containing the <em>lacI</em> gene, the <em>lacUV5</em> promoter (inducible by IPTG), and a
                     chromosomal copy
                     of the gene for T7 RNA polymerase. As an <em><em>E. coli</em></em> B strain, BL21 is deficient in the
-                    <em></em> protease and
-                    lacks the ompT outer membrane protease that can degrade proteins during purification.
+                    <em>lon</em> protease and
+                    lacks the OmpT outer membrane protease that can degrade proteins during purification.
                 </p>
             </div>
 
