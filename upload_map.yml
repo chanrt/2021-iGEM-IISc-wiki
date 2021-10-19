@@ -375,6 +375,58 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/c/c3/T--IISc-Bangalore--images--igem_logo.png
     md5: 8868bbecfd0fb303ea7f8274e81348e5
     upload_filename: T--IISc-Bangalore--images--igem_logo.png
+  assets\images\members\Aditya.jpg:
+    link_URL: https://2021.igem.org/wiki/images/6/6d/T--IISc-Bangalore--images--members--Aditya.jpg
+    md5: 22b3f7c224fccf2d237d927a3915b0f6
+    upload_filename: T--IISc-Bangalore--images--members--Aditya.jpg
+  assets\images\members\Ambarish.jpg:
+    link_URL: https://2021.igem.org/wiki/images/9/93/T--IISc-Bangalore--images--members--Ambarish.jpg
+    md5: 27dda7477235bbab1612f2a715738546
+    upload_filename: T--IISc-Bangalore--images--members--Ambarish.jpg
+  assets\images\members\Aranya.jpg:
+    link_URL: https://2021.igem.org/wiki/images/3/3f/T--IISc-Bangalore--images--members--Aranya.jpg
+    md5: 8f388ee6e700c59bcfac34a38243588a
+    upload_filename: T--IISc-Bangalore--images--members--Aranya.jpg
+  assets\images\members\Chandan.jpg:
+    link_URL: https://2021.igem.org/wiki/images/2/25/T--IISc-Bangalore--images--members--Chandan.jpg
+    md5: 46baf426be0b48fea81213c153436950
+    upload_filename: T--IISc-Bangalore--images--members--Chandan.jpg
+  assets\images\members\Dipanjan.jpg:
+    link_URL: https://2021.igem.org/wiki/images/9/95/T--IISc-Bangalore--images--members--Dipanjan.jpg
+    md5: 2d6a72053562790891a9cd6630f9bf69
+    upload_filename: T--IISc-Bangalore--images--members--Dipanjan.jpg
+  assets\images\members\Dipayan.jpg:
+    link_URL: https://2021.igem.org/wiki/images/b/be/T--IISc-Bangalore--images--members--Dipayan.jpg
+    md5: 3f4a4954e2731a97435817c32ade8281
+    upload_filename: T--IISc-Bangalore--images--members--Dipayan.jpg
+  assets\images\members\Kaustubh.jpg:
+    link_URL: https://2021.igem.org/wiki/images/9/97/T--IISc-Bangalore--images--members--Kaustubh.jpg
+    md5: 0edc743ec7f3eee09df9ce99745d1f5c
+    upload_filename: T--IISc-Bangalore--images--members--Kaustubh.jpg
+  assets\images\members\Nikhita.jpg:
+    link_URL: https://2021.igem.org/wiki/images/2/28/T--IISc-Bangalore--images--members--Nikhita.jpg
+    md5: c01856782d9b429cecad9936690b2b09
+    upload_filename: T--IISc-Bangalore--images--members--Nikhita.jpg
+  assets\images\members\Nilay.jpg:
+    link_URL: https://2021.igem.org/wiki/images/e/e5/T--IISc-Bangalore--images--members--Nilay.jpg
+    md5: da151a53f35686152589a81aebc424ff
+    upload_filename: T--IISc-Bangalore--images--members--Nilay.jpg
+  assets\images\members\Rydham.jpg:
+    link_URL: https://2021.igem.org/wiki/images/9/92/T--IISc-Bangalore--images--members--Rydham.jpg
+    md5: 62ffc6710a9739554619305e7e6dccbf
+    upload_filename: T--IISc-Bangalore--images--members--Rydham.jpg
+  assets\images\members\Sukriyo.jpg:
+    link_URL: https://2021.igem.org/wiki/images/5/5f/T--IISc-Bangalore--images--members--Sukriyo.jpg
+    md5: d0edd835bfb7f64fad499d23edc53353
+    upload_filename: T--IISc-Bangalore--images--members--Sukriyo.jpg
+  assets\images\members\Tanishq.jpg:
+    link_URL: https://2021.igem.org/wiki/images/c/cf/T--IISc-Bangalore--images--members--Tanishq.jpg
+    md5: cfcdc1873224eed78ed65967d11295f6
+    upload_filename: T--IISc-Bangalore--images--members--Tanishq.jpg
+  assets\images\members\collage.jpg:
+    link_URL: https://2021.igem.org/wiki/images/f/f1/T--IISc-Bangalore--images--members--collage.jpg
+    md5: 2bbd0b9a14d1ee8569700b1b07b37191
+    upload_filename: T--IISc-Bangalore--images--members--collage.jpg
   assets\images\model\Model-Fig-1.png:
     link_URL: https://2021.igem.org/wiki/images/4/4e/T--IISc-Bangalore--images--model--Model-Fig-1.png
     md5: 9c8a5984a43c11421fb200244c0ca6d9
@@ -519,6 +571,22 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/6/6d/T--IISc-Bangalore--images--results--PCRLab_Fig4.jpg
     md5: 1d8ce26a9a9b1213c0cf8ee79ea50100
     upload_filename: T--IISc-Bangalore--images--results--PCRLab_Fig4.jpg
+  assets\images\results\lab3_1.jpg:
+    link_URL: https://2021.igem.org/wiki/images/2/22/T--IISc-Bangalore--images--results--lab3_1.jpg
+    md5: 6423eeeabe71767ebbd6457d44ecec5a
+    upload_filename: T--IISc-Bangalore--images--results--lab3_1.jpg
+  assets\images\results\lab3_2.jpg:
+    link_URL: https://2021.igem.org/wiki/images/7/78/T--IISc-Bangalore--images--results--lab3_2.jpg
+    md5: a45e12ff4e0eb182453bff0d9a98c484
+    upload_filename: T--IISc-Bangalore--images--results--lab3_2.jpg
+  assets\images\results\lab3_3.jpg:
+    link_URL: https://2021.igem.org/wiki/images/8/86/T--IISc-Bangalore--images--results--lab3_3.jpg
+    md5: 59cf52b1b55b80ba2f549980af949ead
+    upload_filename: T--IISc-Bangalore--images--results--lab3_3.jpg
+  assets\images\results\lab3_4.jpg:
+    link_URL: https://2021.igem.org/wiki/images/8/86/T--IISc-Bangalore--images--results--lab3_4.jpg
+    md5: aa52d0af36b0e00124ef552e09a3d860
+    upload_filename: T--IISc-Bangalore--images--results--lab3_4.jpg
   assets\images\safety\Figure_1.jpg:
     link_URL: https://2021.igem.org/wiki/images/4/45/T--IISc-Bangalore--images--safety--Figure_1.jpg
     md5: ae22a463445a198589d13612933f48cc
@@ -760,7 +828,7 @@ html:
     md5: 22b18a5d5ebe1aa408e7f3ae8ecc795e
   Members.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Members
-    md5: 22b18a5d5ebe1aa408e7f3ae8ecc795e
+    md5: c5695031fce7a78b9e6f1005cfaf6423
   Model.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Model
     md5: 7f087924823576cef04748b83a5e1deb
