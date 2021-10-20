@@ -210,6 +210,15 @@
                             </li>
                             <li>
                                 <a class="content-link" href="#lab3">Overproduction of bacterial cellulose</a>
+                                <ol class="content-list">
+                                    <li><a class="content-link" href="#knock">Knocking out <em>celG</em> from <em>A.
+                                        tumefaciens</em> for BC overproduction</a></li>
+                                    <li><a class="content-link" href="#k">Using <em>K. xylinus</em> for BC
+                                            production</a></li>
+                                </ol>
+                            </li>
+                            <li>
+                                <a class="content-link" href="#ref">References</a>
                             </li>
                         </ol>
                     </div>
@@ -465,6 +474,133 @@
                     so we
                     decided to modify C2 yet again.
                 </p>
+                <p>
+                    In the meanwhile, we also decided to conduct some assays on the crude extract of the large-scale
+                    secondary cultures. The assays we did were the Bradford Assay and the assay of the OpdA domain using
+                    Coumaphos. We also decided to grow the bacteria in both LB and Terrific Broth (TB), because a short
+                    literature review showed that some people have used TB as the growth medium for the secondary
+                    culture for the OpdA production
+                </p>
+                <p>
+                    We used both the C2 and the C2 (2.0) constructs for this purpose.
+                </p>
+                <p>
+                    For this, we harvested the protein from the cells. On the crude cell extract, we conducted the
+                    Bradford assay, using BSA as the reference for the standard curve. The standard curve is shown
+                    below:
+                </p>
+                <center>
+                    <img class="responsive-img" src="https://2021.igem.org/wiki/images/1/1c/T--IISc-Bangalore--images--results--some_curve.png"/>
+                </center>
+                <table>
+                    <tbody><tr>
+                        <th>Sample</th>
+                        <th>Adjusted Absorbance</th>
+                        <th>Estimated Concentration (mg/mL)</th>
+                    </tr>
+                    <tr>
+                        <td>LB EV </td>
+                        <td>0.9034</td>
+                        <td>0.5937</td>
+                    </tr>
+
+                    <tr>
+                        <td>LB C2</td>
+                        <td>0.8659</td>
+                        <td>0.5445</td>
+                    </tr>
+                    <tr>
+                        <td>LB C2 (2.0)</td>
+                        <td>0.8607</td>
+                        <td>0.5377</td>
+                    </tr>
+                    <tr>
+                        <td>LB NT</td>
+                        <td>0.9296</td>
+                        <td>0.6281</td>
+                    </tr>
+                    <tr>
+                        <td>TB EV</td>
+                        <td>0.9449</td>
+                        <td>0.6482</td>
+                    </tr>
+                    <tr>
+                        <td>TB C2</td>
+                        <td>1.0485</td>
+                        <td>0.7841</td>
+                    </tr>
+                    <tr>
+                        <td>TB C2 (2.0)</td>
+                        <td>0.729</td>
+                        <td>0.3648</td>
+                    </tr>
+                    <tr>
+                        <td>TB NT</td>
+                        <td>1.109</td>
+                        <td>0.8636</td>
+                    </tr>
+                </tbody></table>
+                <p>
+                    In the above table, EV refers to Empty Vector samples. NT refers to non-transformed samples.
+                </p>
+                <p>
+                    Surprisingly, the non-transformed TB culture had the highest protein concentration, while the C2
+                    (2.0) cultures had the lowest in their corresponding set, be it LB or TB.
+                </p>
+                <p>
+                    For Enzyme assay, we dissolved Coumaphos in Ches Buffer and used it as a substrate. The product,
+                    chlorferon has an absorption peak at 348 nm. The absorbance values of the different samples are as
+                    follows:
+                </p>
+                <table>
+                    <tbody><tr>
+                        <th>Culture Medium </th>
+                        <th>EV </th>
+                        <th>C2 </th>
+                        <th>C2 (2.0)</th>
+                        <th>NT</th>
+                    </tr>
+                    <tr>
+                        <td>LB 1</td>
+                        <td>-0.189</td>
+                        <td>0.111 </td>
+                        <td>0.188</td>
+                        <td>Used as Blank</td>
+                    </tr>
+                    <tr>
+                        <td>LB 2 </td>
+                        <td>0.824 </td>
+                        <td>0.314 </td>
+                        <td>0.09 </td>
+                        <td>Used as Blank</td>
+                    </tr>
+                    <tr>
+                        <td>TB 1 </td>
+                        <td>0.241 </td>
+                        <td>0.647 </td>
+                        <td>1.599 </td>
+                        <td>Used as Blank</td>
+                    </tr>
+                    <tr>
+                        <td>TB 2 </td>
+                        <td>1.333 </td>
+                        <td>1.240 </td>
+                        <td>0.683 </td>
+                        <td>Used as Blank</td>
+                    </tr>
+                </tbody></table>
+                <p>
+                    LB 1 and LB2 represent replicates, so do TB1 and TB2 for the corresponding cultures. Even between
+                    replicates, we cannot see a similar trend. Because we had only 2 replicates per sample, the sudden
+                    changes in the absorbance values across the replicates did not help us to conclude which of C2 and
+                    C2 (2.0) is better for our purpose or answer doubts whether the enzyme is even being produced or
+                    not.
+                </p>
+                <p>
+                    A very broad trend that was easily seen was that enzyme production seemed to be higher in cultures
+                    grown in TB than those grown in LB. So, we can continue using TB as the growth medium for our
+                    protein's expression.
+                </p>
             </div>
 
             <div class="col s12" data-aos="fade-right" id="c3">
@@ -478,6 +614,11 @@
                     <img class="responsive-img" src="https://2021.igem.org/wiki/images/6/6f/T--IISc-Bangalore--images--results--Map_C2%283.0%29.png"/>
                     <figcaption>Fig 15: Schematic map of C2(3.0)</figcaption>
                 </figure>
+                <p>
+                    We are in the "Build" phase of this engineering cycle. We are yet to clone the bacteria into
+                    BL21(DE3) cells. So, the progress on this is not significant enough to give us any conclusive
+                    findings
+                </p>
             </div>
 
             <div class="col s12" data-aos="fade-right" id="lab2">
@@ -701,111 +842,189 @@
 
             <div class="col s12" id="lab3">
                 <h2>Overproduction of bacterial cellulose</h2>
-                <p>
-                    To produce Bacterial Cellulose sheet, we decided to grow a culture of <em>Komagataeibacter
-                        xylinus</em> (also
-                    known as <em>A. xylinum</em>) as it is known to overproduce bacterial cellulose when grown in the
-                    Hestrin-Schramm (HS) culture medium at 28°C, as per the paper Keshk, S. M. A. S. (2006)
-                </p>
-                <p>
-                    Thus, we decided to try growing the bacteria in the HS medium.
-                </p>
-                <p>
-                    We first ordered an Agar slant of the ATCC 11142 strain of the bacteria from the National Chemical
-                    Laboratories in Pune.
-                </p>
-                <p>
-                    As per the HS media preparation protocol of the 2020 UCSC iGEM Team, we prepared the HS medium and
-                    inoculated our bacteria into that. However, even after 3-4 days, no growth was observed, which was
-                    concerning given that the bacterium has a generation time of about 3 days.
-                </p>
-                <p>
-                    We then decided to try the medium, which was recommended by NCL, Pune to be used to revive or store
-                    the culture. This medium, unlike the HS medium, has no buffer components and has sorbitol instead of
-                    glucose as the carbon source. This medium, we hereafter refer to as the "Sorbitol medium".
-                </p>
-                <p>
-                    We tried to grow our bacteria in the Sorbitol medium, and the bacteria successfully grew in the
-                    medium.
-                </p>
-                <center>
-                    <figure>
-                        <img class="responsive-img" src="https://2021.igem.org/wiki/images/2/22/T--IISc-Bangalore--images--results--lab3_1.jpg" style="width: 50% !important;"/>
-                        <figcaption>Figure 1: 2 bacterial culture plates in Sorbitol Hard Agar medium with the same
-                            bacterial culture in LB Agar as a reference. As can be seen, there is bacterial growth in
-                            the
-                            Sorbitol Hard Agar plates and zero growth on the LB Agar plates. </figcaption>
-                    </figure>
-                </center>
-                <p>
-                    However, there were a host of other complications:
-                </p>
-                <ol>
-                    <li>
-                        Being an extremely general medium containing nothing but yeast extract, sorbitol medium is
-                        highly prone to contamination. Many of our samples and even some of the medium prepared by us
-                        got contaminated (Figure 2 and Figure 3).
-                    </li>
+                <div class="col s12" id="knock">
+                    <h3>Knocking out <em>celG</em> from <em>A. tumefaciens</em> for BC overproduction</h3>
+                    <p>
+                        We decided to knock out the celG gene from the chvB- mutant A. tumefaciens C58 via FLP-FRT
+                        recombination.
+                    </p>
+                    <p>
+                        For this purpose, the lambda red recombination cassette of pKD46(AmpR) was amplified using
+                        gradient PCR and put under tetR promoter in pST-KT. We also planned to amplify the
+                        complement1-FRT-CamR-FRT-complement2 fragment which would replace the part of the <em>celG</em>
+                        sequence
+                        we wished to remove. The complement1 and complement2 are DNA sequences that are complementary to
+                        the regions upstream and downstream of the portion we want to knock out.
+                    </p>
+                    <p>
+                        We were able to successfully amplify the lambda red recombination cassette. Based on the gel
+                        images, we can see that the PCR product amount was highest at 50°C. No product was obtained
+                        at
+                        all at 52°C and 58°C.
+                    </p>
+                    <p>
+                        We couldn't amplify the FRT-complements fragment. Based on the gel images, we believe this is
+                        probably due to the formation of primer-dimers.
+                    </p>
+                    <div class="col s12 l6">
+                        <figure>
+                            <img class="responsive-img" src="https://2021.igem.org/wiki/images/1/17/T--IISc-Bangalore--images--results--lambda_red.jpg"/>
+                            <figcaption>Gel after amplifying lamdba Red Recombination Cassette (from left to right),
+                                Ladder and Gradient PCR products for temperatures 50°C, 52°C, 54°C,
+                                56°C, 58°C
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col s12 l6">
+                        <figure>
+                            <img class="responsive-img" src="https://2021.igem.org/wiki/images/c/c3/T--IISc-Bangalore--images--results--SP_lab.jpg"/>
+                            <figcaption>Unsuccessful gel showing Primer-Dimer bands at bottom for FRT fragments which
+                                could not be amplified (from left to right), Gradient PCR products for temperatures
+                                50°C, 52°C, Ladder, Gradient PCR products for 54°C, 56°C, 58°C,
+                                60°C </figcaption>
+                        </figure>
+                    </div>
+                    <p>
+                        The bacterial cultures were received from Prof. Ann G. Matthysse. However, we could not revive
+                        the bacteria on the LB Agar plates despite following the instructions sent by Prof. Matthysse.
+                        She said that this might be because the cultures sent were too old.
+                    </p>
+                    <p>
+                        We are still figuring out how to proceed with this part of the plan. In the meanwhile, we
+                        decided to go for an alternate strategy for producing bacterial cellulose, the results of which
+                        have been provided at the end.
+                    </p>
+                </div>
+
+                <div class="col s12" id="k">
+                    <h3>Using <em>K. xylinus</em> for BC production</h3>
+                    <p>
+                        To produce Bacterial Cellulose sheet, we decided to grow a culture of <em>Komagataeibacter
+                            xylinus</em> (also
+                        known as <em>A. xylinum</em>) as it is known to overproduce bacterial cellulose when grown in
+                        the
+                        Hestrin-Schramm (HS) culture medium at 28°C, as per the paper Keshk, S. M. A. S. (2006)
+                    </p>
+                    <p>
+                        Thus, we decided to try growing the bacteria in the HS medium.
+                    </p>
+                    <p>
+                        We first ordered an Agar slant of the ATCC 11142 strain of the bacteria from the National
+                        Chemical
+                        Laboratories in Pune.
+                    </p>
+                    <p>
+                        As per the HS media preparation protocol of the 2020 UCSC iGEM Team, we prepared the HS medium
+                        and
+                        inoculated our bacteria into that. However, even after 3-4 days, no growth was observed, which
+                        was
+                        concerning given that the bacterium has a generation time of about 3 days.
+                    </p>
+                    <p>
+                        We then decided to try the medium, which was recommended by NCL, Pune to be used to revive or
+                        store
+                        the culture. This medium, unlike the HS medium, has no buffer components and has sorbitol
+                        instead of
+                        glucose as the carbon source. This medium, we hereafter refer to as the "Sorbitol medium".
+                    </p>
+                    <p>
+                        We tried to grow our bacteria in the Sorbitol medium, and the bacteria successfully grew in the
+                        medium.
+                    </p>
                     <center>
-                        <div class="col s12 l6">
-                            <figure>
-                                <img class="responsive-img" src="https://2021.igem.org/wiki/images/7/78/T--IISc-Bangalore--images--results--lab3_2.jpg"/>
-                                <figcaption>Figure 2: Fungal Contamination </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col s12 l6">
-                            <figure>
-                                <img class="responsive-img" src="https://2021.igem.org/wiki/images/8/86/T--IISc-Bangalore--images--results--lab3_3.jpg"/>
-                                <figcaption>Figure 3: Contaminated Culture in Sorbitol Liquid Medium </figcaption>
-                            </figure>
-                        </div>
+                        <figure>
+                            <img class="responsive-img" src="https://2021.igem.org/wiki/images/2/22/T--IISc-Bangalore--images--results--lab3_1.jpg" style="width: 50% !important;"/>
+                            <figcaption>Figure 1: 2 bacterial culture plates in Sorbitol Hard Agar medium with the same
+                                bacterial culture in LB Agar as a reference. As can be seen, there is bacterial growth
+                                in
+                                the
+                                Sorbitol Hard Agar plates and zero growth on the LB Agar plates. </figcaption>
+                        </figure>
                     </center>
-                    <li>
-                        Bacterial Cellulose production was not observed in Sorbitol medium as well despite the bacteria
-                        growing. This is probably because Sorbitol is not such a good carbon source for cellulose
-                        production.
-                    </li>
-                </ol>
-                <p>
-                    After several unsuccessful attempts at growing the bacteria in HS media or getting to produce
-                    bacterial cellulose in Sorbitol medium, we talked to Dr. Mudrika Khandelwal and Dr. Shivakalyani
-                    Adepu from The Cellulose Group at the Department of Materials Science and Metallurgical Engineering
-                    of IIT Hyderabad.
-                </p>
-                <p>
-                    Based on their suggestion and using the protocol provided in their paper (Adepu, S. 2020), we
-                    changed the composition of the HS medium to have 3.4 g of Na2HPO4 instead of 2.7 g and pH 4.5
-                    instead of 6. We then tried to grow our bacteria in this medium and we were successful!
-                </p>
-                <p>
-                    In fact, we inoculated two cultures, one in the HS medium and one in the Sorbitol medium. While the
-                    one in the Sorbitol medium got contaminated as shown by the rapid increase in OD<sub>600</sub>, the
-                    one in HS
-                    medium grew at a slow and steady state, showing that Sorbitol medium is much
-                    more prone to contamination.
-                </p>
-                <p>
-                    However, we now tried to follow their protocol to setup secondary cultures for bacterial cellulose
-                    production. But, even 2 weeks later, there were no changes observed in the secondary culture (Figure
-                    4).
-                </p>
-                <center>
-                    <figure>
-                        <img class="responsive-img" src="https://2021.igem.org/wiki/images/8/86/T--IISc-Bangalore--images--results--lab3_4.jpg" style="width: 50% !important"/>
-                        <figcaption>Figure 4: Secondary culture of <em>K. xylinus</em> in modified HS medium
-                        </figcaption>
-                    </figure>
-                </center>
-                <h3>References (for previous lab results):</h3>
+                    <p>
+                        However, there were a host of other complications:
+                    </p>
+                    <ol>
+                        <li>
+                            Being an extremely general medium containing nothing but yeast extract, sorbitol medium is
+                            highly prone to contamination. Many of our samples and even some of the medium prepared by
+                            us
+                            got contaminated (Figure 2 and Figure 3).
+                        </li>
+                        <center>
+                            <div class="col s12 l6">
+                                <figure>
+                                    <img class="responsive-img" src="https://2021.igem.org/wiki/images/7/78/T--IISc-Bangalore--images--results--lab3_2.jpg"/>
+                                    <figcaption>Figure 2: Fungal Contamination </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col s12 l6">
+                                <figure>
+                                    <img class="responsive-img" src="https://2021.igem.org/wiki/images/8/86/T--IISc-Bangalore--images--results--lab3_3.jpg"/>
+                                    <figcaption>Figure 3: Contaminated Culture in Sorbitol Liquid Medium </figcaption>
+                                </figure>
+                            </div>
+                        </center>
+                        <li>
+                            Bacterial Cellulose production was not observed in Sorbitol medium as well despite the
+                            bacteria
+                            growing. This is probably because Sorbitol is not such a good carbon source for cellulose
+                            production.
+                        </li>
+                    </ol>
+                    <p>
+                        After several unsuccessful attempts at growing the bacteria in HS media or getting to produce
+                        bacterial cellulose in Sorbitol medium, we talked to Dr. Mudrika Khandelwal and Dr. Shivakalyani
+                        Adepu from The Cellulose Group at the Department of Materials Science and Metallurgical
+                        Engineering
+                        of IIT Hyderabad.
+                    </p>
+                    <p>
+                        Based on their suggestion and using the protocol provided in their paper (Adepu, S. 2020), we
+                        changed the composition of the HS medium to have 3.4 g of Na2HPO4 instead of 2.7 g and pH 4.5
+                        instead of 6. We then tried to grow our bacteria in this medium and we were successful!
+                    </p>
+                    <p>
+                        In fact, we inoculated two cultures, one in the HS medium and one in the Sorbitol medium. While
+                        the
+                        one in the Sorbitol medium got contaminated as shown by the rapid increase in OD<sub>600</sub>,
+                        the
+                        one in HS
+                        medium grew at a slow and steady state, showing that Sorbitol medium is much
+                        more prone to contamination.
+                    </p>
+                    <p>
+                        However, we now tried to follow their protocol to setup secondary cultures for bacterial
+                        cellulose
+                        production. But, even 2 weeks later, there were no changes observed in the secondary culture
+                        (Figure
+                        4).
+                    </p>
+                    <center>
+                        <figure>
+                            <img class="responsive-img" src="https://2021.igem.org/wiki/images/8/86/T--IISc-Bangalore--images--results--lab3_4.jpg" style="width: 50% !important"/>
+                            <figcaption>Figure 4: Secondary culture of <em>K. xylinus</em> in modified HS medium
+                            </figcaption>
+                        </figure>
+                    </center>
+
+                </div>
+            </div>
+
+            <div class="col s12" data-aos="fade-right" id="ref">
+                <h2>References:</h2>
                 <ol>
                     <li>
-                        Keshk, S. M. A. S. "Physical properties of bacterial cellulose sheets produced in presence of
+                        Keshk, S. M. A. S. "Physical properties of bacterial cellulose sheets produced in presence
+                        of
                         lignosulfonate." <em>Enzyme and Microbial Technology</em> 40.1 (2006): 9-12.
                         <a class="content-link" href="https://doi.org/10.1016/j.enzmictec.2006.07.038">doi.org/10.1016/j.enzmictec.2006.07.038</a>
                     </li>
                     <li>
-                        Adepu, S., &amp; Khandelwal, M. (2020). Ex-situ modification of bacterial cellulose for immediate
-                        and sustained drug release with insights into release mechanism. <em>Carbohydrate Polymers</em>,
+                        Adepu, S., &amp; Khandelwal, M. (2020). Ex-situ modification of bacterial cellulose for
+                        immediate
+                        and sustained drug release with insights into release mechanism. <em>Carbohydrate
+                            Polymers</em>,
                         249,
                         116816. <a class="content-link" href="https://doi.org/10.1016/j.carbpol.2020.116816">doi.org/10.1016/j.carbpol.2020.116816</a>
                     </li>

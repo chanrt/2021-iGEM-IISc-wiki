@@ -701,7 +701,7 @@ assets:
     upload_filename: T--IISc-Bangalore--molecules.png
   assets\pdfs\Audiobook_Transcript.pdf:
     link_URL: https://2021.igem.org/wiki/images/f/f9/T--IISc-Bangalore--pdfs--Audiobook_Transcript.pdf
-    md5: e7723624d9aceabf60e576983ade4c6d
+    md5: a35ad6cd763ca273d939de285f4697f7
     upload_filename: T--IISc-Bangalore--pdfs--Audiobook_Transcript.pdf
   assets\pdfs\Coumaphos.pdf:
     link_URL: https://2021.igem.org/wiki/images/9/9f/T--IISc-Bangalore--pdfs--Coumaphos.pdf
@@ -928,7 +928,7 @@ html:
     md5: 54eb6e0c7f9520ef33e787316b3480d4
   Results.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Results
-    md5: 2ab4d17755c56e70e85599cf4416ec3d
+    md5: 1c5938870185ddcae0cb524cf15b84ea
   Safety.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Safety
     md5: b946f36cbdf31231f0bd64bdd040ccd7
@@ -949,7 +949,7 @@ html:
     md5: 4f4e8db9d168ffeaa60e820ca874ea16
   index.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore
-    md5: 6e27569dbcda40e55f071fe6219703ec
+    md5: b25680277677a45e112acffddefcd979
   results.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/results
     md5: 31fbd37e0e8018bf95fef855d0b62e38
