@@ -54,7 +54,8 @@
                     <li class="dropdown-item"><a class="dropdown-link" href="Engineering.html">Engineering</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="Implementation.html">Implementation</a>
                     </li>
-                    <li class="dropdown-item"><a class="dropdown-link" href="Proof_Of_Concept.html">Proof of Concept</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Proof_Of_Concept.html">Proof of Concept</a>
+                    </li>
                     <li class="dropdown-item"><a class="dropdown-link" href="UN_SDG.html">UN SDG</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="Safety.html">Safety</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="Contribution.html">Contribution</a></li>
@@ -73,7 +74,7 @@
 
                 <ul id="dropdown-hp" class="dropdown-content">
                     <li class="dropdown-item"><a class="dropdown-link" href="Communication.html">Public Education and
-                            Engagement</a></li>
+                            Communication</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="Human_Practices.html">Integrated Human
                             Practices</a></li>
                 </ul>
@@ -189,7 +190,7 @@
     <div class="container">
         <div class="row">
             <div class="col s12 abstract-box" data-aos="fade-right">
-                This section describes the design of the main components conforming CellOPHane, including overview of
+                This section describes the design of the main components constituting CellOPHane, including overview of
                 technical details that guided us when we were designing various aspects of this project.
             </div>
             <div class="col s12 l6">
@@ -370,8 +371,10 @@
                 <p>
                     We have used pETMCN-T7 (KanR) vector, because it has a high copy number and transcription using the
                     T7 RNA polymerase can be strongly induced upon addition of IPTG (i.e. isopropyl
-                    \(\beta\)-D-1-thiogalactopyranoside). Also, the pET vector system is a powerful and widely used system for
-                    expressing recombinant proteins in <em><em>E. coli</em></em>, a well-characterized and reliable chassis. A
+                    \(\beta\)-D-1-thiogalactopyranoside). Also, the pET vector system is a powerful and widely used
+                    system for
+                    expressing recombinant proteins in <em><em>E. coli</em></em>, a well-characterized and reliable
+                    chassis. A
                     powerful
                     feature of the pET system is the ability to clone target gene under conditions of extremely low
                     transcriptional activity, that is, in the absence of a source of T7 RNA polymerase. Background
@@ -386,19 +389,22 @@
                 <p>
                     Target genes are initially cloned into the vector using hosts that do not contain the T7 RNA
                     polymerase gene, thus eliminating plasmid instability due to the production of proteins potentially
-                    toxic to the host cell. We have chosen <em><em>E. coli</em></em> DH5\(\alpha\) as the host for cloning and
+                    toxic to the host cell. We have chosen <em><em>E. coli</em></em> DH5\(\alpha\) as the host for
+                    cloning and
                     plasmid
                     amplification. It lacks T7 RNA polymerase gene, is <em>recA<sup>-</sup></em>
                     <em>endA<sup>-</sup></em>, and gives high transformation
                     efficiencies as well as good plasmid yields.
                 </p>
                 <p>
-                    We have chosen <em><em>E. coli</em></em> BL21(DE3) as the host for expression. This strain is a lysogen of
+                    We have chosen <em><em>E. coli</em></em> BL21(DE3) as the host for expression. This strain is a
+                    lysogen of
                     bacteriophage DE3, a lambda derivative that has the immunity region of phage <em>21</em> and
                     carries a DNA
                     fragment containing the <em>lacI</em> gene, the <em>lacUV5</em> promoter (inducible by IPTG), and a
                     chromosomal copy
-                    of the gene for T7 RNA polymerase. As an <em><em>E. coli</em></em> B strain, BL21 is deficient in the
+                    of the gene for T7 RNA polymerase. As an <em><em>E. coli</em></em> B strain, BL21 is deficient in
+                    the
                     <em>lon</em> protease and
                     lacks the OmpT outer membrane protease that can degrade proteins during purification.
                 </p>
@@ -409,7 +415,8 @@
                 <p>
                     Some of the proteins coded by the sequences designed by us are native to organisms other than E.
                     coli, our chassis. Thus, we have codon optimized the nucleotide sequences (e.g. SpyTag002,
-                    SpyCatcher002, OpdA, dCBD, linkers) for <em>E. coli</em> by using the 'Choose Alternative Codons' capability
+                    SpyCatcher002, OpdA, dCBD, linkers) for <em>E. coli</em> by using the 'Choose Alternative Codons'
+                    capability
                     and codon usage tables available in SnapGene while designing the constructs.
                 </p>
             </div>
@@ -477,60 +484,77 @@
                 <h2>References</h2>
                 <ol>
                     <li>Sletta H, Tondervik A, Hakvag S, Vee Aune TE, Nedal A, Aune R, Evensen G, Valla S, Ellingsen TE,
-                    Brautaset T. The Presence of N-Terminal Secretion Signal Sequences Leads to Strong Stimulation of
-                    the Total Expression Levels of Three Tested Medically Important Proteins during High-Cell-Density
-                    Cultivations of <em>Escherichia coli</em>. <em>Appl. Environ. Microbiol</em>. 2007;73(3):906-912.
-                    doi:10.1128/AEM.01804-06</li>
+                        Brautaset T. The Presence of N-Terminal Secretion Signal Sequences Leads to Strong Stimulation
+                        of
+                        the Total Expression Levels of Three Tested Medically Important Proteins during
+                        High-Cell-Density
+                        Cultivations of <em>Escherichia coli</em>. <em>Appl. Environ. Microbiol</em>.
+                        2007;73(3):906-912.
+                        doi:10.1128/AEM.01804-06</li>
 
                     <li>Zhang W, Lu J, Zhang S, Liu L, Pang X, Lv J. Development an effective system to expression
-                    recombinant protein in <em>E. coli</em> via comparison and optimization of signal peptides: Expression of
-                    <em>Pseudomonas fluorescens</em> BJ-10 thermostable lipase as case study. <em>Microb. Cell Fact</em>. 2018 Mar
-                    28;17(1):50. doi: 10.1186/s12934-018-0894-y</li>
+                        recombinant protein in <em>E. coli</em> via comparison and optimization of signal peptides:
+                        Expression of
+                        <em>Pseudomonas fluorescens</em> BJ-10 thermostable lipase as case study. <em>Microb. Cell
+                            Fact</em>. 2018 Mar
+                        28;17(1):50. doi: 10.1186/s12934-018-0894-y
+                    </li>
 
                     <li>Lee J, Kim SH. High-throughput T7 LIC Vector for Introducing C-terminal Poly-Histidine Tags with
-                    Variable Lengths without Extra Sequences. <em>Protein Expr. Purif</em>. 2009;63(1):58-61.
-                    doi:10.1016/j.pep.2008.09.005</li>
+                        Variable Lengths without Extra Sequences. <em>Protein Expr. Purif</em>. 2009;63(1):58-61.
+                        doi:10.1016/j.pep.2008.09.005</li>
 
                     <li>Zakeri B, Fierer JO, Celik E, Chittock EC, Schwartz-Linek U, Moy VT, Howarth M. Peptide Tag
-                    Forming a Rapid Covalent Bond to a Protein, through Engineering a Bacterial Adhesin. <em>Proc. Natl.
-                        Acad. Sci</em>. U.S.A. 2012;109(12):E690-7. doi: 10.1073/pnas.1115485109</li>
+                        Forming a Rapid Covalent Bond to a Protein, through Engineering a Bacterial Adhesin. <em>Proc.
+                            Natl.
+                            Acad. Sci</em>. U.S.A. 2012;109(12):E690-7. doi: 10.1073/pnas.1115485109</li>
 
                     <li>Keeble AH, Banerjee A, Ferla MP, Reddington SC, Anuar INAK, Howarth M. Evolving Accelerated
-                    Amidation by SpyTag/SpyCatcher to Analyze Membrane Dynamics. Angew. <em>Chem. Int. Ed. Engl</em>. 2017 Dec
-                    22;56(52):16521-16525. doi: 10.1002/anie.201707623</li>
+                        Amidation by SpyTag/SpyCatcher to Analyze Membrane Dynamics. Angew. <em>Chem. Int. Ed.
+                            Engl</em>. 2017 Dec
+                        22;56(52):16521-16525. doi: 10.1002/anie.201707623</li>
 
                     <li>Linder M, Salovuori I, Ruohonen L, Teeri TT. Characterization of a Double Cellulose-Binding
-                    Domain: Synergistic High Affinity Binding to Crystalline Cellulose. <em>J. Biol. Chem</em>. 1996 Aug
-                    30;271(35):21268-72. doi: 10.1074/jbc.271.35.21268</li>
+                        Domain: Synergistic High Affinity Binding to Crystalline Cellulose. <em>J. Biol. Chem</em>. 1996
+                        Aug
+                        30;271(35):21268-72. doi: 10.1074/jbc.271.35.21268</li>
 
                     <li>Horne I, Sutherland TD, Harcourt RL, Russell RJ, Oakeshott JG. Identification of an opd
-                    (organophosphate degradation) Gene in an Agrobacterium Isolate. <em>Appl. Environ. Microbiol</em>. 2002 Jul
-                    01;68(7):3371-3376. doi: 10.1128/aem.68.7.3371-3376.2002</li>
+                        (organophosphate degradation) Gene in an Agrobacterium Isolate. <em>Appl. Environ.
+                            Microbiol</em>. 2002 Jul
+                        01;68(7):3371-3376. doi: 10.1128/aem.68.7.3371-3376.2002</li>
 
-                    <li>Dumas DP, Durst HD, Landis WG, Raushel FM, Wild JR. Inactivation of Organophosphorus Nerve Agents
-                    by the Phosphotriesterase from <em>Pseudomonas diminuta</em>. <em>Archives of Biochemistry and Biophysics</em>. 1990
-                    Feb 15;277(1):155-159. doi: 10.1016/0003-9861(90)90564-F</li>
+                    <li>Dumas DP, Durst HD, Landis WG, Raushel FM, Wild JR. Inactivation of Organophosphorus Nerve
+                        Agents
+                        by the Phosphotriesterase from <em>Pseudomonas diminuta</em>. <em>Archives of Biochemistry and
+                            Biophysics</em>. 1990
+                        Feb 15;277(1):155-159. doi: 10.1016/0003-9861(90)90564-F</li>
 
-                    <li>Pedelacq JD, Cabantous S, Tran T, Terwilliger TC, Waldo GS. Engineering and Characterization of a
-                    Superfolder Green Fluorescent Protein. <em>Nat. Biotechnol</em>. 2006 Jan;24(1):79-88. doi: 10.1038/nbt1172</li>
+                    <li>Pedelacq JD, Cabantous S, Tran T, Terwilliger TC, Waldo GS. Engineering and Characterization of
+                        a
+                        Superfolder Green Fluorescent Protein. <em>Nat. Biotechnol</em>. 2006 Jan;24(1):79-88. doi:
+                        10.1038/nbt1172</li>
 
                     <li>Gorgieva S, Trcek J. Bacterial Cellulose: Production, Modification and Perspectives in
-                    Biomedical Applications. <em>Nanomaterials</em>. 2019 Sep 20;9(1352). doi:10.3390/nano9101352</li>
+                        Biomedical Applications. <em>Nanomaterials</em>. 2019 Sep 20;9(1352). doi:10.3390/nano9101352
+                    </li>
 
                     <li>Lee KY, Buldum G, Mantalaris A, Bismarck A. More Than Meets the Eye in Bacterial Cellulose:
-                    Biosynthesis, Bioprocessing, and Applications in Advanced Fiber Composites. <em>Macromol. Biosci</em>. 2014
-                    Jan;14(1):10-32. doi: 10.1002/mabi.201300298</li>
+                        Biosynthesis, Bioprocessing, and Applications in Advanced Fiber Composites. <em>Macromol.
+                            Biosci</em>. 2014
+                        Jan;14(1):10-32. doi: 10.1002/mabi.201300298</li>
 
                     <li>Novagen. "pET System Manual" (8th Ed.). TB055; 02/99.</li>
 
                     <li>Hu W, Chen S, Yang J, Li Z, Wang H. Functionalized Bacterial Cellulose Derivatives and
-                    Nanocomposites. <em>Carbohydrate Polymers</em>. 2013 Sep. doi: 10.1016/j.carbpol.2013.09.102</li>
+                        Nanocomposites. <em>Carbohydrate Polymers</em>. 2013 Sep. doi: 10.1016/j.carbpol.2013.09.102
+                    </li>
 
                     <li>New England Biolabs Inc. "Gibson Assembly Master Mix: Instruction Manual". DNA Modifying
-                    Enzymes (series).</li>
+                        Enzymes (series).</li>
 
                     <li>iGEM TU Eindhoven 2015 et. al. "The Cloning Guide: The First Step towards a Successful iGEM
-                    Project".</li>
+                        Project".</li>
 
                     <li>iGEM Cambridge-JIC 2015. "Open-source Hardware: An iGEM Guide".</li>
                 </ol>

@@ -18,7 +18,7 @@
     <!-- stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Template page | IISc Bangalore</title>
+    <title>Engineering | IISc Bangalore</title>
 </head>
 
 <body>
@@ -51,7 +51,8 @@
                     <li class="dropdown-item"><a class="dropdown-link" href="Engineering.html">Engineering</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="Implementation.html">Implementation</a>
                     </li>
-                    <li class="dropdown-item"><a class="dropdown-link" href="Proof_Of_Concept.html">Proof of Concept</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Proof_Of_Concept.html">Proof of Concept</a>
+                    </li>
                     <li class="dropdown-item"><a class="dropdown-link" href="UN_SDG.html">UN SDG</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="Safety.html">Safety</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="Contribution.html">Contribution</a></li>
@@ -70,7 +71,7 @@
 
                 <ul id="dropdown-hp" class="dropdown-content">
                     <li class="dropdown-item"><a class="dropdown-link" href="Communication.html">Public Education and
-                            Engagement</a></li>
+                            Communication</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="Human_Practices.html">Integrated Human
                             Practices</a></li>
                 </ul>
@@ -158,7 +159,7 @@
 
     <style>
         .hero-image {
-            background-image: url("assets/backgrounds/attributions.jpg");
+            background-image: url("assets/backgrounds/engineering.jpg");
             height: 750px !important;
             background-position: center;
             background-repeat: no-repeat;
@@ -178,22 +179,851 @@
 
     <div class="hero-image" data-aos="zoom-in">
         <div class="hero-text">
-            <h1 style="color: white">Template Page</h1>
+            <h1 style="color: white">Engineering</h1>
         </div>
     </div>
     <br>
 
     <div class="container">
         <div class="row">
+
+            <div class="col s12 abstract-box" data-aos="fade-right">
+                <p>
+                    In this page, we will introduce the Engineering Design Cycle that we followed in order to eventually
+                    accomplish our short-term goals. We followed this workflow for all four components that constitute
+                    CellOPHane: protein production, bacterial cellulose (BC) production, MCC sheet production, and
+                    hardware development. During this process, successful results were obtained, but also new challenges
+                    were discovered. Nevertheless, the drawbacks forced us to come up with new ideas and initiated new
+                    cycles of engineering, ultimately driving our project forward. While the exact experiments and
+                    results are described on the Results page, here we outline the underlying thought process that led
+                    to our final engineering success.
+                </p>
+            </div>
+
             <div class="col s12 l6">
                 <div class="card" style="background: rgb(248, 249, 250); border-radius: 2px;" data-aos="fade-right">
                     <div class="card-content">
                         <span class="card-title" style="font-weight: bold; font-size: xx-large;">Contents:</span>
                         <ul>
-                            <li><a href="#lin1" class="content-link">Link 1</a></li>
+                            <li><a href="#proteins" class="content-link">Proteins:</a></li>
+                            <ol style="list-style-type: none !important;">
+                                <li><a href="#p1" class="content-link">Cycle 1</a></li>
+                                <li><a href="#p2" class="content-link">Cycle 2</a></li>
+                                <li><a href="#p3" class="content-link">Cycle 3</a></li>
+                                <li><a href="#p4" class="content-link">Cycle 4</a></li>
+                            </ol>
+                            <li><a href="#bacterial" class="content-link">Bacterial Cellulose Production:</a></li>
+                            <ol style="list-style-type: none !important;">
+                                <li><a href="#b1" class="content-link">Cycle 1</a></li>
+                                <li><a href="#b2" class="content-link">Cycle 2</a></li>
+                                <li><a href="#b3" class="content-link">Cycle 3</a></li>
+                                <li><a href="#b4" class="content-link">Cycle 4</a></li>
+                            </ol>
+                            <li><a href="#mcc" class="content-link">MCC Sheet:</a></li>
+                            <ol style="list-style-type: none !important;">
+                                <li><a href="#m1" class="content-link">Cycle 1</a></li>
+                                <li><a href="#m2" class="content-link">Cycle 2</a></li>
+                                <li><a href="#m3" class="content-link">Cycle 3</a></li>
+                            </ol>
+                            <li><a href="#hardware" class="content-link">Hardware:</a></li>
+                            <ol style="list-style-type: none !important;">
+                                <li><a href="#h1" class="content-link">Cycle 1</a></li>
+                            </ol>
+                            <li><a href="#ref" class="content-link">References</a></li>
                         </ul>
                     </div>
                 </div>
+            </div>
+
+            <div class="col s12" data-aos="fade-right">
+                <p>
+                    Synthetic biology is a discipline of science that differs a lot from the others. Usually, one would
+                    use the scientific method to obtain results in the majority of life sciences, centering one 's work
+                    on making observations and performing experiments. However, SynBio goes beyond that! It is all about
+                    constructing something new from parts (biological parts if you may). That is why, sometimes the
+                    engineering design process fits better with these projects, since a product has to be built or a
+                    "genetically engineered machine" has to perform a specific task. It reminds us that iGEM stands for
+                    International Genetically Engineered Machines.
+                </p>
+            </div>
+
+            <div id="proteins" class="col s12" data-aos="fade-right">
+                <h2>Proteins</h2>
+                <div id="p1" class="col s12" data-aos="fade-right">
+                    <h3>Cycle 1</h3>
+
+                    <div style="background: rgb(64,86, 165);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Design</span>
+                            <p>
+                                After long search through literature, we selected dCBD and OpdA. The former was selected
+                                for its strong, synergistic binding with microcrystalline cellulose. The latter was
+                                selected for its broad substrate range that includes a couple of extremely hazardous
+                                pesticides which are heavily used in Indian agricultural fields. We chose sfGFP as the
+                                perfect reporter for our purpose.
+                            </p>
+                            <br>
+                            <p>
+                                Initially we tried to incorporate SpyDock in fusion protein C1 and SpyTag002 in fusion
+                                protein C2. Maintaining modularity was our first and foremost priority while designing
+                                the filter platform, and we planned to utilize noncovalent interaction in binding C1
+                                with C2. SpyDock is a modified version of SpyCatcher which binds in 1:1 stoichiometry
+                                with SpyTag002 via noncovalent interaction, and not irreversible isopeptide linkage.
+                                SpyTag/SpyDock system is at the heart of Spy&Go resin that is used for protein
+                                purification. We planned to functionalize the bacterial cellulose (BC) sheet by
+                                incubating it with cocktail of C1 (SpyDock-dCBD) and C2 (OpdA-SpyTag002-sfGFP). After
+                                the functionalized filter gets installed (as a part of the associated hardware), the BC
+                                base of the filter would eventually get worn out with time. Thereafter, we can just flow
+                                2.5M imidazole solution through our filter. It would elute out the C2 molecules from the
+                                filter, which can be purified and reused later. Thus, adopting this strategy would
+                                enable one of our two fusion proteins to be reusable. Most importantly, C2 being larger
+                                than C1 we hoped that this strategy would make our filtration process more economically
+                                viable.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(110, 145, 36);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Build</span>
+                            <p>
+                                Before stepping into wet lab work, we designed a first-order mathematical model on
+                                SpyTag/SpyDock interaction. We searched for parametric values required to run this model
+                                and fed those to it.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(190, 82, 0);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Test</span>
+                            <p>
+                                Upon running computer simulations, the model yielded plots regarding the extent of
+                                SpyTag/SpyDock complex dissociation at various volumetric flow rates.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(39, 122, 163);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Learn</span>
+                            <p>
+                                The model showed that SpyTag/SpyDock interaction gets abolished after a short period of
+                                time and, as a result, the process of C2 getting washed away has a very low lifetime.
+                                Though we hoped that the noncovalent interaction-based strategy would decrease the cost
+                                as well as would make C2 reusable, we learnt from the model this strategy would take us
+                                nowhere. Thus, the model safely ruled out the incorporation of SpyTag/SpyDock into the
+                                constructs we would design next.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="p2" class="col s12" data-aos="fade-right">
+                    <h3>Cycle 2</h3>
+
+                    <div style="background: rgb(64,86, 165);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Design</span>
+                            <p>
+                                The previous cycle made our focus shift to covalent protein ligation strategies instead.
+                                The SpyTag/SpyCatcher system readily attracted our attention. The interaction between
+                                the two is covalent, which means the binding is essentially irreversible. The reaction
+                                requires only mixing and is rapid, high yielding, robust to experimental conditions, and
+                                shows very good specificity. The system is functional over a wide range of temperature,
+                                pH and salinity. SpyTag002 and SpyCatcher002 were the preferred versions. We planned to
+                                incorporate SpyCatcher002 in fusion protein C1 and SpyTag002 in fusion protein C2. We
+                                also thought of some back-up plans. We included KpnI restriction sites on either end of
+                                the sfGFP CDS, should the need of removing sfGFP ever arises.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(110, 145, 36);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Build</span>
+                            <p>
+                                We designed two constructs  - C1 (SpyCatcher002-dCBD) and C2 (OpdA-SpyTag002-sfGFP). To
+                                know the efficiency of our system, both C1 and C2 proteins had to be synthesized, which
+                                was carried out using  <em></em>E. coli</em> DH5 alpha as the cloning host and  <em>E. coli</em> BL21(DE3) as the
+                                expression host. The specific genes for dCBD, OpdA, and sfGFP were derived from <em>T.
+                                    reesei, A. radiobacter, and A. victoria</em> respectively. We codon optimized the
+                                genes for
+                                expression in  <em>E. coli</em> with SnapGene 's codon optimizing tool. pETMCN-T7 (KanR) was the
+                                vector we intended to use in our experiments and it included features (e.g. T7 promoter,
+                                lac operator, and ribosomal binding site) that allowed for the inducible gene
+                                expression. Additionally, both constructs have a 10x-His tag for subsequent protein
+                                purification. We ordered the DNA sequences of both C1 and C2 from GenScript. They were
+                                shipped to us after being cloned into pUC57-Kan vectors.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(190, 82, 0);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Test</span>
+                            <p>
+                                After amplifying the constructs using suitable primers, we cloned each of them into
+                                pETMCN-T7 (KanR) using Gibson assembly. It yielded C1_pETMCN-T7 and C2_pETMCN-T7 which
+                                were subsequently transformed into  <em>E. coli</em> DH5 alpha. Inoculation into liquid culture
+                                was
+                                followed by miniprepping. Plasmid obtained from positive clones (as per double digestion
+                                verification) was transformed into  <em>E. coli</em> BL21(DE3) and secondary liquid cultures were
+                                induced with different working concentration of IPTG and under a range of temperatures.
+                            </p>
+                            <br>
+                            <p>
+                                SDS-PAGE of lysed cell pellets, conducted as the expression test, was inconclusive.
+                                Thus, we performed a western blot using anti-His primary antibody. The results showed
+                                prominent bands at ~25 kDa for C1 and at ~75 kDa for C2. It helped us to finalize the
+                                optimal induction conditions (namely 0.5 mM IPTG at 30&deg;C) as well.
+                            </p>
+                            <br>
+                            <p>
+                                To perform solubility test, first we followed these conditions to induce a large scale
+                                 <em>E. coli</em> BL21(DE3) cultures. Then, harvested cells were lysed and subjected to pulldown
+                                with Ni-NTA. SDS-PAGE was performed on the boiled samples taken from different culture
+                                fractions (viz., lysate, pellet, supernatant, washed and bead-bound). Bead-bound
+                                fraction for C1 showed prominent band at (~25 kDa), but C2 did not. Next, we performed
+                                two Western blots on the C2 pulldown samples, one using anti-His primary antibody and
+                                the other using anti-GFP primary antibody. Later, the pulldown of C2 was performed with
+                                an anti-GFP nanobody coupled to GST-tagged glutathione-sepharose beads and it was
+                                followed by SDS-PAGE.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(39, 122, 163);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Learn</span>
+                            <p>
+                                Results from the expression test tell that both C1 and C2 are getting expressed by our
+                                expression host. No pulldown was completely successful for C2. Most probably, protein
+                                degradation was to blame. However, results from solubility test definitely tell that C1
+                                is soluble. C2 might not have been soluble.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="p3" class="col s12" data-aos="fade-right">
+                    <h3>Cycle 3</h3>
+
+                    <div style="background: rgb(64,86, 165);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Design</span>
+                            <p>
+                                The lack of solubility of C2 possibly stems from undesired protein-protein interaction.
+                                Therefore, we decided to make C2 less bulky by clipping out the sfGFP module. As
+                                mentioned previously, we already made a provision of doing the same in the design phase
+                                of the previous engineering cycle.
+                            </p>
+                            <br>
+                            <p>
+                                We found instances in the literature where other groups had used TB media in the
+                                secondary culture for OpdA production.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(110, 145, 36);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Build</span>
+                            <p>
+                                Restriction digestion of C2_pETMCN-T7 with KpnI followed by ligation yielded
+                                C2(2.0)_pETMCN-T7. This was our first modified construct in quest of functional C2
+                                protein.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(190, 82, 0);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Test</span>
+                            <p>
+                                After verification, the plasmid was transformed into  <em>E. coli</em> BL21(DE3) followed by
+                                Ni-NTA pulldown. We performed pulldown again using SpyDock-linked Ni-NTA bead.
+                            </p>
+                            <br>
+                            <p>
+                                We grew our expression host in Terrific Broth (TB) in addition to LB (i.e. the media
+                                used so far).
+                            </p>
+                            <br>
+                            <p>
+                                We conducted Bradford assay (using bovine serum albumin as the reference) and OpdA
+                                activity assay (using Coumaphos as the substrate) on the crude extract of the
+                                large-scale secondary culture.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(39, 122, 163);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Learn</span>
+                            <p>
+                                No prominent band at ~50 kDa, the molecular weight of C2(2.0), could be observed in
+                                either of the pulldowns. Thus, like C2, C2(2.0) also could not be verified to be
+                                soluble.
+                            </p>
+                            <br>
+                            <p>
+                                Enzyme production seemed to be higher in cultures grown in TB than those grown in LB.
+                                Thus, we learnt to continue using TB as the growth medium for our protein 's expression.
+                            </p>
+                            <br>
+                            <p>
+                                The OpdA activity assay was inconclusive.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="p4" class="col s12" data-aos="fade-right">
+                    <h3>Cycle 4</h3>
+
+                    <div style="background: rgb(64,86, 165);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Design</span>
+                            <p>
+                                The lack of solubility of C2(2.0) might stem from the hydrophobic signal peptide
+                                attached to OpdA. Therefore, we decided to clip out the said signal peptide sequence.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(110, 145, 36);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Build</span>
+                            <p>
+                                We performed a PCR on C2(2.0)_pETMCN-T7 to amplify C2(2.0) minus the N-terminal signal.
+                                This PCR fragment was cloned into an empty pETMCN-T7 vector to yield C2(3.0)_pETMCN-T7.
+                                This was our second modified construct in quest of functional C2 protein.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(190, 82, 0);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Test</span>
+                            <p>
+                                As we are currently in the 'Build' phase of this engineering cycle, experiments are not
+                                performed yet.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(39, 122, 163);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Learn</span>
+                            <p>
+                                As we are currently in the 'Build' phase of this engineering cycle, the progress on this
+                                is not significant enough to give us any conclusive findings.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="bacterial" class="col s12" data-aos="fade-right">
+                <h2>Bacterial Cellulose Production</h2>
+                <div id="b1" class="col s12" data-aos="fade-right">
+                    <h3>Cycle 1</h3>
+
+                    <div style="background: rgb(64,86, 165);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Design</span>
+                            <p>
+                                Making bacterial cellulose (BC) sheet is integral to our project. Initially, we planned
+                                to achieve BC overproduction by knocking out <em>celG</em> gene in
+                                <em>chvB<sup>-</sup></em> Agrobacterium
+                                tumefaciens C58 kindly provided by Prof. Ann G. Matthysse as a gift. We planned to adopt
+                                the FLP-FRT recombination to achieve the same.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(110, 145, 36);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Build</span>
+                            <p>
+                                Necessary primers were designed and ordered.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(190, 82, 0);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Test</span>
+                            <p>
+                                With help of gradient PCR, the lambda Red recombinase cassette of pKD46 (AmpR) was
+                                amplified and put under <em>tetR</em> promoter in pST-KT (KanR; TetR). Gradient PCR was
+                                again
+                                used to amplify the complement1-FRT-CamR-FRT-complement2 fragment present on pKD3
+                                (CamR). Here, complement1 and complement2 denote the DNA sequence complementary to
+                                upstream and
+                                downstream region, respectively, of the genomic portion we intend to knock out.
+                            </p>
+                            <br>
+                            <p>
+                                The <em>chvB<sup>-</sup> Agrobacterium tumefaciens</em> C58 strain was revived from
+                                filter paper into LB
+                                agar plates.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(39, 122, 163);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Learn</span>
+                            <p>
+                                The amplification of lambda Red recombinase system was successful, but that of
+                                complement1-FRT-CamR-FRT-complement2 was not. Based on the gel electrophoresis imaging,
+                                formation of primer dimer (PD) was probably the reason the latter failed. PD is a
+                                potential by-product in PCR reaction where two primer molecules hybridize to each other
+                                because of strings of complementary bases in them. The DNA polymerase amplifies the PD,
+                                leading to competition for PCR reagents, thus potentially inhibiting amplification of
+                                the DNA sequence targeted for PCR amplification.
+                            </p>
+                            <br>
+                            <p>
+                                No bacterial growth was found on the LB agar plates where we revived the mutant
+                                Agrobacterium strain. As per Prof. Matthysse 's words, the root of this problem might lie
+                                in the cultures being very old.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="b2" class="col s12" data-aos="fade-right">
+                    <h3>Cycle 2</h3>
+
+                    <div style="background: rgb(64,86, 165);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Design</span>
+                            <p>
+                                We realized that we do not have time to re-design the pKD3 primers from scratch or to
+                                play with the gradient PCR conditions. Lack of mutant colony was another headache.
+                            </p>
+                            <br>
+                            <p>
+                                Thus, we gave up the knock-out strategy of ours and quickly devised an alternative. We
+                                ordered <em>Komagataeibacter xylinus</em> from NCL, Pune. Given appropriate conditions,
+                                it has
+                                been reported to produce BC in excessive amount.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(110, 145, 36);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Build</span>
+                            <p>
+                                Neither construction of a DNA sequence nor its implementation into a chassis was
+                                involved in this part (i.e. BC production) of our work.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(190, 82, 0);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Test</span>
+                            <p>
+                                The strain was inoculated from agar slant into liquid Hestrin Schramm (HS) media (pH 6).
+                                HS hard agar (HA) plates were streaked with the same liquid culture.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(39, 122, 163);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Learn</span>
+                            <p>
+                                No growth was seen in either liquid culture or HA plates even after sufficient time was
+                                allowed for bacterial growth. The HS media was selected after going through available
+                                literature on BC overproduction by <em>K. xylinus</em>. However, the instruction sheet
+                                provided
+                                by NCL recommended sorbitol media with pH 6.2.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="b3" class="col s12" data-aos="fade-right">
+                    <h3>Cycle 3</h3>
+
+                    <div style="background: rgb(64,86, 165);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Design</span>
+                            <p>
+                                We planned to use sorbitol media (pH 6.2) instead of HS media.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(110, 145, 36);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Build</span>
+                            <p>
+                                Neither construction of a DNA sequence nor its implementation into a chassis was
+                                involved in this part (i.e. BC production) of our work.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(190, 82, 0);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Test</span>
+                            <p>
+                                The strain was inoculated from agar slant into liquid sorbitol media. Sorbitol hard agar
+                                (HA) plates were streaked with the same liquid culture. We made glycerol stocks of the
+                                colonies obtained from HA plates.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(39, 122, 163);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Learn</span>
+                            <p>
+                                Sorbitol HA plates exhibited growth but liquid culture did not show any turbidity.
+                                Fungal contamination, seen in the liquid culture, was the probable reason.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="b4" class="col s12" data-aos="fade-right">
+                    <h3>Cycle 4</h3>
+
+                    <div style="background: rgb(64,86, 165);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Design</span>
+                            <p>
+                                Unless we get growth in liquid culture, we would not be able to derive BC. We also knew
+                                that HS media, not sorbitol media, is arguably the best at inducing BC overproduction in
+                                <em>K. xylinus</em>. Thus, after consulting experts we planned to culture the bacteria
+                                in
+                                modified HS media of pH 4.5.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(110, 145, 36);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Build</span>
+                            <p>
+                                Neither construction of a DNA sequence nor its implementation into a chassis was
+                                involved in this part (i.e. BC production) of our work.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(190, 82, 0);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Test</span>
+                            <p>
+                                The strain was inoculated from sorbitol HA plate into liquid modified HS media. HA
+                                plates could not be prepared with this modified HS media owing to shortage of time.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(39, 122, 163);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Learn</span>
+                            <p>
+                                The test phase is still going on.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="mcc" class="col s12" data-aos="fade-right">
+                <h2>MCC Sheet </h2>
+                <div id="m1" class="col s12" data-aos="fade-right">
+                    <h3>Cycle 1</h3>
+
+                    <div style="background: rgb(64,86, 165);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Design</span>
+                            <p>
+                                As a back-up plan, we also tried to make a sheet of microcrystalline cellulose (MCC)
+                                from the commercially available powdered form. Though it is not directly synthesized by
+                                bacteria, such a sheet would help us with accomplishing our Proof of Concept goals. MCC
+                                and BC are almost similar in their characteristics.
+                            </p>
+                            <br>
+                            <p>
+                                As a starting point, we tried to find out a suitable solvent for dissolving MCC powder.
+                                Based on literature review, we shortlisted dimethyl sulfoxide (DMSO), 7% LiCl in
+                                dimethyl acetamide (DMAc), and N-methylpyrrolidinone (NMP) as candidates for further
+                                investigation. Drop casting was chosen as the characterization method of choice at the
+                                initial phase because it saves wastage of resources.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(110, 145, 36);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Build</span>
+                            <p>
+                                Neither construction of a DNA sequence nor its implementation into a chassis was
+                                involved in this part (i.e. sheet production) of our work.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(190, 82, 0);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Test</span>
+                            <p>
+                                MCC was mixed with these solvents and stirred overnight. To test whether it is possible
+                                to form a mechanically strong film of MCC from the solutions, we performed drop casting
+                                (on glass slide) at a small scale with each of the samples and also with different
+                                sample volumes.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(39, 122, 163);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Learn</span>
+                            <p>
+                                In general, quenching gave better results compared to annealing. Drops derived from
+                                MCC+DMSO solution yielded a cracked surface upon quenching. Drops derived from MCC+NMP
+                                solution gave an excessively flaky residue. Sheet derived from MCC+LiCl/DMAc solution
+                                showed negligible presence of cracks, but it adsorbed moisture after it had returned to
+                                room temperature. The BC sheet we desire to make cannot be flaky. Thus, MCC+NMP solution
+                                was not subjected to further investigation.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="m2" class="col s12" data-aos="fade-right">
+                    <h3>Cycle 2</h3>
+
+                    <div style="background: rgb(64,86, 165);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Design</span>
+                            <p>
+                                We sought to see whether the addition of a binder could influence the mechanical
+                                integrity of the film and strengthen it.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(110, 145, 36);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Build</span>
+                            <p>
+                                Neither construction of a DNA sequence nor its implementation into a chassis was
+                                involved in this part (i.e. sheet production) of our work.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(190, 82, 0);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Test</span>
+                            <p>
+                                We added 10% w/v polyvinyl alcohol (PVA) to MCC+DMSO as well as to MCC+LiCl/DMAc. Then,
+                                we performed drop casting (on glass slide) using these solutions, all well above
+                                100&deg;C as
+                                done before. One of the drop-casted films obtained from MCC+DMSO was subjected to atomic
+                                force microscopy (AFM).
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(39, 122, 163);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Learn</span>
+                            <p>
+                                All the drop-casted films turned out to be patchy and unusually brownish. Surprisingly,
+                                PVA is known to be strongly preferring the formation of mechanically strong films!
+                                However, we found out that the heating regime (above 100&deg;C) used for the samples had
+                                exceeded the degradation temperature of PVA. It was the degradation of PVA that had
+                                caused the charred appearance of the films.
+                            </p>
+                            <br>
+                            <p>
+                                Usage of vacuum oven was causing the film to come out of the substratum (i.e. glass
+                                slide). It was interfering with the proper functioning of AFM.
+                            </p>
+                            <br>
+                            <p>
+                                MCC+LiCl/DMAc+PVA solution yielded highly flaky film, whereas MCC+DMSO+PVA film fairly
+                                maintained its integrity. Thus, MCC+LiCl/DMAc+PVA solution was not subjected to further
+                                investigation.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="m3" class="col s12" data-aos="fade-right">
+                    <h3>Cycle 3</h3>
+
+                    <div style="background: rgb(64,86, 165);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Design</span>
+                            <p>
+                                The drop casting, thus, must be performed at a lower temperature.
+                            </p>
+                            <br>
+                            <p>
+                                Also, we ceased to use vacuum oven for drop casting purpose.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(110, 145, 36);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Build</span>
+                            <p>
+                                Neither construction of a DNA sequence nor its implementation into a chassis was
+                                involved in this part (i.e. sheet production) of our work.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(190, 82, 0);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Test</span>
+                            <p>
+                                We performed drop casting (on glass slide) using MCC+DMSO+PVA below 100&deg;C.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(39, 122, 163);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Learn</span>
+                            <p>
+                                The drop-casted film turned out to be homogeneous, just as we desire. We have thus
+                                finalized the optimal solvent, a beneficial additive, and the optimal conditions needed
+                                to come up with a homogeneous, crack-less, non-charred MCC sheet.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="hardware" class="col s12" data-aos="fade-right">
+                <h2>Hardware</h2>
+                <div id="h1" class="col s12" data-aos="fade-right">
+                    <h3>Cycle 1</h3>
+
+                    <div style="background: rgb(64,86, 165);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Design</span>
+                            <p>
+                                As the first step towards building a functional hardware as the implementation of our
+                                novel strategy, we decided to coat the inner surface of a microchannel with MCC. It
+                                would then serve as the proof of concept for a microchannel whose bore has been coated
+                                with the functionalized bacterial cellulose (BC) filter we seek to develop. Important
+                                aspects of this are the thickness of MCC coating, extent of uniformity in coat thickness
+                                along the length of microchannel, durability of the coating etc.
+                            </p>
+                            <br>
+                            <p>
+                                We first planned to fabricate a microchannel of square cross section whose one side is
+                                open. The Then, we can pour MCC+DMSO+PVA solution (suits our purpose, as determined by
+                                our work on MCC sheet development) on it through the open face. Upon drying, we would
+                                get a MCC coating on one of the faces. Lastly, a glass slab is to be used to seal the
+                                open face. As glass is transparent, it would help us in probing into the flow
+                                characteristics inside the microchannel by using fluorescent beads in future.
+                            </p>
+                            <br>
+                            <p>
+                                However, we anticipated many challenges with this design. First, only one of the faces
+                                ultimately happens to have the MCC coating. This means that in the prototype we seek to
+                                develop with functionalized BC sheet in place of MCC layer, only one side of the
+                                microchannel would host the embedded proteins. Thus, filtration efficiency of the system
+                                would decrease as most of the organophosphate molecules simply pass through the
+                                microchannel without coming into contact with a protein molecule for even once. Second,
+                                fabricating a microchannel in the clean room at requires special expertise and
+                                prohibitive amount of resources, given the scarcity of time.
+                            </p>
+                            <br>
+                            <p>
+                                Thus, we changed our plan. We wanted some simpler system as our Proof of Concept. We
+                                chose the tubes made up of polydimethylsiloxane (PDMS) whose diameter is in the order of
+                                millimetres. These are readily available, cheap, inert, non-toxic, and non-flammable.
+                                Being transparent, rheological studies would be quite easy to perform. Since PDMS is
+                                almost always cured with some cross-linking agent, it shows time-dependent elastic
+                                deformation. Low elastic modulus of PDMS enables these pipes to be flexible (this
+                                property might be valuable while designing a working prototype of our project). We tried
+                                to coat such pipes on the inner side with MCC.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(110, 145, 36);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Build</span>
+                            <p>
+                                Neither construction of a DNA sequence nor its implementation into a chassis was
+                                involved in this part (i.e. hardware development) of our work.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(190, 82, 0);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Test</span>
+                            <p>
+                                We collected MCC+DMSO+PVA solution (as described previously) in a syringe and injected
+                                that into a 10 cm long PDMS tube of about 5 mm inner diameter. The pipe was left to dry
+                                in an orientation horizontal relative to ground.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="background: rgb(39, 122, 163);" class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Learn</span>
+                            <p>
+                                Even after 48 hours, the solution inside pipe did not dry off. Neither did it settle on
+                                the PDMS surface. It happened most probably because the PDMS surface is very
+                                hydrophobic, whether MCC+DMSO+PVA solution is less so.
+                            </p>
+                            <br>
+                            <p>
+                                Thus, we planned to modify the PDMS surface in order to increase its hydrophilicity.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="ref" class="col s12" data-aos="fade-right">
+                <h2>References</h2>
+                <ol>
+                    <li>
+                        Khairil Anuar INA, Banerjee A, Keeble AH <em>et al</em>. Spy&Go Purification of SpyTag-proteins
+                        using
+                        Pseudo-SpyCatcher to Access an Oligomerization Toolbox. <em>et al</em>>. 2019;10(1734). doi:
+                        10.1038/s41467-019-09678-w
+                    </li>
+                    <li>
+                        Hatlem D, Trunk T, Linke D, Leo JC. Catching a SPY: Using the SpyCatcher-SpyTag and Related
+                        Systems for Labeling and Localizing Bacterial Proteins. <em>Int. J. Mol. Sci.</em>. 2019 Apr
+                        30;20(9):2129. doi: 10.3390/ijms20092129
+                    </li>
+                    <li>
+                        Zakeri B, Fierer JO, Celik E, Chittock EC, Schwarz-Linek U, Moy VT, Howarth M. Peptide Tag
+                        Forming a Rapid Covalent Bond to a Protein, through Engineering a Bacterial Adhesin. <em>Proc.
+                            Natl.
+                            Acad. Sci. USA</em>. 2012 Mar 20;109(12):E690-7. doi: 10.1073/pnas.1115485109
+                    </li>
+                </ol>
             </div>
         </div>
     </div>
