@@ -18,7 +18,7 @@
     <!-- stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Template page | IISc Bangalore</title>
+    <title>Implementation | IISc Bangalore</title>
 </head>
 
 <body>
@@ -53,7 +53,7 @@
                     </li>
                     <li class="dropdown-item"><a class="dropdown-link" href="Proof_Of_Concept.html">Proof of Concept</a>
                     </li>
-                    <li class="dropdown-item"><a class="dropdown-link" href="UN_SDG.html">UN SDG</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="Sustainable.html">UN SDG</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="Safety.html">Safety</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="Contribution.html">Contribution</a></li>
                 </ul>
@@ -108,7 +108,7 @@
                             <li><a class="mobile-nav-link" href="Engineering.html">Engineering</a></li>
                             <li><a class="mobile-nav-link" href="Implementation.html">Implementation</a></li>
                             <li><a class="mobile-nav-link" href="Proof_Of_Concept.html">Proof of Concept</a></li>
-                            <li><a class="mobile-nav-link" href="UN_SDG.html">UN SDG</a></li>
+                            <li><a class="mobile-nav-link" href="Sustainable.html">UN SDG</a></li>
                             <li><a class="mobile-nav-link" href="Safety.html">Safety</a></li>
                             <li><a class="mobile-nav-link" href="Contribution.html">Contribution</a></li>
                         </ol>
@@ -159,7 +159,7 @@
 
     <style>
         .hero-image {
-            background-image: url("assets/backgrounds/attributions.jpg");
+            background-image: url("assets/backgrounds/implementation.jpg");
             height: 750px !important;
             background-position: center;
             background-repeat: no-repeat;
@@ -179,22 +179,298 @@
 
     <div class="hero-image" data-aos="zoom-in">
         <div class="hero-text">
-            <h1 style="color: white">Template Page</h1>
+            <h1 style="color: white">Implementation</h1>
         </div>
     </div>
     <br>
 
     <div class="container">
         <div class="row">
+            <div class="col s12 abstract-box" data-aos="fade-right">
+                <p>
+                    As for the implementation, our team had to envision CellOPHane on the real world, making sure to
+                    make a safe feasible device. We have integrated expert advice and our own considerations in our
+                    process. Our work is founded on concepts of an efficient user interface and clever device design. A
+                    rigorous study of who could be benefited the most from the device was performed. However, we
+                    recognize that challenges still exist that needs to be solved for our hardware prototype.
+                </p>
+            </div>
             <div class="col s12 l6">
                 <div class="card" style="background: rgb(248, 249, 250); border-radius: 2px;" data-aos="fade-right">
                     <div class="card-content">
                         <span class="card-title" style="font-weight: bold; font-size: xx-large;">Contents:</span>
                         <ul>
-                            <li><a href="#lin1" class="content-link">Link 1</a></li>
+                            <li><a href="#solution" class="content-link">Why are We the Solution</a></li>
+                            <li><a href="#enduser" class="content-link">Proposed End Users and Sites</a></li>
+                            <li><a href="#implement" class="content-link">Implementing CellOPHane in the Real World</a>
+                            </li>
+                            <li><a href="#safety" class="content-link">Safety and Security</a></li>
+                            <li><a href="#challenge" class="content-link">Challenges</a></li>
+                            <li><a href="#envision" class="content-link">Envision</a></li>
+                            <li><a href="#ref" class="content-link">References</a></li>
                         </ul>
                     </div>
                 </div>
+            </div>
+
+            <div class="col s12" data-aos="fade-right">
+                <p>
+                    From the very beginning of our iGEM journey, we planned for CellOPHane to be a real product, useful
+                    in real life. We realise that, at this point, we are still too far from the actual practical
+                    implementation of our device, but we have quite a precise idea of how it will all function together.
+                </p>
+            </div>
+
+            <div id="solution" class="col s12" data-aos="fade-right">
+                <h2>Why are We the Solution</h2>
+                <p>
+                    Ultrafiltration (UF) membranes have a pore size of 0.1 to 0.01μm (i.e. 10 to 100nm) and are capable
+                    of removing particulates, bacteria and viruses. Interestingly, bacterial cellulose (BC) sheets
+                    naturally have pore sizes in this range. <b>Current ultrafiltration cannot remove small molecule
+                        contaminants such as pesticides. While nanofiltration and reverse osmosis membranes can exclude
+                        these small molecules, they are expensive and energy intensive to
+                        use</b>. Flow rates are low, they require very high pressures and the input water must be
+                    already
+                    purified by primary as well as secondary processes to avoid damaging the membranes. UF processes are
+                    currently limited by the <b>high cost of synthetic membranes</b>. Inevitable membrane fouling means
+                    they
+                    must be regularly replaced. Their use is also restricted by limitations in removal of small molecule
+                    contaminants. They can only be employed where feed water is free of these contaminants or in tandem
+                    with other (often slow or energy intensive) treatment methods for removing them.
+                </p>
+                <p>
+                    Microbial cellulose membranes are considerably cheaper than competitors. Whilst polyvinylidene
+                    fluoride (PVDF) ultrafiltration membranes cost as much as about $100 / m<sup>2</sup>, current BC
+                    production for
+                    nata de coco costs around $1.6 / g. Existing literature and the work of iGEM Imperial 2014 suggest
+                    that BC is a durable material. However, we expect a shorter membrane life compared to the highly
+                    durable PVDF. Being considerably cheaper and easier to dispose of, BC membranes could be more
+                    regularly replaced and still provide a more cost effective solution. This would also save on
+                    chemical washes regularly required to sustain the extended life of PVDF membranes.
+                </p>
+            </div>
+
+            <div id="enduser" class="col s12" data-aos="fade-right">
+                <h2>Proposed End Users and Sites</h2>
+                <p>
+                    People closely associated with farmland and agriculture are expected to derive a direct benefit from
+                    CellOPHane. This group includes farmers, pesticide vendors, people living near croplands, soil
+                    scientists, and administration to name a few. However, if we think deeply, each and every person in
+                    the society would potentially be benefitted from our implementation, given the OP pollution is such
+                    rampant and with devastating consequences.
+                </p>
+                <p>
+                    CellOPHane vows to save everyone from the wrath of organophosphate insecticides by providing access
+                    to clean, OP-free water. We believe CellOPHane to not only be effective but also friendly to nature
+                    and biodiversity. Therefore, it could be used in natural reserves, natural aquaparks, water tanks or
+                    other water bodies where maintaining water quality, as well as biodiversity, is a priority.
+                </p>
+            </div>
+
+            <div id="implement" class="col s12" data-aos="fade-right">
+                <h2>Implementing CellOPHane in the Real World</h2>
+                <p>
+                    We imagine the final product to be filter blocks or filter units. Each unit would consist of
+                    multiple millimetre radius cylindrical PDMS channels whose inner surface is coated with
+                    functionalized BC filter material. Optimizing the number per unit, arrangement, dimension, shape,
+                    length, and area of cross-section of the channels would require a lot of further studies.
+                </p>
+                <p>
+                    We have thought of <b>two alternative modalities</b> to run the filtration process
+                </p>
+                <ol>
+                    <li>
+                        The first one utilizes a frequency generator in order to reap the benefits of capillary action
+                        in purifying OP-contaminated water. It requires low energy input and is potentially portable.
+                        However, it might be less practical as it is very difficult to collect a significant portion of
+                        agricultural runoff in a reservoir.
+                    </li>
+                    <li>
+                        To address the same, we can depend on the second modality: Using a pump to pass agricultural
+                        runoff through the array of channels. This method is energy intensive but brings some added
+                        advantages. The filter units can be installed side by side (i.e. in parallel) as often as
+                        desired to increase the (input) flow rates. By connecting several filter units in
+                        series, the degree of degradation of the organophosphate molecules could be uplifted. Thus, this
+                        method allows for a high degree of flexibility, for a perfect adaptation to the conditions on
+                        site, and makes a scale-up easy.
+                    </li>
+                </ol>
+                <p>
+                    As of now, we are clueless about the optimal modality our hardware should adopt. We will do further
+                    work in this direction to find out the same.
+                </p>
+            </div>
+
+            <div id="safety" class="col s12" data-aos="fade-right">
+                <h2>Safety and Security</h2>
+                <p>
+                    Proper safety rules are not only critical for the sake of our conscience but are also defined by
+                    law. Since we were working with genetically modified organisms (GMOs), safety was very important
+                    throughout our project. It was necessary to work consciously and safe, to ensure that neither the
+                    environment nor humans are harmed. may not get outside of the lab. We needed to take precautions to
+                    prevent our genetically modified E. coli from escaping.
+                </p>
+                <p>
+                    Like project development, project implementation also involves plenty of safety aspects. These make
+                    our approach applicable almost everywhere where organophosphate pesticides get into water:
+                </p>
+                <ol>
+                    <li>
+                        Our hardware prototype is completely cell-free. The only place where we use living chassis is
+                        during bioproduction of the individual hardware components. After BC overproduction, one must
+                        subject the BC pellicles to alkaline wash to kill the attached bacteria (i.e. <em>K.
+                            xylinus</em> or <em>A.
+                            tumefaciens)</em>. We have used our chassis (i.e. E. coli) only as an expression host, as we
+                        intend
+                        to purify and use the proteins of interest produced by it. Using chassis as merely an expression
+                        host avoids contamination of the environment with the chassis itself. By using immobilized
+                        enzymes, we are <b>not dependent on living, expressing organisms on site</b>, thus avoiding the
+                        regulations for genetically modified organisms (GMO).
+                    </li>
+                    <li>
+                        From the very beginning the most important point in our project was environmental protection.
+                        The degradation products of a typical organophosphate are a phosphodiester and a phenol
+                        derivative. It is proven that these <b>degradation products pose a lower risk</b> to ecosystem
+                        than the
+                        substrates.
+                    </li>
+                    <li>
+                        Organophosphate pollution is of great concern not only in India but also all over the world.
+                        Thus, it was essential for us to fight this problem with an <b>environmentally friendly</b>
+                        method
+                        since most existing methods to OP bioremediation are ecologically harmful and not functionally
+                        adequate.
+                    </li>
+                    <li>
+                        The water flowing through the device can slough off the coat of functionalized filter with time.
+                        However, it poses no harm to the environment as both bacterial cellulose and proteins are
+                        <b>biodegradable</b>.
+                    </li>
+                    <li>
+                        PDMS tubes can cause microplastics pollution if they undergo oxidation, mechanical disturbance,
+                        exposure to chemicals. However, the <b>risk of microplastics pollution</b> is low from the
+                        proposed
+                        device as the array of channels are to be placed inside a box (ideally closed system) and the
+                        channels cannot come into contact with water due to the coating of functionalized filter.
+                    </li>
+                    <li>
+                        Even if we go by the frequency generator modality, the <b>risk of injury owing to the moving
+                            parts
+                            is negligible</b>. On the other hand, there is risk of electrocution in the water pump
+                        modality.
+                        However, mishaps can be kept at bay by <b>proper maintenance</b> of electrical junctions, wire
+                        insulation, fuse, and earthing.
+                    </li>
+                    <li>
+                        Trace amount of OP can linger on to BC substratum without getting degraded. As the functional
+                        filter layer gets worn out with time, need would arise to take the device away from filtration
+                        site, to take the channels out, to get rid off the remnants of old filter, and then to apply new
+                        coating via dip coating. After taking the channels out, one must <b></b>.
+                    </li>
+                    <li>
+                        Dip coating process involves <b>organic solvents</b> which are harmful to health and
+                        inflammable. These
+                        must be disposed off with care.
+                    </li>
+                    <li>
+                        Beyond the studies that can help determine the technical aspects of our desired prototype, it
+                        must undergo a <b>comprehensive trial phase</b> before it is released for real-life usage.
+                    </li>
+                    <li>
+                        After the device is installed, the functioning has to be <b>monitored meticulously</b>. A complementary
+                        online and/or offline questionnaire would also be sent to the potential end-users.
+                    </li>
+                </ol>
+            </div>
+
+            <div id="challenge" class="col s12" data-aos="fade-right">
+                <h2>Challenges</h2>
+                <p>
+                    The implementation of a synthetic biology project comes with multifaceted challenges. These hurdles
+                    must be overcome in order to come up with an efficient device.
+                </p>
+                <ol>
+                    <li>
+                        <b>Ensuring the safety and security</b> aspects of our project is one of the major challenges.
+                    </li>
+                    <li>
+                        We are also aware of the <b>controversy and fear surrounding GMOs</b> in the eyes of the general
+                        public
+                        and it might present a great challenge for the implementation of our project. We believe that
+                        this is often caused by misinformation or manipulation of the general public. Therefore, we take
+                        it as our personal goal to disseminate accurate, rational and easily digestible information
+                        about synthetic biology and educate as many people as possible about OP pollution. This has been
+                        reflected in our Public Education and Engagement activities.
+                    </li>
+                    <li>
+                        The biggest challenge is the <b>effectiveness of CellOPHane against high concentration of
+                            organophosphate</b> pesticides in agricultural runoff. It would be best to use the filter
+                        device at
+                        the earliest possible stage of runoff treatment. However, it has not been possible for us to
+                        test to what extent our device can mitigate OP pollution.
+                    </li>
+                    <li>
+                        Considering the <b>financial burden of launching our product</b>, the launch could be
+                        potentially done
+                        through aid of our sponsors and our institute. Locating grants and potential investors is going
+                        to be another challenge.
+                    </li>
+                    <li>
+                        The <b>hardware</b> part presents the biggest obstacle to the realization of our project.
+                        Although we
+                        have quite detailed plans, all aspects need to be considered again and planned and modelled
+                        carefully so the final product will work flawlessly and effectively. Also, as we realised during
+                        our stay at the lab, the practical realisation of one's ideas can be much more complicated than
+                        first assumed. Therefore, it might take a long time to implement CellOPHane in the real world.
+                        Nevertheless, we are working towards this goal with passion.
+                    </li>
+                </ol>
+            </div>
+
+            <div id="envision" class="col s12" data-aos="fade-right">
+                <h2>Envision</h2>
+                <p>
+                    Several months were spent on CellOPHane, and throughout the journey we identified and visualized how
+                    other people could use our project and the science behind it to make something useful for various
+                    target groups.
+                </p>
+                <p>
+                    With our project, we hope to draw the attention of future research teams to the topic of water
+                    cleanliness as well as mitigation of agricultural hazards. Utilizing our plug-n-play filter
+                    platform, other research groups in future would come up with their own bioremediation tool against
+                    pollutions other than that caused by OP. We sincerely hope for their system as well as design to be
+                    more sophisticated compared to ours as it stands now. Our work - comprising of engineering, wet lab,
+                    dry lab, and human practices - might serve as inspiration to them.
+                </p>
+            </div>
+
+            <div id="ref" class="col s12" data-aos="fade-right">
+                <h2>References</h2>
+                <ol>
+                    <li>
+                        <a class="content-link"
+                            href="https://www1.eere.energy.gov/manufacturing/rd/pdfs/sustainable_nanomaterials_workshop_pnnl.pdf">https://www1.eere.energy.gov/manufacturing/rd/pdfs/sustainable_nanomaterials_workshop_pnnl.pdf</a>
+                    </li>
+                    <li>
+                        Mautner A, Lee KY, Lahtinen P, Hakalahti M, Tammelin T, Li K, Bismarck A. Nanopapers for Organic
+                        Solvent Nanofiltration. <em>Chem. Commun. (Camb)</em>. 2014 Jun 1;50(43):5778-81. doi:
+                        10.1039/c4cc00467a
+                    </li>
+                    <li>
+                        Lee KY, Buldum G, Mantalaris A, Bismarck A. More Than Meets the Eye in Bacterial Cellulose:
+                        Biosynthesis, Bioprocessing, and Applications in Advanced Fiber Composites. <em>Macromol.
+                            Biosci.</em>
+                        2014 Jan;14(1):10-32. doi: 10.1002/mabi.201300298
+                    </li>
+                    <li>
+                        <a class="content-link" href="http://www.edstrom.com/">http://www.edstrom.com/ </a>
+                    </li>
+                    <li>
+                        Poirier L, Brun L, Jacquet P, Lepolard C, Armstrong N, Torre C, Daudé D, Ghigo E, Chabrière E.
+                        Enzymatic Degradation of Organophosphorus Insecticides Decreases Toxicity in Planarians and
+                        Enhances Survival. <em>Sci. Rep.</em> 2017 Nov 9;7(1):15194. doi: 10.1038/s41598-017-15209-8
+                    </li>
+                </ol>
             </div>
         </div>
     </div>

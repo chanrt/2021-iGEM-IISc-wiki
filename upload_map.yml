@@ -39,6 +39,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/5/50/T--IISc-Bangalore--backgrounds--ihp.jpg
     md5: 7cecd971b256c79c01f27370a8eedd62
     upload_filename: T--IISc-Bangalore--backgrounds--ihp.jpg
+  assets\backgrounds\implementation.jpg:
+    link_URL: https://2021.igem.org/wiki/images/d/d5/T--IISc-Bangalore--backgrounds--implementation.jpg
+    md5: 2ab096df76cfc0443e01d2cb76408fb4
+    upload_filename: T--IISc-Bangalore--backgrounds--implementation.jpg
   assets\backgrounds\model.jpg:
     link_URL: https://2021.igem.org/wiki/images/e/e5/T--IISc-Bangalore--backgrounds--model.jpg
     md5: 02fe1e1c9ae69b07618b0c65f391f20e
@@ -861,88 +865,91 @@ css:
 html:
   Attributions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Attributions
-    md5: d0f807df9bbbe8d9ed48f975267d5840
+    md5: d9085411bfa49b8e14321fdc018d6389
   Collaborations.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Collaborations
-    md5: 295577879b64516c8058fd63dc87b6d7
+    md5: 5479a1e87e9bc2a8bbf2b9539c9b84c6
   Communication.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Communication
-    md5: 71e83bbdcba852c5e4f9c65a1604d128
+    md5: f662ffd3430a613592e38c2490fe59fe
   Contribution.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Contribution
-    md5: e631b45980a4156475fce455aaaca153
+    md5: 54eb6e0c7f9520ef33e787316b3480d4
   Description.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Description
-    md5: 0df679634c0ead0fa650b7ceba3be30b
+    md5: 78d940810c030482005828c39846b6c4
   Design.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Design
-    md5: 111b887867e83ada8d7c0c102bf6d69e
+    md5: 8bb295a9746df2cc3837988d39a01f33
   Design_Solution.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Design_Solution
-    md5: 3c534ca1989eaddb7ace9069020b1cdd
+    md5: 75b46157efb0c6eb7b752cb88d711f1c
   Education.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Education
     md5: c6ab66fa9a0d233485e047384593809a
   Engineering.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Engineering
-    md5: 190b4eb2b4f0fa805f46b53dd1393bbf
+    md5: 51005d1ec79e8e61545af6d3a89cdb2f
   Evaluate.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Evaluate
-    md5: 74ded62803da33570446ff0966deaca7
+    md5: ce07770b508f1e47390573a61a0eea26
   Human_Practices.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Human_Practices
-    md5: d05efe5c230c5f514dae9874e7e1fa5e
+    md5: fffd961d18c99c0526b30c49068084b0
   Ideate.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Ideate
-    md5: 21e8baf7e91fd3b6dc8383103afd42d9
+    md5: f018ebe7727ebbfb045a86e9fab92e97
   Implementation.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Implementation
-    md5: e631b45980a4156475fce455aaaca153
+    md5: 79c9bd2f1f287ec2977828699e336166
   Judging.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Judging
-    md5: e631b45980a4156475fce455aaaca153
+    md5: 54eb6e0c7f9520ef33e787316b3480d4
   Members.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Members
-    md5: 7a5103a693c29b0d0883ce306b4a07b8
+    md5: 9b911c6c758d76b944a7cccba45da62f
   Model.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Model
-    md5: dafa24e61cae49a6e03ed09a6e70cbe5
+    md5: 605b1da65f4d7d237eb4ea93337a96b7
   Model_Supplementary.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Model_Supplementary
-    md5: 98d11245339c3a7f4d97dc307d884210
+    md5: 420f6f0b2133b7aade66818c1e59af13
   Notebook.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Notebook
-    md5: c0ff5721c393b8a03527775f6a0b0bab
+    md5: f9dec35382f852ea91b49936af18f645
   Parts.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Parts
-    md5: e631b45980a4156475fce455aaaca153
+    md5: 54eb6e0c7f9520ef33e787316b3480d4
   Predictions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Predictions
-    md5: d580690945671daa52cee93244d8ceae
+    md5: a820c378b920a1146665ad488877b280
   Proof_Of_Concept.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Proof_Of_Concept
-    md5: e631b45980a4156475fce455aaaca153
+    md5: 54eb6e0c7f9520ef33e787316b3480d4
   Results.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Results
-    md5: 6a917bfa1801751d244dbb2d14cc3ea6
+    md5: 2ab4d17755c56e70e85599cf4416ec3d
   Safety.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Safety
-    md5: 5d4907282221f9fc526f34845b8d5148
+    md5: b946f36cbdf31231f0bd64bdd040ccd7
+  Sustainable.html:
+    link_URL: https://2021.igem.org/Team:IISc-Bangalore/Sustainable
+    md5: 1c610e709835fa3661dacd9097ce84c7
   Template_page.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Template_page
-    md5: e631b45980a4156475fce455aaaca153
+    md5: 54eb6e0c7f9520ef33e787316b3480d4
   UN_SDG.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/UN_SDG
     md5: b9255675e4b20a7d4025c06de62795ce
   Understand.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Understand
-    md5: 071d3f39415c58455ad67ed396f3d85a
+    md5: c42e16b9c8e849cb13a6b71215124463
   attributions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/attributions
     md5: 4f4e8db9d168ffeaa60e820ca874ea16
   index.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore
-    md5: 0e2fa8cdadcdbd544c1c86a93df2c18b
+    md5: 6e27569dbcda40e55f071fe6219703ec
   results.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/results
     md5: 31fbd37e0e8018bf95fef855d0b62e38

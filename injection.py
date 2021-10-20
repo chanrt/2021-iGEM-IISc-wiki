@@ -28,8 +28,8 @@ targets.append("Predictions.html")
 targets.append("Proof_of_Concept.html")
 targets.append("Results.html")
 targets.append("Safety.html")
+targets.append("Sustainable.html")
 targets.append("Template_page.html")
-targets.append("UN_SDG.html")
 targets.append("Understand.html")
 
 # navbar delimiters. Must be present in ALL the files listed in source and targets

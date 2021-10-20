@@ -1,0 +1,515 @@
+<html><head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+
+    <!-- reset the default iGEM look -->
+    <link href="https://2021.igem.org/Template:IISc-Bangalore/css/igem_resetCSS?action=raw&amp;ctype=text/css" rel="stylesheet"/>
+
+    <!-- materialize -->
+    <link href="https://2021.igem.org/Template:IISc-Bangalore/css/materializeCSS?action=raw&amp;ctype=text/css" rel="stylesheet"/>
+    <script src="https://2021.igem.org/Template:IISc-Bangalore/js/materializeJS?action=raw&amp;ctype=text/javascript"></script>
+
+    <!-- Animate on scroll -->
+    <link href="https://2021.igem.org/Template:IISc-Bangalore/css/aosCSS?action=raw&amp;ctype=text/css" rel="stylesheet"/>
+    <script src="https://2021.igem.org/Template:IISc-Bangalore/js/aosJS?action=raw&amp;ctype=text/javascript"></script>
+
+    <!-- stylesheet -->
+    <link href="https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&amp;ctype=text/css" rel="stylesheet"/>
+
+    <title>UN Sustainable Development Goals | IISc Bangalore</title>
+</head>
+
+<body>
+    <!-- navbar start -->
+    <div class="navbar-fixed hide-on-med-and-down">
+        <nav>
+            <div class="nav-wrapper">
+                <ul class="left nav-list valign-wrapper">
+                    <li><a class="nav-link" href="https://2021.igem.org/Team:IISc-Bangalore" id="nav-logo"><img class="responsive-img icon" src="https://2021.igem.org/wiki/images/c/cd/T--IISc-Bangalore--images--team_iisc_logo_min.png" style="max-height: 60px;"/></a></li>
+
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-project" href="#">Project</a></li>
+
+                    <li><a class="nav-link nav-tab" href="https://2021.igem.org/Team:IISc-Bangalore/Parts">Parts</a></li>
+
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-labwork" href="#">Wetlab</a></li>
+
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-drylab">Drylab</a></li>
+
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-hp">Human Practices</a></li>
+
+                    <li><a class="nav-link dropdown-trigger" data-target="dropdown-team" href="#">Team</a></li>
+
+                    <li><a class="nav-link nav-tab" href="https://2021.igem.org/Team:IISc-Bangalore/Judging">Judging</a></li>
+                </ul>
+
+                <ul class="dropdown-content" id="dropdown-project">
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Description">Description</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Design">Design</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Engineering">Engineering</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Implementation">Implementation</a>
+                    </li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Proof_Of_Concept">Proof of Concept</a>
+                    </li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Sustainable">UN SDG</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Safety">Safety</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Contribution">Contribution</a></li>
+                </ul>
+
+                <ul class="dropdown-content" id="dropdown-labwork">
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Results">Results</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Notebook">Lab Notebook</a></li>
+                </ul>
+
+                <ul class="dropdown-content" id="dropdown-drylab">
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Model">Model</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Predictions">Protein Structure
+                            Predictions</a></li>
+                </ul>
+
+                <ul class="dropdown-content" id="dropdown-hp">
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Communication">Public Education and
+                            Communication</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Human_Practices">Integrated Human
+                            Practices</a></li>
+                </ul>
+
+                <ul class="dropdown-content" id="dropdown-team">
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Members">Members</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Attributions">Attributions</a></li>
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Collaborations">Collaborations</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div id="loader"></div>
+
+    <div class="header hide-on-med-and-down">
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </div>
+
+    <div class="nav-fixed hide-on-large-only">
+        <div class="accordian">
+            <button class="accordion">Navigation dropdown</button>
+            <div class="panel">
+                <ol>
+                    <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore">Home</a></li>
+                    <li>
+                        <a class="mobile-nav-link">Project:</a>
+                        <ol style="list-style-type: lower-latin;">
+                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Description">Description</a></li>
+                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Design">Design</a></li>
+                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Engineering">Engineering</a></li>
+                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Implementation">Implementation</a></li>
+                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Proof_Of_Concept">Proof of Concept</a></li>
+                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Sustainable">UN SDG</a></li>
+                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Safety">Safety</a></li>
+                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Contribution">Contribution</a></li>
+                        </ol>
+                    </li>
+                    <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Parts">Parts</a></li>
+                    <li>
+                        <a class="mobile-nav-link">Lab work:</a>
+                        <ol style="list-style-type: lower-latin;">
+                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Results">Results</a></li>
+                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Notebook">Lab notebook</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a class="mobile-nav-link" href="#">Drylab</a>
+                        <ol style="list-style-type: lower-latin;">
+                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Model">Model</a></li>
+                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Predictions">Protein Structure Predictions</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a class="mobile-nav-link">Human Practices:</a>
+                        <ol style="list-style-type: lower-latin;">
+                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Communication">Public Education
+                                    and Engagement</a></li>
+                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Human_Practices">Integrated Human
+                                    Practices</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a class="mobile-nav-link">Team:</a>
+                        <ol style="list-style-type: lower-latin;">
+                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Members">Members</a></li>
+                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Attributions">Attributions</a></li>
+                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Collaborations">Collaborations</a></li>
+                        </ol>
+                    </li>
+                    <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Judging">Judging</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <div class="hide-on-med-and-down">
+        <button id="myBtn" onclick="topFunction()" title="Go to top">Back to Top</button>
+    </div>
+    <!-- navbar end -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12" data-aos="fade-right">
+                <img class="responsive-img" src="https://2021.igem.org/wiki/images/9/98/T--IISc-Bangalore--images--UN_SDG--E_SDG_logo_without_UN_emblem_Square_Transparent_WEB.png"/>
+            </div>
+
+            <div class="col s12 abstract-box" data-aos="fade-right">
+                <p>
+                    The United Nations has enunicated 17 goals as the heart of the 2030 Agenda for Sustainable
+                    Development. Team iGEM IISc-Bangalore is committed to the realisation of these goals in our own
+                    activities. This page summarises the UN SDGs which our project conforms with and how our project
+                    complies with the target(s) under those goals.
+                </p>
+            </div>
+
+            <div class="col s12 l6">
+                <div class="card" data-aos="fade-right" style="background: rgb(248, 249, 250); border-radius: 2px;">
+                    <div class="card-content">
+                        <span class="card-title" style="font-weight: bold; font-size: xx-large;">Contents:</span>
+                        <ul>
+                            <li><a class="content-link" href="#3">Goal 3</a></li>
+                            <li><a class="content-link" href="#4">Goal 4</a></li>
+                            <li><a class="content-link" href="#6">Goal 6</a></li>
+                            <li><a class="content-link" href="#14">Goal 14</a></li>
+                            <li><a class="content-link" href="#ref">References</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12" data-aos="fade-right">
+                <p>The 2030 Agenda for Sustainable Development, adopted by all United Nations Member States in 2015,
+                    provides a shared blueprint for peace and prosperity for people and the planet, now and into the
+                    future.
+                    At its heart are the 17 Sustainable Development Goals (SDGs), which are an urgent call for action by
+                    all
+                    countries - developed and developing - in a global partnership. They recognize that ending poverty
+                    and
+                    other deprivations must go hand-in-hand with strategies that improve health and education, reduce
+                    inequality, and spur economic growth - all while tackling climate change and working to preserve our
+                    oceans and forests. Our project is in line with the following Sustainable Development Goals laid out
+                    by
+                    the UN:</p>
+                <br/>
+            </div>
+
+            <div class="col s12" id="3">
+                <center data-aos="zoom-in">
+                    <h2>Goal 3: Ensure healthy lives and promote well-being for all at all ages</h2>
+                    <br/>
+                </center>
+                <div class="col s12 l6" data-aos="fade-right">
+                    <img class="responsive-img" src="https://2021.igem.org/wiki/images/7/71/T--IISc-Bangalore--images--UN_SDG--sdg_3.png"/>
+                    <br/> <br/>
+                    <b>Target 3.9:</b>
+                    <blockquote>
+                        By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and
+                        air, water and soil pollution and contamination
+                    </blockquote>
+                </div>
+                <div class="col s12 l6" data-aos="fade-left">
+                    <p>
+                        The main objective Project CellOPHane aims to achieve is to build a cheap, scalable, easy to use
+                        and effective filter to combat organophosphate pollution. Organophosphates are a class of
+                        hazardous compounds found in pesticides. In the agricultural community in India, organophosphate
+                        toxicity is the leading cause of chemical related deaths. Reports by various NGOs have shown
+                        overwhelmingly alarming levels of organophosphate residues in bottled drinking water and in the
+                        blood of farmers from the heavy pesticide consuming regions of India. This has tremendously
+                        contributed to the increase in risks of cancer in the fertile breadbaskets of the country like
+                        Punjab.
+                    </p>
+                    <p>
+                        Our project is aligned with Target 3.9.1 and 3.9.2 as we seek to build an effective solution to
+                        remove organophosphates from water, thereby preventing all the health hazards associated with
+                        organophosphate toxicity.
+                    </p>
+                    <p>
+                        Furthermore, suicide by organophosphate consumption is also widespread in many parts of the
+                        globe. We believe that this filter can be applied in a medical setting to filter out chemicals
+                        from the blood, in conjunction with the technique of haemodialysis. It will require changes in
+                        the filter design to make it suitable for said medical applications, but the basic filter design
+                        remains the same.
+                    </p>
+                    <p>
+                        Besides the above-mentioned points, the filter that we seek to implement is a ‘plug-n-play'
+                        platform, which makes it easy to design analogous bioremediation strategies with minimal
+                        modifications. This would go a long way to fulfill the Target 3.9 of the SDGs.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col s12" id="4">
+                <center data-aos="zoom-in">
+                    <h2>Goal 4: Ensure inclusive and equitable quality education and promote lifelong learning
+                        opportunities for all</h2>
+                    <br/>
+                </center>
+                <div class="col s12 l6" data-aos="fade-right">
+                    <img class="responsive-img" src="https://2021.igem.org/wiki/images/f/f4/T--IISc-Bangalore--images--UN_SDG--sdg_4.png"/>
+                    <br/> <br/>
+                    <b>Target 4.1:</b>
+                    <blockquote>
+                        By 2030, ensure that all girls and boys complete free, equitable and quality primary and
+                        secondary education leading to relevant and effective learning outcomes
+                    </blockquote>
+                </div>
+                <div class="col s12 l6" data-aos="fade-left">
+                    <p>
+                        While we have started reaching out to schools and child education organizations, our long-term
+                        plan is to help all kinds of primary and secondary school students enhance their knowledge in
+                        basic synthetic biology and appreciate its impact in the modern world. It was with this idea,
+                        that we initiated our efforts on writing a comprehensive and illustrative book, which is written
+                        by students, for students. We are dutybound to ensure that the book is available in print to the
+                        maximum number of beneficiaries at a minimum price. Aside from this, we have made interacted
+                        with primary students all around the country through initiatives like Talk-to-a-scientist. We
+                        have also focused on creating audiobooks, a hitherto seldom used medium of communication, to
+                        ensure that we not only reach out to people through more effective media and convey our ideas in
+                        as short a span of time as possible, but also ensure equity and inclusivity by addressing the
+                        needs of the visually challenged. For more details about this, visit our <a class="content-link" href="https://2021.igem.org/Team:IISc-Bangalore/Communication">Communication page</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col s12" id="6">
+                <center data-aos="zoom-in">
+                    <h2>Goal 6: Ensure availability and sustainable management of water and sanitation for all</h2>
+                    <br/>
+                </center>
+                <div class="col s12 l6" data-aos="fade-right">
+                    <img class="responsive-img" src="https://2021.igem.org/wiki/images/8/86/T--IISc-Bangalore--images--UN_SDG--sdg_6.png"/>
+                    <br/> <br/>
+                    <b>Target 6.3</b>
+                    <blockquote>
+                        By 2030, improve water quality by reducing pollution, eliminating dumping and minimizing release
+                        of hazardous chemicals and materials, halving the proportion of untreated wastewater and
+                        substantially increasing recycling and safe reuse globally
+                    </blockquote>
+                    <br/> <br/>
+                    <b>Target 6.a</b>
+                    <blockquote>
+                        By 2030, expand international cooperation and capacity-building support to developing countries
+                        in water- and sanitation-related activities and programmes, including water harvesting,
+                        desalination, water efficiency, wastewater treatment, recycling and reuse technologies.
+                    </blockquote>
+                </div>
+                <div class="col s12 l6" data-aos="fade-left">
+                    <p>
+                        Organophosphate pollution in water bodies is a major problem - it is extremely hazardous to both
+                        the health of living organisms, and the environment. Project CellOPHane aims to build a filter
+                        to combat organophosphate pollution. One of the industrial applications of this filter would be
+                        sewage treatment plants, where they would be efficient solutions to remove contaminants that
+                        other treatments can not
+                        remove. Further, the plug and play model we are developing can be implemented to combat other
+                        toxic compounds in water and sewage. These efforts would go a long way to improve the quality of
+                        water available to all and reduce mortality and occurrence of diseases in individuals consuming
+                        drinking water contaminated with these potent neurotoxins.
+                    </p>
+                    <p>
+                        Our we are in the position to implement the model in an industrial setting, we would look for
+                        ways to improve it and make it cheaper, more efficient, and have higher reusability, while
+                        parallelly reaching out to various stakeholders who could help the device reach more and more
+                        locations. We want to use iGEM as an international forum to share our model with the world, so
+                        that they may use it for what they need the most. Read more about our interaction with various
+                        stakeholders <a class="content-link" href="https://2021.igem.org/Team:IISc-Bangalore/Human_Practices">here</a>.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col s12" id="14">
+                <center data-aos="zoom-in">
+                    <h2>Goal 14: Conserve and sustainably use the oceans, seas and marine resources for sustainable
+                        development</h2>
+                    <br/>
+                </center>
+                <div class="col s12 l6" data-aos="fade-right">
+                    <img class="responsive-img" src="https://2021.igem.org/wiki/images/e/e2/T--IISc-Bangalore--images--UN_SDG--sdg_14.png"/>
+                    <br/> <br/>
+                    <b>Target 14.1</b>
+                    <blockquote>
+                        By 2025, prevent and significantly reduce marine pollution of all kinds, in particular from
+                        land-based activities, including marine debris and nutrient pollution
+                    </blockquote>
+                </div>
+                <div class="col s12 l6" data-aos="fade-left">
+                    <p>
+                        The main source of Organophosphate population in agricultural runoff and subsequent
+                        eutrophication.
+                        Implementing the filter in an agricultural setting where it can filter the agricultural runoff
+                        directly, or in an industrial setting where the filtering occurs before the filtered water is
+                        dumped
+                        into water bodies would significantly help in reducing organophosphate pollution. The modular
+                        water-filter that Project CellOPHane aspires to build shall not only address the immediate issue
+                        of
+                        organophosphate contamination of water bodies, but also go a long way to combat other kinds of
+                        contamination of water (heavy metal contamination, organochlorine contamination, etc.)
+                    </p>
+                </div>
+            </div>
+
+            <div class="col s12" data-aos="fade-right" id="ref">
+                <h2>References</h2>
+                <ol>
+                    <li>
+                        <a class="content-link" href="https://www.un.org/sustainabledevelopment/news/communications-material/">https://www.un.org/sustainabledevelopment/news/communications-material/</a><br/>
+                        Accessed on 18 October 2021
+                    </li>
+                    <li>
+                        <a class="content-link" href="https://www.un.org/sustainabledevelopment/">https://www.un.org/sustainabledevelopment/</a><br/>
+                        Accessed on 17 October 2021.
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer start -->
+    <footer class="page-footer">
+        <div class="container">
+            <h5 class="sm-title center" data-aos="fade-up">Our Sponsors</h5>
+            <br/>
+            <div class="row footer-content valign-wrapper">
+                <div class="col s2 l2" data-aos="zoom-in">
+                    <a href="https://iisc.ac.in"><img class="responsive-img sponsor-img" src="https://2021.igem.org/wiki/images/2/28/T--IISc-Bangalore--sponsors--iisc.png"/></a>
+                </div>
+                <div class="col s3 l3" data-aos="zoom-in">
+                    <a href="https://benchling.com"><img class="responsive-img sponsor-img" src="https://2021.igem.org/wiki/images/e/e1/T--IISc-Bangalore--sponsors--benchling.png"/></a>
+                </div>
+                <div class="col s3 l3" data-aos="zoom-in">
+                    <a href="https://snapgene.com"><img class="responsive-img sponsor-img" src="https://2021.igem.org/wiki/images/6/69/T--IISc-Bangalore--sponsors--snapgene.png"/></a>
+                </div>
+                <div class="col s2 l2" data-aos="zoom-in">
+                    <a href="https://labfolder.com"><img class="responsive-img sponsor-img" src="https://2021.igem.org/wiki/images/5/53/T--IISc-Bangalore--sponsors--labfolder.png"/></a>
+                </div>
+                <div class="col s2 l2" data-aos="zoom-in">
+                    <a href="https://odaa.iisc.ac.in"><img class="responsive-img sponsor-img" src="https://2021.igem.org/wiki/images/7/79/T--IISc-Bangalore--sponsors--odaa.png"/></a>
+                </div>
+            </div>
+            <br/>
+            <hr/>
+            <div class="hide-on-med-and-down">
+                <div class="row footer-content valign-wrapper">
+                    <div class="col s12 l3 center" data-aos="fade-right">
+                        <h5 class="sm-title">Our Social Media Links</h5>
+                        <a href="https://www.facebook.com/iiscbangaloreigem/" target="_blank"><img class="sm-button" src="https://2021.igem.org/wiki/images/9/9e/T--IISc-Bangalore--icons--facebook.png"/></a>
+                        <a href="https://twitter.com/igem_iisc?s=08" target="_blank"><img class="sm-button" src="https://2021.igem.org/wiki/images/7/75/T--IISc-Bangalore--icons--twitter.png"/></a>
+                        <a href="https://instagram.com/igem_iisc?utm_medium=copy_link" target="_blank"><img class="sm-button" src="https://2021.igem.org/wiki/images/5/5e/T--IISc-Bangalore--icons--instagram.png"/></a>
+                    </div>
+                    <div class="col s12 l3 center" data-aos="zoom-in">
+                        <a href="https://2021.igem.org/Team:IISc-Bangalore"><img class="responsive-img footer-logo" src="https://2021.igem.org/wiki/images/7/7c/T--IISc-Bangalore--images--team_iisc_logo_footer.png" style="max-height: 250px"/></a>
+                    </div>
+                    <div class="col s12 l6 center" data-aos="fade-left">
+                        <h5 class="sm-title">Contact Us</h5>
+                        <p style="text-align: center;">
+                            <a class="footer-link" href="mailto:igem.ug@iisc.ac.in">igem.ug@iisc.ac.in</a> or <a class="footer-link" href="mailto:sukriyoc@iisc.ac.in">sukriyoc@iisc.ac.in</a>
+                            <br/>
+                            <br/>
+                            Office of UG Programme, Indian Institute of Science, <br/>
+                            C.V. Raman Avenue, Bengaluru - 560 012.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="hide-on-large-only">
+                <div class="row footer-content">
+                    <div class="col s12 l3 center" data-aos="fade-right">
+                        <h5 class="sm-title">Our Social Media Links</h5>
+                        <a href="https://www.facebook.com/iiscbangaloreigem/" target="_blank"><img src="https://2021.igem.org/wiki/images/9/9e/T--IISc-Bangalore--icons--facebook.png"/></a>
+                        <a href="https://twitter.com/igem_iisc?s=08" target="_blank"><img src="https://2021.igem.org/wiki/images/7/75/T--IISc-Bangalore--icons--twitter.png"/></a>
+                        <a href="https://instagram.com/igem_iisc?utm_medium=copy_link" target="_blank"><img src="https://2021.igem.org/wiki/images/5/5e/T--IISc-Bangalore--icons--instagram.png"/></a>
+                    </div>
+                    <div class="col s12 l3 center" data-aos="zoom-in">
+                        <a href="https://2021.igem.org/Team:IISc-Bangalore"><img class="responsive-img" src="https://2021.igem.org/wiki/images/7/7c/T--IISc-Bangalore--images--team_iisc_logo_footer.png" style="max-height: 250px"/></a>
+                    </div>
+                    <div class="col s12 l6 center" data-aos="fade-left">
+                        <h5 class="sm-title">Contact Us</h5>
+                        <p style="text-align: center;">
+                            <a class="footer-link" href="mailto:igem.ug@iisc.ac.in">igem.ug@iisc.ac.in</a> or <a class="footer-link" href="mailto:sukriyoc@iisc.ac.in">sukriyoc@iisc.ac.in</a>
+                            <br/>
+                            <br/>
+                            Office of UG Programme, Indian Institute of Science, <br/>
+                            C.V. Raman Avenue, Bengaluru - 560 012.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <h5 class="sm-title" style="text-align: center;">Best viewed on Desktop</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // back to top button
+        mybutton = document.getElementById("myBtn");
+
+        window.onload = function () {
+            M.AutoInit();
+            AOS.init();
+
+            let p_list = document.getElementsByTagName("p")
+            // removing top whitespace
+            let first_p = p_list[0];
+            first_p.style.margin = "0";
+
+            // removing bottom whitespace
+            let last_p = p_list[p_list.length - 1];
+            last_p.style.margin = "0";
+
+            // removing preloader
+            document.getElementById("loader").style.display = "none";
+            document.getElementsByTagName("nav")[0].style.display = "block";
+            document.getElementsByClassName("header")[0].style.display = "block";
+
+            // preparing accordion
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function () {
+                    /* Toggle between adding and removing the "active" class,
+                    to highlight the button that controls the panel */
+                    this.classList.toggle("active");
+
+                    /* Toggle between hiding and showing the active panel */
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                    } else {
+                        panel.style.display = "block";
+                    }
+                });
+            }
+        }
+
+        window.onscroll = function myFunction() {
+            // scroll bar
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+
+            // back to top button
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // back to top button function
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+    <!-- footer end -->
+
+
+</body></html>
