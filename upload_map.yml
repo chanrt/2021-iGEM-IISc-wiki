@@ -245,11 +245,11 @@ assets:
     upload_filename: T--IISc-Bangalore--images--IHP--bbc.png
   assets\images\IHP\brain.png:
     link_URL: https://2021.igem.org/wiki/images/0/02/T--IISc-Bangalore--images--IHP--brain.png
-    md5: 73a0da75d2ecad93fa6ef91629f37db5
+    md5: 3e6a9e6de5f5fd2afada9fcbf87f2590
     upload_filename: T--IISc-Bangalore--images--IHP--brain.png
   assets\images\IHP\bulb.png:
     link_URL: https://2021.igem.org/wiki/images/b/b9/T--IISc-Bangalore--images--IHP--bulb.png
-    md5: 8a45c49dc245b02b2f76930badea7933
+    md5: 5f8ce33698c03e87ecb5fa5b00c4a3ef
     upload_filename: T--IISc-Bangalore--images--IHP--bulb.png
   assets\images\IHP\cycle.png:
     link_URL: https://2021.igem.org/wiki/images/b/ba/T--IISc-Bangalore--images--IHP--cycle.png
@@ -261,7 +261,7 @@ assets:
     upload_filename: T--IISc-Bangalore--images--IHP--human_practices.jpg
   assets\images\IHP\list.png:
     link_URL: https://2021.igem.org/wiki/images/5/55/T--IISc-Bangalore--images--IHP--list.png
-    md5: 67b605ff5603e701911ec1bbff21f52b
+    md5: 4dce07ff11346ffe6e2d3a54d9c90bb4
     upload_filename: T--IISc-Bangalore--images--IHP--list.png
   assets\images\IHP\meet_with_vangala.png:
     link_URL: https://2021.igem.org/wiki/images/2/2a/T--IISc-Bangalore--images--IHP--meet_with_vangala.png
@@ -269,7 +269,7 @@ assets:
     upload_filename: T--IISc-Bangalore--images--IHP--meet_with_vangala.png
   assets\images\IHP\puzzle.png:
     link_URL: https://2021.igem.org/wiki/images/c/ce/T--IISc-Bangalore--images--IHP--puzzle.png
-    md5: fea71b30078794719059177025f4674f
+    md5: 76242c10792308248987d46119a318a7
     upload_filename: T--IISc-Bangalore--images--IHP--puzzle.png
   assets\images\IHP\stake_five.png:
     link_URL: https://2021.igem.org/wiki/images/5/54/T--IISc-Bangalore--images--IHP--stake_five.png
@@ -371,6 +371,14 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/b/b5/T--IISc-Bangalore--images--communication--Synthetic_Biology_Poster.png
     md5: 9993a405a1a1ab785b52b7f04976a6c7
     upload_filename: T--IISc-Bangalore--images--communication--Synthetic_Biology_Poster.png
+  assets\images\communication\communication.png:
+    link_URL: https://2021.igem.org/wiki/images/e/ee/T--IISc-Bangalore--images--communication--communication.png
+    md5: d50ce3c41774d4a514363456196df56a
+    upload_filename: T--IISc-Bangalore--images--communication--communication.png
+  assets\images\communication\education.png:
+    link_URL: https://2021.igem.org/wiki/images/3/35/T--IISc-Bangalore--images--communication--education.png
+    md5: f905898fb8c480421611c3fb81f964f7
+    upload_filename: T--IISc-Bangalore--images--communication--education.png
   assets\images\description\pesticide_usage_india.png:
     link_URL: https://2021.igem.org/wiki/images/a/a9/T--IISc-Bangalore--images--description--pesticide_usage_india.png
     md5: e98340cc87bffed9227b308fff8bf942
@@ -755,10 +763,42 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/a/a5/T--IISc-Bangalore--pdfs--NGSF_Interview.pdf
     md5: 1687e621069c89d23a9b649bed2a252b
     upload_filename: T--IISc-Bangalore--pdfs--NGSF_Interview.pdf
+  assets\pdfs\Open_day_feedback.pdf:
+    link_URL: https://2021.igem.org/wiki/images/8/88/T--IISc-Bangalore--pdfs--Open_day_feedback.pdf
+    md5: fc35d4b840ca092e67e3803936230bc8
+    upload_filename: T--IISc-Bangalore--pdfs--Open_day_feedback.pdf
   assets\pdfs\T--IISc-Bangalore--notebook.pdf:
     link_URL: https://2021.igem.org/wiki/images/6/65/T--IISc-Bangalore--notebook.pdf
     md5: 4f640ab89532cd5230d6f1ff68f182dc
     upload_filename: T--IISc-Bangalore--notebook.pdf
+  assets\pdfs\Transcript_BENGALI.pdf:
+    link_URL: https://2021.igem.org/wiki/images/1/1d/T--IISc-Bangalore--pdfs--Transcript_BENGALI.pdf
+    md5: 4f75953fd182939f4c7ccce0cc38191a
+    upload_filename: T--IISc-Bangalore--pdfs--Transcript_BENGALI.pdf
+  assets\pdfs\Transcript_ENG.pdf:
+    link_URL: https://2021.igem.org/wiki/images/8/85/T--IISc-Bangalore--pdfs--Transcript_ENG.pdf
+    md5: 8e41f29002cdb8ff8ef7fcfce07d81cb
+    upload_filename: T--IISc-Bangalore--pdfs--Transcript_ENG.pdf
+  assets\pdfs\Transcript_HINDI.pdf:
+    link_URL: https://2021.igem.org/wiki/images/9/9a/T--IISc-Bangalore--pdfs--Transcript_HINDI.pdf
+    md5: c75fb41b8614bf0a1fa1889056b1d849
+    upload_filename: T--IISc-Bangalore--pdfs--Transcript_HINDI.pdf
+  assets\pdfs\Transcript_KANNADA.pdf:
+    link_URL: https://2021.igem.org/wiki/images/b/ba/T--IISc-Bangalore--pdfs--Transcript_KANNADA.pdf
+    md5: 225621267ac4c798b3bfca9d7f014b49
+    upload_filename: T--IISc-Bangalore--pdfs--Transcript_KANNADA.pdf
+  assets\pdfs\Transcript_MARATHI.pdf:
+    link_URL: https://2021.igem.org/wiki/images/1/13/T--IISc-Bangalore--pdfs--Transcript_MARATHI.pdf
+    md5: 59ec28ddf8bd838f911a5edff33c0ad6
+    upload_filename: T--IISc-Bangalore--pdfs--Transcript_MARATHI.pdf
+  assets\pdfs\Transcript_TAMIL.pdf:
+    link_URL: https://2021.igem.org/wiki/images/0/0e/T--IISc-Bangalore--pdfs--Transcript_TAMIL.pdf
+    md5: e0e6759e2b3a009a68dd726ce9bd66e1
+    upload_filename: T--IISc-Bangalore--pdfs--Transcript_TAMIL.pdf
+  assets\pdfs\Transcript_TELEGU.pdf:
+    link_URL: https://2021.igem.org/wiki/images/9/96/T--IISc-Bangalore--pdfs--Transcript_TELEGU.pdf
+    md5: 9288dcfff638c605962b90320cb8a8b5
+    upload_filename: T--IISc-Bangalore--pdfs--Transcript_TELEGU.pdf
   assets\sponsors\benchling.png:
     link_URL: https://2021.igem.org/wiki/images/e/e1/T--IISc-Bangalore--sponsors--benchling.png
     md5: fecd73609f2939babe57bab879811c3a
@@ -861,7 +901,7 @@ css:
     md5: 3c3ee463702a1f1a74a8d7ba36f16f3e
   css\style.css:
     link_URL: https://2021.igem.org/Template:IISc-Bangalore/css/styleCSS?action=raw&ctype=text/css
-    md5: f75834da0f80bb63a0bbc014ec0cf3a0
+    md5: e46a061bf3a462b22d1ebcc784c34c5a
 html:
   Attributions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Attributions
@@ -871,7 +911,7 @@ html:
     md5: 5479a1e87e9bc2a8bbf2b9539c9b84c6
   Communication.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Communication
-    md5: f662ffd3430a613592e38c2490fe59fe
+    md5: 1ff27b775bd912578d6d3c09bd183962
   Contribution.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Contribution
     md5: 54eb6e0c7f9520ef33e787316b3480d4
@@ -884,6 +924,12 @@ html:
   Design_Solution.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Design_Solution
     md5: 75b46157efb0c6eb7b752cb88d711f1c
+  EC_Communication.html:
+    link_URL: https://2021.igem.org/Team:IISc-Bangalore/EC_Communication
+    md5: cb3c558db497f343a73fd97a26821306
+  EC_Education.html:
+    link_URL: https://2021.igem.org/Team:IISc-Bangalore/EC_Education
+    md5: d88e15ca5bbfc87fa5dca8ac894d1dd5
   Education.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Education
     md5: c6ab66fa9a0d233485e047384593809a
@@ -895,7 +941,7 @@ html:
     md5: ce07770b508f1e47390573a61a0eea26
   Human_Practices.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Human_Practices
-    md5: fffd961d18c99c0526b30c49068084b0
+    md5: bd06b4ec767b51c63def6ffef9f6f49b
   Ideate.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Ideate
     md5: f018ebe7727ebbfb045a86e9fab92e97
@@ -949,7 +995,7 @@ html:
     md5: 4f4e8db9d168ffeaa60e820ca874ea16
   index.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore
-    md5: b25680277677a45e112acffddefcd979
+    md5: c684b849b851d51f478a069db07581fc
   results.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/results
     md5: 31fbd37e0e8018bf95fef855d0b62e38

@@ -124,6 +124,10 @@ table tr td {
     color: white;
 }
 
+.rise-box:hover {
+    animation: popup 10s infinite;
+}
+
 .content-list {
     list-style-type: lower-latin;
 }
@@ -326,6 +330,15 @@ table tr td {
         transform: scaleX(-1)
     }
     ;
+}
+
+@keyframes popup {
+    0% {
+        transform: translate(0, -20px);
+    }
+    100% {
+        transform: translate(0, -20px);
+    }
 }
 
 @keyframes rise {
