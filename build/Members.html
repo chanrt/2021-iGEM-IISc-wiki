@@ -67,7 +67,7 @@
                 </ul>
 
                 <ul class="dropdown-content" id="dropdown-hp">
-                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Communication">Public Education and
+                    <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Communication">Education and
                             Communication</a></li>
                     <li class="dropdown-item"><a class="dropdown-link" href="https://2021.igem.org/Team:IISc-Bangalore/Human_Practices">Integrated Human
                             Practices</a></li>
@@ -129,8 +129,8 @@
                     <li>
                         <a class="mobile-nav-link">Human Practices:</a>
                         <ol style="list-style-type: lower-latin;">
-                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Communication">Public Education
-                                    and Engagement</a></li>
+                            <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Communication">Education
+                                    and Communication</a></li>
                             <li><a class="mobile-nav-link" href="https://2021.igem.org/Team:IISc-Bangalore/Human_Practices">Integrated Human
                                     Practices</a></li>
                         </ol>
@@ -153,6 +153,33 @@
         <button id="myBtn" onclick="topFunction()" title="Go to top">Back to Top</button>
     </div>
     <!-- navbar end -->
+
+    <style>
+        .hero-image {
+            background-image: url("https://2021.igem.org/wiki/images/0/0e/T--IISc-Bangalore--backgrounds--Members_2.jpg");
+            height: 750px !important;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white !important;
+        }
+    </style>
+
+    <div class="hero-image" data-aos="zoom-in">
+        <div class="hero-text">
+            <h1 style="color: black">Members</h1>
+        </div>
+    </div>
+    <br/>
 
     <div class="container">
         <div class="row">
@@ -236,7 +263,7 @@
                 </div>
             </div>
 
-            <div class="col s12">
+            <div class="col s12" id="chandan">
                 <div class="col s12 l4" data-aos="fade-right">
                     <center>
                         <img class="responsive-img" src="https://2021.igem.org/wiki/images/2/25/T--IISc-Bangalore--images--members--Chandan.jpg" style="height: 350px"/>
@@ -608,6 +635,8 @@
             document.getElementById("loader").style.display = "none";
             document.getElementsByTagName("nav")[0].style.display = "block";
             document.getElementsByClassName("header")[0].style.display = "block";
+            document.getElementsByClassName("hero-image")[0].style.display = "block";
+            
 
             // preparing accordion
             var acc = document.getElementsByClassName("accordion");
