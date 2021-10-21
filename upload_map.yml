@@ -831,6 +831,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/f/f9/T--IISc-Bangalore--pdfs--Audiobook_Transcript.pdf
     md5: a35ad6cd763ca273d939de285f4697f7
     upload_filename: T--IISc-Bangalore--pdfs--Audiobook_Transcript.pdf
+  assets\pdfs\Best_Essay.pdf:
+    link_URL: https://2021.igem.org/wiki/images/b/be/T--IISc-Bangalore--pdfs--Best_Essay.pdf
+    md5: 7392b16bf608f02813a665e7381420da
+    upload_filename: T--IISc-Bangalore--pdfs--Best_Essay.pdf
   assets\pdfs\Coumaphos.pdf:
     link_URL: https://2021.igem.org/wiki/images/9/9f/T--IISc-Bangalore--pdfs--Coumaphos.pdf
     md5: 16846033d090a520387613073e1fe85c
@@ -843,6 +847,10 @@ assets:
     link_URL: https://2021.igem.org/wiki/images/c/cd/T--IISc-Bangalore--pdfs--IIScSafetyManual.pdf
     md5: 23e596771bd38ea8bba35bc7dfd9b3a0
     upload_filename: T--IISc-Bangalore--pdfs--IIScSafetyManual.pdf
+  assets\pdfs\Lab_notebook_final.pdf:
+    link_URL: https://2021.igem.org/wiki/images/d/dd/T--IISc-Bangalore--pdfs--Lab_notebook_final.pdf
+    md5: 6ec72d14a9245d50e39792b54d8a24b3
+    upload_filename: T--IISc-Bangalore--pdfs--Lab_notebook_final.pdf
   assets\pdfs\MSDS_Acrylamide.pdf:
     link_URL: https://2021.igem.org/wiki/images/f/f0/T--IISc-Bangalore--pdfs--MSDS_Acrylamide.pdf
     md5: 21b278f79313c114a38a4987a2495404
@@ -1025,13 +1033,13 @@ css:
 html:
   Attributions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Attributions
-    md5: ecff951190e5a337ac9dd2a0e6690ef6
+    md5: ec6d22b87802f5e044d184c4b3558395
   Collaborations.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Collaborations
-    md5: ac745449fafb005f9d78f5516d0fc4a8
+    md5: bebc04894f546c4212107e8b81a67810
   Communication.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Communication
-    md5: 08307a1b7bd46a32b6559105f433ee72
+    md5: 483e74ba8b0958b9699374ef049150ba
   Contribution.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Contribution
     md5: 1217f2e0f9def494da7095e109549350
@@ -1046,7 +1054,7 @@ html:
     md5: d395f7e6bf4c078a20ab0f9825354571
   EC_Communication.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/EC_Communication
-    md5: 6b797ee7d07c8988439fe827fb2b88f1
+    md5: 2947ffaab099a4902ca9ed0040e443f3
   EC_Education.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/EC_Education
     md5: 0bb081c0819d08f16ff30769734d4340
@@ -1061,7 +1069,7 @@ html:
     md5: e39c43415ec10c8145bba8eb1b07cd45
   Human_Practices.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Human_Practices
-    md5: da87aeee8d729dd7cdf28709b30ba87b
+    md5: 4be28bab427a956a4886656b5abf11b5
   Ideate.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Ideate
     md5: 569bba1f6f44a6b66cc3b151691b28b1
@@ -1070,7 +1078,7 @@ html:
     md5: 50ecd38d7ef1632fc7304b42680a3136
   Judging.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Judging
-    md5: 7d0cd5b150d61afe131b39c68e756fc1
+    md5: 009a8d7c55e450f464f531d1d0630ffc
   Members.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Members
     md5: cae7a74ca7ed39d8b5d142ee86d1b169
@@ -1082,22 +1090,22 @@ html:
     md5: abf4c24e728f07052ce6485e451d2747
   Notebook.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Notebook
-    md5: eab93545b5e02cf7fcac9ef27e8e7870
+    md5: 043de125fcad2d15e43cce6ab3bf043a
   Parts.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Parts
-    md5: 438a1fb022d3f9eb6051f9aa66e49067
+    md5: 4554f25a10e9bb873470cd77261de6d5
   Predictions.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Predictions
-    md5: 5c2097bb526abd4921e10a0c588e9589
+    md5: 2f09a6b3e4cb67433bed0f4a9aafc5d7
   Proof_Of_Concept.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Proof_Of_Concept
     md5: d203a269c3a217bed4b7747ffbd42fc2
   Results.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Results
-    md5: ef6faa0a3ea88c0d80894170996c34d7
+    md5: 0ace14553eb17cef2ac560541d00ae76
   Safety.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Safety
-    md5: 3d147d68251f0a2e21d592f25c32413b
+    md5: 4ea305f0c646b7ed6db146ba22bcb8ec
   Sustainable.html:
     link_URL: https://2021.igem.org/Team:IISc-Bangalore/Sustainable
     md5: 6c8485b315d7ffeaaeb86d55bf9ebc32
