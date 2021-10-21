@@ -18,7 +18,7 @@
     <!-- stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Template page | IISc Bangalore</title>
+    <title>Proof of Concept | IISc Bangalore</title>
 </head>
 
 <body>
@@ -179,23 +179,242 @@
 
     <div class="hero-image" data-aos="zoom-in">
         <div class="hero-text">
-            <h1 style="color: black">Template Page</h1>
+            <h1 style="color: black">Proof of Concept</h1>
         </div>
     </div>
     <br>
 
     <div class="container">
         <div class="row">
+            <div class="col s12 abstract-box" data-aos="fade-right">
+                <p>
+                    To demonstrate the actual potential and feasibility of our concept, we went much further than
+                    envisioning ideas and researching scientific literature to support them. We started working in the
+                    lab to aim for conclusive results, which show the success of the different components of our system.
+                    We want to showcase an example that affirms the potential of our project. Here, CellOPHane gets into
+                    action, and emphasizing its feasibility is the key.
+                </p>
+            </div>
             <div class="col s12 l6">
                 <div class="card" style="background: rgb(248, 249, 250); border-radius: 2px;" data-aos="fade-right">
                     <div class="card-content">
                         <span class="card-title" style="font-weight: bold; font-size: xx-large;">Contents:</span>
                         <ul>
-                            <li><a href="#lin1" class="content-link">Link 1</a></li>
+                            <li><a href="#workflow" class="content-link">Planned workflow</a></li>
+                            <li><a href="#progress" class="content-link">Progress</a></li>
+                            <li><a href="#ref" class="content-link">References</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
+            <div class="col s12" data-aos="fade-right">
+                <p>
+                    Engineering and implementing the whole workflow in relation to the proposed hardware is extremely
+                    challenging. Thus, we focused on developing a proof of concept for our novel bioremediation
+                    platform.
+                </p>
+            </div>
+
+            <div id="workflow" class="col s12" data-aos="fade-right">
+                <h2>Planned Workflow</h2>
+                <p>
+                    First of all, we want to express as well as purify C1 and C2.
+                </p>
+                <p>
+                    Then, we wish to check the binding affinity of C1 to bacterial cellulose surface.
+                </p>
+                <p>
+                    Then, we want to probe into the mutual affinity between C1 and C2.
+                </p>
+                <p>
+                    Next, we intend to characterize the binding of C1-C2 adduct on BC surface.
+                </p>
+                <p>
+                    Finally, our target is to check the efficiency of this functionalized filter sample in cleaving
+                    organophosphate substrate(s) by performing (mainly spectrophotometric) assays.
+                </p>
+            </div>
+
+            <div id="progress" class="col s12" data-aos="fade-right">
+                <h2>Progress</h2>
+                <p>
+                    We have successfully expressed both C1 and C2.
+                </p>
+                <p>
+                    Though C1 is soluble and ready to undergo the purification protocol, we failed in C2 pulldown even
+                    after using many methods. Even C2(2.0) could not definitively be proved to be soluble, just like C2
+                    itself.
+                </p>
+                <p>
+                    We observed that the beads used in C2 pulldown turned green (almost surely due to sfGFP) each time.
+                    However, the subsequent SDS-PAGE did not show the expected POI (i.e. protein of interest) band.
+                    Interestingly, the band corresponding to sfGFP alone was visible! A probable explanation behind this
+                    issue is that C2 got cleaved between OpdA and sfGFP, and the OpdA (quite hydrophobic) underwent
+                    proteolytic cleavage. The expression host might get benefitted from this, given that OpdA is prone
+                    to aggregation. If OpdA was really facing post-expression proteolytic cleavage, it would imply our
+                    inability to go beyond the first step of the <a class="content-link" href="#workflow">Proposed
+                        Workflow</a> under the current design. If
+                    it comes out to be true, the success of CellOPHane is bound to get delayed - very delayed!
+                </p>
+                <p>
+                    Time was scarce and pandemic was posing a new challenge before us every single day. Thus, we planned
+                    to take a detour. We set out to see whether OpdA is getting degraded inside the expression host or
+                    not. This is why we grew our expression host in an alternative media (i.e. Terrific Broth or TB) in
+                    addition to Luria-Bertani Broth (i.e. LB), performed Bradford protein assay on the crude extract of
+                    the large-scale secondary culture, followed by the OpdA activity assay on the same. Lysates of EV
+                    (empty vector; expression host transformed with only pETMCN-T7) and NT (non-transformed; expression
+                    host without any inserts) cultures were used as the necessary controls
+                </p>
+                <p>
+                    We normalized the absorbance of the test samples at 348 nm (corresponding to λmax of chlorferon, the
+                    degradation product of assay substrate coumaphos) with their respective protein concentrations as
+                    deduced from the Bradford assay. In OpdA assay, NT was used as the blank (thus, futile to deal with
+                    its absorbance, be it normalized or not). The normalized absorbance (in arbitrary units) values are
+                    tabulated below:
+                </p>
+                <table>
+                    <tr>
+                        <th>Culture Medium </th>
+                        <th>EV </th>
+                        <th>C2 </th>
+                        <th>C2(2.0) </th>
+                        <th>NT</th>
+                    </tr>
+
+                    <tr>
+                        <td>LB 1 </td>
+                        <td>-0.31834 </td>
+                        <td>0.20386 </td>
+                        <td>0.34964 </td>
+                        <td>Used as Blank</td>
+                    </tr>
+
+                    <tr>
+                        <td>LB 2 </td>
+                        <td>1.38791 </td>
+                        <td>0.57668 </td>
+                        <td>0.16738 </td>
+                        <td>Used as Blank</td>
+                    </tr>
+
+                    <tr>
+                        <td>Average of the values </td>
+                        <td>0.53479 </td>
+                        <td>0.39027 </td>
+                        <td>0.25851 </td>
+                        <td>-</td>
+                    </tr>
+
+                    <tr>
+                        <td>TB 1 </td>
+                        <td>0.37180 </td>
+                        <td>0.82515 </td>
+                        <td>4.38322 </td>
+                        <td>Used as Blank</td>
+                    </tr>
+
+                    <tr>
+                        <td>TB 2 </td>
+                        <td>2.05646 </td>
+                        <td>1.58143 </td>
+                        <td>1.87226</td>
+                        <td>Used as Blank</td>
+                    </tr>
+
+                    <tr>
+                        <td>Average of the values</td>
+                        <td>1.21413 </td>
+                        <td>1.203 </td>
+                        <td>3.1277</td>
+                        <td>-</td>
+                    </tr>
+                </table>
+                <p>
+                    Here '1' and '2' simply denote two replicates of the OpdA assay with the samples mentioned, in
+                    chronological order.
+                </p>
+                <p>
+                    To understand the trend exhibited by the average values, a bar chart was plotted:
+                </p>
+                <center>
+                    <img class="responsive-img" src="assets/images/POC/Proof_of_Concept.png">
+                </center>
+                <p>
+                    From this chart, we gain a number of valuable insights. Though it needs solid proof, we can propose
+                    a hypothesis. Thanks to the signal peptide sequence, C2 gets translocated from cytoplasm to
+                    periplasm. When <em>E. coli</em> is grown aerobically in LB, cultures become more alkaline during the log
+                    phase due to metabolism of amino acids. This high pH can accelerate the aggregation of C2 molecules
+                    in the periplasm. When host's extracytoplasmic stress response machinery cannot keep pace with the
+                    aggregation, the host loses vitality. Thus, normalized absorbance of C2 sample is lower than EV
+                    sample. Propensity of C2(2.0) forming aggregates under high pH is probably more than C2, leading to
+                    the even lower read-out for the C2(2.0) sample. TB media is known to increase the plasmid yield by
+                    extending the exponential phase of <em>E. coli</em>. Thus, we get higher amount of readout, in general,
+                    compared to the LB case. C2 inherently suffers from misfolding and thus C2 sample shows a decrease
+                    in the read-out compared to the EV sample. TB contains glycerol, which can be used by the cells as a
+                    carbohydrate source, while LB does not have additional carbohydrate, relying almost entirely on
+                    amino acids as the source of carbon and energy. <em>E. coli</em> metabolizes glycerol to produce organic
+                    acids (e.g. acetate), which is not as detrimental to the stability of C2(2.0) as excess alkalinity.
+                    Therefore, C2(2.0) sample contained a lot of functional C2(2.0) molecules, which led to the highest
+                    normalized absorbance among all.
+                </p>
+                <p>
+                    This also showcases the fact that activity of the protein of interest is closely linked to the
+                    condition which expression host is grown in. <b>The dramatically high read-out for C2(2.0) sample
+                        from
+                        TB media shows that OpdA mainly stays undegraded under this set of conditions</b>.
+                    Interestingly, this
+                    holds irrespective of the validity of our hypothesized explanation.
+                </p>
+                <p>
+                    The result empowers us to continue with the rest of the steps in our Proposed Workflow. It proves
+                    that our expression host can efficiently produce OpdA (and related fusions), which is the
+                    cornerstone of CellOPHane, provided the growth conditions are optimized. This piece of Proof of
+                    Concept strengthens our belief that CellOPHane is not a distant dream anymore.
+                </p>
+            </div>
+
+            <div id="ref" class="col s12" data-aos="fade-right">
+                <h2>References</h2>
+                <ol>
+                    <li>Merdanovic M, Clausen T, Kaiser M, Huber R, Ehrmann M. Protein Quality Control in the Bacterial
+                    Periplasm. Annu. Rev. Microbiol. 2011;65:149-68. doi: 10.1146/annurev-micro-090110-102925</li>
+
+                    <li>Kram KE, Finkel SE. Rich Medium Composition Affects Escherichia coli Survival, Glycation, and
+                    Mutation Frequency during Long-Term Batch Culture. Appl. Environ. Microbiol. 2015;81(13):4442-4450.
+                    doi:10.1128/AEM.00722-15</li>
+
+                    <li>Rosano GL, Ceccarelli EA. Recombinant Protein Expression in Escherichia coli: Advances and
+                    Challenges. Front. Microbiol. 2014;5:172. Published 2014 Apr 17. doi:10.3389/fmicb.2014.00172</li>
+
+                    <li>Chaudhry GR, Ali AN, Wheeler WB. Isolation of a Methyl Parathion-Degrading Pseudomonas sp. that
+                    Possesses DNA Homologous to the opd Gene from a Flavobacterium sp. Appl. Environ. Microbiol.
+                    1988;54(2):288-293. doi:10.1128/aem.54.2.288-293.1988</li>
+
+                    <li>Mee-Hie Cho C, Mulchandani A, Chen W. Functional Analysis of Organophosphorus Hydrolase Variants
+                    with High Degradation Activity towards Organophosphate Pesticides. Protein Eng. Des. Sel. 2006
+                    Mar;19(3):99-105. doi: 10.1093/protein/gzj007</li>
+
+                    <li>Yang H, Carr PD, McLoughlin SY, Liu JW, Horne I, Qiu X, Jeffries CMJ, Russell RJ, Oakeshott JG,
+                    Ollis DL. Evolution of an Organophosphate-Degrading Enzyme: a Comparison of Natural and Directed
+                    Evolution. Protein Eng. Des. Sel. 2003 Feb;16(2):135-145. doi: 10.1093/proeng/gzg013</li>
+
+                    <li>Jackson CJ, Liu JW, Coote ML, Ollis DL. The Effects of Substrate Orientation on the Mechanism of
+                    a Phosphotriesterase. Org. Biomol. Chem. 2005;3:4343-4350. doi: 10.1039/B512399B</li>
+
+                    <li>Jackson CJ, Scott C, Carville A, Mansfield K, Ollis DL, Bird SB. Pharmacokinetics of OpdA, an
+                    Organophosphorus Hydrolase, in the African Green Monkey. Biochem. Pharmacol. 2010 Oct
+                    1;80(7):1075-9. doi: 10.1016/j.bcp.2010.06.008</li>
+
+                    <li>Jackson CJ, Carr PD, Kim HK, et al. Anomalous Scattering Analysis of Agrobacterium radiobacter
+                    Phosphotriesterase: the Prominent Role of Iron in the Heterobinuclear Active Site. Biochem. J. 2006
+                    Aug;397(3):501-508. DOI: 10.1042/bj20060276</li>
+
+                    <li>Blatchford PA, Scott C, French N, Rehm BH. Immobilization of Organophosphohydrolase OpdA from
+                    Agrobacterium radiobacter by Overproduction at the Surface of Polyester Inclusions inside Engineered
+                    Escherichia coli. Biotechnol. Bioeng. 2012 May;109(5):1101-8. doi: 10.1002/bit.24402</li>
+                </ol>
+            </div>
+
         </div>
     </div>
 
@@ -312,7 +531,7 @@
             document.getElementsByTagName("nav")[0].style.display = "block";
             document.getElementsByClassName("header")[0].style.display = "block";
             document.getElementsByClassName("hero-image")[0].style.display = "block";
-            
+
 
             // preparing accordion
             var acc = document.getElementsByClassName("accordion");
