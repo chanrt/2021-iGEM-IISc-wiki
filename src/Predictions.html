@@ -189,7 +189,7 @@
 
             <div class="col s12 abstract-box" data-aos="fade-right">
                 <p>
-                    In this page, we elaborate our efforts to model the three constructs relevant to our project –
+                    In this page, we elaborate our efforts to model the three constructs relevant to our project -
                     C1, C2, C2 (2.0) and C2 (3.0). In order to prevent random trial-and-error based approach to
                     genetic engineering, we have sought to take a more informed decision on the composite parts by
                     using structural models built using AlphaFold.
@@ -198,7 +198,7 @@
 
             <div class="col s12" data-aos="fade-right">
                 <h1>Structural Prediction of Fusion Proteins using AlphaFold</h1>
-                
+
                 <p>
                     Since we are working with fusion proteins, it is necessary to ensure that the synthetically designed
                     proteins fold properly, and that each modular part does not interfere with the tertiary structure of
@@ -229,6 +229,8 @@
                             <li><a href="#1" class="content-link">C1</a></li>
                             <li><a href="#c2" class="content-link">C2</a></li>
                             <li><a href="#c2-2" class="content-link">C2(2.0)</a></li>
+                            <li><a href="#c2-3" class="content-link">C2(3.0)</a></li>
+                            <li><a href="#ref" class="content-link">Reference</a></li>
                         </ul>
                     </div>
                 </div>
@@ -369,164 +371,195 @@
                                 href="Results.html">Experiments and Results section</a>.
                         </p>
             </div>
-        </div>
 
-        <div id="c2" class="col s12" data-aos="fade-right">
-            <h2>C2</h2>
-            <p>
-                We were not able to obtain a predicted structure for C2 from AlphaFold, because it is quite large
-                (686
-                amino acids), and our computational resources were not enough. However, in the design phase we had
-                initially made provisions in order to remove the sfGFP module from C2 since it was just a reporter
-                and
-                had no actual functional significance for our project. We thus decided to obtain a predicted
-                structure
-                for C2(2.0), which is just C2 minus the sfGFP module.
-            </p>
-        </div>
+            <div id="c2" class="col s12" data-aos="fade-right">
+                <h2>C2</h2>
+                <p>
+                    We were not able to obtain a predicted structure for C2 from AlphaFold, because it is quite large
+                    (686
+                    amino acids), and our computational resources were not enough. However, in the design phase we had
+                    initially made provisions in order to remove the sfGFP module from C2 since it was just a reporter
+                    and
+                    had no actual functional significance for our project. We thus decided to obtain a predicted
+                    structure
+                    for C2(2.0), which is just C2 minus the sfGFP module.
+                </p>
+            </div>
 
-        <div id="c2-2" class="col s12" data-aos="fade-right">
-            <h2>C2(2.0)</h2>
-            <p>
-                The amino acid sequence of C2(2.0) was fed into the AlphaFold Google Colab notebook. This time AlphaFold
-                found 7131 partial matches, which it used for a multiple sequence alignment (MSA).
-            </p>
-            <center>
+            <div id="c2-2" class="col s12" data-aos="fade-right">
+                <h2>C2(2.0)</h2>
+                <p>
+                    The amino acid sequence of C2(2.0) was fed into the AlphaFold Google Colab notebook. This time
+                    AlphaFold
+                    found 7131 partial matches, which it used for a multiple sequence alignment (MSA).
+                </p>
+                <center>
+                    <figure>
+                        <img class="responsive-img" src="assets/images/predictions/C2(2.0)_MSA_Results.png">
+                        <figcaption>Fig 4: C2(2.0) Multiple Sequence Alignment Results</figcaption>
+                    </figure>
+                </center>
+                <p>
+                    The predicted metrics were as follows:
+                </p>
                 <figure>
-                    <img class="responsive-img" src="assets/images/predictions/C2(2.0)_MSA_Results.png">
-                    <figcaption>Fig 4: C2(2.0) Multiple Sequence Alignment Results</figcaption>
+                    <img class="responsive-img" src="assets/images/predictions/C2(2.0)_Prediction_Metrics.png">
+                    <figcaption>Fig 5: C2(2.0) Prediction metrics - pLDDT (predicted Local Distance Difference Test) and
+                        Predicted Aligned Error</figcaption>
                 </figure>
-            </center>
-            <p>
-                The predicted metrics were as follows:
-            </p>
-            <figure>
-                <img class="responsive-img" src="assets/images/predictions/C2(2.0)_Prediction_Metrics.png">
-                <figcaption>Fig 5: C2(2.0) Prediction metrics - pLDDT (predicted Local Distance Difference Test) and
-                    Predicted Aligned Error</figcaption>
-            </figure>
-            <p>
-                The predicted structure of C2(2.0) is given below:
-            </p>
-            <center>
-                <figure>
-                    <img class="responsive-img" src="assets/images/predictions/C2(2.0)_CartoonModel.png"
-                        style="width: 66%">
-                    <figcaption>Fig 6: Predicted cartoon model of C2(2.0) [N- to C- direction is blue to red]
-                    </figcaption>
-                </figure>
-            </center>
-            <p>
-                The only region with pLDDT > 70 was the stretch of amino acids ~30-350, which corresponds to the
-                majority of the OpdA enzyme module, minus around 35 amino acids at its C terminus. </p>
-            <p>
-                Again, we used Expasy's ProtParam tool to look at the same parameters for C2(2.0) and its constituent
-                modules.
-            </p>
-            <table>
-                <tr>
-                    <th>Protein/Module</th>
-                    <th>Amino Acid Positions</th>
-                    <th>pI</th>
-                    <th>t<sub>1/2</sub></th>
-                    <th>II</th>
-                    <th>GRAVY</th>
-                </tr>
-                <tr>
-                    <td>C2(2.0)</td>
-                    <td>1 to 441</td>
-                    <td>9.15</td>
-                    <td>> 10 hrs</td>
-                    <td>34.03</td>
-                    <td>-0.118</td>
-                </tr>
-                <tr>
-                    <td>OpdA signal peptide</td>
-                    <td>1 to 27</td>
-                    <td>9.50</td>
-                    <td>> 10 hrs</td>
-                    <td>34.05</td>
-                    <td>0.537</td>
-                </tr>
-                <tr>
-                    <td>OpdA enzyme</td>
-                    <td>28 to 384</td>
-                    <td>8.58</td>
-                    <td>> 10 hrs</td>
-                    <td>36.23</td>
-                    <td>-0.014</td>
-                </tr>
-                <tr>
-                    <td>C2(2.0) C terminal region</td>
-                    <td>385 to 441</td>
-                    <td>8.34</td>
-                    <td>> 10 hrs</td>
-                    <td>17.93</td>
-                    <td>-0.991</td>
-                </tr>
-            </table>
-            <p>
-                Our interpretations of the above results were as follows:
-            </p>
-            <ol>
-                <li>
-                    <p>
-                        pI values of C2(2.0) and all its subparts are much larger than 7, II values are less than 40,
-                        and t<sub>1/2</sub> is more than 10 hours, all of which suggest that these components are
-                        expected to be
-                        satisfactorily stable in vivo.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        GRAVY values are mostly negative which indicates hydrophilicity. Except for the C terminal
-                        region, the values are quite close to 0 which implies that they are barely hydrophilic. The
-                        GRAVY value for the signal peptide is positive and quite high, which suggests that it might be
-                        quite hydrophobic.
-                    </p>
-                </li>
-            </ol>
-            <p>
-                From the above results and the AlphaFold predicted structure, our conclusions are listed
-                below:
-            </p>
-            <ol>
-                <li>
-                    <p>
-                        The OpdA enzyme has high pLDDT scores throughout and might fold in a similar fashion as that
-                        in its native state. It is not very hydrophilic though.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        The OpdA signal peptide at the N terminus had a very low pLDDT score and is most likely an
-                        IDR. It is also quite hydrophobic, and we realized that this could lead to aggregation of C2 and
-                        C2(2.0) since the enzyme itself is not very hydrophilic.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        The C terminal region containing the linkers, SpyTag and the 10X His-tag is also predicted to
-                        be an IDR, but it is quite hydrophilic and as a result, is not expected to interfere with the
-                        overall folding or stability.
-                    </p>
-                </li>
-            </ol>
-            <p>
-                Based on our interpretations of the information we collected in regard to the structure and properties
-                of C2(2.0), we decided to remove the OpdA signal peptide from the N terminus of C2(2.0) to yield C2(3.0)
-                in hopes of improved stability and solubility.
-            </p>
+                <p>
+                    The predicted structure of C2(2.0) is given below:
+                </p>
+                <center>
+                    <figure>
+                        <img class="responsive-img" src="assets/images/predictions/C2(2.0)_CartoonModel.png"
+                            style="width: 66%">
+                        <figcaption>Fig 6: Predicted cartoon model of C2(2.0) [N- to C- direction is blue to red]
+                        </figcaption>
+                    </figure>
+                </center>
+                <p>
+                    The only region with pLDDT > 70 was the stretch of amino acids ~30-350, which corresponds to the
+                    majority of the OpdA enzyme module, minus around 35 amino acids at its C terminus. </p>
+                <p>
+                    Again, we used Expasy's ProtParam tool to look at the same parameters for C2(2.0) and its
+                    constituent
+                    modules.
+                </p>
+                <table>
+                    <tr>
+                        <th>Protein/Module</th>
+                        <th>Amino Acid Positions</th>
+                        <th>pI</th>
+                        <th>t<sub>1/2</sub></th>
+                        <th>II</th>
+                        <th>GRAVY</th>
+                    </tr>
+                    <tr>
+                        <td>C2(2.0)</td>
+                        <td>1 to 441</td>
+                        <td>9.15</td>
+                        <td>> 10 hrs</td>
+                        <td>34.03</td>
+                        <td>-0.118</td>
+                    </tr>
+                    <tr>
+                        <td>OpdA signal peptide</td>
+                        <td>1 to 27</td>
+                        <td>9.50</td>
+                        <td>> 10 hrs</td>
+                        <td>34.05</td>
+                        <td>0.537</td>
+                    </tr>
+                    <tr>
+                        <td>OpdA enzyme</td>
+                        <td>28 to 384</td>
+                        <td>8.58</td>
+                        <td>> 10 hrs</td>
+                        <td>36.23</td>
+                        <td>-0.014</td>
+                    </tr>
+                    <tr>
+                        <td>C2(2.0) C terminal region</td>
+                        <td>385 to 441</td>
+                        <td>8.34</td>
+                        <td>> 10 hrs</td>
+                        <td>17.93</td>
+                        <td>-0.991</td>
+                    </tr>
+                </table>
+                <p>
+                    Our interpretations of the above results were as follows:
+                </p>
+                <ol>
+                    <li>
+                        <p>
+                            pI values of C2(2.0) and all its subparts are much larger than 7, II values are less than
+                            40,
+                            and t<sub>1/2</sub> is more than 10 hours, all of which suggest that these components are
+                            expected to be
+                            satisfactorily stable in vivo.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            GRAVY values are mostly negative which indicates hydrophilicity. Except for the C terminal
+                            region, the values are quite close to 0 which implies that they are barely hydrophilic. The
+                            GRAVY value for the signal peptide is positive and quite high, which suggests that it might
+                            be
+                            quite hydrophobic.
+                        </p>
+                    </li>
+                </ol>
+                <p>
+                    From the above results and the AlphaFold predicted structure, our conclusions are listed
+                    below:
+                </p>
+                <ol>
+                    <li>
+                        <p>
+                            The OpdA enzyme has high pLDDT scores throughout and might fold in a similar fashion as that
+                            in its native state. It is not very hydrophilic though.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The OpdA signal peptide at the N terminus had a very low pLDDT score and is most likely an
+                            IDR. It is also quite hydrophobic, and we realized that this could lead to aggregation of C2
+                            and
+                            C2(2.0) since the enzyme itself is not very hydrophilic.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The C terminal region containing the linkers, SpyTag and the 10X His-tag is also predicted
+                            to
+                            be an IDR, but it is quite hydrophilic and as a result, is not expected to interfere with
+                            the
+                            overall folding or stability.
+                        </p>
+                    </li>
+                </ol>
+                <p>
+                    Based on our interpretations of the information we collected in regard to the structure and
+                    properties
+                    of C2(2.0), we decided to remove the OpdA signal peptide from the N terminus of C2(2.0) to yield
+                    C2(3.0)
+                    in hopes of improved stability and solubility.
+                </p>
+                <br>
+            </div>
 
-            <h2>References</h2>
-            <p>
-                Jumper J et al. Highly accurate protein structure prediction with AlphaFold. <em>Nature</em>. 2021
-                Aug;596(7873):583-589. doi: <a href="https://doi.org/10.1038/s41586-021-03819-2"
-                    class="content-link">https://doi.org/10.1038/s41586-021-03819-2</a>
-            </p>
-            <br>
+            <div id="c2-3" class="col s12" data-aos="fade-right">
+                <h2>C2(3.0)</h2>
+                <p>
+                    Even though we had a very good idea of how C2(3.0) might fold since we just removed the N-terminal
+                    OpdA signal peptide from C2(2.0), we decided to predict its structure using AlphaFold as a double
+                    check, and also for the sake of completeness. The predicted structure of C2(3.0) is given below:
+                </p>
+                <center>
+                    <figure>
+                        <img class="responsive-img" src="assets/images/results/c2_3_cartoon_model.jpeg">
+                        <figcaption>Figure 7: Predicted cartoon model of C2(3.0) [N- to C- direction is blue to red]
+                        </figcaption>
+                    </figure>
+                </center>
+                <p>
+                    Just as we had assumed, the folding pattern of the rest of the fusion protein should not change due
+                    to removal of the OpdA signal peptide. Thus, we are pretty confident that we will be able to verify
+                    the solubility of C2(3.0) and eventually also be able to purify it.
+                </p>
+            </div>
+
+            <div id="ref" class="col s12" data-aos="fade-right">
+                <h2>References</h2>
+                <p>
+                    Jumper J et al. Highly accurate protein structure prediction with AlphaFold. <em>Nature</em>. 2021
+                    Aug;596(7873):583-589. doi: <a href="https://doi.org/10.1038/s41586-021-03819-2"
+                        class="content-link">https://doi.org/10.1038/s41586-021-03819-2</a>
+                </p>
+            </div>
         </div>
-    </div>
     </div>
 
     <!-- footer start -->

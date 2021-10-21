@@ -170,7 +170,7 @@
         .hero-text {
             text-align: center;
             position: absolute;
-            top: 50%;
+            top: 53%;
             left: 50%;
             transform: translate(-50%, -50%);
             color: white !important;
@@ -462,18 +462,103 @@
 
             <div class="col s12" data-aos="fade-right" id="hardware">
                 <h2>Hardware: <br/> Our Ultimate Goal</h2>
+                <center>
+                    <img class="responsive-img" src="https://2021.igem.org/wiki/images/6/69/T--IISc-Bangalore--images--design--Design_Hardware.jpg"/>
+                </center>
                 <p>
                     Down the road, we seek to build a functional, cost-effective, reliable filtration device which can
-                    be installed in the regions where waterbodies are plagued with organophosphate pollution. The basic
-                    idea is to coat the inner surface (bore) of microchannels with the functionalized filter material we
-                    plan to manufacture, and then to pass the water polluted with OP through an array of these coated
-                    microchannels. We depend on principles of hydrodynamics and microfluidics to come up with
+                    be installed in the regions where waterbodies are plagued with organophosphate pollution. A
+                    functional hardware, in the context of our project is a filter coated with functionalized bacterial
+                    cellulose (BC) sheet. At first our aim was to simply replicate a commonly found commercial electric
+                    filter with candle. But it was soon realised that the residence time of water in such a candle would
+                    be too less. In simple terms, the time spent by the large amount of input water would be too less
+                    for the enzymes to act appreciably. Hence, we decided to implement a novel strategy; we decided to
+                    coat the inner surface of a microchannel with BC. The advantage of microchannel is very large
+                    surface area to volume. Almost all the (tiny amount of) water passing through the channel will be
+                    acted upon by the enzymes. Also we can easily increase length of the channel for longer action of
+                    enzymes. We will depend on principles of hydrodynamics and microfluidics to come up with
                     microchannels of specific shape(s) that ensure adequate residence time of OP molecules inside the
-                    channel, so that the OpdA molecules get sufficient time to act upon those.
+                    channel, so that the OpdA molecules get sufficient time to act upon those. In practice we decided to
+                    coat microcrystalline cellulose (MCC) sheet. It would then serve as the proof of concept for a
+                    microchannel whose bore has been coated with the functionalized BC filter we seek to develop. Using
+                    microchannel solves the 'residence time' problem but introduced a host of technical challenges. The
+                    MCC preparation needed to be compatible such that it can be easily coated. In that effort, we tried
+                    varying different of parameters like different solvents, concentration of cellulose, drying time,
+                    etc. Another challenge is the coating of the MCC sheet on the channel.
+                </p>
+                <p>
+                    There are various methods of coating a fluid on a substrate, three of which seemed fit for our
+                    project, namely, dip coating and electrospinning and drop casting. Electrospinning involves spraying
+                    electrically charged fluid on a grounded plate. The charging of liquid is done via passing the
+                    liquid through a high voltage syringe. This method was discarded since the solvent used by us did
+                    not have appropriate electrical properties such as dielectric constant and viscosity. Dip coating
+                    involves dipping the substrate in the solvent. That would be wasteful since it would coat the sheet
+                    on both sides while water is passed on only one side. So finally we settled with drop casting in
+                    which we poured our prepared solution on one side of the channel.
+                </p>
+                <p>
+                    We decided to drop cast our optimised solution MCC+DMSO+PVA on microchannel of square cross section
+                    whose top is exposed to test our predictions. Probing can be done using fluorescent beads or UV-vis
+                    spectroscopy.
+                </p>
+                <center>
+                    <figure>
+                        <img class="responsive-img" src="https://2021.igem.org/wiki/images/c/cd/T--IISc-Bangalore--images--design--hardware-11.png"/>
+                        <figcaption>The inner walls of the PDMS tube of square cross section being coated with bacterial
+                            cellulose</figcaption>
+                    </figure>
+                </center>
+                <p>
+                    However, we anticipated many challenges with this design. First, only the bottom face has the
+                    functionalised MCC coating due to which we may need very long time for layer of water near the top
+                    to be purified. It will essentially be limited by diffusion of organophosphates from top to the
+                    bottom since flow of fluid in any microchannel is essentially laminar.
+                </p>
+                <p>
+                    Thus, we replaced the microchannels with tubes made up of polydimethylsiloxane (PDMS) whose diameter
+                    is in the order of millimetres. These are readily available, cheap, inert, non-toxic, and
+                    non-flammable. Low elastic modulus of PDMS enables these pipes to be flexible which can have a
+                    fantastic consequence. It will induce turbulence in the passing water (no more  'boring ' laminar
+                    flow). This can cause nice mixing of water and no longer we have to rely on diffusion.
+                </p>
+                <p>
+                    Finally, for the design of our hardware we propose the following. First, we make the filter
+                     'candle '. We plan to make millimetre radius channels of PDMS. We plan to make the channels
+                    cylindrical. Since a cylinder has no open side, we cannot employ drop casting. What we plan to do is
+                    exploit capillary action. We dip just the top of one end in our cellulose solution and close the
+                    other end, then the solution will rise. Then we can open the closed end after some time. This will
+                    lead to the solution in the cylinder to fall, leaving a thin layer of coating. Before that we need
+                    to adjust the adhesiveness (hydrophilicity) of the PDMS surface. This preparation is repeated for
+                    large number (~1000) of tubes. Once all the coated cylinders are created, we bunch them into a
+                    cylinder.
+                </p>
+                <p>
+                    Coming to the filtering action we can take the route of conventional water filters. We need water
+                    moving into the cylinders at appreciable speed. For that we use a water pump through which we pass
+                    the agricultural runoff. The speed of water from the pump will be sufficient to cause vibration and
+                    turbulence which will lead to effective mixing of water. The pump pressure needs to be optimised.
+                    This method has some possible disadvantages; the pump pressure could randomly spike which can lead
+                    to damage of the channels. The pumps are available in only limited number of pressure values,
+                    optimisation may not be feasible. The residence also could be too low if velocity is very high.
+                </p>
+                <p>
+                    Hence, we propose again a novel strategy based on our previous experience which we describe as
+                    follows: We accumulate the agricultural runoff in a tank. Then again, we use the capillary trick. We
+                    dip the cylindrical bunch in the tank closing the other end. We plan to attach a frequency generator
+                    at the other end for inducing turbulence. All the impure water enter through capilliary action.
+                    There are two advantages of using the capilliary trick. We can keep a given volume of water in the
+                    filter cavity as long as we want. We do not need to worry about residence time unless it is
+                    prohibitively large. The other advantage is it uses very less power compared to conventional
+                    electric filter which uses pump. Damage of channels is also minimised. Only power is used in low
+                    frequency generator and moving up and down of the cylinder at regular intervals. This way we can
+                    power it using batteries and aim to make it completely portable. However, it might be less practical
+                    as very less amount of run off will be purified in one cycle. In that case, we would have to resort
+                    to pump, or maybe think of something which has advantages of both.
                 </p>
                 <p>
                     Once we are ready with the prototype of our Open-source Hardware (OSH), we intend to proceed for its
-                    licensing and release into the SynBio community.
+                    licensing and release into the SynBio community. So, we have lot more work to do, many more models
+                    to build and many more experiments to do to get CellOPHane out there.
                 </p>
             </div>
 
@@ -658,7 +743,7 @@
             document.getElementsByTagName("nav")[0].style.display = "block";
             document.getElementsByClassName("header")[0].style.display = "block";
             document.getElementsByClassName("hero-image")[0].style.display = "block";
-            
+
 
             // preparing accordion
             var acc = document.getElementsByClassName("accordion");
