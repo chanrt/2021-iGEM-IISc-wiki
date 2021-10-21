@@ -212,7 +212,7 @@
                                 <a class="content-link" href="#lab3">Overproduction of bacterial cellulose</a>
                                 <ol class="content-list">
                                     <li><a class="content-link" href="#knock">Knocking out <em>celG</em> from <em>A.
-                                        tumefaciens</em> for BC overproduction</a></li>
+                                                tumefaciens</em> for BC overproduction</a></li>
                                     <li><a class="content-link" href="#k">Using <em>K. xylinus</em> for BC
                                             production</a></li>
                                 </ol>
@@ -590,16 +590,96 @@
                     </tr>
                 </tbody></table>
                 <p>
-                    LB 1 and LB2 represent replicates, so do TB1 and TB2 for the corresponding cultures. Even between
-                    replicates, we cannot see a similar trend. Because we had only 2 replicates per sample, the sudden
-                    changes in the absorbance values across the replicates did not help us to conclude which of C2 and
-                    C2 (2.0) is better for our purpose or answer doubts whether the enzyme is even being produced or
-                    not.
+                    LB 1 and LB2 represent replicates, so do TB1 and TB2 for the corresponding cultures.
                 </p>
                 <p>
                     A very broad trend that was easily seen was that enzyme production seemed to be higher in cultures
                     grown in TB than those grown in LB. So, we can continue using TB as the growth medium for our
                     protein's expression.
+                </p>
+                <p>
+                    We normalized the absorbance of the test samples at 348 nm (corresponding to lambda max of chlorferon, the
+                    degradation product of assay substrate coumaphos) with their respective protein concentrations as
+                    deduced from the Bradford assay. In OpdA assay, NT was used as the blank (thus, futile to deal with
+                    its absorbance, be it normalized or not). The normalized absorbance (in arbitrary units) values are
+                    tabulated below:
+                </p>
+                <table>
+                    <tbody><tr>
+                        <th>Culture Medium </th>
+                        <th>EV </th>
+                        <th>C2 </th>
+                        <th>C2(2.0) </th>
+                        <th>NT</th>
+                    </tr>
+
+                    <tr>
+                        <td>LB 1 </td>
+                        <td>-0.31834 </td>
+                        <td>0.20386 </td>
+                        <td>0.34964 </td>
+                        <td>Used as Blank</td>
+                    </tr>
+
+                    <tr>
+                        <td>LB 2 </td>
+                        <td>1.38791 </td>
+                        <td>0.57668 </td>
+                        <td>0.16738 </td>
+                        <td>Used as Blank</td>
+                    </tr>
+
+                    <tr>
+                        <td>Average of the values </td>
+                        <td>0.53479 </td>
+                        <td>0.39027 </td>
+                        <td>0.25851 </td>
+                        <td>-</td>
+                    </tr>
+
+                    <tr>
+                        <td>TB 1 </td>
+                        <td>0.37180 </td>
+                        <td>0.82515 </td>
+                        <td>4.38322 </td>
+                        <td>Used as Blank</td>
+                    </tr>
+
+                    <tr>
+                        <td>TB 2 </td>
+                        <td>2.05646 </td>
+                        <td>1.58143 </td>
+                        <td>1.87226</td>
+                        <td>Used as Blank</td>
+                    </tr>
+
+                    <tr>
+                        <td>Average of the values</td>
+                        <td>1.21413 </td>
+                        <td>1.203 </td>
+                        <td>3.1277</td>
+                        <td>-</td>
+                    </tr>
+                </tbody></table>
+                <p>
+                    Here '1' and '2' simply denote two replicates of the OpdA assay with the samples mentioned, in
+                    chronological order.
+                </p>
+                <p>
+                    To understand the trend exhibited by the average values, a bar chart was plotted:
+                </p>
+                <center>
+                    <img class="responsive-img" src="https://2021.igem.org/wiki/images/f/f6/T--IISc-Bangalore--images--POC--Proof_of_Concept.png"/>
+                </center>
+                <p>
+                    The normalized absorbances of the degradation product can be considered as a measure for enzyme
+                    activity in the crude cell extract. As can be observed from the graph, when grown in LB, the enzyme
+                    activity seemed to decrease from the Empty Vector control to C2 to C2 (2.0). However, when grown in
+                    Terrific Broth (TB), while there is almost no change in enzyme activity between C2 and Empty Vector
+                    control, there is a huge increase in enzymatic activity in case of C2 (2.0).
+                </p>
+                <p>
+                    For our interpretation of these results, please visit the <a class="content-link" href="https://2021.igem.org/Team:IISc-Bangalore/Proof_Of_Concept">Proof of Concept</a> page.
                 </p>
             </div>
 
@@ -1131,7 +1211,7 @@
             document.getElementsByTagName("nav")[0].style.display = "block";
             document.getElementsByClassName("header")[0].style.display = "block";
             document.getElementsByClassName("hero-image")[0].style.display = "block";
-            
+
 
             // preparing accordion
             var acc = document.getElementsByClassName("accordion");
